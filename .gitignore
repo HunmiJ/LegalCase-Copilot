@@ -33,3 +33,5 @@ dist/
 build/
 *.egg-info/
 
+# Local query-understanding cache and benchmark per-query records
+.cache/
