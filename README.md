@@ -50,3 +50,23 @@ LegalCase-Copilot/
 
 原始法律法规资料应优先从中国官方法律网站获取，并在后续引入数据时记录来源和获取时间。当前仓库不包含任何虚假的法律法规示例文件。
 
+## Current development status
+
+The stable default retrieval pipeline is the V0.4 pipeline:
+
+```text
+BM25 + BGE Semantic Retrieval + Candidate Union + BAAI/bge-reranker-base
+```
+
+V0.5 Query Understanding and Query Expansion are retained as optional,
+experimental retrieval enhancements. They are not the default retrieval path.
+The V0.5.1 Real LLM validation showed complete candidate recall at @50, but
+Recall@5 was unchanged and MRR was slightly below V0.4 while adding roughly
+eight seconds of LLM latency. The project therefore does not claim a V0.5
+final-ranking improvement.
+
+The V0.5 mock benchmark and V0.5.1 Real LLM benchmark are separate artifacts.
+Mock results are for deterministic development tests only and must not be
+presented as real-model performance results. Real LLM outputs contain model
+results and structured query understanding only; API keys are excluded from
+source code, caches, reports, and Git.
