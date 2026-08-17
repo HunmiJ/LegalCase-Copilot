@@ -2,6 +2,7 @@ import json
 import sqlite3
 import sys
 import unittest
+from tempfile import TemporaryDirectory
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,13 +55,18 @@ class LawsPipelineTest(unittest.TestCase):
             self.assertEqual(record["article_content"], parsed_by_key[(record["source_file"], record["article_number"])])
 
     def test_database_and_fts_search(self):
-        build_database(self.jsonl, self.database)
-        with sqlite3.connect(self.database) as connection:
-            self.assertEqual(connection.execute("SELECT COUNT(*) FROM laws").fetchone()[0],
-                             len(self.jsonl.read_text(encoding="utf-8").splitlines()))
-            self.assertTrue(connection.execute("SELECT 1 FROM sqlite_master WHERE name='laws_fts'").fetchone())
-        self.assertTrue(search(self.database, "劳动合同"))
-        self.assertTrue(search(self.database, "经济补偿"))
+        with TemporaryDirectory() as temporary:
+            temporary_database = Path(temporary) / "legal_test.db"
+            build_database(self.jsonl, temporary_database)
+            connection = sqlite3.connect(temporary_database)
+            try:
+                self.assertEqual(connection.execute("SELECT COUNT(*) FROM laws").fetchone()[0],
+                                 len(self.jsonl.read_text(encoding="utf-8").splitlines()))
+                self.assertTrue(connection.execute("SELECT 1 FROM sqlite_master WHERE name='laws_fts'").fetchone())
+            finally:
+                connection.close()
+            self.assertTrue(search(temporary_database, "劳动合同"))
+            self.assertTrue(search(temporary_database, "经济补偿"))
 
 
 if __name__ == "__main__":

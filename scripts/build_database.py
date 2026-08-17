@@ -16,7 +16,8 @@ FIELDS = ["id", "law_name", "article_number", "article_content", "chapter",
 def build_database(input_path: Path, database_path: Path) -> int:
     records = [json.loads(line) for line in input_path.read_text(encoding="utf-8").splitlines() if line.strip()]
     database_path.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(database_path) as connection:
+    connection = sqlite3.connect(database_path)
+    try:
         connection.execute("DROP TABLE IF EXISTS laws_fts")
         connection.execute("DROP TABLE IF EXISTS laws")
         connection.execute("""CREATE TABLE laws (
@@ -35,6 +36,8 @@ def build_database(input_path: Path, database_path: Path) -> int:
         connection.execute("INSERT INTO laws_fts(laws_fts) VALUES('rebuild')")
         connection.execute("CREATE INDEX idx_laws_law_name ON laws(law_name)")
         connection.commit()
+    finally:
+        connection.close()
     print(f"已建立数据库 {database_path}，写入 {len(records)} 条条文")
     return len(records)
 

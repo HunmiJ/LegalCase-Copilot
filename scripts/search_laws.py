@@ -10,7 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def search(database: Path, query: str, limit: int = 10) -> list[sqlite3.Row]:
-    with sqlite3.connect(database) as connection:
+    connection = sqlite3.connect(database)
+    try:
         connection.row_factory = sqlite3.Row
         rows = connection.execute("""SELECT l.* FROM laws l
             JOIN laws_fts f ON f.rowid = l.rowid
@@ -21,6 +22,8 @@ def search(database: Path, query: str, limit: int = 10) -> list[sqlite3.Row]:
                 WHERE law_name LIKE ? OR article_number LIKE ? OR article_content LIKE ?
                 LIMIT ?""", (like, like, like, limit)).fetchall()
         return rows
+    finally:
+        connection.close()
 
 
 def main() -> int:
