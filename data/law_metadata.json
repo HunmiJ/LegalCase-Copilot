@@ -1,0 +1,68 @@
+[
+  {
+    "law_name": "中华人民共和国劳动争议调解仲裁法",
+    "document_type": "法律",
+    "issuing_authority": "全国人民代表大会常务委员会",
+    "publish_date": null,
+    "effective_date": null,
+    "status": null,
+    "source_name": null,
+    "source_url": null,
+    "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx"
+  },
+  {
+    "law_name": "中华人民共和国劳动合同法",
+    "document_type": "法律",
+    "issuing_authority": "全国人民代表大会常务委员会",
+    "publish_date": null,
+    "effective_date": null,
+    "status": null,
+    "source_name": null,
+    "source_url": null,
+    "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx"
+  },
+  {
+    "law_name": "中华人民共和国劳动合同法实施条例",
+    "document_type": "行政法规",
+    "issuing_authority": "国务院",
+    "publish_date": null,
+    "effective_date": null,
+    "status": null,
+    "source_name": null,
+    "source_url": null,
+    "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx"
+  },
+  {
+    "law_name": "中华人民共和国劳动法",
+    "document_type": "法律",
+    "issuing_authority": "全国人民代表大会常务委员会",
+    "publish_date": null,
+    "effective_date": null,
+    "status": null,
+    "source_name": null,
+    "source_url": null,
+    "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx"
+  },
+  {
+    "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+    "document_type": "司法解释",
+    "issuing_authority": "最高人民法院",
+    "publish_date": null,
+    "effective_date": null,
+    "status": null,
+    "source_name": null,
+    "source_url": null,
+    "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx"
+  },
+  {
+    "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+    "document_type": "司法解释",
+    "issuing_authority": "最高人民法院",
+    "publish_date": null,
+    "effective_date": null,
+    "status": null,
+    "source_name": null,
+    "source_url": null,
+    "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx"
+  }
+]
