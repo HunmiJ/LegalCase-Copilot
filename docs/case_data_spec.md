@@ -14,7 +14,7 @@ V0.7.0 只建立真实劳动争议案例语料的可追溯数据边界，不实�
 
 必填字段：`case_id`、`title`、`case_type`、`source_name`、`source_file`、`raw_text`。
 
-可空字段：`case_number`、`court`、`judgment_date`、`basic_facts`、`dispute_focus`、`court_reasoning`、`judgment_result`、`case_level`、`source_url`。`keywords` 与 `legal_basis` 使用空数组表示暂缺。字段不能可靠确认时使用 `null` 或 `[]`，不得猜测。
+可空字段：`case_number`、`court`、`judgment_date`、`basic_facts`、`dispute_focus`、`court_reasoning`、`judgment_result`、`case_gist`、`case_level`、`source_url`、`database_case_number`。`keywords`、`legal_basis` 与 `related_index` 使用空数组表示暂缺。官方案例库中稳定存在的裁判要旨、关联索引和入库编号分别保存为 `case_gist`、`related_index` 和 `database_case_number`；字段不能可靠确认时使用 `null` 或 `[]`，不得猜测。
 
 ## Identity and traceability
 

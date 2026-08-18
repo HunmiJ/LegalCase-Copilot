@@ -3,3 +3,4 @@ numpy
 sentence-transformers
 jieba
 rank-bm25
+pypdf

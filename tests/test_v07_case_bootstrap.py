@@ -52,8 +52,13 @@ class V07CaseBootstrapTest(unittest.TestCase):
         self.assertEqual(report["duplicate_case_ids"], [])
 
     def test_inspector_cli_handles_empty_corpus(self):
-        completed = subprocess.run([sys.executable, str(ROOT / "scripts/inspect_cases.py")], capture_output=True, text=True, check=True)
-        report = json.loads(completed.stdout)
+        with tempfile.TemporaryDirectory() as directory:
+            raw = Path(directory) / "raw"
+            raw.mkdir()
+            metadata = Path(directory) / "case_metadata.json"
+            metadata.write_text("[]", encoding="utf-8")
+            completed = subprocess.run([sys.executable, str(ROOT / "scripts/inspect_cases.py"), "--raw-dir", str(raw), "--metadata", str(metadata)], capture_output=True, text=True, check=True)
+            report = json.loads(completed.stdout)
         self.assertEqual(report["case_file_count"], 0)
 
     def test_laws_and_formal_products_are_read_only(self):

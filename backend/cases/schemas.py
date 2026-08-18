@@ -14,7 +14,8 @@ REQUIRED_FIELDS = ("case_id", "title", "case_type", "source_name", "source_file"
 ALL_FIELDS = (
     "case_id", "title", "case_number", "case_type", "court", "judgment_date",
     "keywords", "basic_facts", "dispute_focus", "court_reasoning", "judgment_result",
-    "legal_basis", "case_level", "source_name", "source_url", "source_file", "raw_text",
+    "case_gist", "legal_basis", "related_index", "database_case_number", "case_level",
+    "source_name", "source_url", "source_file", "raw_text",
 )
 
 
@@ -36,7 +37,10 @@ class CaseRecord:
     dispute_focus: str | None = None
     court_reasoning: str | None = None
     judgment_result: str | None = None
+    case_gist: str | None = None
     legal_basis: list[str] = field(default_factory=list)
+    related_index: list[str] = field(default_factory=list)
+    database_case_number: str | None = None
     case_level: str | None = None
     source_url: str | None = None
 
@@ -49,6 +53,8 @@ class CaseRecord:
             raise CaseValidationError("keywords must be a list of non-empty strings")
         if not isinstance(self.legal_basis, list) or not all(isinstance(item, str) and item.strip() for item in self.legal_basis):
             raise CaseValidationError("legal_basis must be a list of non-empty strings")
+        if not isinstance(self.related_index, list) or not all(isinstance(item, str) and item.strip() for item in self.related_index):
+            raise CaseValidationError("related_index must be a list of non-empty strings")
 
     @classmethod
     def from_dict(cls, value: dict[str, Any]) -> "CaseRecord":
