@@ -1,0 +1,22 @@
+[
+  {"query_id":"r01","query":"公司工作两年突然辞退我，没有提前通知，也不给补偿怎么办？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第四十七条"},{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第八十七条"}]},
+  {"query_id":"r02","query":"公司违法解除劳动合同，我可以要求什么？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第四十八条"},{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第八十七条"}]},
+  {"query_id":"r03","query":"经济补偿一般怎么计算？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第四十七条"}]},
+  {"query_id":"r04","query":"每天加班到晚上十点没有加班费怎么办？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第三十一条"},{"source_file":"data/raw/laws/中华人民共和国劳动法_20181229.docx","article_number":"第四十四条"}]},
+  {"query_id":"r05","query":"公司一直拖欠我的工资，可以解除合同吗？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第三十八条"}]},
+  {"query_id":"r06","query":"试用期被辞退，公司需要说明理由吗？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第二十一条"}]},
+  {"query_id":"r07","query":"公司一直不和我签书面劳动合同有什么后果？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第十条"},{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第八十二条"}]},
+  {"query_id":"r08","query":"劳动仲裁是不是超过一年就不能申请？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx","article_number":"第二十七条"}]},
+  {"query_id":"r09","query":"公司让我签竞业限制协议，离职后却不给补偿怎么办？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第二十三条"}]},
+  {"query_id":"r10","query":"劳动合同里必须写社会保险吗？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第十七条"}]},
+  {"query_id":"r11","query":"劳务派遣中用工单位和派遣单位谁负责工资？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第五十八条"},{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第五十九条"}]},
+  {"query_id":"r12","query":"公司对我这样合法吗？","expected_behavior":"insufficient","relevant_articles":[]},
+  {"query_id":"r13","query":"老板这样做合法么？","expected_behavior":"insufficient","relevant_articles":[]},
+  {"query_id":"r14","query":"我被辞退了。","expected_behavior":"insufficient","relevant_articles":[]},
+  {"query_id":"r15","query":"我租房押金不退怎么办？","expected_behavior":"out_of_domain","relevant_articles":[]},
+  {"query_id":"r16","query":"劳动合同法第999条是不是规定了赔偿？","expected_behavior":"nonexistent_article","relevant_articles":[]},
+  {"query_id":"r17","query":"公司不给员工缴社保怎么办？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动法_20181229.docx","article_number":"第七十二条"}]},
+  {"query_id":"r18","query":"试用期最长可以约定多久？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动合同法_20121228.docx","article_number":"第十九条"}]},
+  {"query_id":"r19","query":"工作日和休息日加班工资有什么区别？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动法_20181229.docx","article_number":"第四十四条"}]},
+  {"query_id":"r20","query":"劳动仲裁申请书需要写哪些内容？","expected_behavior":"grounded","relevant_articles":[{"source_file":"data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx","article_number":"第二十八条"}]}
+]

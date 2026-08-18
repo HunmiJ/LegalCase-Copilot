@@ -70,3 +70,17 @@ Mock results are for deterministic development tests only and must not be
 presented as real-model performance results. Real LLM outputs contain model
 results and structured query understanding only; API keys are excluded from
 source code, caches, reports, and Git.
+
+## V0.6 grounded legal RAG
+
+V0.6 Grounded Legal RAG is complete. It uses the V0.4 retrieval pipeline and
+defaults to `context_top_k = 8`. The Context Builder creates citation-addressable
+context, and the Citation Validator rejects unsupported or fabricated citations.
+If grounded generation cannot be validated after bounded retries, the system
+uses retrieval-only fallback as an exceptional safety protection, not as the
+normal execution path.
+
+Mock RAG evaluation and Real LLM smoke-test results are separate artifacts.
+The mock evaluation is deterministic and must not be presented as real-model
+performance. Real smoke results are limited validation evidence and are not a
+claim of broad production-level performance.

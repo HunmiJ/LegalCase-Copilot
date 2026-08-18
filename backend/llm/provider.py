@@ -50,21 +50,19 @@ class OpenAICompatibleProvider:
         if not self.config.base_url or not self.config.api_key:
             raise ValueError("real LLM provider requires LEGALCASE_LLM_BASE_URL and LEGALCASE_LLM_API_KEY")
 
-    def generate(self, original_query: str) -> str:
-        system = (
-            "你是法律检索的查询理解模块。只输出严格 JSON，不回答法律问题，不预测条款号，"
-            "不生成法律结论。domain 必须是劳动争议。search_queries 最多 3 条。"
-            "字段为 original_query, domain, issue, user_intent, legal_concepts, search_queries。"
-        )
+    def complete(self, messages: list[dict], response_format: dict | None = None,
+                 temperature: float = 0) -> str:
+        return self.complete_with_metadata(messages, response_format, temperature)["content"]
+
+    def complete_with_metadata(self, messages: list[dict], response_format: dict | None = None,
+                               temperature: float = 0) -> dict:
         payload = {
             "model": self.model,
-            "temperature": 0,
-            "messages": [
-                {"role": "system", "content": system},
-                {"role": "user", "content": original_query},
-            ],
-            "response_format": {"type": "json_object"},
+            "temperature": temperature,
+            "messages": messages,
         }
+        if response_format is not None:
+            payload["response_format"] = response_format
         url = self.config.base_url.rstrip("/") + "/chat/completions"
         request = urllib.request.Request(
             url,
@@ -77,7 +75,25 @@ class OpenAICompatibleProvider:
         )
         with urllib.request.urlopen(request, timeout=self.config.timeout_seconds) as response:
             body = json.loads(response.read().decode("utf-8"))
-        return body["choices"][0]["message"]["content"]
+        choice = body["choices"][0]
+        content = choice.get("message", {}).get("content")
+        return {
+            "content": content,
+            "finish_reason": choice.get("finish_reason"),
+            "response_structure_type": type(content).__name__,
+            "http_api_success": True,
+        }
+
+    def generate(self, original_query: str) -> str:
+        system = (
+            "你是法律检索的查询理解模块。只输出严格 JSON，不回答法律问题，不预测条款号，"
+            "不生成法律结论。domain 必须是劳动争议。search_queries 最多 3 条。"
+            "字段为 original_query, domain, issue, user_intent, legal_concepts, search_queries。"
+        )
+        return self.complete([
+                {"role": "system", "content": system},
+                {"role": "user", "content": original_query},
+            ], {"type": "json_object"}, 0)
 
 
 class MockProvider:
