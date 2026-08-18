@@ -1,0 +1,21 @@
+[
+  {
+    "case_id": null,
+    "title": null,
+    "case_number": null,
+    "case_type": null,
+    "court": null,
+    "judgment_date": null,
+    "keywords": [],
+    "basic_facts": null,
+    "dispute_focus": null,
+    "court_reasoning": null,
+    "judgment_result": null,
+    "legal_basis": [],
+    "case_level": null,
+    "source_name": null,
+    "source_url": null,
+    "source_file": null,
+    "raw_text": null
+  }
+]
