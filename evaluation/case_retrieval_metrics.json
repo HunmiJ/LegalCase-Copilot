@@ -1,0 +1,421 @@
+{
+  "benchmark": {
+    "corpus_count": 19,
+    "query_count": 30,
+    "query_sha256": "f577de865360e923266ea9975de8ee0b7ef429630be8225a774ba4f797673305",
+    "top_k": 10
+  },
+  "BM25": {
+    "overall": {
+      "Recall@1": 0.8666666666666667,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 0.9222222222222223,
+      "nDCG@5": 0.9058904424642724
+    },
+    "by_difficulty": {
+      "easy": {
+        "Recall@1": 0.9,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.95,
+        "nDCG@5": 0.9630929753571458
+      },
+      "medium": {
+        "Recall@1": 0.8333333333333334,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9027777777777777,
+        "nDCG@5": 0.9275774794642881
+      },
+      "hard": {
+        "Recall@1": 0.875,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9166666666666667,
+        "nDCG@5": 0.8018567208481572
+      }
+    },
+    "by_topic": {
+      "加班与工时": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "违法解除": {
+        "Recall@1": 0.6666666666666666,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.7777777777777778,
+        "nDCG@5": 0.8593378941239184
+      },
+      "竞业限制": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "试用期": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "平台用工": {
+        "Recall@1": 0.6666666666666666,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.8333333333333334,
+        "nDCG@5": 0.8769765845238192
+      },
+      "欠薪与程序": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "社会保险": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 0.8701818996275286
+      },
+      "女职工保护": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "劳动合同变更": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 0.8710490642551528
+      },
+      "经济补偿": {
+        "Recall@1": 0.5,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.6666666666666666,
+        "nDCG@5": 0.5565735963827292
+      },
+      "劳动关系认定": {
+        "Recall@1": 0.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.5,
+        "nDCG@5": 0.6309297535714575
+      },
+      "书面劳动合同": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "职业健康": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      }
+    },
+    "latency_ms": {
+      "average": 0.4934899974614382,
+      "p50": 0.4676000098697841,
+      "p95": 0.756499997805804
+    },
+    "classification_counts": {
+      "SUCCESS": 26,
+      "RANKING_MISS": 4,
+      "TOP5_MISS": 0
+    }
+  },
+  "Semantic": {
+    "overall": {
+      "Recall@1": 0.9333333333333333,
+      "Recall@3": 1.0,
+      "Recall@5": 1.0,
+      "MRR": 0.9666666666666667,
+      "nDCG@5": 0.9612670217838578
+    },
+    "by_difficulty": {
+      "easy": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "medium": {
+        "Recall@1": 0.9166666666666666,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9583333333333334,
+        "nDCG@5": 0.9692441461309548
+      },
+      "hard": {
+        "Recall@1": 0.875,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9375,
+        "nDCG@5": 0.9008851124930348
+      }
+    },
+    "by_topic": {
+      "加班与工时": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "违法解除": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 0.8788130603296529
+      },
+      "竞业限制": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "试用期": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "平台用工": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "欠薪与程序": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "社会保险": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "女职工保护": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "劳动合同变更": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 0.9590717717793499
+      },
+      "经济补偿": {
+        "Recall@1": 0.5,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.75,
+        "nDCG@5": 0.8467132018086354
+      },
+      "劳动关系认定": {
+        "Recall@1": 0.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.5,
+        "nDCG@5": 0.6309297535714575
+      },
+      "书面劳动合同": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      },
+      "职业健康": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 1.0
+      }
+    },
+    "latency_ms": {
+      "average": 12.455696666923663,
+      "p50": 9.675099980086088,
+      "p95": 22.770399984437972
+    },
+    "classification_counts": {
+      "SUCCESS": 28,
+      "RANKING_MISS": 2,
+      "TOP5_MISS": 0
+    }
+  },
+  "failure_and_disagreement_analysis": {
+    "representative_count": 5,
+    "representative": [
+      {
+        "query_id": "cq05",
+        "query": "外卖平台说我是承揽关系，但一直用规则和算法管我，算劳动关系吗",
+        "relevant_case_ids": [
+          "2024-18-2-186-001"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 2,
+        "bm25_first_relevant_rank": 2,
+        "semantic_classification": "SUCCESS",
+        "semantic_primary_rank": 1,
+        "semantic_first_relevant_rank": 1
+      },
+      {
+        "query_id": "cq12",
+        "query": "单位长期少发工资，我提出解除劳动合同能拿经济补偿吗",
+        "relevant_case_ids": [
+          "2023-16-2-186-002"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 3,
+        "bm25_first_relevant_rank": 3,
+        "semantic_classification": "SUCCESS",
+        "semantic_primary_rank": 1,
+        "semantic_first_relevant_rank": 1
+      },
+      {
+        "query_id": "cq15",
+        "query": "我和公司签的是合作协议，但实际每天受管理，能确认劳动关系吗",
+        "relevant_case_ids": [
+          "2022-18-2-186-001"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 2,
+        "bm25_first_relevant_rank": 2,
+        "semantic_classification": "RANKING_MISS",
+        "semantic_primary_rank": 2,
+        "semantic_first_relevant_rank": 2
+      },
+      {
+        "query_id": "cq25",
+        "query": "公司说员工有问题就辞退，怎样判断属于违法解除",
+        "relevant_case_ids": [
+          "2024-18-2-490-003",
+          "2013-18-2-186-001",
+          "2026-07-2-533-003"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 9,
+        "bm25_first_relevant_rank": 3,
+        "semantic_classification": "SUCCESS",
+        "semantic_primary_rank": 1,
+        "semantic_first_relevant_rank": 1
+      },
+      {
+        "query_id": "cq30",
+        "query": "多年欠薪后解除合同，经济补偿的年限和是否必须仲裁怎么判断",
+        "relevant_case_ids": [
+          "2023-07-2-186-010",
+          "2023-16-2-186-002"
+        ],
+        "bm25_classification": "SUCCESS",
+        "bm25_primary_rank": 1,
+        "bm25_first_relevant_rank": 1,
+        "semantic_classification": "RANKING_MISS",
+        "semantic_primary_rank": 2,
+        "semantic_first_relevant_rank": 2
+      }
+    ],
+    "all_non_success": [
+      {
+        "query_id": "cq05",
+        "query": "外卖平台说我是承揽关系，但一直用规则和算法管我，算劳动关系吗",
+        "relevant_case_ids": [
+          "2024-18-2-186-001"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 2,
+        "bm25_first_relevant_rank": 2,
+        "semantic_classification": "SUCCESS",
+        "semantic_primary_rank": 1,
+        "semantic_first_relevant_rank": 1
+      },
+      {
+        "query_id": "cq12",
+        "query": "单位长期少发工资，我提出解除劳动合同能拿经济补偿吗",
+        "relevant_case_ids": [
+          "2023-16-2-186-002"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 3,
+        "bm25_first_relevant_rank": 3,
+        "semantic_classification": "SUCCESS",
+        "semantic_primary_rank": 1,
+        "semantic_first_relevant_rank": 1
+      },
+      {
+        "query_id": "cq15",
+        "query": "我和公司签的是合作协议，但实际每天受管理，能确认劳动关系吗",
+        "relevant_case_ids": [
+          "2022-18-2-186-001"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 2,
+        "bm25_first_relevant_rank": 2,
+        "semantic_classification": "RANKING_MISS",
+        "semantic_primary_rank": 2,
+        "semantic_first_relevant_rank": 2
+      },
+      {
+        "query_id": "cq25",
+        "query": "公司说员工有问题就辞退，怎样判断属于违法解除",
+        "relevant_case_ids": [
+          "2024-18-2-490-003",
+          "2013-18-2-186-001",
+          "2026-07-2-533-003"
+        ],
+        "bm25_classification": "RANKING_MISS",
+        "bm25_primary_rank": 9,
+        "bm25_first_relevant_rank": 3,
+        "semantic_classification": "SUCCESS",
+        "semantic_primary_rank": 1,
+        "semantic_first_relevant_rank": 1
+      },
+      {
+        "query_id": "cq30",
+        "query": "多年欠薪后解除合同，经济补偿的年限和是否必须仲裁怎么判断",
+        "relevant_case_ids": [
+          "2023-07-2-186-010",
+          "2023-16-2-186-002"
+        ],
+        "bm25_classification": "SUCCESS",
+        "bm25_primary_rank": 1,
+        "bm25_first_relevant_rank": 1,
+        "semantic_classification": "RANKING_MISS",
+        "semantic_primary_rank": 2,
+        "semantic_first_relevant_rank": 2
+      }
+    ]
+  }
+}
