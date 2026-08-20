@@ -37,7 +37,7 @@ class CaseSourceResult:
     basic_facts: str | None
     case_gist: str | None
     source_name: str
-    source_url: str
+    source_url: str | None
     retrieved_at: str
 
     @classmethod

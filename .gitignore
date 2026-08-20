@@ -35,3 +35,6 @@ build/
 
 # Local query-understanding cache and benchmark per-query records
 .cache/
+
+# Runtime case-source cache (never curated corpus)
+data/cache/

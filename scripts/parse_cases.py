@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import csv
 import sys
 from pathlib import Path
 
@@ -17,12 +18,32 @@ RAW_DIR = ROOT / "data/raw/cases"
 PROCESSED_DIR = ROOT / "data/processed/cases"
 JSONL_PATH = PROCESSED_DIR / "cases.jsonl"
 METADATA_PATH = ROOT / "data/case_metadata.json"
+SOURCE_URLS_PATH = RAW_DIR / "source_urls.csv"
+
+
+def load_source_urls(path: Path = SOURCE_URLS_PATH) -> dict[str, str | None]:
+    """Load only explicitly recorded provenance URLs keyed by PDF filename."""
+    if not path.exists():
+        return {}
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        rows = csv.DictReader(handle)
+        mapping: dict[str, str | None] = {}
+        for row in rows:
+            filename = (row.get("filename") or "").strip()
+            url = (row.get("source_url") or "").strip() or None
+            if not filename:
+                continue
+            if filename in mapping and mapping[filename] != url:
+                raise ValueError(f"conflicting source URLs for {filename}")
+            mapping[filename] = url
+    return mapping
 
 
 def parse_all() -> list[dict]:
     records = []
+    source_urls = load_source_urls()
     for pdf_path in sorted(RAW_DIR.glob("*.pdf")):
-        record, _ = parse_case_pdf(pdf_path)
+        record, _ = parse_case_pdf(pdf_path, source_url=source_urls.get(pdf_path.name))
         records.append(record.to_dict())
     duplicates = detect_duplicate_case_ids(records)
     if duplicates:

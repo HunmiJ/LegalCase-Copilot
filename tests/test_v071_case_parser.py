@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT))
 
 from backend.cases.parser import parse_case_pdf
 from backend.cases.schemas import CaseRecord, detect_duplicate_case_ids
+from scripts.parse_cases import load_source_urls
 
 
 RAW_DIR = ROOT / "data/raw/cases"
@@ -55,7 +56,10 @@ class V071CaseParserTest(unittest.TestCase):
         self.assertTrue(all(row.get("database_case_number") for row in rows))
         self.assertTrue(all(row.get("case_gist") for row in rows))
         self.assertTrue(all(row.get("related_index") for row in rows))
-        self.assertTrue(all(row.get("source_url") is None for row in rows))
+        by_file = {row["source_file"].removeprefix("data/raw/cases/"): row for row in rows}
+        urls = load_source_urls()
+        for filename, row in by_file.items():
+            self.assertEqual(row["source_url"], urls[filename])
 
     def test_formal_law_products_and_frozen_benchmark_are_clean(self):
         protected = ["data/raw/laws", "data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json", "evaluation/retrieval_queries.json"]
