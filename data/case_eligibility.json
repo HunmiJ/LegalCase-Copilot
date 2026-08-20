@@ -94,5 +94,17 @@
     "corpus_status": "ELIGIBLE_MAIN_CORPUS",
     "eligibility_reason": "民事劳动合同纠纷，核心为工作地点单方变更、协商不一致、旷工认定及违法解除责任，符合劳动合同变更类案范围。",
     "actual_topic": "异地调岗、工作地点变更与违法解除"
+  },
+  {
+    "source_file": "data/raw/cases/022_张某诉深圳市某宝销售有限公司劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议，涉及孕期女职工违法解除、停缴社保导致生育津贴损失及特殊劳动保护，属于劳动争议主语料范围。",
+    "actual_topic": "孕期女职工违法解除、生育津贴损失与特殊劳动保护"
+  },
+  {
+    "source_file": "data/raw/cases/023_唐某诉重庆某工业有限公司劳动合同纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动合同纠纷，涉及未足额支付劳动报酬等导致劳动者解除劳动合同、经济补偿及劳动合同法实施前后补偿年限衔接计算。",
+    "actual_topic": "未足额支付劳动报酬导致解除、经济补偿与实施前后年限计算"
   }
 ]

@@ -21,7 +21,7 @@ JSONL_PATH = ROOT / "data/processed/cases/cases.jsonl"
 class V071CaseParserTest(unittest.TestCase):
     def test_all_case_pdfs_are_discovered_and_readable(self):
         pdfs = sorted(RAW_DIR.glob("*.pdf"))
-        self.assertEqual(len(pdfs), 18)
+        self.assertEqual(len(pdfs), 20)
         for path in pdfs:
             record, page_count = parse_case_pdf(path)
             self.assertGreater(page_count, 0)
@@ -29,9 +29,9 @@ class V071CaseParserTest(unittest.TestCase):
 
     def test_parser_generates_main_records_and_schema_validates(self):
         rows = [json.loads(line) for line in JSONL_PATH.read_text(encoding="utf-8").splitlines() if line.strip()]
-        self.assertEqual(len(rows), 17)
+        self.assertEqual(len(rows), 19)
         records = [CaseRecord.from_dict(row) for row in rows]
-        self.assertEqual(len({record.case_id for record in records}), 17)
+        self.assertEqual(len({record.case_id for record in records}), 19)
         self.assertEqual(detect_duplicate_case_ids(records), [])
         for record in records:
             self.assertTrue(record.title)

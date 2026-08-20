@@ -406,5 +406,53 @@
     "corpus_status": "ELIGIBLE_MAIN_CORPUS",
     "eligibility_reason": "民事劳动合同纠纷，核心为工作地点单方变更、协商不一致、旷工认定及违法解除责任，符合劳动合同变更类案范围。",
     "actual_topic": "异地调岗、工作地点变更与违法解除"
+  },
+  {
+    "case_id": "2026-07-2-533-003",
+    "title": "张某诉深圳市某宝销售有限公司劳动争议案",
+    "case_number": "(2022)渝0112民初3508号；(2023)渝01民终7708号",
+    "case_type": "民事",
+    "court": "重庆市渝北区人民法院；重庆市第一中级人民法院",
+    "judgment_date": "2023年1月30日；2023年10月20日",
+    "keywords": [
+      "民事",
+      "劳动争议",
+      "违法解除",
+      "孕期职工",
+      "生育津贴损失",
+      "赔偿金"
+    ],
+    "case_level": "二审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=YkrW7caOnMUSz5wJ5r4qng21IVWCBAexnxuthmfAszo%253D&lib=ck&qw=%E5%AD%95%E6%9C%9F%20%E8%A7%A3%E9%99%A4%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C",
+    "source_file": "data/raw/cases/022_张某诉深圳市某宝销售有限公司劳动争议案.pdf",
+    "database_case_number": "2026-07-2-533-003",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议，涉及孕期女职工违法解除、停缴社保导致生育津贴损失及特殊劳动保护，属于劳动争议主语料范围。",
+    "actual_topic": "孕期女职工违法解除、生育津贴损失与特殊劳动保护"
+  },
+  {
+    "case_id": "2023-16-2-186-002",
+    "title": "唐某诉重庆某工业有限公司劳动合同纠纷案",
+    "case_number": "（2017）渝0115民初8399号；（2019）渝01民终564号；（2020）渝民再92号",
+    "case_type": "民事",
+    "court": "重庆市长寿区人民法院",
+    "judgment_date": "2018年12月7日",
+    "keywords": [
+      "民事",
+      "劳动合同",
+      "劳动合同法实施前",
+      "解除劳动合同",
+      "经济补偿金",
+      "计算年限"
+    ],
+    "case_level": "再审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=yo1jtE8HdyUOoOyFxas984S5DCfDZVJyLa%252B%252B0irT1y0%253D&lib=ck&qw=%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%E6%B3%95%20%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AB%E6%9D%A1%20%E7%BB%8F%E6%B5%8E%E8%A1%A5%E5%81%BF",
+    "source_file": "data/raw/cases/023_唐某诉重庆某工业有限公司劳动合同纠纷案.pdf",
+    "database_case_number": "2023-16-2-186-002",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动合同纠纷，涉及未足额支付劳动报酬等导致劳动者解除劳动合同、经济补偿及劳动合同法实施前后补偿年限衔接计算。",
+    "actual_topic": "未足额支付劳动报酬导致解除、经济补偿与实施前后年限计算"
   }
 ]

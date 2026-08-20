@@ -34,7 +34,7 @@ class V072ProvenanceTest(unittest.TestCase):
         result = subprocess.run([sys.executable, "scripts/parse_cases.py"], cwd=ROOT, capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
         after = [json.loads(line) for line in JSONL.read_text(encoding="utf-8").splitlines() if line.strip()]
-        self.assertEqual(len(after), 17)
+        self.assertEqual(len(after), 19)
         self.assertEqual([item["case_id"] for item in before], [item["case_id"] for item in after])
         by_file = {item["source_file"]: item for item in after}
         urls = load_source_urls()

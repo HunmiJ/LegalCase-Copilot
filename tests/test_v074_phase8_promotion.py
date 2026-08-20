@@ -18,8 +18,8 @@ class V074Phase8PromotionTest(unittest.TestCase):
             self.assertEqual(rows[number]["status"], "not_found")
             self.assertFalse(rows[number]["filename"])
         for number in ("022", "023"):
-            self.assertEqual(rows[number]["status"], "pending_retry")
-            self.assertFalse(rows[number]["filename"])
+            self.assertEqual(rows[number]["status"], "downloaded")
+            self.assertTrue(rows[number]["filename"])
 
     def test_new_cases_are_promoted_with_actual_topics(self):
         metadata = json.loads((ROOT / "data/case_metadata.json").read_text(encoding="utf-8"))
@@ -32,7 +32,7 @@ class V074Phase8PromotionTest(unittest.TestCase):
             self.assertEqual(by_file[filename]["corpus_status"], "ELIGIBLE_MAIN_CORPUS")
             self.assertEqual(by_file[filename]["actual_topic"], topic)
         rows = [json.loads(line) for line in (ROOT / "data/processed/cases/cases.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
-        self.assertEqual(len(rows), 17)
+        self.assertEqual(len(rows), 19)
         self.assertIn("2024-07-2-490-009", {row["case_id"] for row in rows})
         self.assertIn("2023-07-2-186-011", {row["case_id"] for row in rows})
 
