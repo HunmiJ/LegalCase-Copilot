@@ -14,7 +14,8 @@ from .schemas import CaseRecord
 SECTION_NAMES = ("基本案情", "裁判结果", "裁判理由", "裁判要旨", "裁判要点", "相关法条", "关联索引")
 DATABASE_ID_RE = re.compile(r"^\d{4}-\d+-\d+-\d+-\d+$")
 DATE_RE = re.compile(r"\d{4}年\d{1,2}月\d{1,2}日")
-CASE_NUMBER_RE = re.compile(r"[（(]\d{4}[）)]\s*[^，。；：:（）()]{2,30}?号")
+CASE_NUMBER_RE = re.compile(r"[（(]\d{4}[）)][^，。；：:]{2,50}?号")
+INLINE_HEADINGS_RE = re.compile(r"(?=(?:关键词|裁判要点|相关法条|基本案情|裁判结果|裁判理由|裁判要旨|关联索引))")
 
 
 def _clean_lines(pdf_path: Path) -> list[str]:
@@ -28,7 +29,11 @@ def _clean_lines(pdf_path: Path) -> list[str]:
                 continue
             if re.fullmatch(r"第\s*\d+\s*页人民法院案例库", line):
                 continue
-            lines.append(line)
+            # Some official PDFs place multiple section headings on one
+            # extracted line (notably the criminal Guiding Case template).
+            # Split only at known headings so section extraction remains
+            # deterministic without changing the source PDF.
+            lines.extend(piece.strip() for piece in INLINE_HEADINGS_RE.split(line) if piece.strip())
     return lines
 
 
@@ -42,7 +47,7 @@ def extract_pdf_text(pdf_path: Path) -> tuple[str, int]:
 def _section_ranges(lines: list[str]) -> dict[str, tuple[int, int]]:
     positions = {line: index for index, line in enumerate(lines) if line in SECTION_NAMES}
     result: dict[str, tuple[int, int]] = {}
-    ordered = [(name, positions[name]) for name in SECTION_NAMES if name in positions]
+    ordered = sorted(((name, index) for name, index in positions.items()), key=lambda item: item[1])
     for index, (name, start) in enumerate(ordered):
         end = ordered[index + 1][1] if index + 1 < len(ordered) else len(lines)
         result[name] = (start + 1, end)

@@ -24,7 +24,9 @@ def inspect_cases(raw_dir: Path = RAW_CASES, metadata_path: Path = METADATA_PATH
     metadata = json.loads(metadata_path.read_text(encoding="utf-8")) if metadata_path.exists() else []
     if not isinstance(metadata, list):
         raise ValueError("case metadata must be a JSON array")
-    files = sorted(path for path in raw_dir.iterdir() if path.is_file() and path.name != "README.md") if raw_dir.exists() else []
+    # The intake directory also contains provenance/planning CSV files.  The
+    # corpus inspector reports case files, so only PDFs are intake records.
+    files = sorted(path for path in raw_dir.glob("*.pdf") if path.is_file()) if raw_dir.exists() else []
     by_file = {item.get("source_file"): item for item in metadata if isinstance(item, dict)}
     rows = []
     for path in files:
@@ -34,6 +36,8 @@ def inspect_cases(raw_dir: Path = RAW_CASES, metadata_path: Path = METADATA_PATH
         except OSError:
             readable = False
         item = by_file.get(path.name) or by_file.get(str(path).replace("\\", "/"))
+        if item is None:
+            item = next((candidate for key, candidate in by_file.items() if key and Path(key).name == path.name), None)
         rows.append({
             "file_name": path.name,
             "file_type": path.suffix.lower().lstrip(".") or None,

@@ -21,14 +21,14 @@ class V074CorpusPromotionTest(unittest.TestCase):
         with (RAW / "source_urls.csv").open(encoding="utf-8-sig", newline="") as handle:
             cls.urls = {row["filename"]: row["source_url"] for row in csv.DictReader(handle)}
 
-    def test_eight_pdfs_and_records_are_present(self):
-        self.assertEqual(len(list(RAW.glob("*.pdf"))), 8)
-        self.assertEqual(len(self.rows), 8)
+    def test_all_pdfs_and_main_records_are_present(self):
+        self.assertEqual(len(list(RAW.glob("*.pdf"))), 12)
+        self.assertEqual(len(self.rows), 11)
 
-    def test_all_eight_records_validate_and_have_unique_official_ids(self):
+    def test_main_records_validate_and_have_unique_official_ids(self):
         records = [CaseRecord.from_dict(row) for row in self.rows]
-        self.assertEqual(len({record.case_id for record in records}), 8)
-        self.assertEqual(len({record.database_case_number for record in records}), 8)
+        self.assertEqual(len({record.case_id for record in records}), 11)
+        self.assertEqual(len({record.database_case_number for record in records}), 11)
         for record in records:
             self.assertEqual(record.source_name, "人民法院案例库")
             self.assertTrue(record.source_url.startswith("https://rmfyalk.court.gov.cn/"))
@@ -49,3 +49,14 @@ class V074CorpusPromotionTest(unittest.TestCase):
         result = subprocess.run(["git", "diff", "--name-only", "--", "data/raw/cases"], cwd=ROOT, capture_output=True, text=True)
         self.assertNotIn(".pdf", result.stdout)
 
+    def test_auxiliary_case_is_audited_but_excluded_from_main_corpus(self):
+        metadata = json.loads((ROOT / "data/case_metadata.json").read_text(encoding="utf-8"))
+        auxiliary = [item for item in metadata if item["corpus_status"] == "AUXILIARY_ONLY"]
+        self.assertEqual(len(auxiliary), 1)
+        self.assertEqual(auxiliary[0]["database_case_number"], "2014-18-1-232-001")
+        self.assertNotIn(auxiliary[0]["database_case_number"], {row["database_case_number"] for row in self.rows})
+
+    def test_eligibility_metadata_has_all_audited_pdfs(self):
+        eligibility = json.loads((ROOT / "data/case_eligibility.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(eligibility), 12)
+        self.assertEqual({item["corpus_status"] for item in eligibility}, {"ELIGIBLE_MAIN_CORPUS", "AUXILIARY_ONLY"})

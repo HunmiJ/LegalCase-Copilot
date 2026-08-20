@@ -29,12 +29,12 @@ class V072ProvenanceTest(unittest.TestCase):
         for record in records.values():
             self.assertEqual(record["source_url"], urls[Path(record["source_file"]).name])
 
-    def test_regenerated_jsonl_has_eight_records_and_stable_ids(self):
+    def test_regenerated_jsonl_has_main_records_and_stable_ids(self):
         before = [json.loads(line) for line in JSONL.read_text(encoding="utf-8").splitlines() if line.strip()]
         result = subprocess.run([sys.executable, "scripts/parse_cases.py"], cwd=ROOT, capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
         after = [json.loads(line) for line in JSONL.read_text(encoding="utf-8").splitlines() if line.strip()]
-        self.assertEqual(len(after), 8)
+        self.assertEqual(len(after), 11)
         self.assertEqual([item["case_id"] for item in before], [item["case_id"] for item in after])
         by_file = {item["source_file"]: item for item in after}
         urls = load_source_urls()

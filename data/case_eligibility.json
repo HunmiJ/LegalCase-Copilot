@@ -1,0 +1,62 @@
+[
+  {
+    "source_file": "data/raw/cases/001_李某艳诉北京某科技公司劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议案例，涉及社交媒体隐形加班与加班费，符合劳动争议类案检索范围。"
+  },
+  {
+    "source_file": "data/raw/cases/002_王某仙诉某幼儿园、陈某劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议案例，涉及违法解除劳动合同与赔偿金。"
+  },
+  {
+    "source_file": "data/raw/cases/003_南京旭某餐饮管理有限公司诉刘某亮竞业限制纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事竞业限制纠纷，属于劳动合同争议类案检索范围。"
+  },
+  {
+    "source_file": "data/raw/cases/004_北京某贸易有限公司诉王某劳动合同纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动合同纠纷，涉及解除、经济补偿与竞业限制。"
+  },
+  {
+    "source_file": "data/raw/cases/005_指导案例179号：聂美兰诉北京林氏兄弟文化有限公司确认劳动关系案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事确认劳动关系案例，属于劳动关系认定核心主题。"
+  },
+  {
+    "source_file": "data/raw/cases/006_某途教育公司诉王某华劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议案例，涉及试用期解除与劳动合同。"
+  },
+  {
+    "source_file": "data/raw/cases/007_指导性案例237号：郎溪某服务外包有限公司诉徐某申确认劳动关系纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事确认劳动关系案例，涉及新业态用工与承揽关系认定。"
+  },
+  {
+    "source_file": "data/raw/cases/008_指导性案例238号：圣某欢诉江苏某网络科技有限公司确认劳动关系纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事确认劳动关系案例，涉及平台用工与新业态劳动关系。"
+  },
+  {
+    "source_file": "data/raw/cases/009_冉某诉重庆某农旅融合发展集团有限公司、石柱县某宾馆有限公司劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议案例，涉及未签书面劳动合同与二倍工资；与计划主题一致。"
+  },
+  {
+    "source_file": "data/raw/cases/011_指导案例28号：胡克金拒不支付劳动报酬案.pdf",
+    "corpus_status": "AUXILIARY_ONLY",
+    "eligibility_reason": "官方指导案例但属于刑事拒不支付劳动报酬罪，不纳入劳动民事类案主语料，以避免刑民案件混入主检索集合。"
+  },
+  {
+    "source_file": "data/raw/cases/012_张某诉某劳务服务有限公司、某工业有限公司劳动合同纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动合同纠纷，涉及劳务派遣背景、职业病健康检查与协商解除；计划劳务派遣主题为部分匹配。"
+  },
+  {
+    "source_file": "data/raw/cases/013_朱某平诉北京荣某保安服务有限公司等劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议案例，涉及社会保险缴纳义务与经济补偿；与计划主题一致。"
+  }
+]

@@ -1,4 +1,4 @@
-"""Parse the three manually collected official case PDFs into JSONL."""
+"""Audit all official case PDFs and write only eligible main-corpus records."""
 
 from __future__ import annotations
 
@@ -19,6 +19,7 @@ PROCESSED_DIR = ROOT / "data/processed/cases"
 JSONL_PATH = PROCESSED_DIR / "cases.jsonl"
 METADATA_PATH = ROOT / "data/case_metadata.json"
 SOURCE_URLS_PATH = RAW_DIR / "source_urls.csv"
+ELIGIBILITY_PATH = ROOT / "data/case_eligibility.json"
 
 
 def load_source_urls(path: Path = SOURCE_URLS_PATH) -> dict[str, str | None]:
@@ -39,10 +40,11 @@ def load_source_urls(path: Path = SOURCE_URLS_PATH) -> dict[str, str | None]:
     return mapping
 
 
-def parse_all() -> list[dict]:
+def parse_all(pdf_paths=None) -> list[dict]:
     records = []
     source_urls = load_source_urls()
-    for pdf_path in sorted(RAW_DIR.glob("*.pdf")):
+    paths = sorted(pdf_paths or RAW_DIR.glob("*.pdf"))
+    for pdf_path in paths:
         record, _ = parse_case_pdf(pdf_path, source_url=source_urls.get(pdf_path.name))
         records.append(record.to_dict())
     duplicates = detect_duplicate_case_ids(records)
@@ -51,15 +53,32 @@ def parse_all() -> list[dict]:
     return records
 
 
+def load_eligibility(path: Path = ELIGIBILITY_PATH) -> dict[str, dict]:
+    if not path.exists():
+        return {}
+    value = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(value, list):
+        raise ValueError("data/case_eligibility.json must contain a JSON array")
+    return {item["source_file"]: item for item in value if item.get("source_file")}
+
+
 def main() -> int:
-    records = parse_all()
+    all_records = parse_all()
+    eligibility = load_eligibility()
+    missing = [record["source_file"] for record in all_records if record["source_file"] not in eligibility]
+    if missing:
+        raise ValueError("missing corpus eligibility for: " + ", ".join(missing))
+    records = [record for record in all_records if eligibility[record["source_file"]]["corpus_status"] == "ELIGIBLE_MAIN_CORPUS"]
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     JSONL_PATH.write_text("\n".join(json.dumps(record, ensure_ascii=False) for record in records) + "\n", encoding="utf-8")
     metadata = []
-    for record in records:
-        metadata.append({key: record.get(key) for key in ("case_id", "title", "case_number", "case_type", "court", "judgment_date", "keywords", "case_level", "source_name", "source_url", "source_file", "database_case_number")})
+    for record in all_records:
+        item = {key: record.get(key) for key in ("case_id", "title", "case_number", "case_type", "court", "judgment_date", "keywords", "case_level", "source_name", "source_url", "source_file", "database_case_number")}
+        item.update({key: eligibility[record["source_file"]][key] for key in ("corpus_status", "eligibility_reason")})
+        metadata.append(item)
     METADATA_PATH.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"parsed_cases={len(records)}")
+    print(f"audited_cases={len(all_records)}")
+    print(f"main_corpus_cases={len(records)}")
     print(f"wrote={JSONL_PATH}")
     return 0
 
