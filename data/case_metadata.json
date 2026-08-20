@@ -360,5 +360,51 @@
     "corpus_status": "ELIGIBLE_MAIN_CORPUS",
     "eligibility_reason": "民事劳动争议，核心为未足额缴纳工伤保险导致一次性伤残补助金差额及用人单位赔偿责任。",
     "actual_topic": "工伤保险缴费基数不足导致待遇差额赔偿"
+  },
+  {
+    "case_id": "2024-07-2-490-009",
+    "title": "孟某诉天津某云商有限公司劳动争议案",
+    "case_number": "（2014）和民二初字第0948号；(2015)一中民一终字第0686号",
+    "case_type": "民事",
+    "court": "天津市和平区人民法院；天津市第一中级人民法院",
+    "judgment_date": "2015年3月20日；2015年6月18日",
+    "keywords": [
+      "民事",
+      "劳动争议",
+      "不定时",
+      "工时制",
+      "加班费"
+    ],
+    "case_level": "二审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=GYu9KgftYmBUTcoAvocJQyQ8ATYIQovqsDSbxtm3cC4%253D&lib=ck&qw=%E5%8A%A0%E7%8F%AD%E8%B4%B9%20%E5%8A%B3%E5%8A%A8%E4%BA%89%E8%AE%AE",
+    "source_file": "data/raw/cases/019_孟某诉天津某云商有限公司劳动争议案.pdf",
+    "database_case_number": "2024-07-2-490-009",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议，属于传统加班费案件，核心为已批准但未实际履行不定时工时制时应按标准工时支付休息日加班费；与001的社交媒体隐形加班类型不同。",
+    "actual_topic": "不定时工时制未实际履行与休息日加班费"
+  },
+  {
+    "case_id": "2023-07-2-186-011",
+    "title": "上海某品牌管理有限公司诉姚某劳动合同纠纷案",
+    "case_number": "（2019）沪0112民初24465号；（2019）沪01民终15760号",
+    "case_type": "民事",
+    "court": "上海市闵行区人民法院；上海市第一中级人民法院",
+    "judgment_date": "2019年9月27日；2019年12月23日",
+    "keywords": [
+      "民事",
+      "劳动合同",
+      "单方变更工作地点",
+      "协商不一致",
+      "旷工认定"
+    ],
+    "case_level": "二审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=2ayQv8Jnhuc029oxLLIOqr8KYFS49MEf%252FZOH%252F72MNzA%253D&lib=ck&qw=%E8%B0%83%E5%B2%97",
+    "source_file": "data/raw/cases/020_上海某品牌管理有限公司诉姚某劳动合同纠纷案.pdf",
+    "database_case_number": "2023-07-2-186-011",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动合同纠纷，核心为工作地点单方变更、协商不一致、旷工认定及违法解除责任，符合劳动合同变更类案范围。",
+    "actual_topic": "异地调岗、工作地点变更与违法解除"
   }
 ]

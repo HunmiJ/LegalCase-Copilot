@@ -23,7 +23,7 @@ class V074Phase6PromotionTest(unittest.TestCase):
         cls.eligibility = json.loads((ROOT / "data/case_eligibility.json").read_text(encoding="utf-8"))
 
     def test_intake_and_not_found_numbers(self):
-        self.assertEqual(len(list(RAW.glob("*.pdf"))), 16)
+        self.assertEqual(len(list(RAW.glob("*.pdf"))), 18)
         plan = (RAW / "case_collection_plan.csv").read_text(encoding="utf-8-sig")
         self.assertIn("010", plan)
         self.assertIn("018", plan)
@@ -35,7 +35,7 @@ class V074Phase6PromotionTest(unittest.TestCase):
         self.assertEqual(status[next(p.name for p in RAW.glob("011_*.pdf"))], "AUXILIARY_ONLY")
         main_ids = {row["case_id"] for row in self.rows}
         self.assertNotIn("2014-18-1-232-001", main_ids)
-        self.assertEqual(len(self.rows), 15)
+        self.assertEqual(len(self.rows), 17)
 
     def test_metadata_has_actual_topics_for_new_cases(self):
         by_file = {Path(item["source_file"]).name: item for item in self.metadata}
@@ -60,7 +60,7 @@ class V074Phase6PromotionTest(unittest.TestCase):
     def test_main_artifact_counts_and_case_ids_match(self):
         index = json.loads(INDEX.read_text(encoding="utf-8"))
         main_ids = {row["case_id"] for row in self.rows}
-        self.assertEqual(len(index), 15)
+        self.assertEqual(len(index), 17)
         self.assertEqual({item["case_id"] for item in index}, main_ids)
         self.assertNotIn("2014-18-1-232-001", {item["case_id"] for item in index})
 

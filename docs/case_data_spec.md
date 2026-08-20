@@ -28,6 +28,8 @@ V0.7.0 只建立真实劳动争议案例语料的可追溯数据边界，不实�
 
 `data/case_metadata.json` 同步保存每条已审计记录的 `corpus_status` 与 `eligibility_reason`。缺少计划中的案例不创建空记录；例如没有取得 PDF 的编号仍只保留在收集计划中。
 
+案例收集计划的 `status` 与语料资格是两个不同层次：`downloaded` 表示已取得原始文件，`not_found` 表示已完成检索但当前没有找到合格案例，`pending_retry` 表示检索流程尚未完成（例如官方页面访问超时），需要后续再次尝试，不能据此证明人民法院案例库不存在合格案例。
+
 ## Identity and traceability
 
 `case_id` 是跨文件和处理阶段使用的稳定唯一 canonical identity，不能只使用标题。后续应优先依据官方案号、来源标识或经过记录的稳定组合生成，并人工复核。`source_file` 必须对应 `data/raw/cases/` 中的真实文件；`source_url`（如已确认）应能回溯到官方页面。
