@@ -25,8 +25,15 @@ class UnifiedCaseSearchService:
             for provider in self.official_providers
         ]
 
-    def search(self, query: str, top_k: int = 10, sources: list[str] | None = None) -> list[CaseSearchResult]:
+    def search(self, query: str, top_k: int = 10, sources: list[str] | None = None, mode: str = "bm25") -> list[CaseSearchResult]:
+        if mode not in {"bm25", "semantic", "hybrid"}:
+            raise ValueError("mode must be bm25, semantic, or hybrid")
+        if mode == "hybrid":
+            raise NotImplementedError("hybrid fusion is reserved for a later version")
         request = CaseSourceSearchRequest(query=query, limit=top_k)
+        if mode == "semantic":
+            from .sources.semantic_local import LocalSemanticCaseProvider
+            return LocalSemanticCaseProvider().search(request)
         results: list[CaseSearchResult] = []
         selected = [provider for provider in self.official_providers if not sources or provider.name in sources]
         for provider in selected:

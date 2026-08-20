@@ -24,6 +24,7 @@ class CaseSearchResult:
     retrieved_at: str = ""
     retrieval_source: str = "local"
     score: float = 0.0
+    semantic_score: float | None = None
     matched_sources: list[str] = field(default_factory=list)
 
     def __post_init__(self) -> None:
