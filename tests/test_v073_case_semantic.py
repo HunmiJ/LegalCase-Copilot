@@ -28,8 +28,8 @@ class V073CaseSemanticTest(unittest.TestCase):
 
     def test_model_and_embedding_artifacts_are_valid(self):
         self.assertIsNotNone(self.provider.index.model)
-        self.assertEqual(len(self.records), 11)
-        self.assertEqual(self.embeddings.shape[0], 11)
+        self.assertEqual(len(self.records), 15)
+        self.assertEqual(self.embeddings.shape[0], 15)
         self.assertEqual(self.embeddings.shape[1], 512)
         self.assertTrue(np.isfinite(self.embeddings).all())
 

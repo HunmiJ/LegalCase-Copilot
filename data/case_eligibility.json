@@ -58,5 +58,29 @@
     "source_file": "data/raw/cases/013_朱某平诉北京荣某保安服务有限公司等劳动争议案.pdf",
     "corpus_status": "ELIGIBLE_MAIN_CORPUS",
     "eligibility_reason": "民事劳动争议案例，涉及社会保险缴纳义务与经济补偿；与计划主题一致。"
+  },
+  {
+    "source_file": "data/raw/cases/014_李某诉某足球俱乐部有限公司追索劳动报酬纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动报酬纠纷，核心为劳动者持工资欠条直接起诉的受案范围、仲裁前置例外与欠薪实体请求，具有劳动争议类案检索价值。",
+    "actual_topic": "工资欠条追索劳动报酬及普通民事受案范围"
+  },
+  {
+    "source_file": "data/raw/cases/015_张某雷诉北京某国际体育文化发展有限公司劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议，明确涉及竞业限制经济补偿返还、违反竞业义务及违约金责任，与003的竞业限制主体资格问题不同。",
+    "actual_topic": "竞业限制违约、经济补偿返还与违约金责任"
+  },
+  {
+    "source_file": "data/raw/cases/016_指导案例18号：中兴通讯（杭州）有限责任公司诉王鹏劳动合同纠纷案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动合同纠纷，核心为绩效末位不当然等于不能胜任工作，以及据此解除劳动合同的合法性和赔偿责任。",
+    "actual_topic": "绩效末位、不能胜任工作与违法解除赔偿"
+  },
+  {
+    "source_file": "data/raw/cases/017_冯某诉大连某公司北京研发中心劳动争议案.pdf",
+    "corpus_status": "ELIGIBLE_MAIN_CORPUS",
+    "eligibility_reason": "民事劳动争议，核心为未足额缴纳工伤保险导致一次性伤残补助金差额及用人单位赔偿责任。",
+    "actual_topic": "工伤保险缴费基数不足导致待遇差额赔偿"
   }
 ]

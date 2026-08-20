@@ -75,6 +75,8 @@ def main() -> int:
     for record in all_records:
         item = {key: record.get(key) for key in ("case_id", "title", "case_number", "case_type", "court", "judgment_date", "keywords", "case_level", "source_name", "source_url", "source_file", "database_case_number")}
         item.update({key: eligibility[record["source_file"]][key] for key in ("corpus_status", "eligibility_reason")})
+        if eligibility[record["source_file"]].get("actual_topic"):
+            item["actual_topic"] = eligibility[record["source_file"]]["actual_topic"]
         metadata.append(item)
     METADATA_PATH.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"audited_cases={len(all_records)}")

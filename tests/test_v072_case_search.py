@@ -20,7 +20,7 @@ CORPUS = ROOT / "data/processed/cases/cases.jsonl"
 class V072CaseSearchTest(unittest.TestCase):
     def test_local_provider_loads_main_corpus_cases(self):
         provider = LocalCuratedCaseProvider(CORPUS)
-        self.assertEqual(len(provider.index.records), 11)
+        self.assertEqual(len(provider.index.records), 15)
         self.assertTrue(all(record["case_id"] for record in provider.index.records))
 
     def test_bm25_returns_top_k_for_three_typical_queries(self):

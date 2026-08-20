@@ -22,13 +22,13 @@ class V074CorpusPromotionTest(unittest.TestCase):
             cls.urls = {row["filename"]: row["source_url"] for row in csv.DictReader(handle)}
 
     def test_all_pdfs_and_main_records_are_present(self):
-        self.assertEqual(len(list(RAW.glob("*.pdf"))), 12)
-        self.assertEqual(len(self.rows), 11)
+        self.assertEqual(len(list(RAW.glob("*.pdf"))), 16)
+        self.assertEqual(len(self.rows), 15)
 
     def test_main_records_validate_and_have_unique_official_ids(self):
         records = [CaseRecord.from_dict(row) for row in self.rows]
-        self.assertEqual(len({record.case_id for record in records}), 11)
-        self.assertEqual(len({record.database_case_number for record in records}), 11)
+        self.assertEqual(len({record.case_id for record in records}), 15)
+        self.assertEqual(len({record.database_case_number for record in records}), 15)
         for record in records:
             self.assertEqual(record.source_name, "人民法院案例库")
             self.assertTrue(record.source_url.startswith("https://rmfyalk.court.gov.cn/"))
@@ -58,5 +58,5 @@ class V074CorpusPromotionTest(unittest.TestCase):
 
     def test_eligibility_metadata_has_all_audited_pdfs(self):
         eligibility = json.loads((ROOT / "data/case_eligibility.json").read_text(encoding="utf-8"))
-        self.assertEqual(len(eligibility), 12)
+        self.assertEqual(len(eligibility), 16)
         self.assertEqual({item["corpus_status"] for item in eligibility}, {"ELIGIBLE_MAIN_CORPUS", "AUXILIARY_ONLY"})
