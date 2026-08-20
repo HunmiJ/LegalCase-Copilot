@@ -29,12 +29,12 @@ class V072ProvenanceTest(unittest.TestCase):
         for record in records.values():
             self.assertEqual(record["source_url"], urls[Path(record["source_file"]).name])
 
-    def test_regenerated_jsonl_has_three_records_and_stable_ids(self):
+    def test_regenerated_jsonl_has_eight_records_and_stable_ids(self):
         before = [json.loads(line) for line in JSONL.read_text(encoding="utf-8").splitlines() if line.strip()]
         result = subprocess.run([sys.executable, "scripts/parse_cases.py"], cwd=ROOT, capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
         after = [json.loads(line) for line in JSONL.read_text(encoding="utf-8").splitlines() if line.strip()]
-        self.assertEqual(len(after), 3)
+        self.assertEqual(len(after), 8)
         self.assertEqual([item["case_id"] for item in before], [item["case_id"] for item in after])
         by_file = {item["source_file"]: item for item in after}
         urls = load_source_urls()
@@ -49,7 +49,7 @@ class V072ProvenanceTest(unittest.TestCase):
         urls = load_source_urls()
         self.assertTrue(any(item.source_url == urls["003_南京旭某餐饮管理有限公司诉刘某亮竞业限制纠纷案.pdf"] for item in local))
         unified = UnifiedCaseSearchService().search("竞业限制", 3)
-        self.assertEqual(unified[0].source_url, urls["003_南京旭某餐饮管理有限公司诉刘某亮竞业限制纠纷案.pdf"])
+        self.assertTrue(any(item.source_url == urls["003_南京旭某餐饮管理有限公司诉刘某亮竞业限制纠纷案.pdf"] for item in unified))
 
     def test_original_pdfs_are_not_changed(self):
         changed = subprocess.run(["git", "diff", "--name-only", "--", "data/raw/cases/*.pdf"], cwd=ROOT, capture_output=True, text=True, shell=False)

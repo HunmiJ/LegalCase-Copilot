@@ -20,7 +20,7 @@ CORPUS = ROOT / "data/processed/cases/cases.jsonl"
 class V072CaseSearchTest(unittest.TestCase):
     def test_local_provider_loads_three_cases(self):
         provider = LocalCuratedCaseProvider(CORPUS)
-        self.assertEqual(len(provider.index.records), 3)
+        self.assertEqual(len(provider.index.records), 8)
         self.assertTrue(all(record["case_id"] for record in provider.index.records))
 
     def test_bm25_returns_top_k_for_three_typical_queries(self):
@@ -79,4 +79,3 @@ class V072CaseSearchTest(unittest.TestCase):
         service = UnifiedCaseSearchService(local_provider=LocalCuratedCaseProvider(CORPUS))
         service.search("劳动争议", 10)
         self.assertEqual(CORPUS.read_bytes(), before)
-

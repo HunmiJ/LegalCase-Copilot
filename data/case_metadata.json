@@ -59,5 +59,112 @@
     "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=%252BV%252B34Elz%252FKbOB%252F8VX2rdjMff%252FiiOH%252BMfLf7IOwR1swU%253D&lib=ck&qw=%E5%8D%97%E4%BA%AC%E6%97%AD%E6%9F%90%E9%A4%90%E9%A5%AE%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%AF%89%E5%88%98%E6%9F%90%E4%BA%AE%E7%AB%9E%E4%B8%9A%E9%99%90%E5%88%B6%E7%BA%A0%E7%BA%B7%E6%A1%88",
     "source_file": "data/raw/cases/003_南京旭某餐饮管理有限公司诉刘某亮竞业限制纠纷案.pdf",
     "database_case_number": "2025-07-2-186-002"
+  },
+  {
+    "case_id": "2023-07-2-186-004",
+    "title": "北京某贸易有限公司诉王某劳动合同纠纷案",
+    "case_number": "（2020）京0115民初19879号；（2021）京02民终12085号",
+    "case_type": "民事",
+    "court": "北京市大兴区人民法院；北京市第二中级人民法院",
+    "judgment_date": "2021年6月29日；2021年9月6日",
+    "keywords": [
+      "民事",
+      "劳动合同",
+      "解除劳动合同",
+      "终止劳动合同",
+      "经济补偿",
+      "经济补偿金支付",
+      "附条件",
+      "竞业限制"
+    ],
+    "case_level": "二审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=D5Ls9InXjcmqWgGsBUsOB%252B24CVbUO%252FAqC79vzLuu5dY%253D&lib=ck&qw=%E7%BB%8F%E6%B5%8E%E8%A1%A5%E5%81%BF%20%E8%A7%A3%E9%99%A4%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C",
+    "source_file": "data/raw/cases/004_北京某贸易有限公司诉王某劳动合同纠纷案.pdf",
+    "database_case_number": "2023-07-2-186-004"
+  },
+  {
+    "case_id": "2022-18-2-186-001",
+    "title": "指导案例179号：聂美兰诉北京林氏兄弟文化有限公司确认劳动关系案",
+    "case_number": "（2017）京0108民初45496号；（2018）京01民终5911号；（2019）京民申986号",
+    "case_type": "民事",
+    "court": "北京市海淀区人民法院；北京市第一中级人民法院；北京市高级人民法院",
+    "judgment_date": "2018年4月17日；2018年9月26日；2019年4月30日",
+    "keywords": [
+      "民事",
+      "确认劳动关系",
+      "合作经营",
+      "书面劳动合同"
+    ],
+    "case_level": "再审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=DfpZiJXBUeSnAThrt%252Byap%252F%252BFon%252BtZJU49uGEWqZQ1yE%253D&lib=zdx&qw=%E6%9C%AA%E7%AD%BE%E4%B9%A6%E9%9D%A2%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%20%E4%BA%8C%E5%80%8D%E5%B7%A5%E8%B5%84",
+    "source_file": "data/raw/cases/005_指导案例179号：聂美兰诉北京林氏兄弟文化有限公司确认劳动关系案.pdf",
+    "database_case_number": "2022-18-2-186-001"
+  },
+  {
+    "case_id": "2024-07-2-490-002",
+    "title": "某途教育公司诉王某华劳动争议案",
+    "case_number": "（2019）京0108民初44374号；（2020）京01民终5195号",
+    "case_type": "民事",
+    "court": "北京市海淀区人民法院；北京市第一中级人民法院",
+    "judgment_date": "2020年4月27日；2020年7月27日",
+    "keywords": [
+      "民事",
+      "劳动争议",
+      "延长试用期",
+      "法定最长试用期",
+      "二次约定试用期"
+    ],
+    "case_level": "二审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=%252FHDT9Hn%252FTcBTrZ8%252FLstsZ5%252BtLAbC5VBCXkiWAoE0Tno%253D&lib=ck&qw=%E8%AF%95%E7%94%A8%E6%9C%9F%20%E8%A7%A3%E9%99%A4",
+    "source_file": "data/raw/cases/006_某途教育公司诉王某华劳动争议案.pdf",
+    "database_case_number": "2024-07-2-490-002"
+  },
+  {
+    "case_id": "2024-18-2-186-001",
+    "title": "指导性案例237号：郎溪某服务外包有限公司诉徐某申确认劳动关系纠纷案",
+    "case_number": "（2021）沪0117民初600号；（2021）沪01民终11591号",
+    "case_type": "民事",
+    "court": "上海市松江区人民法院；上海市第一中级人民法院",
+    "judgment_date": "2021年7月5日；2022年3月7日",
+    "keywords": [
+      "民事",
+      "确认劳动关系",
+      "新业态用工",
+      "承揽",
+      "合作协议",
+      "实际履行情况",
+      "劳动管理"
+    ],
+    "case_level": "一审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=s549hK1VLD9RLUOPsJVtgpwgFHm85k6w1qhxELNGXjw%253D&lib=zdx&qw=%E7%A1%AE%E8%AE%A4%E5%8A%B3%E5%8A%A8%E5%85%B3%E7%B3%BB",
+    "source_file": "data/raw/cases/007_指导性案例237号：郎溪某服务外包有限公司诉徐某申确认劳动关系纠纷案.pdf",
+    "database_case_number": "2024-18-2-186-001"
+  },
+  {
+    "case_id": "2024-18-2-186-002",
+    "title": "指导性案例238号：圣某欢诉江苏某网络科技有限公司确认劳动关系纠纷案",
+    "case_number": "（2020）苏0505民初5582号",
+    "case_type": "民事",
+    "court": "江苏省苏州市虎丘区人民法院",
+    "judgment_date": "2021年8月2日",
+    "keywords": [
+      "民事",
+      "确认劳动关系",
+      "新业态用工",
+      "个体工商户",
+      "承揽",
+      "合作协议",
+      "实际履行情况",
+      "劳动管理"
+    ],
+    "case_level": "一审",
+    "source_name": "人民法院案例库",
+    "source_url": "https://rmfyalk.court.gov.cn/view/content.html?id=uPm1oEvBzbRberd5P1JspEGwjrALPAZlHrvTaa9Z5xs%253D&lib=zdx&qw=%E7%A1%AE%E8%AE%A4%E5%8A%B3%E5%8A%A8%E5%85%B3%E7%B3%BB",
+    "source_file": "data/raw/cases/008_指导性案例238号：圣某欢诉江苏某网络科技有限公司确认劳动关系纠纷案.pdf",
+    "database_case_number": "2024-18-2-186-002"
   }
 ]

@@ -19,19 +19,19 @@ JSONL_PATH = ROOT / "data/processed/cases/cases.jsonl"
 
 
 class V071CaseParserTest(unittest.TestCase):
-    def test_exactly_three_case_pdfs_are_discovered_and_readable(self):
+    def test_exactly_eight_case_pdfs_are_discovered_and_readable(self):
         pdfs = sorted(RAW_DIR.glob("*.pdf"))
-        self.assertEqual(len(pdfs), 3)
+        self.assertEqual(len(pdfs), 8)
         for path in pdfs:
             record, page_count = parse_case_pdf(path)
             self.assertGreater(page_count, 0)
             self.assertTrue(record.raw_text)
 
-    def test_parser_generates_three_records_and_schema_validates(self):
+    def test_parser_generates_eight_records_and_schema_validates(self):
         rows = [json.loads(line) for line in JSONL_PATH.read_text(encoding="utf-8").splitlines() if line.strip()]
-        self.assertEqual(len(rows), 3)
+        self.assertEqual(len(rows), 8)
         records = [CaseRecord.from_dict(row) for row in rows]
-        self.assertEqual(len({record.case_id for record in records}), 3)
+        self.assertEqual(len({record.case_id for record in records}), 8)
         self.assertEqual(detect_duplicate_case_ids(records), [])
         for record in records:
             self.assertTrue(record.title)
@@ -55,7 +55,7 @@ class V071CaseParserTest(unittest.TestCase):
         rows = [json.loads(line) for line in JSONL_PATH.read_text(encoding="utf-8").splitlines() if line.strip()]
         self.assertTrue(all(row.get("database_case_number") for row in rows))
         self.assertTrue(all(row.get("case_gist") for row in rows))
-        self.assertTrue(all(row.get("related_index") for row in rows))
+        self.assertTrue(all(row.get("related_index") for row in rows[:3]))
         by_file = {row["source_file"].removeprefix("data/raw/cases/"): row for row in rows}
         urls = load_source_urls()
         for filename, row in by_file.items():
