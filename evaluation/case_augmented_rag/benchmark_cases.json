@@ -1,0 +1,7 @@
+[
+  {"id": "q01", "query": "违法解除劳动合同", "expected_law_terms": ["劳动合同法"], "expected_case_ids": ["2026-07-2-533-002"]},
+  {"id": "q02", "query": "加班费争议", "expected_law_terms": ["劳动法"], "expected_case_ids": ["2023-07-2-490-002"]},
+  {"id": "q03", "query": "竞业限制", "expected_law_terms": ["劳动合同法"], "expected_case_ids": ["2022-18-2-186-001"]},
+  {"id": "q04", "query": "确认劳动关系", "expected_law_terms": ["劳动合同法"], "expected_case_ids": ["2023-16-2-490-001"]},
+  {"id": "q05", "query": "经济补偿", "expected_law_terms": ["劳动合同法"], "expected_case_ids": ["2023-16-2-490-005"]}
+]
