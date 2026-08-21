@@ -73,8 +73,9 @@ class V073CaseSemanticTest(unittest.TestCase):
         bm25 = service.search("普通员工不知道商业秘密却被要求竞业", 3, mode="bm25")
         self.assertEqual(semantic[0].case_id, "2025-07-2-186-002")
         self.assertEqual(len(bm25), 3)
-        with self.assertRaises(NotImplementedError):
-            service.search("竞业限制", 3, mode="hybrid")
+        hybrid = service.search("竞业限制", 3, mode="hybrid")
+        self.assertEqual(len(hybrid), 3)
+        self.assertEqual(len({result.case_id for result in hybrid}), 3)
 
     def test_case_corpus_and_raw_pdfs_are_read_only(self):
         self.assertEqual(CORPUS.read_bytes(), CORPUS.read_bytes())

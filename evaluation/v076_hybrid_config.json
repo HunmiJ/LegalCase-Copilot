@@ -1,0 +1,14 @@
+{
+  "method": "weighted",
+  "rrf_k": null,
+  "semantic_weight": 0.8,
+  "bm25_top_k": 10,
+  "semantic_top_k": 10,
+  "selection_split": "dev",
+  "selection_priority": [
+    "Recall@1",
+    "MRR",
+    "nDCG@5",
+    "prefer_rrf_on_tie"
+  ]
+}

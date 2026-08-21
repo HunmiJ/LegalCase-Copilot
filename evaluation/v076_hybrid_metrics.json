@@ -1,0 +1,461 @@
+{
+  "corpus_count": 19,
+  "query_count": 30,
+  "query_sha256": "f577de865360e923266ea9975de8ee0b7ef429630be8225a774ba4f797673305",
+  "split": {
+    "dev_query_ids": [
+      "cq01",
+      "cq02",
+      "cq05",
+      "cq06",
+      "cq07",
+      "cq09",
+      "cq10",
+      "cq11",
+      "cq12",
+      "cq15",
+      "cq17",
+      "cq18",
+      "cq20",
+      "cq21",
+      "cq22",
+      "cq24",
+      "cq25",
+      "cq26",
+      "cq27",
+      "cq29"
+    ],
+    "test_query_ids": [
+      "cq03",
+      "cq04",
+      "cq08",
+      "cq13",
+      "cq14",
+      "cq16",
+      "cq19",
+      "cq23",
+      "cq28",
+      "cq30"
+    ],
+    "seed": 42,
+    "method": "deterministic stratified split by difficulty"
+  },
+  "split_sha256": "2eba54b9eba732815de7f87d8e4273eee6a08507d867542fc3aa58b3df6ed391",
+  "config": {
+    "method": "weighted",
+    "rrf_k": null,
+    "semantic_weight": 0.8,
+    "bm25_top_k": 10,
+    "semantic_top_k": 10,
+    "selection_split": "dev",
+    "selection_priority": [
+      "Recall@1",
+      "MRR",
+      "nDCG@5",
+      "prefer_rrf_on_tie"
+    ]
+  },
+  "config_sha256": "ec5b3df5fc931026bf72401f197b5faf45d2b8dd022632829e683cd5295fb18d",
+  "selection_candidates_dev": [
+    {
+      "method": "rrf",
+      "rrf_k": 20,
+      "semantic_weight": null,
+      "metrics": {
+        "Recall@1": 0.85,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.925,
+        "nDCG@5": 0.9303769832013771
+      }
+    },
+    {
+      "method": "rrf",
+      "rrf_k": 40,
+      "semantic_weight": null,
+      "metrics": {
+        "Recall@1": 0.85,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.925,
+        "nDCG@5": 0.9303769832013771
+      }
+    },
+    {
+      "method": "rrf",
+      "rrf_k": 60,
+      "semantic_weight": null,
+      "metrics": {
+        "Recall@1": 0.85,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.925,
+        "nDCG@5": 0.9303769832013771
+      }
+    },
+    {
+      "method": "rrf",
+      "rrf_k": 80,
+      "semantic_weight": null,
+      "metrics": {
+        "Recall@1": 0.85,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.925,
+        "nDCG@5": 0.9303769832013771
+      }
+    },
+    {
+      "method": "weighted",
+      "rrf_k": null,
+      "semantic_weight": 0.6,
+      "metrics": {
+        "Recall@1": 0.9,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.95,
+        "nDCG@5": 0.9506162578307796
+      }
+    },
+    {
+      "method": "weighted",
+      "rrf_k": null,
+      "semantic_weight": 0.7,
+      "metrics": {
+        "Recall@1": 0.9,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.95,
+        "nDCG@5": 0.9547486427772363
+      }
+    },
+    {
+      "method": "weighted",
+      "rrf_k": null,
+      "semantic_weight": 0.8,
+      "metrics": {
+        "Recall@1": 0.95,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.975,
+        "nDCG@5": 0.961760756729397
+      }
+    },
+    {
+      "method": "weighted",
+      "rrf_k": null,
+      "semantic_weight": 0.9,
+      "metrics": {
+        "Recall@1": 0.95,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.975,
+        "nDCG@5": 0.9572292124949232
+      }
+    }
+  ],
+  "baseline_dev": {
+    "bm25": {
+      "metrics": {
+        "Recall@1": 0.8,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.8833333333333334,
+        "nDCG@5": 0.8781783040581356
+      },
+      "latency_ms": {
+        "average": 0.6442150013754144,
+        "p50": 0.5778999766334891,
+        "p95": 0.8744000224396586
+      },
+      "count": 20
+    },
+    "semantic": {
+      "metrics": {
+        "Recall@1": 0.95,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.975,
+        "nDCG@5": 0.9572292124949232
+      },
+      "latency_ms": {
+        "average": 10.879874997772276,
+        "p50": 10.206200007814914,
+        "p95": 11.894900002516806
+      },
+      "count": 20
+    }
+  },
+  "baseline_test": {
+    "bm25": {
+      "metrics": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 0.9613147192765459
+      },
+      "latency_ms": {
+        "average": 0.6706300016958266,
+        "p50": 0.6674000178463757,
+        "p95": 0.8982999715954065
+      },
+      "count": 10
+    },
+    "semantic": {
+      "metrics": {
+        "Recall@1": 0.9,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.95,
+        "nDCG@5": 0.969342640361727
+      },
+      "latency_ms": {
+        "average": 10.789299989119172,
+        "p50": 11.118599970359355,
+        "p95": 12.31499999994412
+      },
+      "count": 10
+    }
+  },
+  "held_out_test": {
+    "bm25": {
+      "metrics": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 0.9613147192765459
+      },
+      "latency_ms": {
+        "average": 0.6706300016958266,
+        "p50": 0.6674000178463757,
+        "p95": 0.8982999715954065
+      },
+      "count": 10
+    },
+    "semantic": {
+      "metrics": {
+        "Recall@1": 0.9,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.95,
+        "nDCG@5": 0.969342640361727
+      },
+      "latency_ms": {
+        "average": 10.789299989119172,
+        "p50": 11.118599970359355,
+        "p95": 12.31499999994412
+      },
+      "count": 10
+    },
+    "hybrid": {
+      "metrics": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@5": 0.9919720789148186
+      },
+      "latency_ms": {
+        "average": 11.599189980188385,
+        "p50": 12.067899981047958,
+        "p95": 13.013799965847284
+      },
+      "count": 10
+    }
+  },
+  "full_30_descriptive": {
+    "bm25": {
+      "metrics": {
+        "Recall@1": 0.8666666666666667,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9222222222222223,
+        "nDCG@5": 0.9058904424642724
+      },
+      "latency_ms": {
+        "average": 0.6530200014822185,
+        "p50": 0.5889000021852553,
+        "p95": 0.8982999715954065
+      },
+      "count": 30
+    },
+    "semantic": {
+      "metrics": {
+        "Recall@1": 0.9333333333333333,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9666666666666667,
+        "nDCG@5": 0.9612670217838579
+      },
+      "latency_ms": {
+        "average": 10.849683328221241,
+        "p50": 10.39650000166148,
+        "p95": 12.31499999994412
+      },
+      "count": 30
+    },
+    "hybrid": {
+      "metrics": {
+        "Recall@1": 0.9666666666666667,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9833333333333333,
+        "nDCG@5": 0.9718311974578708
+      },
+      "latency_ms": {
+        "average": 11.649849989529079,
+        "p50": 11.132999963592738,
+        "p95": 13.027000008150935
+      },
+      "count": 30
+    }
+  },
+  "failure_disagreement_audit": [
+    {
+      "query_id": "cq05",
+      "query": "外卖平台说我是承揽关系，但一直用规则和算法管我，算劳动关系吗",
+      "primary_case_id": "2024-18-2-186-001",
+      "bm25_top3": [
+        "2024-18-2-186-002",
+        "2024-18-2-186-001",
+        "2023-07-2-186-010"
+      ],
+      "semantic_top3": [
+        "2024-18-2-186-001",
+        "2024-18-2-186-002",
+        "2025-07-2-186-002"
+      ],
+      "bm25_rank": 2,
+      "semantic_rank": 1,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    },
+    {
+      "query_id": "cq12",
+      "query": "单位长期少发工资，我提出解除劳动合同能拿经济补偿吗",
+      "primary_case_id": "2023-16-2-186-002",
+      "bm25_top3": [
+        "2023-07-2-186-011",
+        "2025-07-2-490-003",
+        "2023-16-2-186-002"
+      ],
+      "semantic_top3": [
+        "2023-16-2-186-002",
+        "2023-07-2-186-004",
+        "2026-07-2-533-001"
+      ],
+      "bm25_rank": 3,
+      "semantic_rank": 1,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    },
+    {
+      "query_id": "cq15",
+      "query": "我和公司签的是合作协议，但实际每天受管理，能确认劳动关系吗",
+      "primary_case_id": "2022-18-2-186-001",
+      "bm25_top3": [
+        "2024-18-2-186-001",
+        "2022-18-2-186-001",
+        "2024-18-2-186-002"
+      ],
+      "semantic_top3": [
+        "2024-18-2-186-001",
+        "2022-18-2-186-001",
+        "2024-18-2-186-002"
+      ],
+      "bm25_rank": 2,
+      "semantic_rank": 2,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    },
+    {
+      "query_id": "cq23",
+      "query": "公司让我休息日工作，既有考勤又在手机上处理事情，应该按哪种加班判断",
+      "primary_case_id": "2024-07-2-490-009",
+      "bm25_top3": [
+        "2024-07-2-490-009",
+        "2024-18-2-490-002",
+        "2023-07-2-186-011"
+      ],
+      "semantic_top3": [
+        "2024-18-2-490-002",
+        "2024-07-2-490-009",
+        "2023-16-2-186-002"
+      ],
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    },
+    {
+      "query_id": "cq24",
+      "query": "签了竞业限制并拿了补偿，普通员工去了竞争单位被索赔",
+      "primary_case_id": "2024-07-2-490-006",
+      "bm25_top3": [
+        "2025-07-2-186-002",
+        "2024-07-2-490-006",
+        "2023-07-2-186-004"
+      ],
+      "semantic_top3": [
+        "2024-07-2-490-006",
+        "2025-07-2-186-002",
+        "2023-07-2-186-004"
+      ],
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    },
+    {
+      "query_id": "cq25",
+      "query": "公司说员工有问题就辞退，怎样判断属于违法解除",
+      "primary_case_id": "2013-18-2-186-001",
+      "bm25_top3": [
+        "2023-07-2-186-011",
+        "2024-07-2-490-009",
+        "2024-18-2-490-003"
+      ],
+      "semantic_top3": [
+        "2013-18-2-186-001",
+        "2023-07-2-186-006",
+        "2023-07-2-186-011"
+      ],
+      "bm25_rank": 3,
+      "semantic_rank": 1,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    },
+    {
+      "query_id": "cq27",
+      "query": "公司少交社保让我权益受损，我能否解除并要求补偿或待遇差额",
+      "primary_case_id": "2026-07-2-533-001",
+      "bm25_top3": [
+        "2023-16-2-490-007",
+        "2023-07-2-186-006",
+        "2026-07-2-533-003"
+      ],
+      "semantic_top3": [
+        "2026-07-2-533-001",
+        "2023-16-2-490-007",
+        "2023-16-2-186-002"
+      ],
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    },
+    {
+      "query_id": "cq30",
+      "query": "多年欠薪后解除合同，经济补偿的年限和是否必须仲裁怎么判断",
+      "primary_case_id": "2023-16-2-186-002",
+      "bm25_top3": [
+        "2023-16-2-186-002",
+        "2024-07-2-490-009",
+        "2026-07-2-533-001"
+      ],
+      "semantic_top3": [
+        "2023-07-2-186-004",
+        "2023-16-2-186-002",
+        "2023-07-2-186-010"
+      ],
+      "bm25_rank": 1,
+      "semantic_rank": 2,
+      "failure_reason": "Top1 disagreement or miss; relevant candidate remains in top10"
+    }
+  ]
+}

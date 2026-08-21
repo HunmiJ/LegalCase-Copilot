@@ -26,6 +26,10 @@ class CaseSearchResult:
     score: float = 0.0
     semantic_score: float | None = None
     matched_sources: list[str] = field(default_factory=list)
+    hybrid_score: float | None = None
+    bm25_rank: int | None = None
+    bm25_score: float | None = None
+    semantic_rank: int | None = None
 
     def __post_init__(self) -> None:
         if not self.case_id.strip() or not self.title.strip():

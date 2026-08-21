@@ -29,7 +29,8 @@ class UnifiedCaseSearchService:
         if mode not in {"bm25", "semantic", "hybrid"}:
             raise ValueError("mode must be bm25, semantic, or hybrid")
         if mode == "hybrid":
-            raise NotImplementedError("hybrid fusion is reserved for a later version")
+            from .sources.hybrid_local import LocalHybridCaseProvider
+            return LocalHybridCaseProvider().search(CaseSourceSearchRequest(query=query, limit=top_k))
         request = CaseSourceSearchRequest(query=query, limit=top_k)
         if mode == "semantic":
             from .sources.semantic_local import LocalSemanticCaseProvider

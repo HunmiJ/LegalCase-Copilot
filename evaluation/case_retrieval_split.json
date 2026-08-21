@@ -1,0 +1,38 @@
+{
+  "dev_query_ids": [
+    "cq01",
+    "cq02",
+    "cq05",
+    "cq06",
+    "cq07",
+    "cq09",
+    "cq10",
+    "cq11",
+    "cq12",
+    "cq15",
+    "cq17",
+    "cq18",
+    "cq20",
+    "cq21",
+    "cq22",
+    "cq24",
+    "cq25",
+    "cq26",
+    "cq27",
+    "cq29"
+  ],
+  "test_query_ids": [
+    "cq03",
+    "cq04",
+    "cq08",
+    "cq13",
+    "cq14",
+    "cq16",
+    "cq19",
+    "cq23",
+    "cq28",
+    "cq30"
+  ],
+  "seed": 42,
+  "method": "deterministic stratified split by difficulty"
+}

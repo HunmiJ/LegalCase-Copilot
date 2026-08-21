@@ -17,9 +17,10 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("query")
     parser.add_argument("--top-k", type=int, default=10)
+    parser.add_argument("--mode", choices=("bm25", "semantic", "hybrid"), default="bm25")
     args = parser.parse_args()
     service = UnifiedCaseSearchService(official_providers=[PeopleCourtCaseLibraryProvider(), SupremeCourtOfficialProvider()])
-    results = service.search(args.query, args.top_k)
+    results = service.search(args.query, args.top_k, mode=args.mode)
     print(f"查询：{args.query}")
     for rank, result in enumerate(results, 1):
         print(f"\n[{rank}] {result.title}")
@@ -31,7 +32,13 @@ def main() -> None:
         print(f"裁判要旨：{result.case_gist or 'null'}")
         print(f"来源：{result.source_name}")
         print(f"source URL：{result.source_url or 'null'}")
-        print(f"BM25 score：{result.score:.6f}")
+        if args.mode == "hybrid":
+            print(f"hybrid score：{result.hybrid_score:.6f}")
+            print(f"BM25 score：{result.bm25_score if result.bm25_score is not None else 'null'}")
+            print(f"BM25 rank：{result.bm25_rank or 'null'}")
+            print(f"Semantic rank：{result.semantic_rank or 'null'}")
+        else:
+            print(f"BM25 score：{result.score:.6f}")
         print(f"retrieval_source：{result.retrieval_source}")
 
 
