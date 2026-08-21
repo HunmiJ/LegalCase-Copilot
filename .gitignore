@@ -38,3 +38,13 @@ build/
 
 # Runtime case-source cache (never curated corpus)
 data/cache/
+
+# V0.7.8 runtime archive is externally managed; keep downloaded and generated
+# corpus artifacts out of Git. The README and schema remain tracked.
+data/runtime/cases/raw/*
+!data/runtime/cases/raw/README.md
+data/runtime/cases/manifest.jsonl
+data/runtime/cases/collection_plan.json
+data/runtime/cases/collection_stats.json
+data/runtime/cases/processed/*
+!data/runtime/cases/processed/README.md

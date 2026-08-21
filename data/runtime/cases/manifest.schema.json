@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LegalCase Copilot V0.7.8 Runtime Manifest Entry",
+  "type": "object",
+  "required": [
+    "case_id", "database_case_number", "title", "source_url", "topic",
+    "discovery_query", "status", "pdf_path", "downloaded_at", "parsed",
+    "eligibility", "parse_error", "duplicate_of", "content_hash"
+  ],
+  "properties": {
+    "case_id": {"type": ["string", "null"]},
+    "database_case_number": {"type": ["string", "null"]},
+    "title": {"type": ["string", "null"]},
+    "source_url": {"type": ["string", "null"]},
+    "topic": {"type": ["string", "null"]},
+    "discovery_query": {"type": ["string", "null"]},
+    "status": {"enum": ["discovered", "download_pending", "downloaded", "parsed", "main", "auxiliary", "duplicate", "failed", "pending_retry"]},
+    "pdf_path": {"type": ["string", "null"]},
+    "downloaded_at": {"type": ["string", "null"]},
+    "parsed": {"type": "boolean"},
+    "eligibility": {"type": ["string", "null"]},
+    "parse_error": {"type": ["string", "null"]},
+    "duplicate_of": {"type": ["string", "null"]},
+    "content_hash": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
