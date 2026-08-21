@@ -46,5 +46,10 @@ data/runtime/cases/raw/*
 data/runtime/cases/manifest.jsonl
 data/runtime/cases/collection_plan.json
 data/runtime/cases/collection_stats.json
+data/runtime/cases/case_manifest.json
 data/runtime/cases/processed/*
 !data/runtime/cases/processed/README.md
+
+# Case-augmented RAG evaluation outputs
+evaluation/case_augmented_rag/results.json
+evaluation/case_augmented_rag/summary.md
