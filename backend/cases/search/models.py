@@ -30,6 +30,10 @@ class CaseSearchResult:
     bm25_rank: int | None = None
     bm25_score: float | None = None
     semantic_rank: int | None = None
+    reranker_score: float | None = None
+    original_hybrid_rank: int | None = None
+    final_rank: int | None = None
+    rank: int | None = None
 
     def __post_init__(self) -> None:
         if not self.case_id.strip() or not self.title.strip():

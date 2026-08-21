@@ -1,0 +1,14 @@
+[
+  {"query_id":"rv01","query":"下班后还要在手机上不断处理客户消息，这种加班怎么认定","primary_case_id":"2024-18-2-490-002","relevant_case_ids":["2024-18-2-490-002"],"topic":"隐形加班与传统加班","difficulty":"easy","label_rationale":"001涉及非工作时间通过微信等社交媒体提供实质工作。"},
+  {"query_id":"rv02","query":"公司实行特殊工时但我休息日实际到岗，有考勤能不能要加班费","primary_case_id":"2024-07-2-490-009","relevant_case_ids":["2024-07-2-490-009"],"topic":"隐形加班与传统加班","difficulty":"easy","label_rationale":"019涉及不定时工作制名义与实际休息日出勤、加班工资。"},
+  {"query_id":"rv03","query":"我只是普通厨师，没接触秘密，公司让我签竞业限制合法吗","primary_case_id":"2025-07-2-186-002","relevant_case_ids":["2025-07-2-186-002"],"topic":"竞业资格与违约","difficulty":"easy","label_rationale":"003核心是普通厨师是否属于竞业限制适用人员。"},
+  {"query_id":"rv04","query":"已经领取竞业补偿，后来通过家人投资竞争公司会承担什么责任","primary_case_id":"2024-07-2-490-006","relevant_case_ids":["2024-07-2-490-006"],"topic":"竞业资格与违约","difficulty":"medium","label_rationale":"015涉及竞业补偿、配偶投资竞争企业及违约责任。"},
+  {"query_id":"rv05","query":"老师收了孩子一点小礼物就被辞退，单位这样解除合同合理吗","primary_case_id":"2024-18-2-490-003","relevant_case_ids":["2024-18-2-490-003"],"topic":"不同类型违法解除","difficulty":"medium","label_rationale":"002涉及幼儿教师收取少量零食后被解除及解除合法性。"},
+  {"query_id":"rv06","query":"绩效排名最后就能证明员工不能胜任工作并把人开除吗","primary_case_id":"2013-18-2-186-001","relevant_case_ids":["2013-18-2-186-001"],"topic":"不同类型违法解除","difficulty":"medium","label_rationale":"016涉及末位考核不等同于不能胜任工作及解除合法性。"},
+  {"query_id":"rv07","query":"平台说签的是承揽协议，但用算法和奖惩规则一直管理我，算不算劳动关系","primary_case_id":"2024-18-2-186-001","relevant_case_ids":["2024-18-2-186-001"],"topic":"不同劳动关系认定","difficulty":"medium","label_rationale":"007涉及平台以承揽协议安排用工但存在支配性劳动管理。"},
+  {"query_id":"rv08","query":"我签了自愿不交社保的声明，离职时还能要求公司补偿吗","primary_case_id":"2026-07-2-533-001","relevant_case_ids":["2026-07-2-533-001"],"topic":"社保与经济补偿","difficulty":"medium","label_rationale":"013涉及放弃社保约定的效力、未缴社保解除及补偿。"},
+  {"query_id":"rv09","query":"休息日有打卡记录却被说成线上隐形加班，应该参考哪类案件","primary_case_id":"2024-07-2-490-009","relevant_case_ids":["2024-07-2-490-009","2024-18-2-490-002"],"topic":"隐形加班与传统加班","difficulty":"hard","label_rationale":"019对应有考勤的休息日出勤，001对应线上隐形加班，二者是同主题竞争案例。"},
+  {"query_id":"rv10","query":"签竞业协议的人后来去了同行，既要看他是否接触秘密也要看有没有拿补偿吗","primary_case_id":"2025-07-2-186-002","relevant_case_ids":["2025-07-2-186-002","2024-07-2-490-006"],"topic":"竞业资格与违约","difficulty":"hard","label_rationale":"003侧重竞业适用资格，015侧重领取补偿后的竞业违约，均对应问题的不同判断层次。"},
+  {"query_id":"rv11","query":"平台要求注册个体户或签合作协议，还用规则安排工作，劳动关系该怎么判断","primary_case_id":"2024-18-2-186-002","relevant_case_ids":["2024-18-2-186-002","2024-18-2-186-001"],"topic":"不同劳动关系认定","difficulty":"hard","label_rationale":"008涉及个体工商户与平台用工，007涉及合作或承揽协议与支配性管理。"},
+  {"query_id":"rv12","query":"公司少缴社保导致待遇受损，我能不能解除合同并要补偿或差额","primary_case_id":"2026-07-2-533-001","relevant_case_ids":["2026-07-2-533-001","2023-16-2-490-007","2023-16-2-186-002"],"topic":"社保与经济补偿","difficulty":"hard","label_rationale":"013对应未缴社保解除补偿，017对应工伤待遇差额，023涉及社保工资差额与被迫解除。"}
+]

@@ -20,14 +20,15 @@ class UnifiedCaseSearchService:
     def __init__(self, local_provider: LocalCuratedCaseProvider | None = None, official_providers: list[CaseSourceProvider] | None = None) -> None:
         self.local_provider = local_provider or LocalCuratedCaseProvider()
         self.official_providers = official_providers or []
+        self.last_reranker_status = "not_used"
         self.provider_status = [
             ProviderStatus(provider.name, bool(getattr(provider, "search_available", True)), getattr(provider, "provider_status", "unknown"))
             for provider in self.official_providers
         ]
 
-    def search(self, query: str, top_k: int = 10, sources: list[str] | None = None, mode: str = "bm25") -> list[CaseSearchResult]:
-        if mode not in {"bm25", "semantic", "hybrid"}:
-            raise ValueError("mode must be bm25, semantic, or hybrid")
+    def search(self, query: str, top_k: int = 10, sources: list[str] | None = None, mode: str = "hybrid") -> list[CaseSearchResult]:
+        if mode not in {"bm25", "semantic", "hybrid", "reranked"}:
+            raise ValueError("mode must be bm25, semantic, hybrid, or reranked")
         if mode == "hybrid":
             from .sources.hybrid_local import LocalHybridCaseProvider
             return LocalHybridCaseProvider().search(CaseSourceSearchRequest(query=query, limit=top_k))
@@ -35,6 +36,12 @@ class UnifiedCaseSearchService:
         if mode == "semantic":
             from .sources.semantic_local import LocalSemanticCaseProvider
             return LocalSemanticCaseProvider().search(request)
+        if mode == "reranked":
+            from .sources.reranked_local import LocalRerankedCaseProvider
+            provider = LocalRerankedCaseProvider()
+            results = provider.search(request)
+            self.last_reranker_status = "available" if provider.reranker_available else f"unavailable: {provider.unavailable_reason}"
+            return results
         results: list[CaseSearchResult] = []
         selected = [provider for provider in self.official_providers if not sources or provider.name in sources]
         for provider in selected:

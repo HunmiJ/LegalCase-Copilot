@@ -1,0 +1,93 @@
+{
+  "model": "BAAI/bge-reranker-base",
+  "candidate_depth": 3,
+  "validation_query_count": 12,
+  "validation_query_sha256": "ccf5bd80b889d9acc4a09b26d28a257dc376b6e7964face36f4bc682982fe882",
+  "model_load_ms": 1870.0489000184461,
+  "validation": {
+    "hybrid": {
+      "count": 12,
+      "metrics": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0,
+        "nDCG@3": 1.0
+      },
+      "latency_ms": {
+        "average": 11.879916656956388,
+        "p50": 10.76079998165369,
+        "p95": 23.43140001175925
+      }
+    },
+    "reranked": {
+      "count": 12,
+      "metrics": {
+        "Recall@1": 0.9166666666666666,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9583333333333334,
+        "nDCG@3": 0.9625542118933037
+      },
+      "latency_ms": {
+        "average": 741.4296833400537,
+        "p50": 715.1587000116706,
+        "p95": 847.9679999873042
+      }
+    },
+    "fixed_queries": [],
+    "broken_queries": [
+      "rv07"
+    ],
+    "unchanged_queries": [
+      "rv01",
+      "rv02",
+      "rv03",
+      "rv04",
+      "rv05",
+      "rv06",
+      "rv08",
+      "rv09",
+      "rv10",
+      "rv11",
+      "rv12"
+    ],
+    "net_top1_gain": -1
+  },
+  "full_30_descriptive": {
+    "hybrid": {
+      "count": 30,
+      "metrics": {
+        "Recall@1": 0.9666666666666667,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9833333333333333,
+        "nDCG@5": 0.9673094650101226
+      },
+      "latency_ms": {
+        "average": 10.583006666274741,
+        "p50": 10.34909998998046,
+        "p95": 13.477400003466755
+      }
+    },
+    "reranked": {
+      "count": 30,
+      "metrics": {
+        "Recall@1": 0.9666666666666667,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 0.9833333333333333,
+        "nDCG@5": 0.9466145699498827
+      },
+      "latency_ms": {
+        "average": 733.9658466652812,
+        "p50": 721.7586999759078,
+        "p95": 811.8301999638788
+      }
+    }
+  },
+  "limitations": [
+    "Full-30 was used during earlier retrieval development and is descriptive, not a new independent test.",
+    "Reranker sees only the frozen Hybrid Top3."
+  ]
+}
