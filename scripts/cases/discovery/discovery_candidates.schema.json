@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "source_url",
+      "title",
+      "keyword",
+      "page",
+      "source_domain",
+      "discovered_at",
+      "status"
+    ],
+    "properties": {
+      "source_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://rmfyalk\\.court\\.gov\\.cn/"
+      },
+      "title": { "type": "string", "minLength": 1 },
+      "keyword": { "type": "string", "minLength": 1 },
+      "page": { "type": "integer", "minimum": 1 },
+      "source_domain": {
+        "type": "string",
+        "const": "rmfyalk.court.gov.cn"
+      },
+      "discovered_at": { "type": "string", "minLength": 1 },
+      "status": { "type": "string", "enum": ["candidate", "discovered"] }
+    }
+  }
+}
