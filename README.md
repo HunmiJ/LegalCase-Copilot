@@ -25,21 +25,29 @@ LegalCase-Copilot 是一个面向劳动争议场景的法律信息检索与类�
 
 Streamlit Demo 在同一页面提供两种模式：法规检索、法规 + 类案增强。页面会展示 provider 和 corpus 状态、结构化回答、完整法律分析、LAW/CASE citation metadata、风险提示、置信度，以及不伪造 AI 结论的 retrieval-only fallback。
 
-### 首页
+### 首页与运行模式
 
-<a href="docs/images/demo-home.png"><img src="docs/images/demo-home.png" alt="LegalCase-Copilot Demo 首页" width="900"></a>
+首页展示分析模式选择、法规库/案例库状态、问题输入框和示例问题。点击图片可查看原图。
 
-### 法规检索结果
+<a href="docs/images/demo-home.png"><img src="docs/images/demo-home.png" alt="LegalCase-Copilot 首页与运行模式" width="1000"></a>
 
-<a href="docs/images/demo-law-only-success.png"><img src="docs/images/demo-law-only-success.png" alt="法规检索模式真实生成结果" width="900"></a>
+### 法规检索与引用结果
 
-### 法规 + 类案增强结果
+法规-only 模式展示真实生成的结论、法律分析，以及可展开的 LAW citation 元数据。
 
-<a href="docs/images/demo-case-augmented-success.png"><img src="docs/images/demo-case-augmented-success.png" alt="法规与类案增强模式真实生成结果" width="900"></a>
+<a href="docs/images/demo-law-only-success.png"><img src="docs/images/demo-law-only-success.png" alt="法规检索与 LAW citation 结果" width="1000"></a>
 
-### 安全 fallback
+### 法规 + 类案增强分析结果
 
-<a href="docs/images/demo-fallback.png"><img src="docs/images/demo-fallback.png" alt="生成失败时的安全 fallback" width="900"></a>
+类案增强模式同时展示 LAW/CASE citation，以及案例标题、法院、日期、争议焦点和裁判结果摘要。
+
+<a href="docs/images/demo-case-augmented-success.png"><img src="docs/images/demo-case-augmented-success.png" alt="法规与类案增强分析结果" width="1000"></a>
+
+### 安全 Retrieval-only Fallback
+
+生成失败时，页面明确标注安全降级状态，只展示检索到的证据，不把检索文本拼接成虚假回答。
+
+<a href="docs/images/demo-fallback.png"><img src="docs/images/demo-fallback.png" alt="安全 Retrieval-only Fallback" width="1000"></a>
 
 生成失败时，页面会明确标注“AI 分析暂时未生成成功”，只展示检索到的证据，不使用检索文本拼接虚假回答，也不伪造 confidence。详细启动方式见 [Demo 使用说明](docs/demo.md)。
 
