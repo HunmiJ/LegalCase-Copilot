@@ -25,11 +25,11 @@ See the [Web Demo guide](docs/demo.md) for the additional law-only and fallback 
 ## Key Features
 
 - Hybrid sparse+dense retrieval
-- Cross-encoder reranking with \`BAAI/bge-reranker-base\`
+- Cross-encoder reranking with `BAAI/bge-reranker-base`
 - Configurable full-case corpus integration
 - Case-Augmented RAG with separate law and case evidence
 - Grounded structured generation with bounded retries
-- Deterministic \`LAW-*\` and \`CASE-*\` citation namespaces
+- Deterministic `LAW-*` and `CASE-*` citation namespaces
 - Citation metadata rendering and validation against retrieved context
 - Unsupported article-number sanitization
 - Safe refusal and retrieval-only fallback
@@ -37,7 +37,7 @@ See the [Web Demo guide](docs/demo.md) for the additional law-only and fallback 
 
 ## System Architecture
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     Q[User Query] --> P[Query Processing]
     P --> R[BM25 + Dense Retrieval]
@@ -52,7 +52,7 @@ flowchart TD
     N --> S[Article Sanitizer]
     S --> V[Citation Validator]
     V --> A[Structured Answer<br/>LAW / CASE Metadata]
-\`\`\`
+```
 
 ## Dataset & Corpus
 
@@ -81,7 +81,7 @@ Because of size, provenance, and licensing considerations, the production corpus
 
 ## Case-Augmented RAG
 
-Law evidence and similar-case evidence are retrieved separately and combined into a bounded generation context. Responses may cite laws with \`LAW-*\` identifiers and cases with \`CASE-*\` identifiers. Case metadata is rendered from retrieved records rather than copied from opaque model output.
+Law evidence and similar-case evidence are retrieved separately and combined into a bounded generation context. Responses may cite laws with `LAW-*` identifiers and cases with `CASE-*` identifiers. Case metadata is rendered from retrieved records rather than copied from opaque model output.
 
 ## Safety & Citation Validation
 
@@ -124,44 +124,44 @@ Unsupported citation count was 0 in both modes. Citation validity is calculated 
 
 From the repository root:
 
-\`\`\`powershell
+```powershell
 python -m venv .venv
 .\\.venv\\Scripts\\Activate.ps1
 python -m pip install -r requirements.txt
 python -m pip install -r frontend_demo/requirements.txt
-\`\`\`
+```
 
-Copy \`.env.example\` to \`.env\`. The default mock provider is offline. For a permitted real provider, configure locally:
+Copy `.env.example` to `.env`. The default mock provider is offline. For a permitted real provider, configure locally:
 
-\`\`\`text
+```text
 LEGALCASE_LLM_PROVIDER=real
 LEGALCASE_LLM_API_KEY=<your-local-key>
 LEGALCASE_LLM_BASE_URL=<your-provider-base-url>
 LEGALCASE_LLM_MODEL=<your-model-name>
 LEGALCASE_LLM_TIMEOUT=30
-\`\`\`
+```
 
-Never commit \`.env\` or real credentials. The law-only mode requires permitted structured law records prepared locally; complete law text and its indexes are not bundled. Case-augmented production mode additionally requires \`cases.jsonl\`, \`case_embeddings.npy\`, and \`case_embedding_index.json\` under \`data/processed/full_cases/\`, or an equivalent \`CASE_CORPUS_PATH\`. The repository does not download these files automatically; when absent, the Demo keeps law-only mode available and marks production case augmentation unavailable.
+Never commit `.env` or real credentials. The law-only mode requires permitted structured law records prepared locally; complete law text and its indexes are not bundled. Case-augmented production mode additionally requires `cases.jsonl`, `case_embeddings.npy`, and `case_embedding_index.json` under `data/processed/full_cases/`, or an equivalent `CASE_CORPUS_PATH`. The repository does not download these files automatically; when absent, the Demo keeps law-only mode available and marks production case augmentation unavailable.
 
 Start the Web Demo:
 
-\`\`\`powershell
+```powershell
 powershell -ExecutionPolicy Bypass -File scripts/run_web_demo.ps1 -Port 8503
-\`\`\`
+```
 
-Open <http://localhost:8503>. The script defaults to port 8501 without \`-Port\`.
+Open <http://localhost:8503>. The script defaults to port 8501 without `-Port`.
 
 Run tests:
 
-\`\`\`powershell
+```powershell
 python -m pytest tests
-\`\`\`
+```
 
 The current regression baseline is 174 passing tests with one environment-specific pytest cache warning.
 
 ## Project Structure
 
-\`\`\`text
+```text
 backend/        # Providers, search, RAG, generation, and validation
 data/           # Local source and processed artifacts; production corpus is external
 docs/           # Architecture, demo, provenance, and evaluation documentation
@@ -169,7 +169,7 @@ evaluation/     # Reproducible benchmark runners and frozen metrics
 frontend_demo/  # Streamlit presentation layer
 scripts/        # Retrieval, indexing, and demo utilities
 tests/          # Unit and integration tests
-\`\`\`
+```
 
 ## Limitations
 
