@@ -1,0 +1,1355 @@
+{
+  "original_query": "劳务派遣工被派到别的单位有什么限制",
+  "structured_understanding": {
+    "original_query": "劳务派遣工被派到别的单位有什么限制",
+    "domain": "劳动争议",
+    "issue": "竞业限制、经济补偿、违约",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "竞业限制",
+      "经济补偿",
+      "违约",
+      "劳务派遣",
+      "用工单位",
+      "派遣单位"
+    ],
+    "search_queries": [
+      "劳务派遣工被派到别的单位有什么限制",
+      "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+      "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "劳务派遣工被派到别的单位有什么限制",
+    "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+    "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第五十八条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第五十九条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "118f561cefd72bb49f5e",
+    "bbe3c41f64841060367e"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "118f561cefd72bb49f5e": 6,
+      "bbe3c41f64841060367e": 3
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 36,
+      "reranking_candidate_count": 36,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 113,
+      "reranking_candidate_count": 113,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "118f561cefd72bb49f5e": 15,
+      "bbe3c41f64841060367e": 4
+    }
+  },
+  "query_understanding_latency_ms": 0.000500003807246685,
+  "multi_query_retrieval_latency_ms": 31.186900014290586,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "7a73146bdc9e31c48e72",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十七条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "7a73146bdc9e31c48e72",
+        "rank": 1,
+        "similarity_score": 0.6731064319610596,
+        "reranker_score": 0.9902347326278687,
+        "final_rank": 1
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "37d603c79fa15eb7b176",
+        "rank": 2,
+        "similarity_score": 0.6624241471290588,
+        "reranker_score": 0.9817802309989929,
+        "final_rank": 2
+      },
+      {
+        "id": "ba0eb5a2f481dede721c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "ba0eb5a2f481dede721c",
+        "rank": 3,
+        "similarity_score": 0.6967918872833252,
+        "reranker_score": 0.9787936210632324,
+        "final_rank": 3
+      },
+      {
+        "id": "cc6ef5e1e07a350b26e1",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十八条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "cc6ef5e1e07a350b26e1",
+        "rank": 4,
+        "similarity_score": 0.6657068729400635,
+        "reranker_score": 0.9737028479576111,
+        "final_rank": 4
+      },
+      {
+        "id": "16e4b463a51f7af7d944",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "16e4b463a51f7af7d944",
+        "rank": 5,
+        "similarity_score": 0.6855385303497314,
+        "reranker_score": 0.963019847869873,
+        "final_rank": 5
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "rank": 6,
+        "similarity_score": 0.6883280873298645,
+        "reranker_score": 0.9590254426002502,
+        "final_rank": 6
+      },
+      {
+        "id": "91a082f4f444612764e6",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "91a082f4f444612764e6",
+        "rank": 7,
+        "similarity_score": 0.6235229969024658,
+        "reranker_score": 0.9297691583633423,
+        "final_rank": 7
+      },
+      {
+        "id": "38f92e2084a2107c6f4e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "38f92e2084a2107c6f4e",
+        "rank": 8,
+        "similarity_score": 0.6894282102584839,
+        "reranker_score": 0.9218298196792603,
+        "final_rank": 8
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "bbe3c41f64841060367e",
+        "rank": 9,
+        "similarity_score": 0.6887221336364746,
+        "reranker_score": 0.9170801043510437,
+        "final_rank": 9
+      },
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "856ff4352cf88c807cfb",
+        "rank": 10,
+        "similarity_score": 0.6485642194747925,
+        "reranker_score": 0.9003917574882507,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "7a73146bdc9e31c48e72",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十七条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.71052283537728,
+        "rank": 1,
+        "canonical_id": "7a73146bdc9e31c48e72",
+        "bm25_rank": 9,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6731064319610596,
+        "rrf_score": 0.029418126757516764,
+        "hybrid_rank": 9,
+        "reranker_score": 0.9902347326278687,
+        "final_rank": 1
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 10.5455376785855,
+        "rank": 2,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "bm25_rank": 18,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6624241471290588,
+        "rrf_score": 0.027313266443701224,
+        "hybrid_rank": 14,
+        "reranker_score": 0.9817802309989929,
+        "final_rank": 2
+      },
+      {
+        "id": "ba0eb5a2f481dede721c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.164864606020805,
+        "rank": 3,
+        "canonical_id": "ba0eb5a2f481dede721c",
+        "bm25_rank": 13,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6967918872833252,
+        "rrf_score": 0.03009207275993712,
+        "hybrid_rank": 6,
+        "reranker_score": 0.9787936210632324,
+        "final_rank": 3
+      },
+      {
+        "id": "cc6ef5e1e07a350b26e1",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十八条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 13.909088040524692,
+        "rank": 4,
+        "canonical_id": "cc6ef5e1e07a350b26e1",
+        "bm25_rank": 4,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.6657068729400635,
+        "rrf_score": 0.030330882352941176,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9737028479576111,
+        "final_rank": 4
+      },
+      {
+        "id": "16e4b463a51f7af7d944",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 13.166638547968372,
+        "rank": 5,
+        "canonical_id": "16e4b463a51f7af7d944",
+        "bm25_rank": 7,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6855385303497314,
+        "rrf_score": 0.030309988518943745,
+        "hybrid_rank": 4,
+        "reranker_score": 0.963019847869873,
+        "final_rank": 5
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 11.760370224915317,
+        "rank": 6,
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "bm25_rank": 16,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6883280873298645,
+        "rrf_score": 0.028782894736842105,
+        "hybrid_rank": 10,
+        "reranker_score": 0.9590254426002502,
+        "final_rank": 6
+      },
+      {
+        "id": "91a082f4f444612764e6",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.188516463239997,
+        "rank": 7,
+        "canonical_id": "91a082f4f444612764e6",
+        "bm25_rank": 21,
+        "semantic_rank": 17,
+        "semantic_similarity": 0.6235229969024658,
+        "rrf_score": 0.025332691999358666,
+        "hybrid_rank": 18,
+        "reranker_score": 0.9297691583633423,
+        "final_rank": 7
+      },
+      {
+        "id": "38f92e2084a2107c6f4e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 15.341548418189129,
+        "rank": 8,
+        "canonical_id": "38f92e2084a2107c6f4e",
+        "bm25_rank": 1,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6894282102584839,
+        "rrf_score": 0.03252247488101534,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9218299388885498,
+        "final_rank": 8
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 14.597577665648762,
+        "rank": 9,
+        "canonical_id": "bbe3c41f64841060367e",
+        "bm25_rank": 3,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6887221336364746,
+        "rrf_score": 0.031746031746031744,
+        "hybrid_rank": 2,
+        "reranker_score": 0.9170802235603333,
+        "final_rank": 9
+      },
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.039689515199228,
+        "rank": 10,
+        "canonical_id": "856ff4352cf88c807cfb",
+        "bm25_rank": 14,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6485642194747925,
+        "rrf_score": 0.027598020555767037,
+        "hybrid_rank": 13,
+        "reranker_score": 0.9003917574882507,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "7a73146bdc9e31c48e72",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十七条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.71052283537728,
+        "rank": 1,
+        "canonical_id": "7a73146bdc9e31c48e72",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 9
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 19
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 12.71052283537728
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 21.4242742623499
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 14.32831832006731
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 7
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 22
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6731064319610596
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5788049697875977
+          }
+        ],
+        "pre_rerank_score": 0.06778499007035106,
+        "bm25_rank": 9,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6731064319610596,
+        "pre_rerank_rank": 20,
+        "reranker_score": 0.9902347326278687,
+        "final_rank": 1
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 10.5455376785855,
+        "rank": 2,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 18
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 27
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 10.5455376785855
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 17.50078781511439
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 12.069605540919664
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 9
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 15
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 38
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6624241471290588
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5931283235549927
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 0.5770370960235596
+          }
+        ],
+        "pre_rerank_score": 0.07533194727026382,
+        "bm25_rank": 17,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6624241471290588,
+        "pre_rerank_rank": 11,
+        "reranker_score": 0.9817802309989929,
+        "final_rank": 2
+      },
+      {
+        "id": "ba0eb5a2f481dede721c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.164864606020805,
+        "rank": 3,
+        "canonical_id": "ba0eb5a2f481dede721c",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 13
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 12.164864606020805
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 23.518488288494314
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 16.79623800449844
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 1
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 12
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6967918872833252
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.6180069446563721
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 0.5968687534332275
+          }
+        ],
+        "pre_rerank_score": 0.08817739022025459,
+        "bm25_rank": 10,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6967918872833252,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.9787936210632324,
+        "final_rank": 3
+      },
+      {
+        "id": "cc6ef5e1e07a350b26e1",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十八条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 13.909088040524692,
+        "rank": 4,
+        "canonical_id": "cc6ef5e1e07a350b26e1",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 4
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 12
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 16
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 13.909088040524692
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 22.820328285823745
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 15.670351316209285
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 8
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 26
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6657068729400635
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5716661810874939
+          }
+        ],
+        "pre_rerank_score": 0.06900557295541634,
+        "bm25_rank": 4,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.6657068729400635,
+        "pre_rerank_rank": 18,
+        "reranker_score": 0.9737028479576111,
+        "final_rank": 4
+      },
+      {
+        "id": "16e4b463a51f7af7d944",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 13.166638547968372,
+        "rank": 5,
+        "canonical_id": "16e4b463a51f7af7d944",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 7
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 13.166638547968372
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 24.30612139957902
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 17.648815906338665
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 5
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 19
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6855385303497314
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5830600261688232
+          }
+        ],
+        "pre_rerank_score": 0.07304510465288852,
+        "bm25_rank": 6,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6855385303497314,
+        "pre_rerank_rank": 13,
+        "reranker_score": 0.963019847869873,
+        "final_rank": 5
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 11.760370224915317,
+        "rank": 6,
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 16
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 13
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 14
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 11.760370224915317
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 22.691980678203635
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 16.000564647241752
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 4
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 26
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6883280873298645
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.6004535555839539
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 0.5832873582839966
+          }
+        ],
+        "pre_rerank_score": 0.08170745240633961,
+        "bm25_rank": 13,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6883280873298645,
+        "pre_rerank_rank": 7,
+        "reranker_score": 0.9590254426002502,
+        "final_rank": 6
+      },
+      {
+        "id": "91a082f4f444612764e6",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.188516463239997,
+        "rank": 7,
+        "canonical_id": "91a082f4f444612764e6",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 21
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 18
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 24
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 8.188516463239997
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 17.30288944079043
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 13.37042610316923
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 17
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 42
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6235229969024658
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5489692687988281
+          }
+        ],
+        "pre_rerank_score": 0.05986188829326084,
+        "bm25_rank": 18,
+        "semantic_rank": 17,
+        "semantic_similarity": 0.6235229969024658,
+        "pre_rerank_rank": 29,
+        "reranker_score": 0.9297692775726318,
+        "final_rank": 7
+      },
+      {
+        "id": "38f92e2084a2107c6f4e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 15.341548418189129,
+        "rank": 8,
+        "canonical_id": "38f92e2084a2107c6f4e",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 1
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 1
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 15.341548418189129
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 28.34407979159753
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 19.648493850561277
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 2
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 44
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6894282102584839
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5966869592666626
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 0.5723777413368225
+          }
+        ],
+        "pre_rerank_score": 0.08843825825581511,
+        "bm25_rank": 1,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6894282102584839,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.9218299388885498,
+        "final_rank": 8
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 14.597577665648762,
+        "rank": 9,
+        "canonical_id": "bbe3c41f64841060367e",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 3
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 14.597577665648762
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 27.522157410833152
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 19.08207673016687
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 3
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 48
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6887221336364746
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5862011909484863
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 0.5711504220962524
+          }
+        ],
+        "pre_rerank_score": 0.08625036850843303,
+        "bm25_rank": 2,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6887221336364746,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.9170801043510437,
+        "final_rank": 9
+      },
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.039689515199228,
+        "rank": 10,
+        "canonical_id": "856ff4352cf88c807cfb",
+        "matched_queries": [
+          "劳务派遣工被派到别的单位有什么限制",
+          "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+          "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 14
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "rank": 12
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 12.039689515199228
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 24.547548212212995
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约 劳务派遣 用工单位",
+            "score": 16.590342852186595
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "rank": 11
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "rank": 28
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣工被派到别的单位有什么限制",
+            "score": 0.6485642194747925
+          },
+          {
+            "query": "竞业限制 经济补偿 违约 劳务派遣 用工单位 派遣单位",
+            "score": 0.5706679821014404
+          }
+        ],
+        "pre_rerank_score": 0.06823516119290768,
+        "bm25_rank": 5,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6485642194747925,
+        "pre_rerank_rank": 19,
+        "reranker_score": 0.9003917574882507,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "118f561cefd72bb49f5e": null,
+      "bbe3c41f64841060367e": 9
+    },
+    "v04_reranked": {
+      "118f561cefd72bb49f5e": null,
+      "bbe3c41f64841060367e": 9
+    },
+    "v05_multi_query_reranked": {
+      "118f561cefd72bb49f5e": null,
+      "bbe3c41f64841060367e": 9
+    }
+  }
+}

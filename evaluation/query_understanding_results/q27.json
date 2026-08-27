@@ -1,0 +1,1199 @@
+{
+  "original_query": "劳动合同里必须写社会保险吗",
+  "structured_understanding": {
+    "original_query": "劳动合同里必须写社会保险吗",
+    "domain": "劳动争议",
+    "issue": "社会保险、劳动合同必备条款",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "社会保险",
+      "劳动合同必备条款"
+    ],
+    "search_queries": [
+      "劳动合同里必须写社会保险吗",
+      "社会保险 劳动合同必备条款",
+      "劳动争议 社会保险 劳动合同必备条款"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "劳动合同里必须写社会保险吗",
+    "社会保险 劳动合同必备条款",
+    "劳动争议 社会保险 劳动合同必备条款"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "ff87e15e88ccc1b48657"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "ff87e15e88ccc1b48657": 11
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 62,
+      "reranking_candidate_count": 62,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 146,
+      "reranking_candidate_count": 146,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "ff87e15e88ccc1b48657": 2
+    }
+  },
+  "query_understanding_latency_ms": 0.000300002284348011,
+  "multi_query_retrieval_latency_ms": 30.20690000266768,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "ff87e15e88ccc1b48657",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "ff87e15e88ccc1b48657",
+        "rank": 1,
+        "similarity_score": 0.6304991245269775,
+        "reranker_score": 0.9923979640007019,
+        "final_rank": 1
+      },
+      {
+        "id": "21dd40b5b4e4644cac81",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十二条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "21dd40b5b4e4644cac81",
+        "rank": 2,
+        "similarity_score": 0.6175943613052368,
+        "reranker_score": 0.982139527797699,
+        "final_rank": 2
+      },
+      {
+        "id": "3039e6bfe82c444d4272",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "3039e6bfe82c444d4272",
+        "rank": 3,
+        "similarity_score": 0.6317068934440613,
+        "reranker_score": 0.9763435125350952,
+        "final_rank": 3
+      },
+      {
+        "id": "194d586c165803f1dc04",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "194d586c165803f1dc04",
+        "rank": 4,
+        "similarity_score": 0.5963300466537476,
+        "reranker_score": 0.9173663258552551,
+        "final_rank": 4
+      },
+      {
+        "id": "cf917bb431c92d8a01e3",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十二条",
+        "chapter": "第九章社会保险和福利",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "cf917bb431c92d8a01e3",
+        "rank": 5,
+        "similarity_score": 0.6412354111671448,
+        "reranker_score": 0.884207010269165,
+        "final_rank": 5
+      },
+      {
+        "id": "f374fcffdb30d870665b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f374fcffdb30d870665b",
+        "rank": 6,
+        "similarity_score": 0.6349965929985046,
+        "reranker_score": 0.8382130265235901,
+        "final_rank": 6
+      },
+      {
+        "id": "afb4eb53621272f8f9cc",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "afb4eb53621272f8f9cc",
+        "rank": 7,
+        "similarity_score": 0.6095192432403564,
+        "reranker_score": 0.7344244122505188,
+        "final_rank": 7
+      },
+      {
+        "id": "6b9f0a124dd149f36d50",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "6b9f0a124dd149f36d50",
+        "rank": 8,
+        "similarity_score": 0.6143407225608826,
+        "reranker_score": 0.7272174954414368,
+        "final_rank": 8
+      },
+      {
+        "id": "b48d6bee2ea02709f19d",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十三条",
+        "chapter": "第九章社会保险和福利",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "b48d6bee2ea02709f19d",
+        "rank": 9,
+        "similarity_score": 0.6148966550827026,
+        "reranker_score": 0.6690350770950317,
+        "final_rank": 9
+      },
+      {
+        "id": "cbbdd4e5e53849379352",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十三条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "cbbdd4e5e53849379352",
+        "rank": 10,
+        "similarity_score": 0.6387556195259094,
+        "reranker_score": 0.6470725536346436,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "ff87e15e88ccc1b48657",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.651522129542281,
+        "rank": 1,
+        "canonical_id": "ff87e15e88ccc1b48657",
+        "bm25_rank": 26,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6304991245269775,
+        "rrf_score": 0.02571241401899771,
+        "hybrid_rank": 8,
+        "reranker_score": 0.9923979640007019,
+        "final_rank": 1
+      },
+      {
+        "id": "21dd40b5b4e4644cac81",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十二条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 3.407762614511382,
+        "rank": 2,
+        "canonical_id": "21dd40b5b4e4644cac81",
+        "bm25_rank": 20,
+        "semantic_rank": 18,
+        "semantic_similarity": 0.6175943613052368,
+        "rrf_score": 0.02532051282051282,
+        "hybrid_rank": 9,
+        "reranker_score": 0.982139527797699,
+        "final_rank": 2
+      },
+      {
+        "id": "3039e6bfe82c444d4272",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "3039e6bfe82c444d4272",
+        "rank": 3,
+        "similarity_score": 0.6317068934440613,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6317068934440613,
+        "rrf_score": 0.014285714285714285,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 26,
+        "reranker_score": 0.9763435125350952,
+        "final_rank": 3
+      },
+      {
+        "id": "26603fbc041afdc4731e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.473494768994634,
+        "rank": 4,
+        "canonical_id": "26603fbc041afdc4731e",
+        "bm25_rank": 8,
+        "rrf_score": 0.014705882352941176,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 23,
+        "reranker_score": 0.9699232578277588,
+        "final_rank": 4
+      },
+      {
+        "id": "194d586c165803f1dc04",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.924580506495841,
+        "rank": 5,
+        "canonical_id": "194d586c165803f1dc04",
+        "bm25_rank": 24,
+        "semantic_rank": 36,
+        "semantic_similarity": 0.5963300466537476,
+        "rrf_score": 0.02232142857142857,
+        "hybrid_rank": 14,
+        "reranker_score": 0.9173663258552551,
+        "final_rank": 5
+      },
+      {
+        "id": "cf917bb431c92d8a01e3",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十二条",
+        "chapter": "第九章社会保险和福利",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 9.541664957499211,
+        "rank": 6,
+        "canonical_id": "cf917bb431c92d8a01e3",
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6412354111671448,
+        "rrf_score": 0.032266458495966696,
+        "hybrid_rank": 1,
+        "reranker_score": 0.884207010269165,
+        "final_rank": 6
+      },
+      {
+        "id": "ada01fb90cdc44ccfbba",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十四条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.414126033665103,
+        "rank": 7,
+        "canonical_id": "ada01fb90cdc44ccfbba",
+        "bm25_rank": 30,
+        "rrf_score": 0.011111111111111112,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 53,
+        "reranker_score": 0.8531568646430969,
+        "final_rank": 7
+      },
+      {
+        "id": "f374fcffdb30d870665b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f374fcffdb30d870665b",
+        "rank": 8,
+        "similarity_score": 0.6349965929985046,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.6349965929985046,
+        "rrf_score": 0.014705882352941176,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 24,
+        "reranker_score": 0.8382130265235901,
+        "final_rank": 8
+      },
+      {
+        "id": "afb4eb53621272f8f9cc",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "afb4eb53621272f8f9cc",
+        "rank": 9,
+        "similarity_score": 0.6095192432403564,
+        "semantic_rank": 22,
+        "semantic_similarity": 0.6095192432403564,
+        "rrf_score": 0.012195121951219513,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 40,
+        "reranker_score": 0.7344244122505188,
+        "final_rank": 9
+      },
+      {
+        "id": "6b9f0a124dd149f36d50",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "6b9f0a124dd149f36d50",
+        "rank": 10,
+        "similarity_score": 0.6143407225608826,
+        "semantic_rank": 20,
+        "semantic_similarity": 0.6143407225608826,
+        "rrf_score": 0.0125,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 37,
+        "reranker_score": 0.7272174954414368,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "ff87e15e88ccc1b48657",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.651522129542281,
+        "rank": 1,
+        "canonical_id": "ff87e15e88ccc1b48657",
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 26
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 3
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 2.651522129542281
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 10.580078562773336
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 11.876974175359518
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 11
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 8
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.6304991245269775
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.6454148292541504
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 0.6307382583618164
+          }
+        ],
+        "pre_rerank_score": 0.08854937676108379,
+        "bm25_rank": 2,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6304991245269775,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.9923979640007019,
+        "final_rank": 1
+      },
+      {
+        "id": "21dd40b5b4e4644cac81",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十二条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 3.407762614511382,
+        "rank": 2,
+        "canonical_id": "21dd40b5b4e4644cac81",
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 20
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 18
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 17
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 3.407762614511382
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 3.407762614511382
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 5.041402075858954
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 18
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 10
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.6175943613052368
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.6436405181884766
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 0.6292142868041992
+          }
+        ],
+        "pre_rerank_score": 0.08128676878676878,
+        "bm25_rank": 17,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6175943613052368,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.982139527797699,
+        "final_rank": 2
+      },
+      {
+        "id": "3039e6bfe82c444d4272",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "3039e6bfe82c444d4272",
+        "rank": 3,
+        "similarity_score": 0.6317068934440613,
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 10
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 24
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 18
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.6317068934440613
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.5895240902900696
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 0.6227802038192749
+          }
+        ],
+        "pre_rerank_score": 0.03901098901098901,
+        "bm25_rank": null,
+        "semantic_rank": 10,
+        "bm25_score": null,
+        "semantic_similarity": 0.6317068934440613,
+        "pre_rerank_rank": 27,
+        "reranker_score": 0.9763435125350952,
+        "final_rank": 3
+      },
+      {
+        "id": "26603fbc041afdc4731e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.473494768994634,
+        "rank": 4,
+        "canonical_id": "26603fbc041afdc4731e",
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 8
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 12
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 7
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 4.473494768994634
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 4.473494768994634
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 6.072170426786257
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 45
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.5750784873962402
+          }
+        ],
+        "pre_rerank_score": 0.053043953899967945,
+        "bm25_rank": 7,
+        "semantic_rank": 45,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 16,
+        "reranker_score": 0.9699231386184692,
+        "final_rank": 4
+      },
+      {
+        "id": "194d586c165803f1dc04",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.924580506495841,
+        "rank": 5,
+        "canonical_id": "194d586c165803f1dc04",
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 24
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 19
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 22
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 2.924580506495841
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 2.924580506495841
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 3.873084982993124
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 36
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 10
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.5963300466537476
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.610173225402832
+          }
+        ],
+        "pre_rerank_score": 0.061460492656463625,
+        "bm25_rank": 19,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.5963300466537476,
+        "pre_rerank_rank": 10,
+        "reranker_score": 0.9173663258552551,
+        "final_rank": 5
+      },
+      {
+        "id": "cf917bb431c92d8a01e3",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十二条",
+        "chapter": "第九章社会保险和福利",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 9.541664957499211,
+        "rank": 6,
+        "canonical_id": "cf917bb431c92d8a01e3",
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 1
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 9.541664957499211
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 5.4726352746070805
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 5.4726352746070805
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 3
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 9
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.6412354111671448
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.6143452525138855
+          }
+        ],
+        "pre_rerank_score": 0.07575080875781055,
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6412354111671448,
+        "pre_rerank_rank": 5,
+        "reranker_score": 0.884207010269165,
+        "final_rank": 6
+      },
+      {
+        "id": "ada01fb90cdc44ccfbba",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十四条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.414126033665103,
+        "rank": 7,
+        "canonical_id": "ada01fb90cdc44ccfbba",
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 30
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 23
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 21
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 2.414126033665103
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 2.414126033665103
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 3.9420385333889882
+          }
+        ],
+        "pre_rerank_score": 0.035504982894541126,
+        "bm25_rank": 21,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 35,
+        "reranker_score": 0.8531568646430969,
+        "final_rank": 7
+      },
+      {
+        "id": "f374fcffdb30d870665b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f374fcffdb30d870665b",
+        "rank": 8,
+        "similarity_score": 0.6349965929985046,
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 8
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 28
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.6349965929985046
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.5856418609619141
+          }
+        ],
+        "pre_rerank_score": 0.02606951871657754,
+        "bm25_rank": null,
+        "semantic_rank": 8,
+        "bm25_score": null,
+        "semantic_similarity": 0.6349965929985046,
+        "pre_rerank_rank": 48,
+        "reranker_score": 0.8382130265235901,
+        "final_rank": 8
+      },
+      {
+        "id": "afb4eb53621272f8f9cc",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "afb4eb53621272f8f9cc",
+        "rank": 9,
+        "similarity_score": 0.6095192432403564,
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "社会保险 劳动合同必备条款",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 22
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "rank": 15
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 44
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.6095192432403564
+          },
+          {
+            "query": "社会保险 劳动合同必备条款",
+            "score": 0.6023707389831543
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 0.5988327860832214
+          }
+        ],
+        "pre_rerank_score": 0.03514383989993746,
+        "bm25_rank": null,
+        "semantic_rank": 15,
+        "bm25_score": null,
+        "semantic_similarity": 0.6095192432403564,
+        "pre_rerank_rank": 37,
+        "reranker_score": 0.7344244122505188,
+        "final_rank": 9
+      },
+      {
+        "id": "6b9f0a124dd149f36d50",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "6b9f0a124dd149f36d50",
+        "rank": 10,
+        "similarity_score": 0.6143407225608826,
+        "matched_queries": [
+          "劳动合同里必须写社会保险吗",
+          "劳动争议 社会保险 劳动合同必备条款"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "rank": 20
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "rank": 34
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动合同里必须写社会保险吗",
+            "score": 0.6143407225608826
+          },
+          {
+            "query": "劳动争议 社会保险 劳动合同必备条款",
+            "score": 0.606948971748352
+          }
+        ],
+        "pre_rerank_score": 0.023138297872340424,
+        "bm25_rank": null,
+        "semantic_rank": 20,
+        "bm25_score": null,
+        "semantic_similarity": 0.6143407225608826,
+        "pre_rerank_rank": 54,
+        "reranker_score": 0.7272174954414368,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "ff87e15e88ccc1b48657": 1
+    },
+    "v04_reranked": {
+      "ff87e15e88ccc1b48657": 1
+    },
+    "v05_multi_query_reranked": {
+      "ff87e15e88ccc1b48657": 1
+    }
+  }
+}

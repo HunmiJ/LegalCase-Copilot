@@ -1,0 +1,257 @@
+{
+  "model": "deepseek-v4-flash",
+  "fixed_context_article_count": 5,
+  "runs": [
+    {
+      "query": "公司工作两年突然辞退我，没有提前通知，也不给补偿怎么办？",
+      "response": {
+        "issue_summary": [
+          "劳动者工作两年后被公司突然辞退，未提前通知且未支付任何补偿，需分析公司行为性质及劳动者可主张的权利。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "若公司解除劳动合同违反法律规定，劳动者有权要求支付赔偿金，赔偿金标准为经济补偿标准的二倍。",
+            "citations": [
+              "[3]",
+              "[4]"
+            ]
+          },
+          {
+            "claim": "根据劳动者工作年限满两年，经济补偿应为两个月工资；若构成违法解除，赔偿金则为四个月工资。",
+            "citations": [
+              "[2]",
+              "[4]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "公司辞退的具体理由及法律依据，以判断是否属于违法解除。",
+          "是否存在劳动者过错、公司是否适用合法解除程序（如裁员、不胜任等）。",
+          "未提前通知是否产生额外代通知金，但本次提供的法律条文中未规定相关内容。",
+          "劳动者月工资数额及当地上年度职工月平均工资，以确认经济补偿计算基数是否受三倍封顶限制。"
+        ],
+        "next_steps": [
+          "收集并保存所有与解除劳动合同相关的证据，包括解除通知书、聊天记录、工资流水等。",
+          "向劳动行政部门投诉或申请劳动仲裁，主张违法解除赔偿金（四个月工资）。",
+          "若劳动仲裁结果不利，可在法定期限内向人民法院提起诉讼。"
+        ],
+        "disclaimer": "本分析仅基于提供的有限法律条文，不构成确定的法律结论，具体案件需结合完整事实与证据由裁判机关依法裁定。",
+        "relevant_laws": [
+          {
+            "citation": "[3]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第四十八条",
+            "text": "用人单位违反本法规定解除或者终止劳动合同，劳动者要求继续履行劳动合同的，用人单位应当继续履行；劳动者不要求继续履行劳动合同或者劳动合同已经不能继续履行的，用人单位应当依照本法第八十七条规定支付赔偿金。"
+          },
+          {
+            "citation": "[4]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第八十七条",
+            "text": "用人单位违反本法规定解除或者终止劳动合同的，应当依照本法第四十七条规定的经济补偿标准的二倍向劳动者支付赔偿金。"
+          },
+          {
+            "citation": "[2]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第四十七条",
+            "text": "经济补偿按劳动者在本单位工作的年限，每满一年支付一个月工资的标准向劳动者支付。六个月以上不满一年的，按一年计算；不满六个月的，向劳动者支付半个月工资的经济补偿。\n劳动者月工资高于用人单位所在直辖市、设区的市级人民政府公布的本地区上年度职工月平均工资三倍的，向其支付经济补偿的标准按职工月平均工资三倍的数额支付，向其支付经济补偿的年限最高不超过十二年。\n本条所称月工资是指劳动者在劳动合同解除或者终止前十二个月的平均工资。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "generation_meta": {
+        "retry_count": 0,
+        "fallback": false,
+        "validation": {
+          "valid": true,
+          "errors": [],
+          "citation_validity": 1.0,
+          "citation_precision": 1.0,
+          "grounded_claim_rate": 1.0,
+          "unsupported_citation_rate": 0.0
+        },
+        "attempts": [
+          {
+            "attempt_number": 1,
+            "provider_request_success": true,
+            "http_api_success": true,
+            "exception_type": null,
+            "response_empty": false,
+            "response_truncated": false,
+            "raw_response_structure_type": "str",
+            "json_parse_success": true,
+            "schema_validation_success": true,
+            "citation_validation_success": true,
+            "citation_errors": []
+          }
+        ],
+        "generation_latency_ms": 12012.60970000294
+      },
+      "wall_clock_ms": 12012.614300008863
+    },
+    {
+      "query": "公司工作两年突然辞退我，没有提前通知，也不给补偿怎么办？",
+      "response": {
+        "issue_summary": [
+          "用户在某公司工作两年后被突然辞退，未收到提前通知，且公司不支付任何补偿。用户寻求法律救济途径。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "公司突然辞退且不支付补偿，可能构成违法解除劳动合同，劳动者可要求继续履行合同或主张赔偿金。",
+            "citations": [
+              "[3]"
+            ]
+          },
+          {
+            "claim": "若认定违法解除，用人单位应按经济补偿标准的二倍支付赔偿金。",
+            "citations": [
+              "[4]"
+            ]
+          },
+          {
+            "claim": "经济补偿按工作年限计算，每满一年支付一个月工资；工作两年对应两个月工资，因此违法解除赔偿金可能为四个月工资。",
+            "citations": [
+              "[2]",
+              "[4]"
+            ]
+          },
+          {
+            "claim": "关于未提前通知，现有法律条文未直接规定单独补偿，但违法解除赔偿金已包含惩罚性赔偿，可结合实际情况主张。",
+            "citations": [
+              "[3]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "需进一步了解公司辞退的具体理由（如是否属于符合法律规定的过失性辞退、协商解除、经济性裁员等），以及是否符合法定的解除程序。同时需确认用户的实际月工资水平，因为经济补偿基数直接影响具体金额。"
+        ],
+        "next_steps": [
+          "收集劳动合同、工资发放记录、解除通知、考勤记录等证据；携带证据向当地劳动监察部门投诉或直接申请劳动仲裁；若对仲裁结果不服，可在法定期限内向人民法院提起诉讼。"
+        ],
+        "disclaimer": "本分析仅基于提供的法律条文，不构成正式法律意见，最终处理结果以劳动仲裁机构或法院的裁判为准。",
+        "relevant_laws": [
+          {
+            "citation": "[3]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第四十八条",
+            "text": "用人单位违反本法规定解除或者终止劳动合同，劳动者要求继续履行劳动合同的，用人单位应当继续履行；劳动者不要求继续履行劳动合同或者劳动合同已经不能继续履行的，用人单位应当依照本法第八十七条规定支付赔偿金。"
+          },
+          {
+            "citation": "[4]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第八十七条",
+            "text": "用人单位违反本法规定解除或者终止劳动合同的，应当依照本法第四十七条规定的经济补偿标准的二倍向劳动者支付赔偿金。"
+          },
+          {
+            "citation": "[2]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第四十七条",
+            "text": "经济补偿按劳动者在本单位工作的年限，每满一年支付一个月工资的标准向劳动者支付。六个月以上不满一年的，按一年计算；不满六个月的，向劳动者支付半个月工资的经济补偿。\n劳动者月工资高于用人单位所在直辖市、设区的市级人民政府公布的本地区上年度职工月平均工资三倍的，向其支付经济补偿的标准按职工月平均工资三倍的数额支付，向其支付经济补偿的年限最高不超过十二年。\n本条所称月工资是指劳动者在劳动合同解除或者终止前十二个月的平均工资。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "generation_meta": {
+        "retry_count": 0,
+        "fallback": false,
+        "validation": {
+          "valid": true,
+          "errors": [],
+          "citation_validity": 1.0,
+          "citation_precision": 1.0,
+          "grounded_claim_rate": 1.0,
+          "unsupported_citation_rate": 0.0
+        },
+        "attempts": [
+          {
+            "attempt_number": 1,
+            "provider_request_success": true,
+            "http_api_success": true,
+            "exception_type": null,
+            "response_empty": false,
+            "response_truncated": false,
+            "raw_response_structure_type": "str",
+            "json_parse_success": true,
+            "schema_validation_success": true,
+            "citation_validation_success": true,
+            "citation_errors": []
+          }
+        ],
+        "generation_latency_ms": 18673.6258000019
+      },
+      "wall_clock_ms": 18673.630199977197
+    },
+    {
+      "query": "公司一直让我加班但是不给加班费怎么办？",
+      "response": {
+        "issue_summary": [
+          "用户反映公司要求长期加班但未支付加班费，询问如何维权。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "用人单位安排劳动者加班的，应当依法向劳动者支付加班费。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "用人单位不得强迫或变相强迫劳动者加班。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "根据现有规定，公司安排加班却不支付加班费的行为不符合法律规定。",
+            "citations": [
+              "[1]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "现有context中未包含加班费的具体计算标准（如加班费计算基数、倍数）、加班时长限制、维权时效等规定，因此无法就具体加班费金额及维权方式提供更详细的法律依据。"
+        ],
+        "next_steps": [
+          "建议用户收集加班证据（如考勤记录、加班审批、工资单等），与公司协商或向劳动监察部门投诉，或依法申请劳动仲裁；必要时可咨询专业法律人士。但需要注意，具体维权路径和时效需依据其他法律规定。"
+        ],
+        "disclaimer": "本分析仅基于给定的法律条文，不构成正式法律意见，具体情况需结合完整法律事实和更多法律规定进行判断。",
+        "relevant_laws": [
+          {
+            "citation": "[1]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第三十一条",
+            "text": "用人单位应当严格执行劳动定额标准，不得强迫或者变相强迫劳动者加班。用人单位安排加班的，应当按照国家有关规定向劳动者支付加班费。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "generation_meta": {
+        "retry_count": 0,
+        "fallback": false,
+        "validation": {
+          "valid": true,
+          "errors": [],
+          "citation_validity": 1.0,
+          "citation_precision": 1.0,
+          "grounded_claim_rate": 1.0,
+          "unsupported_citation_rate": 0.0
+        },
+        "attempts": [
+          {
+            "attempt_number": 1,
+            "provider_request_success": true,
+            "http_api_success": true,
+            "exception_type": null,
+            "response_empty": false,
+            "response_truncated": false,
+            "raw_response_structure_type": "str",
+            "json_parse_success": true,
+            "schema_validation_success": true,
+            "citation_validation_success": true,
+            "citation_errors": []
+          }
+        ],
+        "generation_latency_ms": 10405.915699986508
+      },
+      "wall_clock_ms": 10405.92019999167
+    }
+  ]
+}

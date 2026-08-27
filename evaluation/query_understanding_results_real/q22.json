@@ -1,0 +1,890 @@
+{
+  "original_query": "劳动仲裁裁决不服还能去法院吗",
+  "structured_understanding": {
+    "original_query": "劳动仲裁裁决不服还能去法院吗",
+    "domain": "劳动争议",
+    "issue": "当事人对劳动仲裁裁决不服时，是否可以向人民法院提起诉讼及其条件",
+    "user_intent": "用户希望了解对劳动仲裁裁决不服的法律救济途径，是否能够起诉到法院以及相关限制",
+    "legal_concepts": [
+      "劳动争议仲裁",
+      "终局裁决",
+      "起诉期限",
+      "一裁终局",
+      "司法救济"
+    ],
+    "search_queries": [
+      "劳动仲裁裁决不服 起诉 法院 条件",
+      "劳动争议终局裁决 劳动者 起诉",
+      "对劳动仲裁裁决不服 诉讼 期限"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "劳动仲裁裁决不服还能去法院吗",
+    "劳动仲裁裁决不服 起诉 法院 条件",
+    "劳动争议终局裁决 劳动者 起诉"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8857.29660000652
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第五条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "b282cee83e749718fdb7"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 53,
+      "reranking_candidate_count": 53,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 110,
+      "reranking_candidate_count": 110,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 50.280399998882785,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 14609.215816672076,
+  "final_retrieval_ranking": [
+    {
+      "id": "f5a0dd3410d534ce1555",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十三条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 10.65683828146662,
+      "rank": 1,
+      "canonical_id": "f5a0dd3410d534ce1555",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 4
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 1
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 10.65683828146662
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 14.56284511240224
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 9.670678693884069
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.7497062683105469
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.7295529842376709
+        }
+      ],
+      "pre_rerank_score": 0.0791884003974168,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7497062683105469,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.9992827773094177,
+      "final_rank": 1
+    },
+    {
+      "id": "999fbe025a6903319147",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第十八条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 10.167376431959605,
+      "rank": 2,
+      "canonical_id": "999fbe025a6903319147",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 6
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 3
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 10.167376431959605
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 12.605406997033981
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 14.493896474614324
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 7
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 3
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 24
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.7183593511581421
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.7320473194122314
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 0.6267408132553101
+        }
+      ],
+      "pre_rerank_score": 0.09012112455958798,
+      "bm25_rank": 1,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.7183593511581421,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9987163543701172,
+      "final_rank": 2
+    },
+    {
+      "id": "209d2a92bd3f2527d4de",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第四十八条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 10.086871780953077,
+      "rank": 3,
+      "canonical_id": "209d2a92bd3f2527d4de",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 7
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 11
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 21
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 10.086871780953077
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 10.086871780953077
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 6.135725129073188
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 2
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 9
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.744162917137146
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.7087233066558838
+        }
+      ],
+      "pre_rerank_score": 0.07197734507018047,
+      "bm25_rank": 7,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.744162917137146,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.9983447790145874,
+      "final_rank": 3
+    },
+    {
+      "id": "31c8454c3c5fe890ab51",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十九条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 9.904560193420798,
+      "rank": 4,
+      "canonical_id": "31c8454c3c5fe890ab51",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 9
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 13
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 30
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 9.904560193420798
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 9.904560193420798
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 5.194049240148068
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 4
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 10
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 21
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.7248421907424927
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.7055562138557434
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 0.6310596466064453
+        }
+      ],
+      "pre_rerank_score": 0.08155888816934578,
+      "bm25_rank": 9,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.7248421907424927,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.9975628852844238,
+      "final_rank": 4
+    },
+    {
+      "id": "fa55a1950e1df2f22147",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第五十条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 9.45643734882071,
+      "rank": 5,
+      "canonical_id": "fa55a1950e1df2f22147",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 10
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 2
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 9.45643734882071
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 13.398406622817761
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 8.792224447906651
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 3
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.7385610938072205
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.7326194047927856
+        }
+      ],
+      "pre_rerank_score": 0.0769095482980476,
+      "bm25_rank": 2,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.7385610938072205,
+      "pre_rerank_rank": 10,
+      "reranker_score": 0.9972079396247864,
+      "final_rank": 5
+    },
+    {
+      "id": "08f5001a92efc74579b0",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第二十条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 11.577383503667502,
+      "rank": 6,
+      "canonical_id": "08f5001a92efc74579b0",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 2
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 7
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 11.577383503667502
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 11.577383503667502
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 13.668755706470359
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 44
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 13
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 30
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.6600063443183899
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.7031704187393188
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 0.6220191121101379
+        }
+      ],
+      "pre_rerank_score": 0.08160856351393943,
+      "bm25_rank": 2,
+      "semantic_rank": 13,
+      "semantic_similarity": 0.6600063443183899,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.9963439106941223,
+      "final_rank": 6
+    },
+    {
+      "id": "b282cee83e749718fdb7",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第五条",
+      "chapter": "第一章总 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 8.612055517065738,
+      "rank": 7,
+      "canonical_id": "b282cee83e749718fdb7",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 14
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 17
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 38
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 8.612055517065738
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 8.612055517065738
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 4.515137429594441
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 6
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 22
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.721450924873352
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.6869127750396729
+        }
+      ],
+      "pre_rerank_score": 0.06405124523591423,
+      "bm25_rank": 14,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.721450924873352,
+      "pre_rerank_rank": 17,
+      "reranker_score": 0.9959226846694946,
+      "final_rank": 7
+    },
+    {
+      "id": "f92e4af2c99b0aadd7cd",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 11.869427465540431,
+      "rank": 8,
+      "canonical_id": "f92e4af2c99b0aadd7cd",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 6
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 13
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 11.869427465540431
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 11.869427465540431
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 6.853177888312865
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 26
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.6797047257423401
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.7330705523490906
+        }
+      ],
+      "pre_rerank_score": 0.07326493751114728,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6797047257423401,
+      "pre_rerank_rank": 12,
+      "reranker_score": 0.9950931072235107,
+      "final_rank": 8
+    },
+    {
+      "id": "9ecccd57419c08337370",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十四条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 9.163423012777677,
+      "rank": 9,
+      "canonical_id": "9ecccd57419c08337370",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 11
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 15
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 36
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 9.163423012777677
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 9.163423012777677
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 4.753122057754199
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 35
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 46
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.6692579388618469
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.663336992263794
+        }
+      ],
+      "pre_rerank_score": 0.05779478509587815,
+      "bm25_rank": 11,
+      "semantic_rank": 35,
+      "semantic_similarity": 0.6692579388618469,
+      "pre_rerank_rank": 24,
+      "reranker_score": 0.993054211139679,
+      "final_rank": 9
+    },
+    {
+      "id": "b8ecfa7ac84998420772",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第八条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 11.227233386924283,
+      "rank": 10,
+      "canonical_id": "b8ecfa7ac84998420772",
+      "matched_queries": [
+        "劳动仲裁裁决不服还能去法院吗",
+        "劳动仲裁裁决不服 起诉 法院 条件",
+        "劳动争议终局裁决 劳动者 起诉"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 3
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 9
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 20
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 11.227233386924283
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 11.227233386924283
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 6.200174288389723
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "rank": 42
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "rank": 15
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "rank": 22
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁裁决不服还能去法院吗",
+          "score": 0.6626919507980347
+        },
+        {
+          "query": "劳动仲裁裁决不服 起诉 法院 条件",
+          "score": 0.6977359652519226
+        },
+        {
+          "query": "劳动争议终局裁决 劳动者 起诉",
+          "score": 0.6284553408622742
+        }
+      ],
+      "pre_rerank_score": 0.07819814634938457,
+      "bm25_rank": 3,
+      "semantic_rank": 15,
+      "semantic_similarity": 0.6626919507980347,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.9929301142692566,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "b282cee83e749718fdb7": 7
+  }
+}

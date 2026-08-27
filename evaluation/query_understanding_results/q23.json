@@ -1,0 +1,1306 @@
+{
+  "original_query": "竞业协议离职后公司不给补偿",
+  "structured_understanding": {
+    "original_query": "竞业协议离职后公司不给补偿",
+    "domain": "劳动争议",
+    "issue": "经济补偿、赔偿金、计算标准",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "经济补偿",
+      "赔偿金",
+      "计算标准",
+      "竞业限制",
+      "违约"
+    ],
+    "search_queries": [
+      "竞业协议离职后公司不给补偿",
+      "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+      "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "竞业协议离职后公司不给补偿",
+    "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+    "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十三条"
+    },
+    {
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "article_number": "第三十六条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "33f756fb2dfa81c1c390",
+    "968baed58037116615f3"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "33f756fb2dfa81c1c390": 2,
+      "968baed58037116615f3": null
+    },
+    "candidate_recall_at_20": 0.5,
+    "candidate_recall_at_50": 0.5
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 44,
+      "reranking_candidate_count": 44,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 123,
+      "reranking_candidate_count": 123,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "33f756fb2dfa81c1c390": 3,
+      "968baed58037116615f3": 17
+    }
+  },
+  "query_understanding_latency_ms": 0.000600004568696022,
+  "multi_query_retrieval_latency_ms": 30.896300013409927,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "9255b6a1d720ff18dc6f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "9255b6a1d720ff18dc6f",
+        "rank": 1,
+        "similarity_score": 0.6577931642532349,
+        "reranker_score": 0.9614102244377136,
+        "final_rank": 1
+      },
+      {
+        "id": "39db8abff774d54a0bec",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十四条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "39db8abff774d54a0bec",
+        "rank": 2,
+        "similarity_score": 0.6162123680114746,
+        "reranker_score": 0.9528541564941406,
+        "final_rank": 2
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "rank": 3,
+        "similarity_score": 0.6495287418365479,
+        "reranker_score": 0.8915179371833801,
+        "final_rank": 3
+      },
+      {
+        "id": "b2661177cf5f7c1bb10a",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b2661177cf5f7c1bb10a",
+        "rank": 4,
+        "similarity_score": 0.6372623443603516,
+        "reranker_score": 0.8805771470069885,
+        "final_rank": 4
+      },
+      {
+        "id": "2dfc7eb764fccf6a81b2",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "2dfc7eb764fccf6a81b2",
+        "rank": 5,
+        "similarity_score": 0.6281473636627197,
+        "reranker_score": 0.8556420207023621,
+        "final_rank": 5
+      },
+      {
+        "id": "f2200d426137ce083c2d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "f2200d426137ce083c2d",
+        "rank": 6,
+        "similarity_score": 0.5755149126052856,
+        "reranker_score": 0.8520735502243042,
+        "final_rank": 6
+      },
+      {
+        "id": "824595609b6375a43b7c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "824595609b6375a43b7c",
+        "rank": 7,
+        "similarity_score": 0.5846623182296753,
+        "reranker_score": 0.7765721082687378,
+        "final_rank": 7
+      },
+      {
+        "id": "577fa255d4076e370f03",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "577fa255d4076e370f03",
+        "rank": 8,
+        "similarity_score": 0.6170669198036194,
+        "reranker_score": 0.7370066046714783,
+        "final_rank": 8
+      },
+      {
+        "id": "cf69b9d72596ac0968ac",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "cf69b9d72596ac0968ac",
+        "rank": 9,
+        "similarity_score": 0.5557348132133484,
+        "reranker_score": 0.6678761839866638,
+        "final_rank": 9
+      },
+      {
+        "id": "8d5feddf081b799ab5c0",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十七条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "8d5feddf081b799ab5c0",
+        "rank": 10,
+        "similarity_score": 0.5797970294952393,
+        "reranker_score": 0.6133019328117371,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "9255b6a1d720ff18dc6f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 12.588781988212217,
+        "rank": 1,
+        "canonical_id": "9255b6a1d720ff18dc6f",
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6577931642532349,
+        "rrf_score": 0.03252247488101534,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9614102244377136,
+        "final_rank": 1
+      },
+      {
+        "id": "39db8abff774d54a0bec",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十四条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 7.756871498253103,
+        "rank": 2,
+        "canonical_id": "39db8abff774d54a0bec",
+        "bm25_rank": 7,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6162123680114746,
+        "rrf_score": 0.029850746268656716,
+        "hybrid_rank": 6,
+        "reranker_score": 0.9528541564941406,
+        "final_rank": 2
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.290666322455797,
+        "rank": 3,
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "bm25_rank": 5,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6495287418365479,
+        "rrf_score": 0.0315136476426799,
+        "hybrid_rank": 4,
+        "reranker_score": 0.8915179371833801,
+        "final_rank": 3
+      },
+      {
+        "id": "b2661177cf5f7c1bb10a",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 12.425188026054556,
+        "rank": 4,
+        "canonical_id": "b2661177cf5f7c1bb10a",
+        "bm25_rank": 3,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6372623443603516,
+        "rrf_score": 0.031746031746031744,
+        "hybrid_rank": 3,
+        "reranker_score": 0.8805771470069885,
+        "final_rank": 4
+      },
+      {
+        "id": "2dfc7eb764fccf6a81b2",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 12.836334186813396,
+        "rank": 5,
+        "canonical_id": "2dfc7eb764fccf6a81b2",
+        "bm25_rank": 1,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6281473636627197,
+        "rrf_score": 0.032018442622950824,
+        "hybrid_rank": 2,
+        "reranker_score": 0.8556420207023621,
+        "final_rank": 5
+      },
+      {
+        "id": "f2200d426137ce083c2d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "f2200d426137ce083c2d",
+        "rank": 6,
+        "similarity_score": 0.5755149126052856,
+        "semantic_rank": 15,
+        "semantic_similarity": 0.5755149126052856,
+        "rrf_score": 0.013333333333333334,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 25,
+        "reranker_score": 0.8520735502243042,
+        "final_rank": 6
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 5.251265439607533,
+        "rank": 7,
+        "canonical_id": "ce59fc8a7767d629495d",
+        "bm25_rank": 22,
+        "rrf_score": 0.012195121951219513,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 35,
+        "reranker_score": 0.7835103273391724,
+        "final_rank": 7
+      },
+      {
+        "id": "824595609b6375a43b7c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.512412941564245,
+        "rank": 8,
+        "canonical_id": "824595609b6375a43b7c",
+        "bm25_rank": 10,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.5846623182296753,
+        "rrf_score": 0.028370221327967807,
+        "hybrid_rank": 8,
+        "reranker_score": 0.7765721082687378,
+        "final_rank": 8
+      },
+      {
+        "id": "577fa255d4076e370f03",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 6.357751208165418,
+        "rank": 9,
+        "canonical_id": "577fa255d4076e370f03",
+        "bm25_rank": 16,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6170669198036194,
+        "rrf_score": 0.02854251012145749,
+        "hybrid_rank": 7,
+        "reranker_score": 0.7370066046714783,
+        "final_rank": 9
+      },
+      {
+        "id": "968baed58037116615f3",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十三条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 10.642826899924692,
+        "rank": 10,
+        "canonical_id": "968baed58037116615f3",
+        "bm25_rank": 4,
+        "rrf_score": 0.015625,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 20,
+        "reranker_score": 0.7192522287368774,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "9255b6a1d720ff18dc6f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 12.588781988212217,
+        "rank": 1,
+        "canonical_id": "9255b6a1d720ff18dc6f",
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 2
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 3
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 12.588781988212217
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 20.485411613221988
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 16.43213810588028
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 1
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 4
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 0.6577931642532349
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.6090826988220215
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.6820797324180603
+          }
+        ],
+        "pre_rerank_score": 0.09553413839671111,
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6577931642532349,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.9614102244377136,
+        "final_rank": 1
+      },
+      {
+        "id": "39db8abff774d54a0bec",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十四条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 7.756871498253103,
+        "rank": 2,
+        "canonical_id": "39db8abff774d54a0bec",
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 7
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 7.756871498253103
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 18.24758905358607
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 15.95085246590694
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 7
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 7
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 0.6162123680114746
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.5705630779266357
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.6435941457748413
+          }
+        ],
+        "pre_rerank_score": 0.09025123252515703,
+        "bm25_rank": 5,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6162123680114746,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.9528541564941406,
+        "final_rank": 2
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.290666322455797,
+        "rank": 3,
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 5
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 4
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 10.290666322455797
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 19.80228091983811
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 16.327627341954123
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 2
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 0.6495287418365479
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.6398364305496216
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.7068333029747009
+          }
+        ],
+        "pre_rerank_score": 0.09502171215880893,
+        "bm25_rank": 4,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6495287418365479,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.8915179371833801,
+        "final_rank": 3
+      },
+      {
+        "id": "b2661177cf5f7c1bb10a",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 12.425188026054556,
+        "rank": 4,
+        "canonical_id": "b2661177cf5f7c1bb10a",
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 3
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 1
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 12.425188026054556
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 19.900606654260628
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 17.482577971420117
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 3
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 0.6372623443603516
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.5958175659179688
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.6670584082603455
+          }
+        ],
+        "pre_rerank_score": 0.09431552054502874,
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6372623443603516,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.8805771470069885,
+        "final_rank": 4
+      },
+      {
+        "id": "b5148b0e5f30717618d6",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": null,
+        "rank": 5,
+        "canonical_id": "b5148b0e5f30717618d6",
+        "matched_queries": [
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 20
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 23
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 11.57722486016312
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 9.361813109725148
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 36
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 26
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.4991888403892517
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.5781352519989014
+          }
+        ],
+        "pre_rerank_score": 0.04659276641449519,
+        "bm25_rank": 20,
+        "semantic_rank": 26,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 27,
+        "reranker_score": 0.8565068244934082,
+        "final_rank": 5
+      },
+      {
+        "id": "2dfc7eb764fccf6a81b2",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 12.836334186813396,
+        "rank": 6,
+        "canonical_id": "2dfc7eb764fccf6a81b2",
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 1
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 12.836334186813396
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 21.183489876920603
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 17.271052276147394
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 4
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 5
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 0.6281473636627197
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.6111266016960144
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.6798012256622314
+          }
+        ],
+        "pre_rerank_score": 0.09555053288858154,
+        "bm25_rank": 1,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6281473636627197,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.8556420207023621,
+        "final_rank": 6
+      },
+      {
+        "id": "f2200d426137ce083c2d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "f2200d426137ce083c2d",
+        "rank": 7,
+        "similarity_score": 0.5755149126052856,
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 15
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 9
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 18
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 0.5755149126052856
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.5608925223350525
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.5857023596763611
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 18.068649314146406
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 15.818257847850777
+          }
+        ],
+        "pre_rerank_score": 0.07094963008006487,
+        "bm25_rank": 6,
+        "semantic_rank": 9,
+        "bm25_score": null,
+        "semantic_similarity": 0.5755149126052856,
+        "pre_rerank_rank": 14,
+        "reranker_score": 0.8520735502243042,
+        "final_rank": 7
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 5.251265439607533,
+        "rank": 8,
+        "canonical_id": "ce59fc8a7767d629495d",
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 22
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 37
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 44
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 5.251265439607533
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 7.977715550010531
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 5.642467751794523
+          }
+        ],
+        "pre_rerank_score": 0.032119784917119594,
+        "bm25_rank": 22,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 43,
+        "reranker_score": 0.7835103273391724,
+        "final_rank": 8
+      },
+      {
+        "id": "824595609b6375a43b7c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.512412941564245,
+        "rank": 9,
+        "canonical_id": "824595609b6375a43b7c",
+        "matched_queries": [
+          "竞业协议离职后公司不给补偿",
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 10
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 39
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 24
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 7.512412941564245
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 7.6367505434502
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 9.022517295976614
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "rank": 11
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 29
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "竞业协议离职后公司不给补偿",
+            "score": 0.5846623182296753
+          },
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 0.5247966051101685
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 0.5721098184585571
+          }
+        ],
+        "pre_rerank_score": 0.07459896137693257,
+        "bm25_rank": 10,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.5846623182296753,
+        "pre_rerank_rank": 12,
+        "reranker_score": 0.7765721082687378,
+        "final_rank": 9
+      },
+      {
+        "id": "daf7300f7458e59be7b2",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": null,
+        "rank": 10,
+        "canonical_id": "daf7300f7458e59be7b2",
+        "matched_queries": [
+          "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+          "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "rank": 27
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "rank": 37
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "经济补偿 赔偿金 计算标准 竞业限制 经济补偿 违约",
+            "score": 10.045072598014036
+          },
+          {
+            "query": "劳动争议 经济补偿 赔偿金 计算标准 竞业限制 违约",
+            "score": 6.483117562570594
+          }
+        ],
+        "pre_rerank_score": 0.02180353122407868,
+        "bm25_rank": 27,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 53,
+        "reranker_score": 0.7480373978614807,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "33f756fb2dfa81c1c390": 3,
+      "968baed58037116615f3": null
+    },
+    "v04_reranked": {
+      "33f756fb2dfa81c1c390": 3,
+      "968baed58037116615f3": 10
+    },
+    "v05_multi_query_reranked": {
+      "33f756fb2dfa81c1c390": 3,
+      "968baed58037116615f3": null
+    }
+  }
+}

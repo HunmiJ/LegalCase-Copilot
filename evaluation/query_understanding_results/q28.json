@@ -1,0 +1,1387 @@
+{
+  "original_query": "劳务派遣单位和用工单位谁给工资",
+  "structured_understanding": {
+    "original_query": "劳务派遣单位和用工单位谁给工资",
+    "domain": "劳动争议",
+    "issue": "劳动报酬、工资支付、拖欠工资",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "劳动报酬",
+      "工资支付",
+      "拖欠工资",
+      "劳务派遣",
+      "用工单位",
+      "派遣单位"
+    ],
+    "search_queries": [
+      "劳务派遣单位和用工单位谁给工资",
+      "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+      "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "劳务派遣单位和用工单位谁给工资",
+    "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+    "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第五十八条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第五十九条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "118f561cefd72bb49f5e",
+    "bbe3c41f64841060367e"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "118f561cefd72bb49f5e": 1,
+      "bbe3c41f64841060367e": 5
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 36,
+      "reranking_candidate_count": 36,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 97,
+      "reranking_candidate_count": 97,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "118f561cefd72bb49f5e": 3,
+      "bbe3c41f64841060367e": 5
+    }
+  },
+  "query_understanding_latency_ms": 0.000500003807246685,
+  "multi_query_retrieval_latency_ms": 26.54869999969378,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "856ff4352cf88c807cfb",
+        "rank": 1,
+        "similarity_score": 0.6970429420471191,
+        "reranker_score": 0.9988551139831543,
+        "final_rank": 1
+      },
+      {
+        "id": "38f92e2084a2107c6f4e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "38f92e2084a2107c6f4e",
+        "rank": 2,
+        "similarity_score": 0.7043315172195435,
+        "reranker_score": 0.9982650876045227,
+        "final_rank": 2
+      },
+      {
+        "id": "ba0eb5a2f481dede721c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "ba0eb5a2f481dede721c",
+        "rank": 3,
+        "similarity_score": 0.6891924142837524,
+        "reranker_score": 0.9953210949897766,
+        "final_rank": 3
+      },
+      {
+        "id": "118f561cefd72bb49f5e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十八条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "118f561cefd72bb49f5e",
+        "rank": 4,
+        "similarity_score": 0.715224027633667,
+        "reranker_score": 0.9943634271621704,
+        "final_rank": 4
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "bbe3c41f64841060367e",
+        "rank": 5,
+        "similarity_score": 0.6932287216186523,
+        "reranker_score": 0.9910203814506531,
+        "final_rank": 5
+      },
+      {
+        "id": "fd46d93f6e523af3446e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "fd46d93f6e523af3446e",
+        "rank": 6,
+        "similarity_score": 0.645161509513855,
+        "reranker_score": 0.983410656452179,
+        "final_rank": 6
+      },
+      {
+        "id": "7eadd9a8ac96aece8281",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十五条",
+        "chapter": "第五章法律责任",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "7eadd9a8ac96aece8281",
+        "rank": 7,
+        "similarity_score": 0.6438332200050354,
+        "reranker_score": 0.983313262462616,
+        "final_rank": 7
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "37d603c79fa15eb7b176",
+        "rank": 8,
+        "similarity_score": 0.7077422142028809,
+        "reranker_score": 0.9812113046646118,
+        "final_rank": 8
+      },
+      {
+        "id": "ada01fb90cdc44ccfbba",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十四条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "ada01fb90cdc44ccfbba",
+        "rank": 9,
+        "similarity_score": 0.5758163928985596,
+        "reranker_score": 0.9579898118972778,
+        "final_rank": 9
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "rank": 10,
+        "similarity_score": 0.6573755741119385,
+        "reranker_score": 0.9208542108535767,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 19.59242369568079,
+        "rank": 1,
+        "canonical_id": "856ff4352cf88c807cfb",
+        "bm25_rank": 5,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6970429420471191,
+        "rrf_score": 0.031009615384615385,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9988551139831543,
+        "final_rank": 1
+      },
+      {
+        "id": "38f92e2084a2107c6f4e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 25.33193805618997,
+        "rank": 2,
+        "canonical_id": "38f92e2084a2107c6f4e",
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.7043315172195435,
+        "rrf_score": 0.032266458495966696,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9982650876045227,
+        "final_rank": 2
+      },
+      {
+        "id": "ba0eb5a2f481dede721c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 18.41621194514407,
+        "rank": 3,
+        "canonical_id": "ba0eb5a2f481dede721c",
+        "bm25_rank": 9,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6891924142837524,
+        "rrf_score": 0.02964426877470356,
+        "hybrid_rank": 6,
+        "reranker_score": 0.9953210949897766,
+        "final_rank": 3
+      },
+      {
+        "id": "118f561cefd72bb49f5e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十八条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 18.16304182389157,
+        "rank": 4,
+        "canonical_id": "118f561cefd72bb49f5e",
+        "bm25_rank": 10,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.715224027633667,
+        "rrf_score": 0.030679156908665108,
+        "hybrid_rank": 4,
+        "reranker_score": 0.9943634271621704,
+        "final_rank": 4
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 21.872481480382394,
+        "rank": 5,
+        "canonical_id": "bbe3c41f64841060367e",
+        "bm25_rank": 3,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6932287216186523,
+        "rrf_score": 0.03125763125763126,
+        "hybrid_rank": 2,
+        "reranker_score": 0.9910205006599426,
+        "final_rank": 5
+      },
+      {
+        "id": "fd46d93f6e523af3446e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 21.90417958599112,
+        "rank": 6,
+        "canonical_id": "fd46d93f6e523af3446e",
+        "bm25_rank": 2,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.645161509513855,
+        "rrf_score": 0.03021353930031804,
+        "hybrid_rank": 5,
+        "reranker_score": 0.983410656452179,
+        "final_rank": 6
+      },
+      {
+        "id": "7eadd9a8ac96aece8281",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十五条",
+        "chapter": "第五章法律责任",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 20.851208719687776,
+        "rank": 7,
+        "canonical_id": "7eadd9a8ac96aece8281",
+        "bm25_rank": 4,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.6438332200050354,
+        "rrf_score": 0.0293236301369863,
+        "hybrid_rank": 8,
+        "reranker_score": 0.983313262462616,
+        "final_rank": 7
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 15.025265307668112,
+        "rank": 8,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "bm25_rank": 15,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.7077422142028809,
+        "rrf_score": 0.02946236559139785,
+        "hybrid_rank": 7,
+        "reranker_score": 0.9812113046646118,
+        "final_rank": 8
+      },
+      {
+        "id": "ada01fb90cdc44ccfbba",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十四条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.193056412750595,
+        "rank": 9,
+        "canonical_id": "ada01fb90cdc44ccfbba",
+        "bm25_rank": 20,
+        "semantic_rank": 36,
+        "semantic_similarity": 0.5758163928985596,
+        "rrf_score": 0.02291666666666667,
+        "hybrid_rank": 25,
+        "reranker_score": 0.9579898118972778,
+        "final_rank": 9
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 17.904419779243934,
+        "rank": 10,
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "bm25_rank": 11,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6573755741119385,
+        "rrf_score": 0.028577260665441927,
+        "hybrid_rank": 11,
+        "reranker_score": 0.9208542108535767,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 19.59242369568079,
+        "rank": 1,
+        "canonical_id": "856ff4352cf88c807cfb",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 5
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 3
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 19.59242369568079
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 28.30267030053357
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 20.345464940507167
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 4
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 10
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.6970429420471191
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6565290093421936
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6372102499008179
+          }
+        ],
+        "pre_rerank_score": 0.0924259768009768,
+        "bm25_rank": 3,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6970429420471191,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.9988551139831543,
+        "final_rank": 1
+      },
+      {
+        "id": "38f92e2084a2107c6f4e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 25.33193805618997,
+        "rank": 2,
+        "canonical_id": "38f92e2084a2107c6f4e",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 1
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 1
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 25.33193805618997
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 31.739939471437538
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 23.044353530401285
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 3
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.7043315172195435
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.700710117816925
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6780791282653809
+          }
+        ],
+        "pre_rerank_score": 0.09757581862288367,
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7043315172195435,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9982650876045227,
+        "final_rank": 2
+      },
+      {
+        "id": "ba0eb5a2f481dede721c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 18.41621194514407,
+        "rank": 3,
+        "canonical_id": "ba0eb5a2f481dede721c",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 9
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 4
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 18.41621194514407
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 25.93848249191251
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 19.216232207916637
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 6
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 3
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.6891924142837524
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6778363585472107
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6581546068191528
+          }
+        ],
+        "pre_rerank_score": 0.09265593229039934,
+        "bm25_rank": 4,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6891924142837524,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.9953210949897766,
+        "final_rank": 3
+      },
+      {
+        "id": "118f561cefd72bb49f5e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十八条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 18.16304182389157,
+        "rank": 4,
+        "canonical_id": "118f561cefd72bb49f5e",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 10
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 18.16304182389157
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 26.69684321375466
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 18.62408446279521
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 1
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 7
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.715224027633667
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6688248515129089
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6441313028335571
+          }
+        ],
+        "pre_rerank_score": 0.09248716130062472,
+        "bm25_rank": 4,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.715224027633667,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.9943634271621704,
+        "final_rank": 4
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 21.872481480382394,
+        "rank": 5,
+        "canonical_id": "bbe3c41f64841060367e",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 3
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 21.872481480382394
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 30.204859759880105
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 21.764779079213827
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 5
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 15
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.6932287216186523
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6342774629592896
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6242271661758423
+          }
+        ],
+        "pre_rerank_score": 0.09093353614934714,
+        "bm25_rank": 2,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6932287216186523,
+        "pre_rerank_rank": 5,
+        "reranker_score": 0.9910205006599426,
+        "final_rank": 5
+      },
+      {
+        "id": "fd46d93f6e523af3446e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 21.90417958599112,
+        "rank": 6,
+        "canonical_id": "fd46d93f6e523af3446e",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 2
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 7
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 21.90417958599112
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 25.14918574418983
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 18.039597802826027
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 11
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 12
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.645161509513855
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6420860290527344
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6275115013122559
+          }
+        ],
+        "pre_rerank_score": 0.08910468960937878,
+        "bm25_rank": 2,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.645161509513855,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.983410656452179,
+        "final_rank": 6
+      },
+      {
+        "id": "7eadd9a8ac96aece8281",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十五条",
+        "chapter": "第五章法律责任",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 20.851208719687776,
+        "rank": 7,
+        "canonical_id": "7eadd9a8ac96aece8281",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 4
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 11
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 20.851208719687776
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 22.985048168222285
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 16.684590435577316
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 13
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 17
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.6438332200050354
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6358580589294434
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6230026483535767
+          }
+        ],
+        "pre_rerank_score": 0.08496657873768139,
+        "bm25_rank": 4,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6438332200050354,
+        "pre_rerank_rank": 8,
+        "reranker_score": 0.983313262462616,
+        "final_rank": 7
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 15.025265307668112,
+        "rank": 8,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 15
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 13
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 15.025265307668112
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 22.233336206167028
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 16.8021539319723
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 2
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.7077422142028809
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6665695905685425
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6445885896682739
+          }
+        ],
+        "pre_rerank_score": 0.08822322516561358,
+        "bm25_rank": 10,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.7077422142028809,
+        "pre_rerank_rank": 7,
+        "reranker_score": 0.9812111854553223,
+        "final_rank": 8
+      },
+      {
+        "id": "ada01fb90cdc44ccfbba",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十四条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.193056412750595,
+        "rank": 9,
+        "canonical_id": "ada01fb90cdc44ccfbba",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 20
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 19
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 18
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 12.193056412750595
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 17.277027122548716
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 13.598928839960218
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 36
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 39
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.5758163928985596
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.5671281218528748
+          }
+        ],
+        "pre_rerank_score": 0.05849641743629086,
+        "bm25_rank": 18,
+        "semantic_rank": 36,
+        "semantic_similarity": 0.5758163928985596,
+        "pre_rerank_rank": 28,
+        "reranker_score": 0.9579898118972778,
+        "final_rank": 9
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 17.904419779243934,
+        "rank": 10,
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "matched_queries": [
+          "劳务派遣单位和用工单位谁给工资",
+          "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 11
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 12
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 12
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 17.904419779243934
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 22.691980678203635
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 16.000564647241752
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "rank": 9
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "rank": 31
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣单位和用工单位谁给工资",
+            "score": 0.6573755741119385
+          },
+          {
+            "query": "劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位 派遣单位",
+            "score": 0.6175532341003418
+          },
+          {
+            "query": "劳动争议 劳动报酬 工资支付 拖欠工资 劳务派遣 用工单位",
+            "score": 0.6026164293289185
+          }
+        ],
+        "pre_rerank_score": 0.08085756294574421,
+        "bm25_rank": 11,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6573755741119385,
+        "pre_rerank_rank": 10,
+        "reranker_score": 0.9208542108535767,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "118f561cefd72bb49f5e": 4,
+      "bbe3c41f64841060367e": 5
+    },
+    "v04_reranked": {
+      "118f561cefd72bb49f5e": 4,
+      "bbe3c41f64841060367e": 5
+    },
+    "v05_multi_query_reranked": {
+      "118f561cefd72bb49f5e": 4,
+      "bbe3c41f64841060367e": 5
+    }
+  }
+}

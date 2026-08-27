@@ -1,0 +1,906 @@
+{
+  "original_query": "工作多久必须签无固定期限合同",
+  "structured_understanding": {
+    "original_query": "工作多久必须签无固定期限合同",
+    "domain": "劳动争议",
+    "issue": "无固定期限劳动合同的法定订立条件",
+    "user_intent": "查询无固定期限劳动合同的法定签订条件",
+    "legal_concepts": [
+      "无固定期限劳动合同",
+      "连续工作满十年",
+      "劳动合同法第十四条",
+      "订立条件"
+    ],
+    "search_queries": [
+      "无固定期限劳动合同 签订条件 连续工作满十年",
+      "劳动合同法 第十四条 无固定期限劳动合同 情形",
+      "连续订立二次固定期限合同 无固定期限"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "工作多久必须签无固定期限合同",
+    "无固定期限劳动合同 签订条件 连续工作满十年",
+    "劳动合同法 第十四条 无固定期限劳动合同 情形"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 11370.845900004497
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十四条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "7c8b17cb55c584d2c73d"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 39,
+      "reranking_candidate_count": 39,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 130,
+      "reranking_candidate_count": 130,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 67.39469998865388,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 17139.879416659824,
+  "final_retrieval_ranking": [
+    {
+      "id": "7c8b17cb55c584d2c73d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第十四条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 9.544433116879366,
+      "rank": 1,
+      "canonical_id": "7c8b17cb55c584d2c73d",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 6
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 9.544433116879366
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 29.05234235862725
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 17.534898415581903
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 3
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6790705323219299
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6570605039596558
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 0.7121903896331787
+        }
+      ],
+      "pre_rerank_score": 0.09456314295023972,
+      "bm25_rank": 2,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6790705323219299,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9979446530342102,
+      "final_rank": 1
+    },
+    {
+      "id": "37d2a6c8c8f70ab05cd1",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 11.787512861835403,
+      "rank": 2,
+      "canonical_id": "37d2a6c8c8f70ab05cd1",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 2
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 11.787512861835403
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 29.406789890922234
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 14.920077618542651
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 1
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.7255225777626038
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.7115517854690552
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 0.7328953742980957
+        }
+      ],
+      "pre_rerank_score": 0.09658990753649666,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7255225777626038,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9940722584724426,
+      "final_rank": 2
+    },
+    {
+      "id": "ff740c2d8cdc09f8a63a",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第七条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 4.350959869906619,
+      "rank": 3,
+      "canonical_id": "ff740c2d8cdc09f8a63a",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 25
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 14
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 4.350959869906619
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 13.240957220871682
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 9.289907040416772
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 11
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 13
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 20
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6230267882347107
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6074921488761902
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 0.6645835638046265
+        }
+      ],
+      "pre_rerank_score": 0.08071287172662144,
+      "bm25_rank": 6,
+      "semantic_rank": 11,
+      "semantic_similarity": 0.6230267882347107,
+      "pre_rerank_rank": 12,
+      "reranker_score": 0.9807871580123901,
+      "final_rank": 3
+    },
+    {
+      "id": "1d585a4f96dc25e7be5d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第九十七条",
+      "chapter": "第八章附 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 5.192866259781098,
+      "rank": 4,
+      "canonical_id": "1d585a4f96dc25e7be5d",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 18
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 19
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 15
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 5.192866259781098
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 8.03769806662031
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 9.280122035347377
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 21
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 19
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.5823987722396851
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.5688537359237671
+        }
+      ],
+      "pre_rerank_score": 0.06381598086239437,
+      "bm25_rank": 15,
+      "semantic_rank": 19,
+      "semantic_similarity": 0.5823987722396851,
+      "pre_rerank_rank": 18,
+      "reranker_score": 0.9769644141197205,
+      "final_rank": 4
+    },
+    {
+      "id": "85a66e465f72e3cb969e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第十九条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 8.834326909528816,
+      "rank": 5,
+      "canonical_id": "85a66e465f72e3cb969e",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 7
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 7
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 10
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 8.834326909528816
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 11.627392251973951
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 11.624352947320872
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 7
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 9
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6529942750930786
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6163013577461243
+        }
+      ],
+      "pre_rerank_score": 0.07355458731188777,
+      "bm25_rank": 7,
+      "semantic_rank": 7,
+      "semantic_similarity": 0.6529942750930786,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.9763867259025574,
+      "final_rank": 5
+    },
+    {
+      "id": "aea9c0e1739543174598",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十二条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 7.102403021708362,
+      "rank": 6,
+      "canonical_id": "aea9c0e1739543174598",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 10
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 7
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 7.102403021708362
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 11.597024279490084
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 13.086987487559
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 6
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6591008901596069
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6140515208244324
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 0.6839280724525452
+        }
+      ],
+      "pre_rerank_score": 0.08743870625246677,
+      "bm25_rank": 7,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.6591008901596069,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.964857280254364,
+      "final_rank": 6
+    },
+    {
+      "id": "bac00bbc20953e316f31",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十一条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 6.5578748462026635,
+      "rank": 7,
+      "canonical_id": "bac00bbc20953e316f31",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 11
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 6.5578748462026635
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 10.769432739332071
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 17.71654964209209
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 2
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6872802376747131
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6438580751419067
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 0.750019371509552
+        }
+      ],
+      "pre_rerank_score": 0.09315915470494984,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6872802376747131,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.9558148980140686,
+      "final_rank": 7
+    },
+    {
+      "id": "b6d9d273bc81105fbb19",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十一条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 7.6321287473658455,
+      "rank": 8,
+      "canonical_id": "b6d9d273bc81105fbb19",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 8
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 7.6321287473658455
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 14.550548066420898
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 13.052296153329303
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 15
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6130645275115967
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6415729522705078
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 0.6944327354431152
+        }
+      ],
+      "pre_rerank_score": 0.08780004309416076,
+      "bm25_rank": 5,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6130645275115967,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.9502024054527283,
+      "final_rank": 8
+    },
+    {
+      "id": "530ce64ec7f72df553ad",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第九条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "530ce64ec7f72df553ad",
+      "rank": 9,
+      "similarity_score": 0.6341434717178345,
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 10
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6341434717178345
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6419665813446045
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 9
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 21
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 11.422087587550863
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 6.985375854441617
+        }
+      ],
+      "pre_rerank_score": 0.05674914692124837,
+      "bm25_rank": 9,
+      "semantic_rank": 4,
+      "bm25_score": null,
+      "semantic_similarity": 0.6341434717178345,
+      "pre_rerank_rank": 20,
+      "reranker_score": 0.9379479885101318,
+      "final_rank": 9
+    },
+    {
+      "id": "b8e9078be393318aa410",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 10.229614308627662,
+      "rank": 10,
+      "canonical_id": "b8e9078be393318aa410",
+      "matched_queries": [
+        "工作多久必须签无固定期限合同",
+        "无固定期限劳动合同 签订条件 连续工作满十年",
+        "劳动合同法 第十四条 无固定期限劳动合同 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 5
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 12
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 10.229614308627662
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 10.494419656512772
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 11.745615861384037
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "rank": 13
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "rank": 14
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "工作多久必须签无固定期限合同",
+          "score": 0.6176108121871948
+        },
+        {
+          "query": "无固定期限劳动合同 签订条件 连续工作满十年",
+          "score": 0.6283485889434814
+        },
+        {
+          "query": "劳动合同法 第十四条 无固定期限劳动合同 情形",
+          "score": 0.6725576519966125
+        }
+      ],
+      "pre_rerank_score": 0.08612991669870765,
+      "bm25_rank": 5,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.6176108121871948,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.9183928966522217,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "7c8b17cb55c584d2c73d": 1
+  }
+}

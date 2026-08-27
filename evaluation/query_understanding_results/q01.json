@@ -1,0 +1,1123 @@
+{
+  "original_query": "老板突然把我开了怎么办",
+  "structured_understanding": {
+    "original_query": "老板突然把我开了怎么办",
+    "domain": "劳动争议",
+    "issue": "解除劳动合同、违法解除、经济补偿",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "解除劳动合同",
+      "违法解除",
+      "经济补偿",
+      "赔偿金"
+    ],
+    "search_queries": [
+      "老板突然把我开了怎么办",
+      "解除劳动合同 违法解除 经济补偿 赔偿金",
+      "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "老板突然把我开了怎么办",
+    "解除劳动合同 违法解除 经济补偿 赔偿金",
+    "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十八条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第八十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8d5feddf081b799ab5c0",
+    "cf69b9d72596ac0968ac"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "cf69b9d72596ac0968ac": 24,
+      "8d5feddf081b799ab5c0": null
+    },
+    "candidate_recall_at_20": 0.0,
+    "candidate_recall_at_50": 0.5
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 67,
+      "reranking_candidate_count": 67,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 137,
+      "reranking_candidate_count": 137,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "cf69b9d72596ac0968ac": 20,
+      "8d5feddf081b799ab5c0": 10
+    }
+  },
+  "query_understanding_latency_ms": 0.005499983672052622,
+  "multi_query_retrieval_latency_ms": 32.16839997912757,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "44838775dc6a34619f27",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第五十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "44838775dc6a34619f27",
+        "rank": 1,
+        "similarity_score": 0.46977484226226807,
+        "reranker_score": 0.4011310040950775,
+        "final_rank": 1
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "rank": 2,
+        "similarity_score": 0.46356064081192017,
+        "reranker_score": 0.2730477452278137,
+        "final_rank": 2
+      },
+      {
+        "id": "bf4b81067e47e99db73c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十七条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "bf4b81067e47e99db73c",
+        "rank": 3,
+        "similarity_score": 0.4651482403278351,
+        "reranker_score": 0.21535231173038483,
+        "final_rank": 3
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d507b06ae94939f9c73f",
+        "rank": 4,
+        "similarity_score": 0.46249452233314514,
+        "reranker_score": 0.20996825397014618,
+        "final_rank": 4
+      },
+      {
+        "id": "21c153566e22e0c55b7c",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "21c153566e22e0c55b7c",
+        "rank": 5,
+        "similarity_score": 0.45890313386917114,
+        "reranker_score": 0.2093028724193573,
+        "final_rank": 5
+      },
+      {
+        "id": "1ecad58bfe9b165c8c3b",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十六条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "1ecad58bfe9b165c8c3b",
+        "rank": 6,
+        "similarity_score": 0.4640282690525055,
+        "reranker_score": 0.19161665439605713,
+        "final_rank": 6
+      },
+      {
+        "id": "aba8852401847a67264c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "aba8852401847a67264c",
+        "rank": 7,
+        "similarity_score": 0.4666542410850525,
+        "reranker_score": 0.17946742475032806,
+        "final_rank": 7
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "rank": 8,
+        "similarity_score": 0.49906226992607117,
+        "reranker_score": 0.16129226982593536,
+        "final_rank": 8
+      },
+      {
+        "id": "cf69b9d72596ac0968ac",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "cf69b9d72596ac0968ac",
+        "rank": 9,
+        "similarity_score": 0.4662250280380249,
+        "reranker_score": 0.16059455275535583,
+        "final_rank": 9
+      },
+      {
+        "id": "3b989aa10f0b5a29a53f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十二条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "3b989aa10f0b5a29a53f",
+        "rank": 10,
+        "similarity_score": 0.4640790820121765,
+        "reranker_score": 0.15814000368118286,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "44838775dc6a34619f27",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第五十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "44838775dc6a34619f27",
+        "rank": 1,
+        "similarity_score": 0.46977484226226807,
+        "semantic_rank": 20,
+        "semantic_similarity": 0.46977484226226807,
+        "rrf_score": 0.0125,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 42,
+        "reranker_score": 0.4011310040950775,
+        "final_rank": 1
+      },
+      {
+        "id": "b5148b0e5f30717618d6",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 2.661789089054467,
+        "rank": 2,
+        "canonical_id": "b5148b0e5f30717618d6",
+        "bm25_rank": 9,
+        "rrf_score": 0.014492753623188406,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 24,
+        "reranker_score": 0.273846834897995,
+        "final_rank": 2
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "rank": 3,
+        "similarity_score": 0.46356064081192017,
+        "semantic_rank": 30,
+        "semantic_similarity": 0.46356064081192017,
+        "rrf_score": 0.011111111111111112,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 57,
+        "reranker_score": 0.2730477452278137,
+        "final_rank": 3
+      },
+      {
+        "id": "bf4b81067e47e99db73c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十七条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "bf4b81067e47e99db73c",
+        "rank": 4,
+        "similarity_score": 0.4651482403278351,
+        "semantic_rank": 26,
+        "semantic_similarity": 0.4651482403278351,
+        "rrf_score": 0.011627906976744186,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 50,
+        "reranker_score": 0.21535231173038483,
+        "final_rank": 4
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d507b06ae94939f9c73f",
+        "rank": 5,
+        "similarity_score": 0.46249452233314514,
+        "semantic_rank": 33,
+        "semantic_similarity": 0.46249452233314514,
+        "rrf_score": 0.010752688172043012,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 64,
+        "reranker_score": 0.20996825397014618,
+        "final_rank": 5
+      },
+      {
+        "id": "21c153566e22e0c55b7c",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "21c153566e22e0c55b7c",
+        "rank": 6,
+        "similarity_score": 0.45890313386917114,
+        "semantic_rank": 41,
+        "semantic_similarity": 0.45890313386917114,
+        "rrf_score": 0.009900990099009901,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 79,
+        "reranker_score": 0.2093028724193573,
+        "final_rank": 6
+      },
+      {
+        "id": "1ecad58bfe9b165c8c3b",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十六条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 2.043429011207403,
+        "rank": 7,
+        "canonical_id": "1ecad58bfe9b165c8c3b",
+        "bm25_rank": 11,
+        "semantic_rank": 28,
+        "semantic_similarity": 0.4640282690525055,
+        "rrf_score": 0.025448143405889884,
+        "hybrid_rank": 2,
+        "reranker_score": 0.19161668419837952,
+        "final_rank": 7
+      },
+      {
+        "id": "aba8852401847a67264c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "aba8852401847a67264c",
+        "rank": 8,
+        "similarity_score": 0.4666542410850525,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.4666542410850525,
+        "rrf_score": 0.012048192771084338,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 46,
+        "reranker_score": 0.17946742475032806,
+        "final_rank": 8
+      },
+      {
+        "id": "b6d0fb44056ecdefe76c",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 3.312301084003633,
+        "rank": 9,
+        "canonical_id": "b6d0fb44056ecdefe76c",
+        "bm25_rank": 8,
+        "rrf_score": 0.014705882352941176,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 22,
+        "reranker_score": 0.17940060794353485,
+        "final_rank": 9
+      },
+      {
+        "id": "9255b6a1d720ff18dc6f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 3.567937949403629,
+        "rank": 10,
+        "canonical_id": "9255b6a1d720ff18dc6f",
+        "bm25_rank": 5,
+        "rrf_score": 0.015384615384615385,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 15,
+        "reranker_score": 0.17362166941165924,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "44838775dc6a34619f27",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第五十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "44838775dc6a34619f27",
+        "rank": 1,
+        "similarity_score": 0.46977484226226807,
+        "matched_queries": [
+          "老板突然把我开了怎么办",
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 20
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 0.46977484226226807
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6487629413604736
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6896979808807373
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 49
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 4.535524467297208
+          }
+        ],
+        "pre_rerank_score": 0.05131685769818353,
+        "bm25_rank": 49,
+        "semantic_rank": 2,
+        "bm25_score": null,
+        "semantic_similarity": 0.46977484226226807,
+        "pre_rerank_rank": 15,
+        "reranker_score": 0.4011310040950775,
+        "final_rank": 1
+      },
+      {
+        "id": "e3dc9f2e1c4c29c0f062",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十七条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "e3dc9f2e1c4c29c0f062",
+        "rank": 2,
+        "similarity_score": 0.6344870924949646,
+        "matched_queries": [
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 44
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6344870924949646
+          }
+        ],
+        "pre_rerank_score": 0.009615384615384616,
+        "bm25_rank": null,
+        "semantic_rank": 44,
+        "bm25_score": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 128,
+        "reranker_score": 0.3554489314556122,
+        "final_rank": 2
+      },
+      {
+        "id": "b5148b0e5f30717618d6",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 2.661789089054467,
+        "rank": 3,
+        "canonical_id": "b5148b0e5f30717618d6",
+        "matched_queries": [
+          "老板突然把我开了怎么办",
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 9
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 20
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 22
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 2.661789089054467
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 7.791942512811675
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 9.052956312762243
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 29
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6440137624740601
+          }
+        ],
+        "pre_rerank_score": 0.050423830630587696,
+        "bm25_rank": 9,
+        "semantic_rank": 29,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 19,
+        "reranker_score": 0.2738470733165741,
+        "final_rank": 3
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "rank": 4,
+        "similarity_score": 0.46356064081192017,
+        "matched_queries": [
+          "老板突然把我开了怎么办"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 30
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 0.46356064081192017
+          }
+        ],
+        "pre_rerank_score": 0.011111111111111112,
+        "bm25_rank": null,
+        "semantic_rank": 30,
+        "bm25_score": null,
+        "semantic_similarity": 0.46356064081192017,
+        "pre_rerank_rank": 104,
+        "reranker_score": 0.2730477452278137,
+        "final_rank": 4
+      },
+      {
+        "id": "446436c9a0d85d6ae909",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第一条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": null,
+        "rank": 5,
+        "canonical_id": "446436c9a0d85d6ae909",
+        "matched_queries": [
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 46
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 41
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 4.6935999531458235
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 6.874516050436683
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 40
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6371483206748962
+          }
+        ],
+        "pre_rerank_score": 0.029334952363160846,
+        "bm25_rank": 41,
+        "semantic_rank": 40,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 50,
+        "reranker_score": 0.26386743783950806,
+        "final_rank": 5
+      },
+      {
+        "id": "bf4b81067e47e99db73c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十七条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "bf4b81067e47e99db73c",
+        "rank": 6,
+        "similarity_score": 0.4651482403278351,
+        "matched_queries": [
+          "老板突然把我开了怎么办"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 26
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 0.4651482403278351
+          }
+        ],
+        "pre_rerank_score": 0.011627906976744186,
+        "bm25_rank": null,
+        "semantic_rank": 26,
+        "bm25_score": null,
+        "semantic_similarity": 0.4651482403278351,
+        "pre_rerank_rank": 98,
+        "reranker_score": 0.21535231173038483,
+        "final_rank": 6
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d507b06ae94939f9c73f",
+        "rank": 7,
+        "similarity_score": 0.46249452233314514,
+        "matched_queries": [
+          "老板突然把我开了怎么办",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 33
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 41
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 0.46249452233314514
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6136256456375122
+          }
+        ],
+        "pre_rerank_score": 0.02065367827105291,
+        "bm25_rank": null,
+        "semantic_rank": 33,
+        "bm25_score": null,
+        "semantic_similarity": 0.46249452233314514,
+        "pre_rerank_rank": 70,
+        "reranker_score": 0.20996825397014618,
+        "final_rank": 7
+      },
+      {
+        "id": "21c153566e22e0c55b7c",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "21c153566e22e0c55b7c",
+        "rank": 8,
+        "similarity_score": 0.45890313386917114,
+        "matched_queries": [
+          "老板突然把我开了怎么办",
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 41
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 20
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 9
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 0.45890313386917114
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6394206285476685
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6716282367706299
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 9.610499600666165
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 11.487782007156834
+          }
+        ],
+        "pre_rerank_score": 0.06742987425832885,
+        "bm25_rank": 5,
+        "semantic_rank": 9,
+        "bm25_score": null,
+        "semantic_similarity": 0.45890313386917114,
+        "pre_rerank_rank": 8,
+        "reranker_score": 0.2093028724193573,
+        "final_rank": 8
+      },
+      {
+        "id": "7013f2495638f0a97cf8",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": null,
+        "rank": 9,
+        "canonical_id": "7013f2495638f0a97cf8",
+        "matched_queries": [
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 13
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 8.522572284404253
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 9.926812750782537
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 32
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 8
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6215718388557434
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6759626269340515
+          }
+        ],
+        "pre_rerank_score": 0.05335858474957231,
+        "bm25_rank": 11,
+        "semantic_rank": 8,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 11,
+        "reranker_score": 0.20570550858974457,
+        "final_rank": 9
+      },
+      {
+        "id": "1ecad58bfe9b165c8c3b",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十六条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 2.043429011207403,
+        "rank": 10,
+        "canonical_id": "1ecad58bfe9b165c8c3b",
+        "matched_queries": [
+          "老板突然把我开了怎么办",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 11
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 2.043429011207403
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "rank": 28
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 47
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "老板突然把我开了怎么办",
+            "score": 0.4640282690525055
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6086534261703491
+          }
+        ],
+        "pre_rerank_score": 0.03479393779841325,
+        "bm25_rank": 11,
+        "semantic_rank": 28,
+        "semantic_similarity": 0.4640282690525055,
+        "pre_rerank_rank": 38,
+        "reranker_score": 0.19161653518676758,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "cf69b9d72596ac0968ac": 9,
+      "8d5feddf081b799ab5c0": null
+    },
+    "v04_reranked": {
+      "cf69b9d72596ac0968ac": null,
+      "8d5feddf081b799ab5c0": null
+    },
+    "v05_multi_query_reranked": {
+      "cf69b9d72596ac0968ac": null,
+      "8d5feddf081b799ab5c0": null
+    }
+  }
+}

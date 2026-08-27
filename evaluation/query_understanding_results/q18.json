@@ -1,0 +1,1024 @@
+{
+  "original_query": "工作多久必须签无固定期限合同",
+  "structured_understanding": {
+    "original_query": "工作多久必须签无固定期限合同",
+    "domain": "劳动争议",
+    "issue": "劳动争议法律检索",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [],
+    "search_queries": [
+      "工作多久必须签无固定期限合同"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "工作多久必须签无固定期限合同"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十四条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "7c8b17cb55c584d2c73d"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "7c8b17cb55c584d2c73d": 3
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 1,
+      "raw_candidate_count": 40,
+      "unique_candidate_count": 29,
+      "reranking_candidate_count": 29,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 1,
+      "raw_candidate_count": 100,
+      "unique_candidate_count": 77,
+      "reranking_candidate_count": 77,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "7c8b17cb55c584d2c73d": 4
+    }
+  },
+  "query_understanding_latency_ms": 0.000300002284348011,
+  "multi_query_retrieval_latency_ms": 8.961900020949543,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "rank": 1,
+        "similarity_score": 0.6790705323219299,
+        "reranker_score": 0.9979446530342102,
+        "final_rank": 1
+      },
+      {
+        "id": "37d2a6c8c8f70ab05cd1",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "37d2a6c8c8f70ab05cd1",
+        "rank": 2,
+        "similarity_score": 0.7255225777626038,
+        "reranker_score": 0.9940722584724426,
+        "final_rank": 2
+      },
+      {
+        "id": "ff740c2d8cdc09f8a63a",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "ff740c2d8cdc09f8a63a",
+        "rank": 3,
+        "similarity_score": 0.6230267882347107,
+        "reranker_score": 0.9807871580123901,
+        "final_rank": 3
+      },
+      {
+        "id": "1d585a4f96dc25e7be5d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十七条",
+        "chapter": "第八章附 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "1d585a4f96dc25e7be5d",
+        "rank": 4,
+        "similarity_score": 0.5823987722396851,
+        "reranker_score": 0.9769644141197205,
+        "final_rank": 4
+      },
+      {
+        "id": "85a66e465f72e3cb969e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十九条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "85a66e465f72e3cb969e",
+        "rank": 5,
+        "similarity_score": 0.6529942750930786,
+        "reranker_score": 0.9763867259025574,
+        "final_rank": 5
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "aea9c0e1739543174598",
+        "rank": 6,
+        "similarity_score": 0.6591008901596069,
+        "reranker_score": 0.9648573994636536,
+        "final_rank": 6
+      },
+      {
+        "id": "bac00bbc20953e316f31",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "bac00bbc20953e316f31",
+        "rank": 7,
+        "similarity_score": 0.6872802376747131,
+        "reranker_score": 0.9558148980140686,
+        "final_rank": 7
+      },
+      {
+        "id": "b6d9d273bc81105fbb19",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十一条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "b6d9d273bc81105fbb19",
+        "rank": 8,
+        "similarity_score": 0.6130645275115967,
+        "reranker_score": 0.9502024054527283,
+        "final_rank": 8
+      },
+      {
+        "id": "530ce64ec7f72df553ad",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第九条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "530ce64ec7f72df553ad",
+        "rank": 9,
+        "similarity_score": 0.6341434717178345,
+        "reranker_score": 0.9379479885101318,
+        "final_rank": 9
+      },
+      {
+        "id": "b8e9078be393318aa410",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "b8e9078be393318aa410",
+        "rank": 10,
+        "similarity_score": 0.6176108121871948,
+        "reranker_score": 0.9183930158615112,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 9.544433116879366,
+        "rank": 1,
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "bm25_rank": 6,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6790705323219299,
+        "rrf_score": 0.031024531024531024,
+        "hybrid_rank": 4,
+        "reranker_score": 0.9979446530342102,
+        "final_rank": 1
+      },
+      {
+        "id": "37d2a6c8c8f70ab05cd1",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 11.787512861835403,
+        "rank": 2,
+        "canonical_id": "37d2a6c8c8f70ab05cd1",
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7255225777626038,
+        "rrf_score": 0.03252247488101534,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9940722584724426,
+        "final_rank": 2
+      },
+      {
+        "id": "ff740c2d8cdc09f8a63a",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 4.350959869906619,
+        "rank": 3,
+        "canonical_id": "ff740c2d8cdc09f8a63a",
+        "bm25_rank": 25,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6230267882347107,
+        "rrf_score": 0.025849212924606464,
+        "hybrid_rank": 12,
+        "reranker_score": 0.9807871580123901,
+        "final_rank": 3
+      },
+      {
+        "id": "1d585a4f96dc25e7be5d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十七条",
+        "chapter": "第八章附 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 5.192866259781098,
+        "rank": 4,
+        "canonical_id": "1d585a4f96dc25e7be5d",
+        "bm25_rank": 18,
+        "semantic_rank": 21,
+        "semantic_similarity": 0.5823987722396851,
+        "rrf_score": 0.0251661918328585,
+        "hybrid_rank": 15,
+        "reranker_score": 0.9769644141197205,
+        "final_rank": 4
+      },
+      {
+        "id": "85a66e465f72e3cb969e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十九条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.834326909528816,
+        "rank": 5,
+        "canonical_id": "85a66e465f72e3cb969e",
+        "bm25_rank": 7,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6529942750930786,
+        "rrf_score": 0.029850746268656716,
+        "hybrid_rank": 7,
+        "reranker_score": 0.9763867259025574,
+        "final_rank": 5
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.102403021708362,
+        "rank": 6,
+        "canonical_id": "aea9c0e1739543174598",
+        "bm25_rank": 10,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6591008901596069,
+        "rrf_score": 0.029437229437229435,
+        "hybrid_rank": 8,
+        "reranker_score": 0.9648573994636536,
+        "final_rank": 6
+      },
+      {
+        "id": "bac00bbc20953e316f31",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 6.5578748462026635,
+        "rank": 7,
+        "canonical_id": "bac00bbc20953e316f31",
+        "bm25_rank": 11,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6872802376747131,
+        "rrf_score": 0.03021353930031804,
+        "hybrid_rank": 6,
+        "reranker_score": 0.9558148980140686,
+        "final_rank": 7
+      },
+      {
+        "id": "b6d9d273bc81105fbb19",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十一条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 7.6321287473658455,
+        "rank": 8,
+        "canonical_id": "b6d9d273bc81105fbb19",
+        "bm25_rank": 8,
+        "semantic_rank": 15,
+        "semantic_similarity": 0.6130645275115967,
+        "rrf_score": 0.02803921568627451,
+        "hybrid_rank": 10,
+        "reranker_score": 0.9502024054527283,
+        "final_rank": 8
+      },
+      {
+        "id": "530ce64ec7f72df553ad",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第九条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "530ce64ec7f72df553ad",
+        "rank": 9,
+        "similarity_score": 0.6341434717178345,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6341434717178345,
+        "rrf_score": 0.014285714285714285,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 25,
+        "reranker_score": 0.9379479885101318,
+        "final_rank": 9
+      },
+      {
+        "id": "b8e9078be393318aa410",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 10.229614308627662,
+        "rank": 10,
+        "canonical_id": "b8e9078be393318aa410",
+        "bm25_rank": 5,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.6176108121871948,
+        "rrf_score": 0.029083245521601686,
+        "hybrid_rank": 9,
+        "reranker_score": 0.9183930158615112,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 9.544433116879366,
+        "rank": 1,
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 9.544433116879366
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 3
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6790705323219299
+          }
+        ],
+        "pre_rerank_score": 0.031024531024531024,
+        "bm25_rank": 6,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6790705323219299,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.9979446530342102,
+        "final_rank": 1
+      },
+      {
+        "id": "37d2a6c8c8f70ab05cd1",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 11.787512861835403,
+        "rank": 2,
+        "canonical_id": "37d2a6c8c8f70ab05cd1",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 11.787512861835403
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 1
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.7255225777626038
+          }
+        ],
+        "pre_rerank_score": 0.03252247488101534,
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7255225777626038,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9940722584724426,
+        "final_rank": 2
+      },
+      {
+        "id": "ff740c2d8cdc09f8a63a",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 4.350959869906619,
+        "rank": 3,
+        "canonical_id": "ff740c2d8cdc09f8a63a",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 25
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 4.350959869906619
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 11
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6230267882347107
+          }
+        ],
+        "pre_rerank_score": 0.025849212924606464,
+        "bm25_rank": 25,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6230267882347107,
+        "pre_rerank_rank": 12,
+        "reranker_score": 0.9807871580123901,
+        "final_rank": 3
+      },
+      {
+        "id": "1d585a4f96dc25e7be5d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十七条",
+        "chapter": "第八章附 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 5.192866259781098,
+        "rank": 4,
+        "canonical_id": "1d585a4f96dc25e7be5d",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 18
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 5.192866259781098
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 21
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.5823987722396851
+          }
+        ],
+        "pre_rerank_score": 0.0251661918328585,
+        "bm25_rank": 18,
+        "semantic_rank": 21,
+        "semantic_similarity": 0.5823987722396851,
+        "pre_rerank_rank": 15,
+        "reranker_score": 0.9769644141197205,
+        "final_rank": 4
+      },
+      {
+        "id": "85a66e465f72e3cb969e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十九条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.834326909528816,
+        "rank": 5,
+        "canonical_id": "85a66e465f72e3cb969e",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 7
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 8.834326909528816
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 7
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6529942750930786
+          }
+        ],
+        "pre_rerank_score": 0.029850746268656716,
+        "bm25_rank": 7,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6529942750930786,
+        "pre_rerank_rank": 7,
+        "reranker_score": 0.9763867259025574,
+        "final_rank": 5
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.102403021708362,
+        "rank": 6,
+        "canonical_id": "aea9c0e1739543174598",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 7.102403021708362
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6591008901596069
+          }
+        ],
+        "pre_rerank_score": 0.029437229437229435,
+        "bm25_rank": 10,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6591008901596069,
+        "pre_rerank_rank": 8,
+        "reranker_score": 0.9648573994636536,
+        "final_rank": 6
+      },
+      {
+        "id": "bac00bbc20953e316f31",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 6.5578748462026635,
+        "rank": 7,
+        "canonical_id": "bac00bbc20953e316f31",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 11
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 6.5578748462026635
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6872802376747131
+          }
+        ],
+        "pre_rerank_score": 0.03021353930031804,
+        "bm25_rank": 11,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6872802376747131,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.9558148980140686,
+        "final_rank": 7
+      },
+      {
+        "id": "b6d9d273bc81105fbb19",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十一条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 7.6321287473658455,
+        "rank": 8,
+        "canonical_id": "b6d9d273bc81105fbb19",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 8
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 7.6321287473658455
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 15
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6130645275115967
+          }
+        ],
+        "pre_rerank_score": 0.02803921568627451,
+        "bm25_rank": 8,
+        "semantic_rank": 15,
+        "semantic_similarity": 0.6130645275115967,
+        "pre_rerank_rank": 10,
+        "reranker_score": 0.9502024054527283,
+        "final_rank": 8
+      },
+      {
+        "id": "530ce64ec7f72df553ad",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第九条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "530ce64ec7f72df553ad",
+        "rank": 9,
+        "similarity_score": 0.6341434717178345,
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 10
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6341434717178345
+          }
+        ],
+        "pre_rerank_score": 0.014285714285714285,
+        "bm25_rank": null,
+        "semantic_rank": 10,
+        "bm25_score": null,
+        "semantic_similarity": 0.6341434717178345,
+        "pre_rerank_rank": 25,
+        "reranker_score": 0.9379479885101318,
+        "final_rank": 9
+      },
+      {
+        "id": "b8e9078be393318aa410",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 10.229614308627662,
+        "rank": 10,
+        "canonical_id": "b8e9078be393318aa410",
+        "matched_queries": [
+          "工作多久必须签无固定期限合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 10.229614308627662
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "rank": 13
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "工作多久必须签无固定期限合同",
+            "score": 0.6176108121871948
+          }
+        ],
+        "pre_rerank_score": 0.029083245521601686,
+        "bm25_rank": 5,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.6176108121871948,
+        "pre_rerank_rank": 9,
+        "reranker_score": 0.9183930158615112,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "7c8b17cb55c584d2c73d": 1
+    },
+    "v04_reranked": {
+      "7c8b17cb55c584d2c73d": 1
+    },
+    "v05_multi_query_reranked": {
+      "7c8b17cb55c584d2c73d": 1
+    }
+  }
+}

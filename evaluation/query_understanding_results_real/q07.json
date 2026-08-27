@@ -1,0 +1,783 @@
+{
+  "original_query": "试用期最长可以约定多久",
+  "structured_understanding": {
+    "original_query": "试用期最长可以约定多久",
+    "domain": "劳动争议",
+    "issue": "试用期期限的法定上限",
+    "user_intent": "用户希望了解法律允许的试用期最长时长，属于法律咨询意图",
+    "legal_concepts": [
+      "试用期",
+      "劳动合同期限",
+      "期限上限"
+    ],
+    "search_queries": [
+      "试用期最长几个月 法律规定",
+      "劳动合同试用期期限 上限",
+      "试用期约定时间 劳动法限制"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "试用期最长可以约定多久",
+    "试用期最长几个月 法律规定",
+    "劳动合同试用期期限 上限"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 7344.453600002453
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十九条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "85a66e465f72e3cb969e"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 49,
+      "reranking_candidate_count": 49,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 137,
+      "reranking_candidate_count": 137,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 50.01800000900403,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 13096.11041667813,
+  "final_retrieval_ranking": [
+    {
+      "id": "bfc0f277ec69386c4521",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十一条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 17.855019372193563,
+      "rank": 1,
+      "canonical_id": "bfc0f277ec69386c4521",
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "试用期最长几个月 法律规定",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 1
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 17.855019372193563
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 13.63308445710386
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 6.946177184344058
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 1
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.7557752132415771
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 0.7229677438735962
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.78946852684021
+        }
+      ],
+      "pre_rerank_score": 0.09783183500793231,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7557752132415771,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9973235726356506,
+      "final_rank": 1
+    },
+    {
+      "id": "85a66e465f72e3cb969e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第十九条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 9.150212544249698,
+      "rank": 2,
+      "canonical_id": "85a66e465f72e3cb969e",
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "试用期最长几个月 法律规定",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 2
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 9.150212544249698
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 9.98637478800747
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 11.701039720189204
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 2
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.6432065367698669
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 0.6184816360473633
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.7942657470703125
+        }
+      ],
+      "pre_rerank_score": 0.09704699789311107,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6432065367698669,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9760801196098328,
+      "final_rank": 2
+    },
+    {
+      "id": "fa6ff67807af21b75793",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 7.661421653427697,
+      "rank": 3,
+      "canonical_id": "fa6ff67807af21b75793",
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "试用期最长几个月 法律规定",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 4
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 7.661421653427697
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 5.38951322697942
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 5.0878044699610285
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 4
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.5779529809951782
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 0.5809040665626526
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.7450793385505676
+        }
+      ],
+      "pre_rerank_score": 0.0928030303030303,
+      "bm25_rank": 4,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.5779529809951782,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.9070698022842407,
+      "final_rank": 3
+    },
+    {
+      "id": "7c8b17cb55c584d2c73d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第十四条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": null,
+      "rank": 4,
+      "canonical_id": "7c8b17cb55c584d2c73d",
+      "matched_queries": [
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 16
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 4.229188642361352
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 24
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.6378294229507446
+        }
+      ],
+      "pre_rerank_score": 0.02506265664160401,
+      "bm25_rank": 16,
+      "semantic_rank": 24,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 47,
+      "reranker_score": 0.48733100295066833,
+      "final_rank": 4
+    },
+    {
+      "id": "b8e9078be393318aa410",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "canonical_id": "b8e9078be393318aa410",
+      "rank": 5,
+      "similarity_score": 0.519995927810669,
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "试用期最长几个月 法律规定",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 8
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 9
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 20
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.519995927810669
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 0.525688648223877
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.6439169645309448
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 12
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 4.423452771427497
+        }
+      ],
+      "pre_rerank_score": 0.05558752486501847,
+      "bm25_rank": 12,
+      "semantic_rank": 8,
+      "bm25_score": null,
+      "semantic_similarity": 0.519995927810669,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.29476577043533325,
+      "final_rank": 5
+    },
+    {
+      "id": "530ce64ec7f72df553ad",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第九条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "530ce64ec7f72df553ad",
+      "rank": 6,
+      "similarity_score": 0.520976185798645,
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "试用期最长几个月 法律规定",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 7
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 7
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 15
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.520976185798645
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 0.5423161387443542
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.6548757553100586
+        }
+      ],
+      "pre_rerank_score": 0.04318407960199005,
+      "bm25_rank": null,
+      "semantic_rank": 7,
+      "bm25_score": null,
+      "semantic_similarity": 0.520976185798645,
+      "pre_rerank_rank": 27,
+      "reranker_score": 0.25623053312301636,
+      "final_rank": 6
+    },
+    {
+      "id": "37d2a6c8c8f70ab05cd1",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "37d2a6c8c8f70ab05cd1",
+      "rank": 7,
+      "similarity_score": 0.48100340366363525,
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "试用期最长几个月 法律规定",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 16
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 46
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 9
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.48100340366363525
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 0.4573885202407837
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.6792589426040649
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 5.096726578686115
+        }
+      ],
+      "pre_rerank_score": 0.05246922600879684,
+      "bm25_rank": 5,
+      "semantic_rank": 9,
+      "bm25_score": null,
+      "semantic_similarity": 0.48100340366363525,
+      "pre_rerank_rank": 17,
+      "reranker_score": 0.23850496113300323,
+      "final_rank": 7
+    },
+    {
+      "id": "f2c74dc5574022ac7734",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十七条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 6.13606428999307,
+      "rank": 8,
+      "canonical_id": "f2c74dc5574022ac7734",
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "试用期最长几个月 法律规定",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 6
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 6.13606428999307
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 4.236409311214856
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 4.8396794292482515
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 20
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "rank": 34
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 29
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.47394952178001404
+        },
+        {
+          "query": "试用期最长几个月 法律规定",
+          "score": 0.46598803997039795
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.624972939491272
+        }
+      ],
+      "pre_rerank_score": 0.07851736471869081,
+      "bm25_rank": 6,
+      "semantic_rank": 20,
+      "semantic_similarity": 0.47394952178001404,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.23292124271392822,
+      "final_rank": 8
+    },
+    {
+      "id": "8988b10cddc6715d3b7a",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第二十四条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.012667025934268,
+      "rank": 9,
+      "canonical_id": "8988b10cddc6715d3b7a",
+      "matched_queries": [
+        "试用期最长可以约定多久",
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 46
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 27
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 2.012667025934268
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 2.973331584522656
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期最长可以约定多久",
+          "rank": 46
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 36
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期最长可以约定多久",
+          "score": 0.4382258951663971
+        },
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.6187421083450317
+        }
+      ],
+      "pre_rerank_score": 0.040778844068531765,
+      "bm25_rank": 27,
+      "semantic_rank": 36,
+      "semantic_similarity": 0.4382258951663971,
+      "pre_rerank_rank": 29,
+      "reranker_score": 0.20905917882919312,
+      "final_rank": 9
+    },
+    {
+      "id": "9eeb1a2362c58d638e06",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第六条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "9eeb1a2362c58d638e06",
+      "rank": 10,
+      "similarity_score": 0.6225162744522095,
+      "matched_queries": [
+        "劳动合同试用期期限 上限"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "rank": 30
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同试用期期限 上限",
+          "score": 0.6225162744522095
+        }
+      ],
+      "pre_rerank_score": 0.011111111111111112,
+      "bm25_rank": null,
+      "semantic_rank": 30,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 93,
+      "reranker_score": 0.192678302526474,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "85a66e465f72e3cb969e": 2
+  }
+}

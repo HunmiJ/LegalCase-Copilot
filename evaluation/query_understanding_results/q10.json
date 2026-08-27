@@ -1,0 +1,1217 @@
+{
+  "original_query": "加班到晚上十点没有加班费怎么办",
+  "structured_understanding": {
+    "original_query": "加班到晚上十点没有加班费怎么办",
+    "domain": "劳动争议",
+    "issue": "延长工作时间、加班工资、休息日",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "延长工作时间",
+      "加班工资",
+      "休息日",
+      "节假日"
+    ],
+    "search_queries": [
+      "加班到晚上十点没有加班费怎么办",
+      "延长工作时间 加班工资 休息日 节假日",
+      "劳动争议 延长工作时间 加班工资 休息日 节假日"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "加班到晚上十点没有加班费怎么办",
+    "延长工作时间 加班工资 休息日 节假日",
+    "劳动争议 延长工作时间 加班工资 休息日 节假日"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十一条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "article_number": "第四十四条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "5aac0afbda6fae5f053c",
+    "d2d1fa50be0e2eb18ca9"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "5aac0afbda6fae5f053c": 1,
+      "d2d1fa50be0e2eb18ca9": 9
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 53,
+      "reranking_candidate_count": 53,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 149,
+      "reranking_candidate_count": 149,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "5aac0afbda6fae5f053c": 1,
+      "d2d1fa50be0e2eb18ca9": 5
+    }
+  },
+  "query_understanding_latency_ms": 0.000600004568696022,
+  "multi_query_retrieval_latency_ms": 27.522999997017905,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "c584472b304555389650",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十五条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "c584472b304555389650",
+        "rank": 1,
+        "similarity_score": 0.5798127055168152,
+        "reranker_score": 0.9171800017356873,
+        "final_rank": 1
+      },
+      {
+        "id": "8fba11448fdd77357791",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十二条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "8fba11448fdd77357791",
+        "rank": 2,
+        "similarity_score": 0.6083219051361084,
+        "reranker_score": 0.8351810574531555,
+        "final_rank": 2
+      },
+      {
+        "id": "5aac0afbda6fae5f053c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十一条",
+        "chapter": "第三章劳动合同的履行和变更",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5aac0afbda6fae5f053c",
+        "rank": 3,
+        "similarity_score": 0.6556806564331055,
+        "reranker_score": 0.7088083028793335,
+        "final_rank": 3
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "37d603c79fa15eb7b176",
+        "rank": 4,
+        "similarity_score": 0.4874057471752167,
+        "reranker_score": 0.5634149312973022,
+        "final_rank": 4
+      },
+      {
+        "id": "49a516010dcfc2066ff3",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "49a516010dcfc2066ff3",
+        "rank": 5,
+        "similarity_score": 0.5360910892486572,
+        "reranker_score": 0.5469095706939697,
+        "final_rank": 5
+      },
+      {
+        "id": "e6e0d891c04c9971f417",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十五条",
+        "chapter": "第四章工作时间和休息休假",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "e6e0d891c04c9971f417",
+        "rank": 6,
+        "similarity_score": 0.49176496267318726,
+        "reranker_score": 0.5281339287757874,
+        "final_rank": 6
+      },
+      {
+        "id": "daf7300f7458e59be7b2",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "daf7300f7458e59be7b2",
+        "rank": 7,
+        "similarity_score": 0.47405028343200684,
+        "reranker_score": 0.5227049589157104,
+        "final_rank": 7
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d507b06ae94939f9c73f",
+        "rank": 8,
+        "similarity_score": 0.46161049604415894,
+        "reranker_score": 0.5056561827659607,
+        "final_rank": 8
+      },
+      {
+        "id": "508c9b7a9b1fdda440c4",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十三条",
+        "chapter": "第五章法律责任",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "508c9b7a9b1fdda440c4",
+        "rank": 9,
+        "similarity_score": 0.4836468994617462,
+        "reranker_score": 0.47954466938972473,
+        "final_rank": 9
+      },
+      {
+        "id": "fd46d93f6e523af3446e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第九十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "fd46d93f6e523af3446e",
+        "rank": 10,
+        "similarity_score": 0.4857611060142517,
+        "reranker_score": 0.45535266399383545,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "c584472b304555389650",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十五条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.990958823020124,
+        "rank": 1,
+        "canonical_id": "c584472b304555389650",
+        "bm25_rank": 3,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.5798127055168152,
+        "rrf_score": 0.031746031746031744,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9171800017356873,
+        "final_rank": 1
+      },
+      {
+        "id": "8fba11448fdd77357791",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十二条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.494081987182984,
+        "rank": 2,
+        "canonical_id": "8fba11448fdd77357791",
+        "bm25_rank": 2,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6083219051361084,
+        "rrf_score": 0.03225806451612903,
+        "hybrid_rank": 2,
+        "reranker_score": 0.8351810574531555,
+        "final_rank": 2
+      },
+      {
+        "id": "5aac0afbda6fae5f053c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十一条",
+        "chapter": "第三章劳动合同的履行和变更",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.524548007559776,
+        "rank": 3,
+        "canonical_id": "5aac0afbda6fae5f053c",
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6556806564331055,
+        "rrf_score": 0.03278688524590164,
+        "hybrid_rank": 1,
+        "reranker_score": 0.7088083028793335,
+        "final_rank": 3
+      },
+      {
+        "id": "7013f2495638f0a97cf8",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 3.640081791348969,
+        "rank": 4,
+        "canonical_id": "7013f2495638f0a97cf8",
+        "bm25_rank": 9,
+        "rrf_score": 0.014492753623188406,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 18,
+        "reranker_score": 0.5871697664260864,
+        "final_rank": 4
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.82708366987082,
+        "rank": 5,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "bm25_rank": 4,
+        "semantic_rank": 19,
+        "semantic_similarity": 0.4874057471752167,
+        "rrf_score": 0.028283227848101264,
+        "hybrid_rank": 4,
+        "reranker_score": 0.5634149312973022,
+        "final_rank": 5
+      },
+      {
+        "id": "49a516010dcfc2066ff3",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "49a516010dcfc2066ff3",
+        "rank": 6,
+        "similarity_score": 0.5360910892486572,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.5360910892486572,
+        "rrf_score": 0.015625,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 10,
+        "reranker_score": 0.5469095706939697,
+        "final_rank": 6
+      },
+      {
+        "id": "e6e0d891c04c9971f417",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十五条",
+        "chapter": "第四章工作时间和休息休假",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "e6e0d891c04c9971f417",
+        "rank": 7,
+        "similarity_score": 0.49176496267318726,
+        "semantic_rank": 17,
+        "semantic_similarity": 0.49176496267318726,
+        "rrf_score": 0.012987012987012988,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 33,
+        "reranker_score": 0.5281339287757874,
+        "final_rank": 7
+      },
+      {
+        "id": "daf7300f7458e59be7b2",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "daf7300f7458e59be7b2",
+        "rank": 8,
+        "similarity_score": 0.47405028343200684,
+        "semantic_rank": 28,
+        "semantic_similarity": 0.47405028343200684,
+        "rrf_score": 0.011363636363636364,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 51,
+        "reranker_score": 0.5227049589157104,
+        "final_rank": 8
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d507b06ae94939f9c73f",
+        "rank": 9,
+        "similarity_score": 0.46161049604415894,
+        "semantic_rank": 44,
+        "semantic_similarity": 0.46161049604415894,
+        "rrf_score": 0.009615384615384616,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 80,
+        "reranker_score": 0.5056561827659607,
+        "final_rank": 9
+      },
+      {
+        "id": "508c9b7a9b1fdda440c4",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十三条",
+        "chapter": "第五章法律责任",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "508c9b7a9b1fdda440c4",
+        "rank": 10,
+        "similarity_score": 0.4836468994617462,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.4836468994617462,
+        "rrf_score": 0.012048192771084338,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 42,
+        "reranker_score": 0.47954466938972473,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "c584472b304555389650",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十五条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.990958823020124,
+        "rank": 1,
+        "canonical_id": "c584472b304555389650",
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "延长工作时间 加班工资 休息日 节假日",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 3
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 21
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 18
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 7.990958823020124
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 5.077153127997604
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 6.355662198150805
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 3
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 19
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.5798127055168152
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 0.4690837264060974
+          }
+        ],
+        "pre_rerank_score": 0.0695704514269915,
+        "bm25_rank": 3,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.5798127055168152,
+        "pre_rerank_rank": 8,
+        "reranker_score": 0.9171800017356873,
+        "final_rank": 1
+      },
+      {
+        "id": "8fba11448fdd77357791",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十二条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.494081987182984,
+        "rank": 2,
+        "canonical_id": "8fba11448fdd77357791",
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "延长工作时间 加班工资 休息日 节假日",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 2
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 12
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 11.494081987182984
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 6.990583499356915
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 8.727905674893849
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 2
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 13
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 3
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.6083219051361084
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 0.5097569227218628
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 0.6149568557739258
+          }
+        ],
+        "pre_rerank_score": 0.09000431370073438,
+        "bm25_rank": 2,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6083219051361084,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.8351810574531555,
+        "final_rank": 2
+      },
+      {
+        "id": "5aac0afbda6fae5f053c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十一条",
+        "chapter": "第三章劳动合同的履行和变更",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 12.524548007559776,
+        "rank": 3,
+        "canonical_id": "5aac0afbda6fae5f053c",
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "延长工作时间 加班工资 休息日 节假日",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 1
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 9
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 12.524548007559776
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 7.518699607541184
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 8.890413854638506
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 1
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 9
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 9
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.6556806564331055
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 0.5338801145553589
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 0.5764337182044983
+          }
+        ],
+        "pre_rerank_score": 0.09055086040118114,
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6556806564331055,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.7088083028793335,
+        "final_rank": 3
+      },
+      {
+        "id": "7013f2495638f0a97cf8",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 3.640081791348969,
+        "rank": 4,
+        "canonical_id": "7013f2495638f0a97cf8",
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 9
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 3.640081791348969
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 37
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 0.5298883318901062
+          }
+        ],
+        "pre_rerank_score": 0.02480203197370387,
+        "bm25_rank": 9,
+        "semantic_rank": 37,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 42,
+        "reranker_score": 0.5871697664260864,
+        "final_rank": 4
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.82708366987082,
+        "rank": 5,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "延长工作时间 加班工资 休息日 节假日",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 4
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 37
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 39
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 6.82708366987082
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 3.2504565698377808
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 4.951270139293146
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 19
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 18
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.4874057471752167
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 0.4717831611633301
+          }
+        ],
+        "pre_rerank_score": 0.061514029120139646,
+        "bm25_rank": 4,
+        "semantic_rank": 18,
+        "semantic_similarity": 0.4874057471752167,
+        "pre_rerank_rank": 15,
+        "reranker_score": 0.5634149312973022,
+        "final_rank": 5
+      },
+      {
+        "id": "6b9f0a124dd149f36d50",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": null,
+        "rank": 6,
+        "canonical_id": "6b9f0a124dd149f36d50",
+        "matched_queries": [
+          "延长工作时间 加班工资 休息日 节假日",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 42
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 34
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 3.0937520469958963
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 5.067953498622286
+          }
+        ],
+        "pre_rerank_score": 0.020442219440967878,
+        "bm25_rank": 34,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 66,
+        "reranker_score": 0.5560984015464783,
+        "final_rank": 6
+      },
+      {
+        "id": "49a516010dcfc2066ff3",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "49a516010dcfc2066ff3",
+        "rank": 7,
+        "similarity_score": 0.5360910892486572,
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "延长工作时间 加班工资 休息日 节假日",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 4
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.5360910892486572
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 0.5424139499664307
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 0.5844736695289612
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 9.520760891578673
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 11.013579763311775
+          }
+        ],
+        "pre_rerank_score": 0.07601852804058687,
+        "bm25_rank": 5,
+        "semantic_rank": 4,
+        "bm25_score": null,
+        "semantic_similarity": 0.5360910892486572,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.5469096302986145,
+        "final_rank": 7
+      },
+      {
+        "id": "e6e0d891c04c9971f417",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十五条",
+        "chapter": "第四章工作时间和休息休假",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "e6e0d891c04c9971f417",
+        "rank": 8,
+        "similarity_score": 0.49176496267318726,
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "延长工作时间 加班工资 休息日 节假日",
+          "劳动争议 延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 17
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 15
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.49176496267318726
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 0.5434356927871704
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 0.559762179851532
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 15
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "rank": 24
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 5.582563289771194
+          },
+          {
+            "query": "劳动争议 延长工作时间 加班工资 休息日 节假日",
+            "score": 5.582563289771194
+          }
+        ],
+        "pre_rerank_score": 0.06648381469276993,
+        "bm25_rank": 15,
+        "semantic_rank": 7,
+        "bm25_score": null,
+        "semantic_similarity": 0.49176496267318726,
+        "pre_rerank_rank": 13,
+        "reranker_score": 0.5281339287757874,
+        "final_rank": 8
+      },
+      {
+        "id": "daf7300f7458e59be7b2",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "daf7300f7458e59be7b2",
+        "rank": 9,
+        "similarity_score": 0.47405028343200684,
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 28
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.47405028343200684
+          }
+        ],
+        "pre_rerank_score": 0.011363636363636364,
+        "bm25_rank": null,
+        "semantic_rank": 28,
+        "bm25_score": null,
+        "semantic_similarity": 0.47405028343200684,
+        "pre_rerank_rank": 99,
+        "reranker_score": 0.5227049589157104,
+        "final_rank": 9
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d507b06ae94939f9c73f",
+        "rank": 10,
+        "similarity_score": 0.46161049604415894,
+        "matched_queries": [
+          "加班到晚上十点没有加班费怎么办",
+          "延长工作时间 加班工资 休息日 节假日"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "rank": 44
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "rank": 44
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "加班到晚上十点没有加班费怎么办",
+            "score": 0.46161049604415894
+          },
+          {
+            "query": "延长工作时间 加班工资 休息日 节假日",
+            "score": 0.42496025562286377
+          }
+        ],
+        "pre_rerank_score": 0.019230769230769232,
+        "bm25_rank": null,
+        "semantic_rank": 44,
+        "bm25_score": null,
+        "semantic_similarity": 0.46161049604415894,
+        "pre_rerank_rank": 71,
+        "reranker_score": 0.5056561827659607,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "5aac0afbda6fae5f053c": 3,
+      "d2d1fa50be0e2eb18ca9": null
+    },
+    "v04_reranked": {
+      "5aac0afbda6fae5f053c": 3,
+      "d2d1fa50be0e2eb18ca9": null
+    },
+    "v05_multi_query_reranked": {
+      "5aac0afbda6fae5f053c": 3,
+      "d2d1fa50be0e2eb18ca9": null
+    }
+  }
+}

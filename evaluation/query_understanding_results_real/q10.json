@@ -1,0 +1,761 @@
+{
+  "original_query": "加班到晚上十点没有加班费怎么办",
+  "structured_understanding": {
+    "original_query": "加班到晚上十点没有加班费怎么办",
+    "domain": "劳动争议",
+    "issue": "加班费未支付的维权途径",
+    "user_intent": "寻求解决方法或咨询权利救济",
+    "legal_concepts": [
+      "加班费",
+      "加班认定",
+      "工资支付",
+      "劳动仲裁",
+      "劳动监察"
+    ],
+    "search_queries": [
+      "加班到晚上十点没有加班费怎么办",
+      "加班费未支付 劳动仲裁流程",
+      "加班时间认定 加班费计算"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "加班到晚上十点没有加班费怎么办",
+    "加班费未支付 劳动仲裁流程",
+    "加班时间认定 加班费计算"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8819.57359999069
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十一条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "article_number": "第四十四条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "5aac0afbda6fae5f053c",
+    "d2d1fa50be0e2eb18ca9"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 71,
+      "reranking_candidate_count": 71,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 163,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 58.68600000394508,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 14579.898416661308,
+  "final_retrieval_ranking": [
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 7.990958823020124,
+      "rank": 1,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班费未支付 劳动仲裁流程",
+        "加班时间认定 加班费计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 3
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 1
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 7.990958823020124
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 10.840066108716984
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 7.990958823020124
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 3
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 4
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 0.5798127055168152
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 0.638060986995697
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 0.5225648880004883
+        }
+      ],
+      "pre_rerank_score": 0.09551050611501431,
+      "bm25_rank": 1,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.5798127055168152,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9171800017356873,
+      "final_rank": 1
+    },
+    {
+      "id": "8fba11448fdd77357791",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十二条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 11.494081987182984,
+      "rank": 2,
+      "canonical_id": "8fba11448fdd77357791",
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班费未支付 劳动仲裁流程",
+        "加班时间认定 加班费计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 2
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 14
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 11.494081987182984
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 5.737557641017629
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 11.494081987182984
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 2
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 2
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 0.6083219051361084
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 0.65740567445755
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 0.6168287396430969
+        }
+      ],
+      "pre_rerank_score": 0.09415867480383609,
+      "bm25_rank": 2,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6083219051361084,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.8351810574531555,
+      "final_rank": 2
+    },
+    {
+      "id": "5aac0afbda6fae5f053c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十一条",
+      "chapter": "第三章劳动合同的履行和变更",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 12.524548007559776,
+      "rank": 3,
+      "canonical_id": "5aac0afbda6fae5f053c",
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班费未支付 劳动仲裁流程",
+        "加班时间认定 加班费计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 1
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 2
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 12.524548007559776
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 8.07143783439754
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 12.524548007559776
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 1
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 1
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 0.6556806564331055
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 0.6673668622970581
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 0.6343361139297485
+        }
+      ],
+      "pre_rerank_score": 0.09809624537281864,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6556806564331055,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.7088083028793335,
+      "final_rank": 3
+    },
+    {
+      "id": "7013f2495638f0a97cf8",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 3.640081791348969,
+      "rank": 4,
+      "canonical_id": "7013f2495638f0a97cf8",
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班费未支付 劳动仲裁流程",
+        "加班时间认定 加班费计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 9
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 13
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 3.640081791348969
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 5.869273606225576
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 6.62693724765892
+        }
+      ],
+      "pre_rerank_score": 0.043575999144790094,
+      "bm25_rank": 5,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.5871697664260864,
+      "final_rank": 4
+    },
+    {
+      "id": "37d603c79fa15eb7b176",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十二条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 6.82708366987082,
+      "rank": 5,
+      "canonical_id": "37d603c79fa15eb7b176",
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班费未支付 劳动仲裁流程",
+        "加班时间认定 加班费计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 4
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 6
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 19
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 6.82708366987082
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 6.269427103110899
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 3.41354183493541
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 19
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 21
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 0.4874057471752167
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 0.5575335621833801
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 0.480452299118042
+        }
+      ],
+      "pre_rerank_score": 0.08336402299439172,
+      "bm25_rank": 4,
+      "semantic_rank": 7,
+      "semantic_similarity": 0.4874057471752167,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.5634149312973022,
+      "final_rank": 5
+    },
+    {
+      "id": "6b9f0a124dd149f36d50",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第三条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": null,
+      "rank": 6,
+      "canonical_id": "6b9f0a124dd149f36d50",
+      "matched_queries": [
+        "加班费未支付 劳动仲裁流程"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 43
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 4.446646461971117
+        }
+      ],
+      "pre_rerank_score": 0.009708737864077669,
+      "bm25_rank": 43,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 145,
+      "reranker_score": 0.5560985207557678,
+      "final_rank": 6
+    },
+    {
+      "id": "49a516010dcfc2066ff3",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "49a516010dcfc2066ff3",
+      "rank": 7,
+      "similarity_score": 0.5360910892486572,
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班费未支付 劳动仲裁流程",
+        "加班时间认定 加班费计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 4
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 37
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 0.5360910892486572
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 0.5422951579093933
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 0.4761093258857727
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 27
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 3.0456714328168335
+        }
+      ],
+      "pre_rerank_score": 0.051714245509792964,
+      "bm25_rank": 27,
+      "semantic_rank": 4,
+      "bm25_score": null,
+      "semantic_similarity": 0.5360910892486572,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.5469096302986145,
+      "final_rank": 7
+    },
+    {
+      "id": "e6e0d891c04c9971f417",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第四十五条",
+      "chapter": "第四章工作时间和休息休假",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "e6e0d891c04c9971f417",
+      "rank": 8,
+      "similarity_score": 0.49176496267318726,
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班时间认定 加班费计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 17
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 20
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 0.49176496267318726
+        },
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 0.4548717737197876
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "加班时间认定 加班费计算",
+          "rank": 28
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班时间认定 加班费计算",
+          "score": 2.9798997815311834
+        }
+      ],
+      "pre_rerank_score": 0.036850649350649356,
+      "bm25_rank": 28,
+      "semantic_rank": 17,
+      "bm25_score": null,
+      "semantic_similarity": 0.49176496267318726,
+      "pre_rerank_rank": 27,
+      "reranker_score": 0.5281339287757874,
+      "final_rank": 8
+    },
+    {
+      "id": "daf7300f7458e59be7b2",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十一条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "daf7300f7458e59be7b2",
+      "rank": 9,
+      "similarity_score": 0.47405028343200684,
+      "matched_queries": [
+        "加班到晚上十点没有加班费怎么办",
+        "加班费未支付 劳动仲裁流程"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "rank": 28
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 38
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班到晚上十点没有加班费怎么办",
+          "score": 0.47405028343200684
+        },
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 0.5420080423355103
+        }
+      ],
+      "pre_rerank_score": 0.021567717996289426,
+      "bm25_rank": null,
+      "semantic_rank": 28,
+      "bm25_score": null,
+      "semantic_similarity": 0.47405028343200684,
+      "pre_rerank_rank": 67,
+      "reranker_score": 0.5227049589157104,
+      "final_rank": 9
+    },
+    {
+      "id": "31c8454c3c5fe890ab51",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十九条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": null,
+      "rank": 10,
+      "canonical_id": "31c8454c3c5fe890ab51",
+      "matched_queries": [
+        "加班费未支付 劳动仲裁流程"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 27
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 4.947005960983661
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费未支付 劳动仲裁流程",
+          "score": 0.5698999166488647
+        }
+      ],
+      "pre_rerank_score": 0.026419626007891578,
+      "bm25_rank": 27,
+      "semantic_rank": 7,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 43,
+      "reranker_score": 0.519249677658081,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "d2d1fa50be0e2eb18ca9": null,
+    "5aac0afbda6fae5f053c": 3
+  }
+}

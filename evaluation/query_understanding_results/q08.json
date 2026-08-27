@@ -1,0 +1,1282 @@
+{
+  "original_query": "试用期被辞退公司需要说明理由吗",
+  "structured_understanding": {
+    "original_query": "试用期被辞退公司需要说明理由吗",
+    "domain": "劳动争议",
+    "issue": "解除劳动合同、违法解除、经济补偿",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "解除劳动合同",
+      "违法解除",
+      "经济补偿",
+      "赔偿金",
+      "试用期",
+      "录用条件"
+    ],
+    "search_queries": [
+      "试用期被辞退公司需要说明理由吗",
+      "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+      "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "试用期被辞退公司需要说明理由吗",
+    "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+    "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十一条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "5d1a2b54f1459dba8abd"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "5d1a2b54f1459dba8abd": 1
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 59,
+      "reranking_candidate_count": 59,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 126,
+      "reranking_candidate_count": 126,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "5d1a2b54f1459dba8abd": 1
+    }
+  },
+  "query_understanding_latency_ms": 0.000600004568696022,
+  "multi_query_retrieval_latency_ms": 30.54790000896901,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "5d1a2b54f1459dba8abd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5d1a2b54f1459dba8abd",
+        "rank": 1,
+        "similarity_score": 0.6961219310760498,
+        "reranker_score": 0.9796252250671387,
+        "final_rank": 1
+      },
+      {
+        "id": "10e13242360b544c672e",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "10e13242360b544c672e",
+        "rank": 2,
+        "similarity_score": 0.604881227016449,
+        "reranker_score": 0.4456479549407959,
+        "final_rank": 2
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "rank": 3,
+        "similarity_score": 0.5490306615829468,
+        "reranker_score": 0.30941760540008545,
+        "final_rank": 3
+      },
+      {
+        "id": "e58adbe7103d1351f93c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "e58adbe7103d1351f93c",
+        "rank": 4,
+        "similarity_score": 0.5899246335029602,
+        "reranker_score": 0.3002517521381378,
+        "final_rank": 4
+      },
+      {
+        "id": "fa6ff67807af21b75793",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "fa6ff67807af21b75793",
+        "rank": 5,
+        "similarity_score": 0.5832818746566772,
+        "reranker_score": 0.24181653559207916,
+        "final_rank": 5
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "rank": 6,
+        "similarity_score": 0.5844061970710754,
+        "reranker_score": 0.23633642494678497,
+        "final_rank": 6
+      },
+      {
+        "id": "6650450d848dd7585211",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十九条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "6650450d848dd7585211",
+        "rank": 7,
+        "similarity_score": 0.5496963858604431,
+        "reranker_score": 0.2052818089723587,
+        "final_rank": 7
+      },
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "0be45f9befb5840ded72",
+        "rank": 8,
+        "similarity_score": 0.5491105318069458,
+        "reranker_score": 0.1685679405927658,
+        "final_rank": 8
+      },
+      {
+        "id": "f2c74dc5574022ac7734",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十七条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f2c74dc5574022ac7734",
+        "rank": 9,
+        "similarity_score": 0.5602796077728271,
+        "reranker_score": 0.16741937398910522,
+        "final_rank": 9
+      },
+      {
+        "id": "b5148b0e5f30717618d6",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b5148b0e5f30717618d6",
+        "rank": 10,
+        "similarity_score": 0.5398009419441223,
+        "reranker_score": 0.16278749704360962,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "5d1a2b54f1459dba8abd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 14.275550652647464,
+        "rank": 1,
+        "canonical_id": "5d1a2b54f1459dba8abd",
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6961219310760498,
+        "rrf_score": 0.03278688524590164,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9796252250671387,
+        "final_rank": 1
+      },
+      {
+        "id": "10e13242360b544c672e",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 3.1048815627791653,
+        "rank": 2,
+        "canonical_id": "10e13242360b544c672e",
+        "bm25_rank": 34,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.604881227016449,
+        "rrf_score": 0.0265113137453563,
+        "hybrid_rank": 9,
+        "reranker_score": 0.4456479549407959,
+        "final_rank": 2
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.8706946239279656,
+        "rank": 3,
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "bm25_rank": 20,
+        "semantic_rank": 15,
+        "semantic_similarity": 0.5490306615829468,
+        "rrf_score": 0.025833333333333333,
+        "hybrid_rank": 10,
+        "reranker_score": 0.30941760540008545,
+        "final_rank": 3
+      },
+      {
+        "id": "e58adbe7103d1351f93c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.482706842757837,
+        "rank": 4,
+        "canonical_id": "e58adbe7103d1351f93c",
+        "bm25_rank": 49,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.5899246335029602,
+        "rrf_score": 0.02455892731122089,
+        "hybrid_rank": 15,
+        "reranker_score": 0.3002517521381378,
+        "final_rank": 4
+      },
+      {
+        "id": "fa6ff67807af21b75793",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 5.0878044699610285,
+        "rank": 5,
+        "canonical_id": "fa6ff67807af21b75793",
+        "bm25_rank": 11,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.5832818746566772,
+        "rrf_score": 0.02900988017658188,
+        "hybrid_rank": 6,
+        "reranker_score": 0.24181653559207916,
+        "final_rank": 5
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 3.50355211212903,
+        "rank": 6,
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "bm25_rank": 26,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.5844061970710754,
+        "rrf_score": 0.026779422128259338,
+        "hybrid_rank": 8,
+        "reranker_score": 0.23633642494678497,
+        "final_rank": 6
+      },
+      {
+        "id": "6650450d848dd7585211",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十九条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 7.003805172705001,
+        "rank": 7,
+        "canonical_id": "6650450d848dd7585211",
+        "bm25_rank": 2,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.5496963858604431,
+        "rrf_score": 0.029827662395050816,
+        "hybrid_rank": 5,
+        "reranker_score": 0.2052818089723587,
+        "final_rank": 7
+      },
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "0be45f9befb5840ded72",
+        "rank": 8,
+        "similarity_score": 0.5491105318069458,
+        "semantic_rank": 14,
+        "semantic_similarity": 0.5491105318069458,
+        "rrf_score": 0.013513513513513514,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 28,
+        "reranker_score": 0.1685679405927658,
+        "final_rank": 8
+      },
+      {
+        "id": "f2c74dc5574022ac7734",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十七条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.236409311214856,
+        "rank": 9,
+        "canonical_id": "f2c74dc5574022ac7734",
+        "bm25_rank": 17,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.5602796077728271,
+        "rrf_score": 0.027071520029266508,
+        "hybrid_rank": 7,
+        "reranker_score": 0.16741925477981567,
+        "final_rank": 9
+      },
+      {
+        "id": "b5148b0e5f30717618d6",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b5148b0e5f30717618d6",
+        "rank": 10,
+        "similarity_score": 0.5398009419441223,
+        "semantic_rank": 25,
+        "semantic_similarity": 0.5398009419441223,
+        "rrf_score": 0.011764705882352941,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 40,
+        "reranker_score": 0.16278749704360962,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "5d1a2b54f1459dba8abd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 14.275550652647464,
+        "rank": 1,
+        "canonical_id": "5d1a2b54f1459dba8abd",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 1
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 14.275550652647464
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 12.877406163026592
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 11.490533216152151
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 1
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.6961219310760498
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.7265498638153076
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.6943404078483582
+          }
+        ],
+        "pre_rerank_score": 0.09584549066304753,
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6961219310760498,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9796252250671387,
+        "final_rank": 1
+      },
+      {
+        "id": "10e13242360b544c672e",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 3.1048815627791653,
+        "rank": 2,
+        "canonical_id": "10e13242360b544c672e",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 34
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 12
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 3.1048815627791653
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 11.497524058152026
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 3
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 35
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.604881227016449
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.7034516334533691
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.6322497129440308
+          }
+        ],
+        "pre_rerank_score": 0.06679953429673474,
+        "bm25_rank": 12,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.604881227016449,
+        "pre_rerank_rank": 9,
+        "reranker_score": 0.4456479549407959,
+        "final_rank": 2
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.8706946239279656,
+        "rank": 3,
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 20
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 3.8706946239279656
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 15
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 48
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5490306615829468
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.6256313323974609
+          }
+        ],
+        "pre_rerank_score": 0.03509259259259259,
+        "bm25_rank": 20,
+        "semantic_rank": 15,
+        "semantic_similarity": 0.5490306615829468,
+        "pre_rerank_rank": 40,
+        "reranker_score": 0.30941760540008545,
+        "final_rank": 3
+      },
+      {
+        "id": "e58adbe7103d1351f93c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.482706842757837,
+        "rank": 4,
+        "canonical_id": "e58adbe7103d1351f93c",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 49
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 19
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 2.482706842757837
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 10.36407245051523
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 5
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 29
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5899246335029602
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.694949209690094
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.6348916292190552
+          }
+        ],
+        "pre_rerank_score": 0.06383772560011731,
+        "bm25_rank": 19,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.5899246335029602,
+        "pre_rerank_rank": 12,
+        "reranker_score": 0.3002517521381378,
+        "final_rank": 4
+      },
+      {
+        "id": "fa6ff67807af21b75793",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 5.0878044699610285,
+        "rank": 5,
+        "canonical_id": "fa6ff67807af21b75793",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 47
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 5.0878044699610285
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 6.786882424209668
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 7
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 19
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5832818746566772
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.6665278673171997
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.6469100713729858
+          }
+        ],
+        "pre_rerank_score": 0.0640009154042195,
+        "bm25_rank": 11,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.5832818746566772,
+        "pre_rerank_rank": 10,
+        "reranker_score": 0.24181653559207916,
+        "final_rank": 5
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 3.50355211212903,
+        "rank": 6,
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 26
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 33
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 3.50355211212903
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 10.981944557656202
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 8.466271734004453
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 6
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 27
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5844061970710754
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.6758584976196289
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.636783242225647
+          }
+        ],
+        "pre_rerank_score": 0.0766243837296326,
+        "bm25_rank": 14,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.5844061970710754,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.23633642494678497,
+        "final_rank": 6
+      },
+      {
+        "id": "6650450d848dd7585211",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十九条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 7.003805172705001,
+        "rank": 7,
+        "canonical_id": "6650450d848dd7585211",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 7.003805172705001
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 13
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5496963858604431
+          }
+        ],
+        "pre_rerank_score": 0.029827662395050816,
+        "bm25_rank": 2,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.5496963858604431,
+        "pre_rerank_rank": 47,
+        "reranker_score": 0.2052818089723587,
+        "final_rank": 7
+      },
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "0be45f9befb5840ded72",
+        "rank": 8,
+        "similarity_score": 0.5491105318069458,
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 14
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 31
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5491105318069458
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.6731503009796143
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.6333794593811035
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 48
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 7.2975718194485735
+          }
+        ],
+        "pre_rerank_score": 0.04727529727529728,
+        "bm25_rank": 48,
+        "semantic_rank": 14,
+        "bm25_score": null,
+        "semantic_similarity": 0.5491105318069458,
+        "pre_rerank_rank": 30,
+        "reranker_score": 0.1685679405927658,
+        "final_rank": 8
+      },
+      {
+        "id": "f2c74dc5574022ac7734",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十七条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.236409311214856,
+        "rank": 9,
+        "canonical_id": "f2c74dc5574022ac7734",
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 17
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 8
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 4.236409311214856
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 12.997930658464306
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 11.291087098630332
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 11
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 15
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 37
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5602796077728271
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.6671535968780518
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.6305238008499146
+          }
+        ],
+        "pre_rerank_score": 0.08104501406605649,
+        "bm25_rank": 4,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.5602796077728271,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.1674194037914276,
+        "final_rank": 9
+      },
+      {
+        "id": "b5148b0e5f30717618d6",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b5148b0e5f30717618d6",
+        "rank": 10,
+        "similarity_score": 0.5398009419441223,
+        "matched_queries": [
+          "试用期被辞退公司需要说明理由吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "rank": 25
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 41
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 24
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期被辞退公司需要说明理由吗",
+            "score": 0.5398009419441223
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 0.633200466632843
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 0.6385021209716797
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "rank": 29
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "rank": 25
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 试用期 录用条件 解除劳动合同",
+            "score": 9.403184678304713
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 试用期",
+            "score": 9.052956312762243
+          }
+        ],
+        "pre_rerank_score": 0.056571118824657464,
+        "bm25_rank": 25,
+        "semantic_rank": 24,
+        "bm25_score": null,
+        "semantic_similarity": 0.5398009419441223,
+        "pre_rerank_rank": 19,
+        "reranker_score": 0.16278748214244843,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "5d1a2b54f1459dba8abd": 1
+    },
+    "v04_reranked": {
+      "5d1a2b54f1459dba8abd": 1
+    },
+    "v05_multi_query_reranked": {
+      "5d1a2b54f1459dba8abd": 1
+    }
+  }
+}

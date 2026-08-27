@@ -1,0 +1,1348 @@
+{
+  "original_query": "哪些员工可以签竞业限制",
+  "structured_understanding": {
+    "original_query": "哪些员工可以签竞业限制",
+    "domain": "劳动争议",
+    "issue": "竞业限制、经济补偿、违约",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "竞业限制",
+      "经济补偿",
+      "违约"
+    ],
+    "search_queries": [
+      "哪些员工可以签竞业限制",
+      "竞业限制 经济补偿 违约",
+      "劳动争议 竞业限制 经济补偿 违约"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "哪些员工可以签竞业限制",
+    "竞业限制 经济补偿 违约",
+    "劳动争议 竞业限制 经济补偿 违约"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十四条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8988b10cddc6715d3b7a"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "8988b10cddc6715d3b7a": 1
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 50,
+      "reranking_candidate_count": 50,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 145,
+      "reranking_candidate_count": 145,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "8988b10cddc6715d3b7a": 10
+    }
+  },
+  "query_understanding_latency_ms": 0.000500003807246685,
+  "multi_query_retrieval_latency_ms": 31.949600001098588,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "8988b10cddc6715d3b7a",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "8988b10cddc6715d3b7a",
+        "rank": 1,
+        "similarity_score": 0.6611170768737793,
+        "reranker_score": 0.9916423559188843,
+        "final_rank": 1
+      },
+      {
+        "id": "39db8abff774d54a0bec",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十四条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "39db8abff774d54a0bec",
+        "rank": 2,
+        "similarity_score": 0.5928111672401428,
+        "reranker_score": 0.9742732048034668,
+        "final_rank": 2
+      },
+      {
+        "id": "968baed58037116615f3",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十三条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "968baed58037116615f3",
+        "rank": 3,
+        "similarity_score": 0.5702188611030579,
+        "reranker_score": 0.839560329914093,
+        "final_rank": 3
+      },
+      {
+        "id": "760565b3f8fe91c9b80e",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "760565b3f8fe91c9b80e",
+        "rank": 4,
+        "similarity_score": 0.5922243595123291,
+        "reranker_score": 0.6916912794113159,
+        "final_rank": 4
+      },
+      {
+        "id": "474d1755961d13636779",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "474d1755961d13636779",
+        "rank": 5,
+        "similarity_score": 0.5872197151184082,
+        "reranker_score": 0.6268172264099121,
+        "final_rank": 5
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "rank": 6,
+        "similarity_score": 0.581082284450531,
+        "reranker_score": 0.6178361773490906,
+        "final_rank": 6
+      },
+      {
+        "id": "9255b6a1d720ff18dc6f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "9255b6a1d720ff18dc6f",
+        "rank": 7,
+        "similarity_score": 0.563809335231781,
+        "reranker_score": 0.610469400882721,
+        "final_rank": 7
+      },
+      {
+        "id": "b2661177cf5f7c1bb10a",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b2661177cf5f7c1bb10a",
+        "rank": 8,
+        "similarity_score": 0.5786638259887695,
+        "reranker_score": 0.6024000644683838,
+        "final_rank": 8
+      },
+      {
+        "id": "2dfc7eb764fccf6a81b2",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "2dfc7eb764fccf6a81b2",
+        "rank": 9,
+        "similarity_score": 0.5565608739852905,
+        "reranker_score": 0.5772032141685486,
+        "final_rank": 9
+      },
+      {
+        "id": "c6c19f25fb9f322f370d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "c6c19f25fb9f322f370d",
+        "rank": 10,
+        "similarity_score": 0.4838916063308716,
+        "reranker_score": 0.5032793879508972,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "8988b10cddc6715d3b7a",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 10.019878815186836,
+        "rank": 1,
+        "canonical_id": "8988b10cddc6715d3b7a",
+        "bm25_rank": 7,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6611170768737793,
+        "rrf_score": 0.03131881575727918,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9916423559188843,
+        "final_rank": 1
+      },
+      {
+        "id": "39db8abff774d54a0bec",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十四条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 10.469960839290192,
+        "rank": 2,
+        "canonical_id": "39db8abff774d54a0bec",
+        "bm25_rank": 3,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.5928111672401428,
+        "rrf_score": 0.03200204813108039,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9742732048034668,
+        "final_rank": 2
+      },
+      {
+        "id": "968baed58037116615f3",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十三条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 10.88091872897707,
+        "rank": 3,
+        "canonical_id": "968baed58037116615f3",
+        "bm25_rank": 2,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.5702188611030579,
+        "rrf_score": 0.031054405392392875,
+        "hybrid_rank": 5,
+        "reranker_score": 0.839560329914093,
+        "final_rank": 3
+      },
+      {
+        "id": "760565b3f8fe91c9b80e",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.100596319189933,
+        "rank": 4,
+        "canonical_id": "760565b3f8fe91c9b80e",
+        "bm25_rank": 6,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.5922243595123291,
+        "rrf_score": 0.031024531024531024,
+        "hybrid_rank": 6,
+        "reranker_score": 0.6916912794113159,
+        "final_rank": 4
+      },
+      {
+        "id": "474d1755961d13636779",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 10.404467524080133,
+        "rank": 5,
+        "canonical_id": "474d1755961d13636779",
+        "bm25_rank": 4,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.5872197151184082,
+        "rrf_score": 0.03125,
+        "hybrid_rank": 4,
+        "reranker_score": 0.6268172860145569,
+        "final_rank": 5
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 7.6219874760033335,
+        "rank": 6,
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "bm25_rank": 10,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.581082284450531,
+        "rrf_score": 0.02967032967032967,
+        "hybrid_rank": 8,
+        "reranker_score": 0.6178361773490906,
+        "final_rank": 6
+      },
+      {
+        "id": "9255b6a1d720ff18dc6f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 9.112793957480456,
+        "rank": 7,
+        "canonical_id": "9255b6a1d720ff18dc6f",
+        "bm25_rank": 8,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.563809335231781,
+        "rrf_score": 0.029411764705882353,
+        "hybrid_rank": 9,
+        "reranker_score": 0.610469400882721,
+        "final_rank": 7
+      },
+      {
+        "id": "b2661177cf5f7c1bb10a",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.712237031237713,
+        "rank": 8,
+        "canonical_id": "b2661177cf5f7c1bb10a",
+        "bm25_rank": 1,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.5786638259887695,
+        "rrf_score": 0.031544957774465976,
+        "hybrid_rank": 2,
+        "reranker_score": 0.6024000644683838,
+        "final_rank": 8
+      },
+      {
+        "id": "2dfc7eb764fccf6a81b2",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.277495470663405,
+        "rank": 9,
+        "canonical_id": "2dfc7eb764fccf6a81b2",
+        "bm25_rank": 5,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.5565608739852905,
+        "rrf_score": 0.029877369007803793,
+        "hybrid_rank": 7,
+        "reranker_score": 0.5772032141685486,
+        "final_rank": 9
+      },
+      {
+        "id": "c6c19f25fb9f322f370d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 1.7636165290174963,
+        "rank": 10,
+        "canonical_id": "c6c19f25fb9f322f370d",
+        "bm25_rank": 31,
+        "semantic_rank": 33,
+        "semantic_similarity": 0.4838916063308716,
+        "rrf_score": 0.021741699161054,
+        "hybrid_rank": 16,
+        "reranker_score": 0.5032793879508972,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "8988b10cddc6715d3b7a",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 10.019878815186836,
+        "rank": 1,
+        "canonical_id": "8988b10cddc6715d3b7a",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 7
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 10.019878815186836
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 10.019878815186836
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 10.883594543457999
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 1
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 14
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.6611170768737793
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.5711441040039062
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.5651558637619019
+          }
+        ],
+        "pre_rerank_score": 0.08810964019516244,
+        "bm25_rank": 7,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6611170768737793,
+        "pre_rerank_rank": 10,
+        "reranker_score": 0.9916423559188843,
+        "final_rank": 1
+      },
+      {
+        "id": "39db8abff774d54a0bec",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十四条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 10.469960839290192,
+        "rank": 2,
+        "canonical_id": "39db8abff774d54a0bec",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 3
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 4
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 10.469960839290192
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 14.358774946438128
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 15.950852465906939
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 2
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 7
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.5928111672401428
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.5789049863815308
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.6293760538101196
+          }
+        ],
+        "pre_rerank_score": 0.09310279439973711,
+        "bm25_rank": 3,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.5928111672401428,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.9742732048034668,
+        "final_rank": 2
+      },
+      {
+        "id": "968baed58037116615f3",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十三条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 10.88091872897707,
+        "rank": 3,
+        "canonical_id": "968baed58037116615f3",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 2
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 10.88091872897707
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 12.713802426952363
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 13.662306903449647
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 7
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 17
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.5702188611030579
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.5374982357025146
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.5604587197303772
+          }
+        ],
+        "pre_rerank_score": 0.08909636343435093,
+        "bm25_rank": 2,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.5702188611030579,
+        "pre_rerank_rank": 9,
+        "reranker_score": 0.839560329914093,
+        "final_rank": 3
+      },
+      {
+        "id": "760565b3f8fe91c9b80e",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.100596319189933,
+        "rank": 4,
+        "canonical_id": "760565b3f8fe91c9b80e",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 6
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 9
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 8
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 10.100596319189933
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 10.100596319189933
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 11.993324076353563
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 3
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.5922243595123291
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.6230517029762268
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.6771140098571777
+          }
+        ],
+        "pre_rerank_score": 0.09248123151678964,
+        "bm25_rank": 6,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.5922243595123291,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.6916913986206055,
+        "final_rank": 4
+      },
+      {
+        "id": "474d1755961d13636779",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 10.404467524080133,
+        "rank": 5,
+        "canonical_id": "474d1755961d13636779",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 4
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 9
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 10.404467524080133
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 10.404467524080133
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 11.712271845415719
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 4
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 9
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 8
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.5872197151184082
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.5598043203353882
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.60344398021698
+          }
+        ],
+        "pre_rerank_score": 0.08964727195225916,
+        "bm25_rank": 4,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.5872197151184082,
+        "pre_rerank_rank": 8,
+        "reranker_score": 0.6268172264099121,
+        "final_rank": 5
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 7.6219874760033335,
+        "rank": 6,
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 10
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 7.6219874760033335
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 12.37804526387208
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 13.65944947385684
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 5
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 3
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.581082284450531
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.6218554377555847
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.6768903136253357
+          }
+        ],
+        "pre_rerank_score": 0.09171939171939172,
+        "bm25_rank": 6,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.581082284450531,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.6178361773490906,
+        "final_rank": 6
+      },
+      {
+        "id": "9255b6a1d720ff18dc6f",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 9.112793957480456,
+        "rank": 7,
+        "canonical_id": "9255b6a1d720ff18dc6f",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 8
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 3
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 9.112793957480456
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 14.799102785351222
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 16.432138105880284
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 8
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 4
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.563809335231781
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.6140068769454956
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.6693592071533203
+          }
+        ],
+        "pre_rerank_score": 0.0924077964519141,
+        "bm25_rank": 3,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.563809335231781,
+        "pre_rerank_rank": 5,
+        "reranker_score": 0.610469400882721,
+        "final_rank": 7
+      },
+      {
+        "id": "b2661177cf5f7c1bb10a",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.712237031237713,
+        "rank": 8,
+        "canonical_id": "b2661177cf5f7c1bb10a",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 1
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 1
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 11.712237031237713
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 15.806421842749172
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 17.482577971420117
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 6
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.5786638259887695
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.6062809228897095
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.6587040424346924
+          }
+        ],
+        "pre_rerank_score": 0.09486797355649815,
+        "bm25_rank": 1,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.5786638259887695,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.6024000644683838,
+        "final_rank": 8
+      },
+      {
+        "id": "2dfc7eb764fccf6a81b2",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.277495470663405,
+        "rank": 9,
+        "canonical_id": "2dfc7eb764fccf6a81b2",
+        "matched_queries": [
+          "哪些员工可以签竞业限制",
+          "竞业限制 经济补偿 违约",
+          "劳动争议 竞业限制 经济补偿 违约"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 5
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 10.277495470663405
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 15.730492673792003
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 17.271052276147394
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 9
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "rank": 5
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.5565608739852905
+          },
+          {
+            "query": "竞业限制 经济补偿 违约",
+            "score": 0.601661205291748
+          },
+          {
+            "query": "劳动争议 竞业限制 经济补偿 违约",
+            "score": 0.664299488067627
+          }
+        ],
+        "pre_rerank_score": 0.09267156406006336,
+        "bm25_rank": 2,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.5565608739852905,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.5772032141685486,
+        "final_rank": 9
+      },
+      {
+        "id": "c6c19f25fb9f322f370d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 1.7636165290174963,
+        "rank": 10,
+        "canonical_id": "c6c19f25fb9f322f370d",
+        "matched_queries": [
+          "哪些员工可以签竞业限制"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 31
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 1.7636165290174963
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "rank": 33
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "哪些员工可以签竞业限制",
+            "score": 0.4838916063308716
+          }
+        ],
+        "pre_rerank_score": 0.021741699161054,
+        "bm25_rank": 31,
+        "semantic_rank": 33,
+        "semantic_similarity": 0.4838916063308716,
+        "pre_rerank_rank": 59,
+        "reranker_score": 0.5032792687416077,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "8988b10cddc6715d3b7a": 1
+    },
+    "v04_reranked": {
+      "8988b10cddc6715d3b7a": 1
+    },
+    "v05_multi_query_reranked": {
+      "8988b10cddc6715d3b7a": 1
+    }
+  }
+}

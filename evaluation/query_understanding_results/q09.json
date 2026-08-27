@@ -1,0 +1,1302 @@
+{
+  "original_query": "试用期工资最低应该是多少",
+  "structured_understanding": {
+    "original_query": "试用期工资最低应该是多少",
+    "domain": "劳动争议",
+    "issue": "试用期、录用条件、解除劳动合同",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "试用期",
+      "录用条件",
+      "解除劳动合同",
+      "劳动报酬",
+      "工资支付",
+      "拖欠工资"
+    ],
+    "search_queries": [
+      "试用期工资最低应该是多少",
+      "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+      "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "试用期工资最低应该是多少",
+    "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+    "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "6f4778840c152cd7c52d"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "6f4778840c152cd7c52d": 1
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 53,
+      "reranking_candidate_count": 53,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 113,
+      "reranking_candidate_count": 113,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "6f4778840c152cd7c52d": 3
+    }
+  },
+  "query_understanding_latency_ms": 0.000400003045797348,
+  "multi_query_retrieval_latency_ms": 27.629700023680925,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "6eed67cbe036c0b3f1a3",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "6eed67cbe036c0b3f1a3",
+        "rank": 1,
+        "similarity_score": 0.7332504987716675,
+        "reranker_score": 0.99334716796875,
+        "final_rank": 1
+      },
+      {
+        "id": "6f4778840c152cd7c52d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "6f4778840c152cd7c52d",
+        "rank": 2,
+        "similarity_score": 0.7357842922210693,
+        "reranker_score": 0.9923624992370605,
+        "final_rank": 2
+      },
+      {
+        "id": "4f673c03ac355bbdb670",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十三条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "4f673c03ac355bbdb670",
+        "rank": 3,
+        "similarity_score": 0.6592664122581482,
+        "reranker_score": 0.5041539072990417,
+        "final_rank": 3
+      },
+      {
+        "id": "bfc0f277ec69386c4521",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十一条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "bfc0f277ec69386c4521",
+        "rank": 4,
+        "similarity_score": 0.6421279907226562,
+        "reranker_score": 0.354361891746521,
+        "final_rank": 4
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "aea9c0e1739543174598",
+        "rank": 5,
+        "similarity_score": 0.5114469528198242,
+        "reranker_score": 0.2926301956176758,
+        "final_rank": 5
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "rank": 6,
+        "similarity_score": 0.5467053055763245,
+        "reranker_score": 0.2786763906478882,
+        "final_rank": 6
+      },
+      {
+        "id": "c584472b304555389650",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十五条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "c584472b304555389650",
+        "rank": 7,
+        "similarity_score": 0.5063340067863464,
+        "reranker_score": 0.2714715898036957,
+        "final_rank": 7
+      },
+      {
+        "id": "d2d1fa50be0e2eb18ca9",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十四条",
+        "chapter": "第四章工作时间和休息休假",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d2d1fa50be0e2eb18ca9",
+        "rank": 8,
+        "similarity_score": 0.5069730281829834,
+        "reranker_score": 0.2512701153755188,
+        "final_rank": 8
+      },
+      {
+        "id": "814f14dbcfba76ffd8fa",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "814f14dbcfba76ffd8fa",
+        "rank": 9,
+        "similarity_score": 0.5166054964065552,
+        "reranker_score": 0.19563324749469757,
+        "final_rank": 9
+      },
+      {
+        "id": "eb83dac6edd6d0805c37",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十八条",
+        "chapter": "第五章工 资",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "eb83dac6edd6d0805c37",
+        "rank": 10,
+        "similarity_score": 0.6318308115005493,
+        "reranker_score": 0.18286575376987457,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "6eed67cbe036c0b3f1a3",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 12.966591129318907,
+        "rank": 1,
+        "canonical_id": "6eed67cbe036c0b3f1a3",
+        "bm25_rank": 2,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.7332504987716675,
+        "rrf_score": 0.03225806451612903,
+        "hybrid_rank": 2,
+        "reranker_score": 0.99334716796875,
+        "final_rank": 1
+      },
+      {
+        "id": "6f4778840c152cd7c52d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 13.615625026491994,
+        "rank": 2,
+        "canonical_id": "6f4778840c152cd7c52d",
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7357842922210693,
+        "rrf_score": 0.03278688524590164,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9923624992370605,
+        "final_rank": 2
+      },
+      {
+        "id": "4f673c03ac355bbdb670",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十三条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.855394281267893,
+        "rank": 3,
+        "canonical_id": "4f673c03ac355bbdb670",
+        "bm25_rank": 3,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6592664122581482,
+        "rrf_score": 0.031746031746031744,
+        "hybrid_rank": 3,
+        "reranker_score": 0.5041539072990417,
+        "final_rank": 3
+      },
+      {
+        "id": "bfc0f277ec69386c4521",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十一条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 6.348614679254497,
+        "rank": 4,
+        "canonical_id": "bfc0f277ec69386c4521",
+        "bm25_rank": 5,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6421279907226562,
+        "rrf_score": 0.031009615384615385,
+        "hybrid_rank": 4,
+        "reranker_score": 0.3543620705604553,
+        "final_rank": 4
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.420860232705262,
+        "rank": 5,
+        "canonical_id": "aea9c0e1739543174598",
+        "bm25_rank": 25,
+        "semantic_rank": 19,
+        "semantic_similarity": 0.5114469528198242,
+        "rrf_score": 0.024422933730454205,
+        "hybrid_rank": 17,
+        "reranker_score": 0.2926301956176758,
+        "final_rank": 5
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "rank": 6,
+        "similarity_score": 0.5467053055763245,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.5467053055763245,
+        "rrf_score": 0.013888888888888888,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 32,
+        "reranker_score": 0.2786763906478882,
+        "final_rank": 6
+      },
+      {
+        "id": "c584472b304555389650",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十五条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 1.7519055467894757,
+        "rank": 7,
+        "canonical_id": "c584472b304555389650",
+        "bm25_rank": 49,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.5063340067863464,
+        "rrf_score": 0.021222504697689843,
+        "hybrid_rank": 28,
+        "reranker_score": 0.2714712619781494,
+        "final_rank": 7
+      },
+      {
+        "id": "d2d1fa50be0e2eb18ca9",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十四条",
+        "chapter": "第四章工作时间和休息休假",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.851381314567507,
+        "rank": 8,
+        "canonical_id": "d2d1fa50be0e2eb18ca9",
+        "bm25_rank": 10,
+        "semantic_rank": 22,
+        "semantic_similarity": 0.5069730281829834,
+        "rrf_score": 0.0264808362369338,
+        "hybrid_rank": 11,
+        "reranker_score": 0.2512701153755188,
+        "final_rank": 8
+      },
+      {
+        "id": "814f14dbcfba76ffd8fa",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 2.8380806002901124,
+        "rank": 9,
+        "canonical_id": "814f14dbcfba76ffd8fa",
+        "bm25_rank": 31,
+        "semantic_rank": 16,
+        "semantic_similarity": 0.5166054964065552,
+        "rrf_score": 0.024146905725853096,
+        "hybrid_rank": 19,
+        "reranker_score": 0.19563324749469757,
+        "final_rank": 9
+      },
+      {
+        "id": "eb83dac6edd6d0805c37",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十八条",
+        "chapter": "第五章工 资",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 2.954379291881817,
+        "rank": 10,
+        "canonical_id": "eb83dac6edd6d0805c37",
+        "bm25_rank": 30,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6318308115005493,
+        "rrf_score": 0.0264957264957265,
+        "hybrid_rank": 10,
+        "reranker_score": 0.18286575376987457,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "6eed67cbe036c0b3f1a3",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 12.966591129318907,
+        "rank": 1,
+        "canonical_id": "6eed67cbe036c0b3f1a3",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 2
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 12.966591129318907
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 8.608668036717232
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 9.877452411750593
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 2
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 7
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.7332504987716675
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6753929853439331
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 0.6710700392723083
+          }
+        ],
+        "pre_rerank_score": 0.09287108333810308,
+        "bm25_rank": 2,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.7332504987716675,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.99334716796875,
+        "final_rank": 1
+      },
+      {
+        "id": "6f4778840c152cd7c52d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 13.615625026491994,
+        "rank": 2,
+        "canonical_id": "6f4778840c152cd7c52d",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 1
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 4
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 13.615625026491994
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 8.988396386729772
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 10.332843632103605
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 1
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 20
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.7357842922210693
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6585260629653931
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 0.6509646773338318
+          }
+        ],
+        "pre_rerank_score": 0.09082259953161594,
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7357842922210693,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.9923624992370605,
+        "final_rank": 2
+      },
+      {
+        "id": "4f673c03ac355bbdb670",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十三条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.855394281267893,
+        "rank": 3,
+        "canonical_id": "4f673c03ac355bbdb670",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 3
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 3
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 8.855394281267893
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 10.312805152781753
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 11.986879948987522
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 3
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 1
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.6592664122581482
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.731501579284668
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 0.7176433801651001
+          }
+        ],
+        "pre_rerank_score": 0.09627894873796514,
+        "bm25_rank": 3,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6592664122581482,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.5041539072990417,
+        "final_rank": 3
+      },
+      {
+        "id": "bfc0f277ec69386c4521",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十一条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 6.348614679254497,
+        "rank": 4,
+        "canonical_id": "bfc0f277ec69386c4521",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 5
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 16
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 31
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 6.348614679254497
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 6.946177184344058
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 6.946177184344058
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 4
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 4
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.6421279907226562
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6777211427688599
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 0.6877399682998657
+          }
+        ],
+        "pre_rerank_score": 0.08616613649508387,
+        "bm25_rank": 5,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6421279907226562,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.3543620705604553,
+        "final_rank": 4
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.420860232705262,
+        "rank": 5,
+        "canonical_id": "aea9c0e1739543174598",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 25
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 27
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 28
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 3.420860232705262
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 5.93280066197468
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 7.045091181210654
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 19
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 24
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.5114469528198242
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6208704710006714
+          }
+        ],
+        "pre_rerank_score": 0.059185584872415695,
+        "bm25_rank": 25,
+        "semantic_rank": 19,
+        "semantic_similarity": 0.5114469528198242,
+        "pre_rerank_rank": 20,
+        "reranker_score": 0.2926301956176758,
+        "final_rank": 5
+      },
+      {
+        "id": "33f756fb2dfa81c1c390",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第三十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "33f756fb2dfa81c1c390",
+        "rank": 6,
+        "similarity_score": 0.5467053055763245,
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 12
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 46
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 11
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.5467053055763245
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6016881465911865
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 0.6618573069572449
+          }
+        ],
+        "pre_rerank_score": 0.03740735819529335,
+        "bm25_rank": null,
+        "semantic_rank": 11,
+        "bm25_score": null,
+        "semantic_similarity": 0.5467053055763245,
+        "pre_rerank_rank": 34,
+        "reranker_score": 0.2786763906478882,
+        "final_rank": 6
+      },
+      {
+        "id": "c584472b304555389650",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十五条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 1.7519055467894757,
+        "rank": 7,
+        "canonical_id": "c584472b304555389650",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 49
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 7
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 1.7519055467894757
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 8.353710139258427
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 9.632219209411627
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 23
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 48
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.5063340067863464
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6001861691474915
+          }
+        ],
+        "pre_rerank_score": 0.06033251022560582,
+        "bm25_rank": 7,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.5063340067863464,
+        "pre_rerank_rank": 19,
+        "reranker_score": 0.2714712619781494,
+        "final_rank": 7
+      },
+      {
+        "id": "d2d1fa50be0e2eb18ca9",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十四条",
+        "chapter": "第四章工作时间和休息休假",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.851381314567507,
+        "rank": 8,
+        "canonical_id": "d2d1fa50be0e2eb18ca9",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 10
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 15
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 25
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 4.851381314567507
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 7.1746871976787325
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 7.1746871976787325
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 22
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.5069730281829834
+          }
+        ],
+        "pre_rerank_score": 0.05157887545262008,
+        "bm25_rank": 10,
+        "semantic_rank": 22,
+        "semantic_similarity": 0.5069730281829834,
+        "pre_rerank_rank": 25,
+        "reranker_score": 0.2512701153755188,
+        "final_rank": 8
+      },
+      {
+        "id": "814f14dbcfba76ffd8fa",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 2.8380806002901124,
+        "rank": 9,
+        "canonical_id": "814f14dbcfba76ffd8fa",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 31
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 43
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 35
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 2.8380806002901124
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 4.8571527055605515
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 6.731253727634488
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 16
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 30
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "rank": 14
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.5166054964065552
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6134677529335022
+          },
+          {
+            "query": "劳动争议 试用期 录用条件 解除劳动合同 劳动报酬 工资支付",
+            "score": 0.6579743027687073
+          }
+        ],
+        "pre_rerank_score": 0.06900658400402906,
+        "bm25_rank": 31,
+        "semantic_rank": 14,
+        "semantic_similarity": 0.5166054964065552,
+        "pre_rerank_rank": 14,
+        "reranker_score": 0.19563324749469757,
+        "final_rank": 9
+      },
+      {
+        "id": "eb83dac6edd6d0805c37",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第四十八条",
+        "chapter": "第五章工 资",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 2.954379291881817,
+        "rank": 10,
+        "canonical_id": "eb83dac6edd6d0805c37",
+        "matched_queries": [
+          "试用期工资最低应该是多少",
+          "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 30
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "rank": 48
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 2.954379291881817
+          },
+          {
+            "query": "试用期 录用条件 解除劳动合同 劳动报酬 工资支付 拖欠工资",
+            "score": 4.665607357371023
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "rank": 5
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "试用期工资最低应该是多少",
+            "score": 0.6318308115005493
+          }
+        ],
+        "pre_rerank_score": 0.03575498575498576,
+        "bm25_rank": 30,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6318308115005493,
+        "pre_rerank_rank": 35,
+        "reranker_score": 0.18286575376987457,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "6f4778840c152cd7c52d": 2
+    },
+    "v04_reranked": {
+      "6f4778840c152cd7c52d": 2
+    },
+    "v05_multi_query_reranked": {
+      "6f4778840c152cd7c52d": 2
+    }
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "original_query": "被辞退以后经济补偿怎么算",
+  "structured_understanding": {
+    "original_query": "被辞退以后经济补偿怎么算",
+    "domain": "劳动争议",
+    "issue": "被辞退后经济补偿的计算方法",
+    "user_intent": "用户希望了解被辞退后经济补偿的计算规则，包括计算基数、计算年限等",
+    "legal_concepts": [
+      "经济补偿",
+      "辞退",
+      "计算基数",
+      "工作年限",
+      "补偿标准"
+    ],
+    "search_queries": [
+      "经济补偿 计算 标准 被辞退",
+      "劳动合同法 经济补偿 计算方式",
+      "辞退 经济补偿金 计算规则"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "被辞退以后经济补偿怎么算",
+    "经济补偿 计算 标准 被辞退",
+    "劳动合同法 经济补偿 计算方式"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8241.772499983199
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十六条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8ddd229589e74232f0bd",
+    "bde88ceab0e2db0542ae"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 40,
+      "reranking_candidate_count": 40,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 103,
+      "reranking_candidate_count": 103,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 51.674699992872775,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 13995.086016642745,
+  "final_retrieval_ranking": [
+    {
+      "id": "8ddd229589e74232f0bd",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十七条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 5.840195719368054,
+      "rank": 1,
+      "canonical_id": "8ddd229589e74232f0bd",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 5
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 5.840195719368054
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 10.50642743875969
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 9.202943335286358
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 6
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.6242704391479492
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.5899403095245361
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.6289891004562378
+        }
+      ],
+      "pre_rerank_score": 0.09210375031270554,
+      "bm25_rank": 3,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6242704391479492,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9851478934288025,
+      "final_rank": 1
+    },
+    {
+      "id": "e0501dc9f697ae3c9463",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十七条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 3.3080370416231695,
+      "rank": 2,
+      "canonical_id": "e0501dc9f697ae3c9463",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 40
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 3.3080370416231695
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 11.410651362686535
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 10.560408039342164
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 3
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.6404169797897339
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.5986493825912476
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.6378162503242493
+        }
+      ],
+      "pre_rerank_score": 0.08937307987711213,
+      "bm25_rank": 2,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6404169797897339,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9831320643424988,
+      "final_rank": 2
+    },
+    {
+      "id": "1d585a4f96dc25e7be5d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第九十七条",
+      "chapter": "第八章附 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 5.0269460430122415,
+      "rank": 3,
+      "canonical_id": "1d585a4f96dc25e7be5d",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 13
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 4
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 5.0269460430122415
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 8.635449642658035
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 10.058765433296198
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 31
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 23
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.5682954788208008
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.6010767221450806
+        }
+      ],
+      "pre_rerank_score": 0.06751234904859678,
+      "bm25_rank": 4,
+      "semantic_rank": 23,
+      "semantic_similarity": 0.5682954788208008,
+      "pre_rerank_rank": 20,
+      "reranker_score": 0.9714751243591309,
+      "final_rank": 3
+    },
+    {
+      "id": "f2200d426137ce083c2d",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十五条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 4.243589211122784,
+      "rank": 4,
+      "canonical_id": "f2200d426137ce083c2d",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 22
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 4.243589211122784
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 9.557204602213101
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 12.227182683333787
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 1
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.662158727645874
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.6099977493286133
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.6379340887069702
+        }
+      ],
+      "pre_rerank_score": 0.09287346569308785,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.662158727645874,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.971221387386322,
+      "final_rank": 4
+    },
+    {
+      "id": "e99ff54a5f383bbeb5d3",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 6.9675265281158705,
+      "rank": 5,
+      "canonical_id": "e99ff54a5f383bbeb5d3",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 2
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 6.9675265281158705
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 12.404054140347318
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 11.867325529092682
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 12
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 16
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 33
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.5921421051025391
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.5436097383499146
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.5925300121307373
+        }
+      ],
+      "pre_rerank_score": 0.08645097893685386,
+      "bm25_rank": 1,
+      "semantic_rank": 12,
+      "semantic_similarity": 0.5921421051025391,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.9707433581352234,
+      "final_rank": 5
+    },
+    {
+      "id": "8d5feddf081b799ab5c0",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十七条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.8649475819024035,
+      "rank": 6,
+      "canonical_id": "8d5feddf081b799ab5c0",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 15
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 13
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 4.8649475819024035
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 7.594213298688858
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 6.760073692362289
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 5
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.6325778961181641
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.6074519157409668
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.628191351890564
+        }
+      ],
+      "pre_rerank_score": 0.08795737581888188,
+      "bm25_rank": 8,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6325778961181641,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.9363641142845154,
+      "final_rank": 6
+    },
+    {
+      "id": "33f756fb2dfa81c1c390",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 4.7560577878687464,
+      "rank": 7,
+      "canonical_id": "33f756fb2dfa81c1c390",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 16
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 9
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 29
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 4.7560577878687464
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 7.424235655966031
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 5.666268119916785
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 9
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.6035188436508179
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.5832796096801758
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.6213334798812866
+        }
+      ],
+      "pre_rerank_score": 0.08241976107980273,
+      "bm25_rank": 9,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.6035188436508179,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.9187764525413513,
+      "final_rank": 7
+    },
+    {
+      "id": "b5148b0e5f30717618d6",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 5.374649850635979,
+      "rank": 8,
+      "canonical_id": "b5148b0e5f30717618d6",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 10
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 7
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 5.374649850635979
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 8.484229421818185
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 7.805161447674571
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 24
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 28
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 17
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.5733978748321533
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.5255163908004761
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.606295108795166
+        }
+      ],
+      "pre_rerank_score": 0.08061801382696905,
+      "bm25_rank": 6,
+      "semantic_rank": 17,
+      "semantic_similarity": 0.5733978748321533,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.901358962059021,
+      "final_rank": 8
+    },
+    {
+      "id": "bde88ceab0e2db0542ae",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十六条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "bde88ceab0e2db0542ae",
+      "rank": 9,
+      "similarity_score": 0.6101659536361694,
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 8
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 21
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 0.6101659536361694
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.555886447429657
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 0.6018669605255127
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 48
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 3.598584225981152
+        }
+      ],
+      "pre_rerank_score": 0.0505965349102604,
+      "bm25_rank": 48,
+      "semantic_rank": 8,
+      "bm25_score": null,
+      "semantic_similarity": 0.6101659536361694,
+      "pre_rerank_rank": 30,
+      "reranker_score": 0.8734859824180603,
+      "final_rank": 9
+    },
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.396440221194618,
+      "rank": 10,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "被辞退以后经济补偿怎么算",
+        "经济补偿 计算 标准 被辞退",
+        "劳动合同法 经济补偿 计算方式"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "rank": 21
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "rank": 23
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "被辞退以后经济补偿怎么算",
+          "score": 4.396440221194618
+        },
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 7.423794101259274
+        },
+        {
+          "query": "劳动合同法 经济补偿 计算方式",
+          "score": 5.95396709731342
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "rank": 46
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "经济补偿 计算 标准 被辞退",
+          "score": 0.5041530728340149
+        }
+      ],
+      "pre_rerank_score": 0.048113548333295245,
+      "bm25_rank": 10,
+      "semantic_rank": 46,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 31,
+      "reranker_score": 0.8645355105400085,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "bde88ceab0e2db0542ae": 9,
+    "8ddd229589e74232f0bd": 1
+  }
+}

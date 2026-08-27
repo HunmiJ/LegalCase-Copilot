@@ -1,0 +1,794 @@
+{
+  "original_query": "劳动仲裁是不是过一年就不能申请了",
+  "structured_understanding": {
+    "original_query": "劳动仲裁是不是过一年就不能申请了",
+    "domain": "劳动争议",
+    "issue": "劳动仲裁的申请时效是否以一年为限，超过一年是否无法申请，涉及时效起算、中断、中止等法律问题",
+    "user_intent": "用户想确认劳动仲裁是否受一年时效限制，并了解超过一年后是否还能申请，可能关心时效计算规则及例外情形",
+    "legal_concepts": [
+      "劳动仲裁时效",
+      "时效中断",
+      "时效中止",
+      "仲裁申请期限"
+    ],
+    "search_queries": [
+      "劳动仲裁时效 一年 申请条件",
+      "劳动仲裁时效 起算 中断 中止",
+      "超过劳动仲裁时效 还能申请吗"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "劳动仲裁是不是过一年就不能申请了",
+    "劳动仲裁时效 一年 申请条件",
+    "劳动仲裁时效 起算 中断 中止"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8586.368499993114
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第二十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "bbf2e7bc4f47a70cae51"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 58,
+      "reranking_candidate_count": 58,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 131,
+      "reranking_candidate_count": 131,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 66.07780000194907,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 14354.085116661736,
+  "final_retrieval_ranking": [
+    {
+      "id": "bbf2e7bc4f47a70cae51",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十七条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 11.924188555496528,
+      "rank": 1,
+      "canonical_id": "bbf2e7bc4f47a70cae51",
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件",
+        "劳动仲裁时效 起算 中断 中止"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 11.924188555496528
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 19.048121724633184
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 23.751088733239595
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 11
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6639803051948547
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6911106109619141
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 0.7204112410545349
+        }
+      ],
+      "pre_rerank_score": 0.09605172015700762,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6639803051948547,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9958212375640869,
+      "final_rank": 1
+    },
+    {
+      "id": "4abbb7d165632bc243e7",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十二条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 7.511312698431768,
+      "rank": 2,
+      "canonical_id": "4abbb7d165632bc243e7",
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件",
+        "劳动仲裁时效 起算 中断 中止"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 13
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 6
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 7.511312698431768
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 7.511312698431768
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 4.7471707556043174
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 3
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6824804544448853
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6425567865371704
+        }
+      ],
+      "pre_rerank_score": 0.0750889306577216,
+      "bm25_rank": 6,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6824804544448853,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.8427777886390686,
+      "final_rank": 2
+    },
+    {
+      "id": "b4fd4d3b6f24f4f033ff",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第五十一条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "b4fd4d3b6f24f4f033ff",
+      "rank": 3,
+      "similarity_score": 0.6567343473434448,
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件",
+        "劳动仲裁时效 起算 中断 中止"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 17
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 4
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6567343473434448
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6416251063346863
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 0.6202279329299927
+        }
+      ],
+      "pre_rerank_score": 0.04399662837162838,
+      "bm25_rank": null,
+      "semantic_rank": 4,
+      "bm25_score": null,
+      "semantic_similarity": 0.6567343473434448,
+      "pre_rerank_rank": 28,
+      "reranker_score": 0.769872784614563,
+      "final_rank": 3
+    },
+    {
+      "id": "8b8ff9d3b9123e1d4c02",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第四十三条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 9.367102940612414,
+      "rank": 4,
+      "canonical_id": "8b8ff9d3b9123e1d4c02",
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件",
+        "劳动仲裁时效 起算 中断 中止"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 2
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 26
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 16
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 9.367102940612414
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 5.838116524552502
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 4.38222193970403
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 16
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 9
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6582425832748413
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6304673552513123
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 0.6159549951553345
+        }
+      ],
+      "pre_rerank_score": 0.08349085546600968,
+      "bm25_rank": 2,
+      "semantic_rank": 7,
+      "semantic_similarity": 0.6582425832748413,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.6784787178039551,
+      "final_rank": 4
+    },
+    {
+      "id": "0bacfb74ff62f979f4fc",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第十二条",
+      "chapter": "第二章调 解",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 5.5069236379558,
+      "rank": 5,
+      "canonical_id": "0bacfb74ff62f979f4fc",
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 40
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 31
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 5.5069236379558
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 5.5069236379558
+        }
+      ],
+      "pre_rerank_score": 0.02098901098901099,
+      "bm25_rank": 31,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 62,
+      "reranker_score": 0.6533842086791992,
+      "final_rank": 5
+    },
+    {
+      "id": "27a17fc1a3be349cd8c0",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第二十条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "canonical_id": "27a17fc1a3be349cd8c0",
+      "rank": 6,
+      "similarity_score": 0.6384528875350952,
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件",
+        "劳动仲裁时效 起算 中断 中止"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 39
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 17
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6384528875350952
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6165176033973694
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 2
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 13.72977045913296
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 12.254150109649725
+        }
+      ],
+      "pre_rerank_score": 0.05534608760415212,
+      "bm25_rank": 2,
+      "semantic_rank": 17,
+      "bm25_score": null,
+      "semantic_similarity": 0.6384528875350952,
+      "pre_rerank_rank": 16,
+      "reranker_score": 0.6511715650558472,
+      "final_rank": 6
+    },
+    {
+      "id": "18bbb9efba59727691d8",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十九条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "18bbb9efba59727691d8",
+      "rank": 7,
+      "similarity_score": 0.6818588972091675,
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 4
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 19
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6818588972091675
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6149025559425354
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 44
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 4.943309604063496
+        }
+      ],
+      "pre_rerank_score": 0.03789861246348588,
+      "bm25_rank": 44,
+      "semantic_rank": 4,
+      "bm25_score": null,
+      "semantic_similarity": 0.6818588972091675,
+      "pre_rerank_rank": 39,
+      "reranker_score": 0.6302491426467896,
+      "final_rank": 7
+    },
+    {
+      "id": "780cb636b8f87b644631",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "780cb636b8f87b644631",
+      "rank": 8,
+      "similarity_score": 0.6287602782249451,
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 50
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6287602782249451
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6314940452575684
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 46
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 4.887581203023511
+        }
+      ],
+      "pre_rerank_score": 0.033230753708001215,
+      "bm25_rank": 46,
+      "semantic_rank": 8,
+      "bm25_score": null,
+      "semantic_similarity": 0.6287602782249451,
+      "pre_rerank_rank": 44,
+      "reranker_score": 0.605044960975647,
+      "final_rank": 8
+    },
+    {
+      "id": "f5a0dd3410d534ce1555",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十三条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 6.146537948728023,
+      "rank": 9,
+      "canonical_id": "f5a0dd3410d534ce1555",
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件",
+        "劳动仲裁时效 起算 中断 中止"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 28
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 22
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 28
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 6.146537948728023
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 6.146537948728023
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 4.159360419018146
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 39
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 41
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6943638324737549
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6015706062316895
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 0.5826250314712524
+        }
+      ],
+      "pre_rerank_score": 0.07131783750146307,
+      "bm25_rank": 22,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6943638324737549,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.5753639936447144,
+      "final_rank": 9
+    },
+    {
+      "id": "50ec4b0030f6faee5fb4",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十八条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 6.808326310207407,
+      "rank": 10,
+      "canonical_id": "50ec4b0030f6faee5fb4",
+      "matched_queries": [
+        "劳动仲裁是不是过一年就不能申请了",
+        "劳动仲裁时效 一年 申请条件",
+        "劳动仲裁时效 起算 中断 中止"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 16
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 10
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "rank": 37
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 6.808326310207407
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 6.808326310207407
+        },
+        {
+          "query": "劳动仲裁时效 起算 中断 中止",
+          "score": 3.8706324925473625
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "rank": 10
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁是不是过一年就不能申请了",
+          "score": 0.6648807525634766
+        },
+        {
+          "query": "劳动仲裁时效 一年 申请条件",
+          "score": 0.6411924362182617
+        }
+      ],
+      "pre_rerank_score": 0.06742321704340151,
+      "bm25_rank": 10,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6648807525634766,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.5067684054374695,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "bbf2e7bc4f47a70cae51": 1
+  }
+}

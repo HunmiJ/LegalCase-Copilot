@@ -1,0 +1,780 @@
+{
+  "original_query": "违法解除劳动合同要赔多少钱",
+  "structured_understanding": {
+    "original_query": "违法解除劳动合同要赔多少钱",
+    "domain": "劳动争议",
+    "issue": "用人单位违法解除劳动合同的赔偿金额计算",
+    "user_intent": "咨询违法解除劳动合同时赔偿金的计算标准或数额",
+    "legal_concepts": [
+      "违法解除劳动合同",
+      "赔偿金",
+      "经济补偿金"
+    ],
+    "search_queries": [
+      "违法解除劳动合同赔偿金计算标准",
+      "违法解除劳动合同赔偿金与经济补偿金的关系",
+      "违法解除劳动合同赔偿金数额如何确定"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "违法解除劳动合同要赔多少钱",
+    "违法解除劳动合同赔偿金计算标准",
+    "违法解除劳动合同赔偿金与经济补偿金的关系"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 6518.876500020269
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十八条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第八十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8d5feddf081b799ab5c0",
+    "cf69b9d72596ac0968ac"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 55,
+      "reranking_candidate_count": 55,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 113,
+      "reranking_candidate_count": 113,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 53.82269999245182,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12274.338016679394,
+  "final_retrieval_ranking": [
+    {
+      "id": "0ab715b85400079a8854",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "0ab715b85400079a8854",
+      "rank": 1,
+      "similarity_score": 0.6849714517593384,
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 18
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 16
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 23
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 0.6849714517593384
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 0.641553521156311
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 0.6429176926612854
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 18
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 24
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 5.256804241901311
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 7.27249360619229
+        }
+      ],
+      "pre_rerank_score": 0.06275187505371399,
+      "bm25_rank": 18,
+      "semantic_rank": 16,
+      "bm25_score": null,
+      "semantic_similarity": 0.6849714517593384,
+      "pre_rerank_rank": 15,
+      "reranker_score": 0.98213791847229,
+      "final_rank": 1
+    },
+    {
+      "id": "8d5feddf081b799ab5c0",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十七条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.0633235098945972,
+      "rank": 2,
+      "canonical_id": "8d5feddf081b799ab5c0",
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 37
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 5
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 2.0633235098945972
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 8.287744685442565
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 9.977001967190754
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 1
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 1
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 0.7394404411315918
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 0.727769136428833
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 0.7277416586875916
+        }
+      ],
+      "pre_rerank_score": 0.0902588369885987,
+      "bm25_rank": 5,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7394404411315918,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9699389338493347,
+      "final_rank": 2
+    },
+    {
+      "id": "66a562e477f57e24789f",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十四条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": null,
+      "rank": 3,
+      "canonical_id": "66a562e477f57e24789f",
+      "matched_queries": [
+        "违法解除劳动合同赔偿金计算标准"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 44
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 2.9259050537812694
+        }
+      ],
+      "pre_rerank_score": 0.009615384615384616,
+      "bm25_rank": 44,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 104,
+      "reranker_score": 0.968357264995575,
+      "final_rank": 3
+    },
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": null,
+      "rank": 4,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 11
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 6.38466167572736
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 7.668274697463383
+        }
+      ],
+      "pre_rerank_score": 0.02690501986276634,
+      "bm25_rank": 11,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 52,
+      "reranker_score": 0.9661123752593994,
+      "final_rank": 4
+    },
+    {
+      "id": "e0501dc9f697ae3c9463",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十七条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 2.103157582833359,
+      "rank": 5,
+      "canonical_id": "e0501dc9f697ae3c9463",
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 33
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 2.103157582833359
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 10.205771903896723
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 14
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 4
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 0.692527174949646
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 0.6774043440818787
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 0.667686402797699
+        }
+      ],
+      "pre_rerank_score": 0.07072611629656222,
+      "bm25_rank": 2,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.692527174949646,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.9604536294937134,
+      "final_rank": 5
+    },
+    {
+      "id": "7eadd9a8ac96aece8281",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第三十五条",
+      "chapter": "第五章法律责任",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "7eadd9a8ac96aece8281",
+      "rank": 6,
+      "similarity_score": 0.6664413213729858,
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 37
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 49
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 0.6664413213729858
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 0.6083938479423523
+        }
+      ],
+      "pre_rerank_score": 0.019483590277120967,
+      "bm25_rank": null,
+      "semantic_rank": 37,
+      "bm25_score": null,
+      "semantic_similarity": 0.6664413213729858,
+      "pre_rerank_rank": 67,
+      "reranker_score": 0.9603621959686279,
+      "final_rank": 6
+    },
+    {
+      "id": "f2200d426137ce083c2d",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十五条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 2.5194778016471018,
+      "rank": 7,
+      "canonical_id": "f2200d426137ce083c2d",
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 20
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 1
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 2.5194778016471018
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 12.100948693547938
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 11.047336996593994
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 2
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 2
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 0.7203769683837891
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 0.7061960697174072
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 0.7143481969833374
+        }
+      ],
+      "pre_rerank_score": 0.09315355527016024,
+      "bm25_rank": 1,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.7203769683837891,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9542827010154724,
+      "final_rank": 7
+    },
+    {
+      "id": "cf69b9d72596ac0968ac",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十八条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.585511318275269,
+      "rank": 8,
+      "canonical_id": "cf69b9d72596ac0968ac",
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 15
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 16
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 22
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 2.585511318275269
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 5.47603921352523
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 7.412178892859837
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 21
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 23
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 20
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 0.6822260618209839
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 0.6350579857826233
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 0.6463460922241211
+        }
+      ],
+      "pre_rerank_score": 0.07558022180482496,
+      "bm25_rank": 15,
+      "semantic_rank": 20,
+      "semantic_similarity": 0.6822260618209839,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.9377478361129761,
+      "final_rank": 8
+    },
+    {
+      "id": "33f756fb2dfa81c1c390",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 2.1936885118588547,
+      "rank": 9,
+      "canonical_id": "33f756fb2dfa81c1c390",
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 29
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 20
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 43
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 2.1936885118588547
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 4.861866379956139
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 6.536790325314238
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 28
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 22
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 25
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 0.677176296710968
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 0.6367071866989136
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 0.6397321224212646
+        }
+      ],
+      "pre_rerank_score": 0.06876815711746626,
+      "bm25_rank": 20,
+      "semantic_rank": 22,
+      "semantic_similarity": 0.677176296710968,
+      "pre_rerank_rank": 10,
+      "reranker_score": 0.91386878490448,
+      "final_rank": 9
+    },
+    {
+      "id": "fd46d93f6e523af3446e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第九十二条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 5.17655320834184,
+      "rank": 10,
+      "canonical_id": "fd46d93f6e523af3446e",
+      "matched_queries": [
+        "违法解除劳动合同要赔多少钱",
+        "违法解除劳动合同赔偿金计算标准",
+        "违法解除劳动合同赔偿金与经济补偿金的关系"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "rank": 4
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "rank": 9
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "rank": 16
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同要赔多少钱",
+          "score": 5.17655320834184
+        },
+        {
+          "query": "违法解除劳动合同赔偿金计算标准",
+          "score": 6.7060608283640715
+        },
+        {
+          "query": "违法解除劳动合同赔偿金与经济补偿金的关系",
+          "score": 8.029628018677277
+        }
+      ],
+      "pre_rerank_score": 0.04327564836003051,
+      "bm25_rank": 4,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 37,
+      "reranker_score": 0.9026004672050476,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "8d5feddf081b799ab5c0": 2,
+    "cf69b9d72596ac0968ac": 8
+  }
+}

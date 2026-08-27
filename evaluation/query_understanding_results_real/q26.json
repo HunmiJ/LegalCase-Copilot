@@ -1,0 +1,621 @@
+{
+  "original_query": "公司不给员工交社保怎么办",
+  "structured_understanding": {
+    "original_query": "公司不给员工交社保怎么办",
+    "domain": "劳动争议",
+    "issue": "用人单位未依法为劳动者缴纳社会保险费，劳动者如何维权及用人单位应承担的法律责任",
+    "user_intent": "咨询公司不缴纳社保时的应对措施及法律依据",
+    "legal_concepts": [
+      "社会保险费缴纳义务",
+      "未缴纳社保的行政责任",
+      "劳动者解除劳动合同并请求经济补偿",
+      "社会保险补缴程序"
+    ],
+    "search_queries": [
+      "公司不交社保 劳动者维权途径",
+      "未依法缴纳社会保险费 法律责任 劳动争议",
+      "社会保险法 用人单位未缴纳 处罚 补缴"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司不给员工交社保怎么办",
+    "公司不交社保 劳动者维权途径",
+    "未依法缴纳社会保险费 法律责任 劳动争议"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8052.828399988357
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "article_number": "第七十二条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十八条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "010a3d3447e4190eb8bd",
+    "cf917bb431c92d8a01e3"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 80,
+      "reranking_candidate_count": 80,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 166,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 52.67209999146871,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 13807.139316646499,
+  "final_retrieval_ranking": [
+    {
+      "id": "3039e6bfe82c444d4272",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十九条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "canonical_id": "3039e6bfe82c444d4272",
+      "rank": 1,
+      "similarity_score": 0.6120249032974243,
+      "matched_queries": [
+        "公司不给员工交社保怎么办",
+        "公司不交社保 劳动者维权途径",
+        "未依法缴纳社会保险费 法律责任 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 2
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "rank": 2
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.6120249032974243
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "score": 0.6008764505386353
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 0.7116339802742004
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 16.509912789271414
+        }
+      ],
+      "pre_rerank_score": 0.06504494976203068,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "bm25_score": null,
+      "semantic_similarity": 0.6120249032974243,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9700776934623718,
+      "final_rank": 1
+    },
+    {
+      "id": "03cdab1a1333b0d3c6ed",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第一百条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 1.550337319693311,
+      "rank": 2,
+      "canonical_id": "03cdab1a1333b0d3c6ed",
+      "matched_queries": [
+        "公司不给员工交社保怎么办",
+        "公司不交社保 劳动者维权途径",
+        "未依法缴纳社会保险费 法律责任 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 35
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 1.550337319693311
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 15.99377828807873
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 1
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "rank": 1
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.6474219560623169
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "score": 0.6185663938522339
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 0.640948474407196
+        }
+      ],
+      "pre_rerank_score": 0.07557126555150435,
+      "bm25_rank": 2,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6474219560623169,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9180526733398438,
+      "final_rank": 2
+    },
+    {
+      "id": "2bcc1dccc654eec05ead",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十八条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "2bcc1dccc654eec05ead",
+      "rank": 3,
+      "similarity_score": 0.5407392978668213,
+      "matched_queries": [
+        "公司不给员工交社保怎么办",
+        "未依法缴纳社会保险费 法律责任 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 50
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.5407392978668213
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 7.379199047741802
+        }
+      ],
+      "pre_rerank_score": 0.023796791443850267,
+      "bm25_rank": 8,
+      "semantic_rank": 50,
+      "bm25_score": null,
+      "semantic_similarity": 0.5407392978668213,
+      "pre_rerank_rank": 60,
+      "reranker_score": 0.7658259868621826,
+      "final_rank": 3
+    },
+    {
+      "id": "26603fbc041afdc4731e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十九条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "26603fbc041afdc4731e",
+      "rank": 4,
+      "similarity_score": 0.5458750128746033,
+      "matched_queries": [
+        "公司不交社保 劳动者维权途径"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "rank": 30
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "score": 0.5458750128746033
+        }
+      ],
+      "pre_rerank_score": 0.011111111111111112,
+      "bm25_rank": null,
+      "semantic_rank": 30,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 119,
+      "reranker_score": 0.7598284482955933,
+      "final_rank": 4
+    },
+    {
+      "id": "010a3d3447e4190eb8bd",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十八条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "010a3d3447e4190eb8bd",
+      "rank": 5,
+      "similarity_score": 0.5534869432449341,
+      "matched_queries": [
+        "公司不给员工交社保怎么办",
+        "未依法缴纳社会保险费 法律责任 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 29
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.5534869432449341
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 9.895878018616477
+        }
+      ],
+      "pre_rerank_score": 0.02662057044079516,
+      "bm25_rank": 5,
+      "semantic_rank": 29,
+      "bm25_score": null,
+      "semantic_similarity": 0.5534869432449341,
+      "pre_rerank_rank": 48,
+      "reranker_score": 0.7375102043151855,
+      "final_rank": 5
+    },
+    {
+      "id": "446436c9a0d85d6ae909",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第一条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "446436c9a0d85d6ae909",
+      "rank": 6,
+      "similarity_score": 0.5509911179542542,
+      "matched_queries": [
+        "公司不给员工交社保怎么办",
+        "公司不交社保 劳动者维权途径",
+        "未依法缴纳社会保险费 法律责任 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 32
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "rank": 9
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.5509911179542542
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "score": 0.5650584697723389
+        },
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 0.6337999105453491
+        }
+      ],
+      "pre_rerank_score": 0.041235334713595584,
+      "bm25_rank": null,
+      "semantic_rank": 3,
+      "bm25_score": null,
+      "semantic_similarity": 0.5509911179542542,
+      "pre_rerank_rank": 17,
+      "reranker_score": 0.7360048294067383,
+      "final_rank": 6
+    },
+    {
+      "id": "daf7300f7458e59be7b2",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十一条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "daf7300f7458e59be7b2",
+      "rank": 7,
+      "similarity_score": 0.5612207651138306,
+      "matched_queries": [
+        "公司不给员工交社保怎么办"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": false,
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 21
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.5612207651138306
+        }
+      ],
+      "pre_rerank_score": 0.012345679012345678,
+      "bm25_rank": null,
+      "semantic_rank": 21,
+      "bm25_score": null,
+      "semantic_similarity": 0.5612207651138306,
+      "pre_rerank_rank": 104,
+      "reranker_score": 0.7079651951789856,
+      "final_rank": 7
+    },
+    {
+      "id": "94481cf42ed38626b000",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十六条",
+      "chapter": "第九章社会保险和福利",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "94481cf42ed38626b000",
+      "rank": 8,
+      "similarity_score": 0.5588685274124146,
+      "matched_queries": [
+        "公司不给员工交社保怎么办",
+        "公司不交社保 劳动者维权途径"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 24
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "rank": 49
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.5588685274124146
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "score": 0.5365587472915649
+        }
+      ],
+      "pre_rerank_score": 0.02107907383136741,
+      "bm25_rank": null,
+      "semantic_rank": 24,
+      "bm25_score": null,
+      "semantic_similarity": 0.5588685274124146,
+      "pre_rerank_rank": 71,
+      "reranker_score": 0.669963538646698,
+      "final_rank": 8
+    },
+    {
+      "id": "056269226b3d244d54dd",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十五条",
+      "chapter": "第九章社会保险和福利",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "056269226b3d244d54dd",
+      "rank": 9,
+      "similarity_score": 0.5911707878112793,
+      "matched_queries": [
+        "公司不给员工交社保怎么办",
+        "公司不交社保 劳动者维权途径"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "rank": 4
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司不给员工交社保怎么办",
+          "score": 0.5911707878112793
+        },
+        {
+          "query": "公司不交社保 劳动者维权途径",
+          "score": 0.559719443321228
+        }
+      ],
+      "pre_rerank_score": 0.029513888888888888,
+      "bm25_rank": null,
+      "semantic_rank": 4,
+      "bm25_score": null,
+      "semantic_similarity": 0.5911707878112793,
+      "pre_rerank_rank": 41,
+      "reranker_score": 0.6589685678482056,
+      "final_rank": 9
+    },
+    {
+      "id": "dae9ab7d9f3c32fdee18",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第九条",
+      "chapter": "第一章总 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": null,
+      "rank": 10,
+      "canonical_id": "dae9ab7d9f3c32fdee18",
+      "matched_queries": [
+        "未依法缴纳社会保险费 法律责任 劳动争议"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "rank": 22
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "未依法缴纳社会保险费 法律责任 劳动争议",
+          "score": 4.950006767795528
+        }
+      ],
+      "pre_rerank_score": 0.012195121951219513,
+      "bm25_rank": 22,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 105,
+      "reranker_score": 0.6129032969474792,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "cf917bb431c92d8a01e3": null,
+    "010a3d3447e4190eb8bd": 5
+  }
+}

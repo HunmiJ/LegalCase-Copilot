@@ -1,0 +1,399 @@
+{
+  "query_count": 20,
+  "law_only": {
+    "mode": "law_only",
+    "query_count": 20,
+    "metrics": {
+      "law_recall": 0.975,
+      "case_recall": 0.0,
+      "citation_validity": 1.0,
+      "grounded_claim_rate": 1.0,
+      "unsupported_claim_rate": 0.0
+    },
+    "average_latency_ms": 11105.67,
+    "rows": [
+      {
+        "query": "公司没有充分理由就解除劳动合同，是否属于违法解除？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 13522.208200010937
+      },
+      {
+        "query": "怀孕期间被公司辞退，还能要求赔偿和生育待遇损失吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11196.222200000193
+      },
+      {
+        "query": "绩效考核排名靠后，公司可以直接认定不能胜任工作并解除吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11474.064600013662
+      },
+      {
+        "query": "单位长期拖欠工资后解除合同，经济补偿金如何计算？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11709.20829998795
+      },
+      {
+        "query": "公司违法解除劳动合同，赔偿金和经济补偿金能否同时主张？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11354.036699980497
+      },
+      {
+        "query": "下班后通过微信处理客户工作，是否属于加班？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11352.926899970043
+      },
+      {
+        "query": "休息日到公司工作但没有完整考勤记录，加班事实如何认定？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 9723.162500013132
+      },
+      {
+        "query": "公司实行不定时工作制，还需要支付休息日加班费吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 8171.628599986434
+      },
+      {
+        "query": "入职多年一直没有签书面劳动合同，可以要求二倍工资吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11684.165099984966
+      },
+      {
+        "query": "合同到期后公司愿意续签但员工拒绝，是否还能要求未签合同二倍工资？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11885.041199973784
+      },
+      {
+        "query": "签的是合作协议但实际每天接受公司管理，能否确认劳动关系？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 9812.466500035953
+      },
+      {
+        "query": "公司少缴工伤保险导致伤残待遇减少，差额由谁承担？",
+        "law_recall": 0.5,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 9580.818200018257
+      },
+      {
+        "query": "职业病危害岗位没有做离岗体检就签了解除协议，协议有效吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11937.039299984463
+      },
+      {
+        "query": "普通员工没有接触商业秘密，签订竞业限制协议是否有效？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 9269.01370001724
+      },
+      {
+        "query": "离职后违反竞业限制约定，需要退还补偿并支付违约金吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11466.09909995459
+      },
+      {
+        "query": "有公司盖章的工资欠条，可以不经仲裁直接起诉吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11769.338999991305
+      },
+      {
+        "query": "公司拖欠工资，劳动者解除合同后能否要求经济补偿？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11354.749699996319
+      },
+      {
+        "query": "试用期内反复延长试用期，用人单位是否需要承担赔偿责任？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11315.74599997839
+      },
+      {
+        "query": "试用期解除劳动合同，公司必须证明劳动者不符合录用条件吗？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11675.373800040688
+      },
+      {
+        "query": "平台要求劳动者注册个体工商户再接单，双方是否仍可能构成劳动关系？",
+        "law_recall": 1.0,
+        "case_recall": 0.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11860.00550002791
+      }
+    ]
+  },
+  "law_plus_case": {
+    "mode": "law_plus_case",
+    "query_count": 20,
+    "metrics": {
+      "law_recall": 0.975,
+      "case_recall": 0.975,
+      "citation_validity": 1.0,
+      "grounded_claim_rate": 1.0,
+      "unsupported_claim_rate": 0.0
+    },
+    "average_latency_ms": 11603.51,
+    "rows": [
+      {
+        "query": "公司没有充分理由就解除劳动合同，是否属于违法解除？",
+        "law_recall": 1.0,
+        "case_recall": 0.5,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 14771.53140003793
+      },
+      {
+        "query": "怀孕期间被公司辞退，还能要求赔偿和生育待遇损失吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11786.16040002089
+      },
+      {
+        "query": "绩效考核排名靠后，公司可以直接认定不能胜任工作并解除吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12082.728300010785
+      },
+      {
+        "query": "单位长期拖欠工资后解除合同，经济补偿金如何计算？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12258.257399953436
+      },
+      {
+        "query": "公司违法解除劳动合同，赔偿金和经济补偿金能否同时主张？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11890.4351000092
+      },
+      {
+        "query": "下班后通过微信处理客户工作，是否属于加班？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12155.209099990316
+      },
+      {
+        "query": "休息日到公司工作但没有完整考勤记录，加班事实如何认定？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 10296.932000026572
+      },
+      {
+        "query": "公司实行不定时工作制，还需要支付休息日加班费吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 8600.947600032669
+      },
+      {
+        "query": "入职多年一直没有签书面劳动合同，可以要求二倍工资吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12113.098000001628
+      },
+      {
+        "query": "合同到期后公司愿意续签但员工拒绝，是否还能要求未签合同二倍工资？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12182.119100005366
+      },
+      {
+        "query": "签的是合作协议但实际每天接受公司管理，能否确认劳动关系？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 10420.657599985134
+      },
+      {
+        "query": "公司少缴工伤保险导致伤残待遇减少，差额由谁承担？",
+        "law_recall": 0.5,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 9956.525299989153
+      },
+      {
+        "query": "职业病危害岗位没有做离岗体检就签了解除协议，协议有效吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12229.252399993129
+      },
+      {
+        "query": "普通员工没有接触商业秘密，签订竞业限制协议是否有效？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 9636.015800002497
+      },
+      {
+        "query": "离职后违反竞业限制约定，需要退还补偿并支付违约金吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11920.077899994794
+      },
+      {
+        "query": "有公司盖章的工资欠条，可以不经仲裁直接起诉吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12201.303599984385
+      },
+      {
+        "query": "公司拖欠工资，劳动者解除合同后能否要求经济补偿？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11619.07329998212
+      },
+      {
+        "query": "试用期内反复延长试用期，用人单位是否需要承担赔偿责任？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 11654.090699972585
+      },
+      {
+        "query": "试用期解除劳动合同，公司必须证明劳动者不符合录用条件吗？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12003.110399993602
+      },
+      {
+        "query": "平台要求劳动者注册个体工商户再接单，双方是否仍可能构成劳动关系？",
+        "law_recall": 1.0,
+        "case_recall": 1.0,
+        "citation_validity": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_claim_rate": 0.0,
+        "latency_ms": 12292.70260001067
+      }
+    ]
+  },
+  "delta_law_plus_case_minus_law_only": {
+    "law_recall": 0.0,
+    "case_recall": 0.975,
+    "citation_validity": 0.0,
+    "grounded_claim_rate": 0.0,
+    "unsupported_claim_rate": 0.0
+  },
+  "case_augmented_improved": true
+}

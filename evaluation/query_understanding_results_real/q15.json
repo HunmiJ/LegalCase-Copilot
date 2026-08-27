@@ -1,0 +1,775 @@
+{
+  "original_query": "公司拖欠劳动报酬怎么办",
+  "structured_understanding": {
+    "original_query": "公司拖欠劳动报酬怎么办",
+    "domain": "劳动争议",
+    "issue": "用人单位拖欠劳动报酬时的维权途径和法律程序",
+    "user_intent": "用户咨询在公司拖欠劳动报酬的情况下，劳动者可采取哪些法律措施以及如何通过合法途径追索报酬",
+    "legal_concepts": [
+      "劳动报酬",
+      "拖欠工资",
+      "劳动仲裁",
+      "劳动监察",
+      "诉讼时效"
+    ],
+    "search_queries": [
+      "公司拖欠劳动报酬怎么办",
+      "拖欠工资的法律救济途径",
+      "劳动报酬追索的程序"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司拖欠劳动报酬怎么办",
+    "拖欠工资的法律救济途径",
+    "劳动报酬追索的程序"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 11639.603199990233
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "article_number": "第五十条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "16ab4ea605fedaa8d702",
+    "5334e19c009d86676778"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 73,
+      "reranking_candidate_count": 73,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 153,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 62.456399988150224,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 17403.698416645057,
+  "final_retrieval_ranking": [
+    {
+      "id": "dae9ab7d9f3c32fdee18",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第九条",
+      "chapter": "第一章总 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 8.134070862546764,
+      "rank": 1,
+      "canonical_id": "dae9ab7d9f3c32fdee18",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 1
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 46
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 8.134070862546764
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 3.549568668994688
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 4
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.6523803472518921
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.573339581489563
+        }
+      ],
+      "pre_rerank_score": 0.05573811917281605,
+      "bm25_rank": 1,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.6523803472518921,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.9906734824180603,
+      "final_rank": 1
+    },
+    {
+      "id": "5288684dd8006a0519df",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 6.409350923720533,
+      "rank": 2,
+      "canonical_id": "5288684dd8006a0519df",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 3
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 24
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 6.409350923720533
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 4.23204683414772
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 6
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 2
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.6352007389068604
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.612947404384613
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 0.5687190294265747
+        }
+      ],
+      "pre_rerank_score": 0.07545176781030827,
+      "bm25_rank": 3,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6352007389068604,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9812911748886108,
+      "final_rank": 2
+    },
+    {
+      "id": "547afe92cd1078555151",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第十六条",
+      "chapter": "第二章调 解",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 5.954034224410318,
+      "rank": 3,
+      "canonical_id": "547afe92cd1078555151",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 4
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 5.954034224410318
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 10
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.6261434555053711
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.5845446586608887
+        }
+      ],
+      "pre_rerank_score": 0.04483608742004264,
+      "bm25_rank": 4,
+      "semantic_rank": 7,
+      "semantic_similarity": 0.6261434555053711,
+      "pre_rerank_rank": 19,
+      "reranker_score": 0.9728530049324036,
+      "final_rank": 3
+    },
+    {
+      "id": "16ab4ea605fedaa8d702",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十条",
+      "chapter": "第三章劳动合同的履行和变更",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 6.843199674229615,
+      "rank": 4,
+      "canonical_id": "16ab4ea605fedaa8d702",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 2
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 6.843199674229615
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 4.592961775609217
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 1
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 8
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.681279718875885
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.5807463526725769
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 0.5548535585403442
+        }
+      ],
+      "pre_rerank_score": 0.07592188592748521,
+      "bm25_rank": 2,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.681279718875885,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9715787768363953,
+      "final_rank": 4
+    },
+    {
+      "id": "bbf2e7bc4f47a70cae51",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十七条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 3.27693253245683,
+      "rank": 5,
+      "canonical_id": "bbf2e7bc4f47a70cae51",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 9
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 3.27693253245683
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 5.261803545907865
+        }
+      ],
+      "pre_rerank_score": 0.03036576949620428,
+      "bm25_rank": 3,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 38,
+      "reranker_score": 0.9611809849739075,
+      "final_rank": 5
+    },
+    {
+      "id": "5334e19c009d86676778",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第五十条",
+      "chapter": "第五章工 资",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 4.872789493461715,
+      "rank": 6,
+      "canonical_id": "5334e19c009d86676778",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 4.872789493461715
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 12
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 3
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 26
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.620768666267395
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.6102277040481567
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 0.5160666704177856
+        }
+      ],
+      "pre_rerank_score": 0.0565413268901641,
+      "bm25_rank": 6,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.620768666267395,
+      "pre_rerank_rank": 10,
+      "reranker_score": 0.9312846660614014,
+      "final_rank": 6
+    },
+    {
+      "id": "3cb04e7bbeffdc981d3c",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十一条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 3.2320415752903577,
+      "rank": 7,
+      "canonical_id": "3cb04e7bbeffdc981d3c",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 10
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 3.2320415752903577
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 2
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 4
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.678892970085144
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.6007800698280334
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 0.5355191826820374
+        }
+      ],
+      "pre_rerank_score": 0.05992863543266769,
+      "bm25_rank": 10,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.678892970085144,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.9160910248756409,
+      "final_rank": 7
+    },
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.6562294567453493,
+      "rank": 8,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 15
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 13
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 2.6562294567453493
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 4.908442133379371
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 9
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 36
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 48
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.6263554692268372
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.5331665277481079
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 0.5022348165512085
+        }
+      ],
+      "pre_rerank_score": 0.06120064301943397,
+      "bm25_rank": 13,
+      "semantic_rank": 9,
+      "semantic_similarity": 0.6263554692268372,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.8823158144950867,
+      "final_rank": 8
+    },
+    {
+      "id": "0ab715b85400079a8854",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 5.127181055343195,
+      "rank": 9,
+      "canonical_id": "0ab715b85400079a8854",
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 5
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 21
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 5.127181055343195
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 4.566075067126505
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 13
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 6
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 18
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.6166691184043884
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.5874966382980347
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 0.5276634693145752
+        }
+      ],
+      "pre_rerank_score": 0.06940095250597533,
+      "bm25_rank": 5,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.6166691184043884,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.8625754117965698,
+      "final_rank": 9
+    },
+    {
+      "id": "a4776c852acdbb1942e4",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第三十一条",
+      "chapter": "第四章劳务派遣特别规定",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "a4776c852acdbb1942e4",
+      "rank": 10,
+      "similarity_score": 0.583587646484375,
+      "matched_queries": [
+        "公司拖欠劳动报酬怎么办",
+        "拖欠工资的法律救济途径",
+        "劳动报酬追索的程序"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "rank": 49
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "rank": 17
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "rank": 39
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠劳动报酬怎么办",
+          "score": 0.583587646484375
+        },
+        {
+          "query": "拖欠工资的法律救济途径",
+          "score": 0.5584006309509277
+        },
+        {
+          "query": "劳动报酬追索的程序",
+          "score": 0.5093228816986084
+        }
+      ],
+      "pre_rerank_score": 0.03226233501462859,
+      "bm25_rank": null,
+      "semantic_rank": 17,
+      "bm25_score": null,
+      "semantic_similarity": 0.583587646484375,
+      "pre_rerank_rank": 35,
+      "reranker_score": 0.8419885635375977,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "16ab4ea605fedaa8d702": 4,
+    "5334e19c009d86676778": 6
+  }
+}

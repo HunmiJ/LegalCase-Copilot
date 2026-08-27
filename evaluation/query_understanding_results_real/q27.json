@@ -1,0 +1,780 @@
+{
+  "original_query": "劳动合同里必须写社会保险吗",
+  "structured_understanding": {
+    "original_query": "劳动合同里必须写社会保险吗",
+    "domain": "劳动争议",
+    "issue": "劳动合同必备条款是否包括社会保险",
+    "user_intent": "咨询劳动合同中是否必须约定社会保险事项",
+    "legal_concepts": [
+      "劳动合同必备条款",
+      "社会保险",
+      "劳动合同法"
+    ],
+    "search_queries": [
+      "劳动合同必备条款 社会保险",
+      "社会保险 是否必须写在劳动合同中",
+      "劳动合同法 社会保险条款 强制规定"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "劳动合同里必须写社会保险吗",
+    "劳动合同必备条款 社会保险",
+    "社会保险 是否必须写在劳动合同中"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 7098.458099993877
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "ff87e15e88ccc1b48657"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 54,
+      "reranking_candidate_count": 54,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 117,
+      "reranking_candidate_count": 117,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 48.75060002086684,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12848.847516681417,
+  "final_retrieval_ranking": [
+    {
+      "id": "ff87e15e88ccc1b48657",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第十七条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.651522129542281,
+      "rank": 1,
+      "canonical_id": "ff87e15e88ccc1b48657",
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 26
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 2
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 47
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 2.651522129542281
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 10.580078562773338
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 2.651522129542281
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 11
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 5
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 0.6304991245269775
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.6202149391174316
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 0.6541570425033569
+        }
+      ],
+      "pre_rerank_score": 0.08065636309645449,
+      "bm25_rank": 2,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6304991245269775,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9923979640007019,
+      "final_rank": 1
+    },
+    {
+      "id": "21dd40b5b4e4644cac81",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十二条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 3.407762614511382,
+      "rank": 2,
+      "canonical_id": "21dd40b5b4e4644cac81",
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 20
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 18
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 38
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 3.407762614511382
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 3.407762614511382
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 3.407762614511382
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 18
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 3
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 0.6175943613052368
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.6218196153640747
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 0.658126711845398
+        }
+      ],
+      "pre_rerank_score": 0.07914349628102293,
+      "bm25_rank": 18,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6175943613052368,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.982139527797699,
+      "final_rank": 2
+    },
+    {
+      "id": "3039e6bfe82c444d4272",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十九条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "canonical_id": "3039e6bfe82c444d4272",
+      "rank": 3,
+      "similarity_score": 0.6317068934440613,
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 27
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 18
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 0.6317068934440613
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.5739762187004089
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 0.6403719186782837
+        }
+      ],
+      "pre_rerank_score": 0.038600479979790325,
+      "bm25_rank": null,
+      "semantic_rank": 10,
+      "bm25_score": null,
+      "semantic_similarity": 0.6317068934440613,
+      "pre_rerank_rank": 30,
+      "reranker_score": 0.9763435125350952,
+      "final_rank": 3
+    },
+    {
+      "id": "26603fbc041afdc4731e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十九条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.473494768994634,
+      "rank": 4,
+      "canonical_id": "26603fbc041afdc4731e",
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 12
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 4.473494768994634
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 4.473494768994634
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 4.473494768994634
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 39
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.5659502744674683
+        }
+      ],
+      "pre_rerank_score": 0.05151629416335299,
+      "bm25_rank": 8,
+      "semantic_rank": 39,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 17,
+      "reranker_score": 0.9699231386184692,
+      "final_rank": 4
+    },
+    {
+      "id": "194d586c165803f1dc04",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第五十条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.924580506495841,
+      "rank": 5,
+      "canonical_id": "194d586c165803f1dc04",
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 24
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 19
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 17
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 2.924580506495841
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 2.924580506495841
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 4.5345797649658595
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 36
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 12
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 44
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 0.5963300466537476
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.5936961770057678
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 0.6201221346855164
+        }
+      ],
+      "pre_rerank_score": 0.07147094291081632,
+      "bm25_rank": 17,
+      "semantic_rank": 12,
+      "semantic_similarity": 0.5963300466537476,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.9173663258552551,
+      "final_rank": 5
+    },
+    {
+      "id": "cf917bb431c92d8a01e3",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十二条",
+      "chapter": "第九章社会保险和福利",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 9.541664957499211,
+      "rank": 6,
+      "canonical_id": "cf917bb431c92d8a01e3",
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 8
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 9.541664957499211
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 5.4726352746070805
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 9.541664957499211
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 7
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 14
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 0.6412354111671448
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.6097403168678284
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 0.6448949575424194
+        }
+      ],
+      "pre_rerank_score": 0.09180467011970056,
+      "bm25_rank": 1,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6412354111671448,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.884207010269165,
+      "final_rank": 6
+    },
+    {
+      "id": "ada01fb90cdc44ccfbba",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十四条",
+      "chapter": "第六章监督检查",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.414126033665103,
+      "rank": 7,
+      "canonical_id": "ada01fb90cdc44ccfbba",
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 30
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 23
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 2.414126033665103
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 2.414126033665103
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 46
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.5584530830383301
+        }
+      ],
+      "pre_rerank_score": 0.03259326614634639,
+      "bm25_rank": 23,
+      "semantic_rank": 46,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 41,
+      "reranker_score": 0.8531568646430969,
+      "final_rank": 7
+    },
+    {
+      "id": "f374fcffdb30d870665b",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第五十一条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "f374fcffdb30d870665b",
+      "rank": 8,
+      "similarity_score": 0.6349965929985046,
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 23
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 0.6349965929985046
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.576604962348938
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 0.6542447805404663
+        }
+      ],
+      "pre_rerank_score": 0.0410397894097398,
+      "bm25_rank": null,
+      "semantic_rank": 8,
+      "bm25_score": null,
+      "semantic_similarity": 0.6349965929985046,
+      "pre_rerank_rank": 28,
+      "reranker_score": 0.8382130265235901,
+      "final_rank": 8
+    },
+    {
+      "id": "2bcc1dccc654eec05ead",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十八条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": null,
+      "rank": 9,
+      "canonical_id": "2bcc1dccc654eec05ead",
+      "matched_queries": [
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 46
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 2.7715031826838166
+        }
+      ],
+      "pre_rerank_score": 0.009433962264150943,
+      "bm25_rank": 46,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 111,
+      "reranker_score": 0.8112786412239075,
+      "final_rank": 9
+    },
+    {
+      "id": "afb4eb53621272f8f9cc",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四条",
+      "chapter": "第一章总 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "afb4eb53621272f8f9cc",
+      "rank": 10,
+      "similarity_score": 0.6095192432403564,
+      "matched_queries": [
+        "劳动合同里必须写社会保险吗",
+        "劳动合同必备条款 社会保险",
+        "社会保险 是否必须写在劳动合同中"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "rank": 22
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "rank": 14
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 30
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同里必须写社会保险吗",
+          "score": 0.6095192432403564
+        },
+        {
+          "query": "劳动合同必备条款 社会保险",
+          "score": 0.5897303223609924
+        },
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 0.6292694807052612
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "rank": 44
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "社会保险 是否必须写在劳动合同中",
+          "score": 2.8282539380760667
+        }
+      ],
+      "pre_rerank_score": 0.04643513119122876,
+      "bm25_rank": 44,
+      "semantic_rank": 14,
+      "bm25_score": null,
+      "semantic_similarity": 0.6095192432403564,
+      "pre_rerank_rank": 21,
+      "reranker_score": 0.734424352645874,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "ff87e15e88ccc1b48657": 1
+  }
+}

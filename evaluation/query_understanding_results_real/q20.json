@@ -1,0 +1,877 @@
+{
+  "original_query": "申请劳动仲裁的期限是多长",
+  "structured_understanding": {
+    "original_query": "申请劳动仲裁的期限是多长",
+    "domain": "劳动争议",
+    "issue": "劳动仲裁申请时效的起算与期间",
+    "user_intent": "用户想了解申请劳动仲裁的法定时限规定",
+    "legal_concepts": [
+      "劳动仲裁申请时效",
+      "仲裁时效起算",
+      "时效中断中止"
+    ],
+    "search_queries": [
+      "劳动仲裁申请期限 规定",
+      "劳动争议仲裁时效 多长时间",
+      "劳动仲裁时效 起算 中断"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "申请劳动仲裁的期限是多长",
+    "劳动仲裁申请期限 规定",
+    "劳动争议仲裁时效 多长时间"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 6188.202300021658
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第二十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "bbf2e7bc4f47a70cae51"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 60,
+      "reranking_candidate_count": 60,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 110,
+      "reranking_candidate_count": 110,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 51.148500002454966,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 11940.989616690786,
+  "final_retrieval_ranking": [
+    {
+      "id": "bbf2e7bc4f47a70cae51",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十七条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 8.638240604197103,
+      "rank": 1,
+      "canonical_id": "bbf2e7bc4f47a70cae51",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 17
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 10
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 8.638240604197103
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 6.782536401769433
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 14.010549947589844
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 2
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.7064772844314575
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.6772539019584656
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.7300249338150024
+        }
+      ],
+      "pre_rerank_score": 0.09258208739964426,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7064772844314575,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9985583424568176,
+      "final_rank": 1
+    },
+    {
+      "id": "4abbb7d165632bc243e7",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十二条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 9.494768365199857,
+      "rank": 2,
+      "canonical_id": "4abbb7d165632bc243e7",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 4
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 4
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 9.494768365199857
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 7.511312698431768
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 5.5560459954695975
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 4
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 4
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.6706996560096741
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.6601792573928833
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.6559644937515259
+        }
+      ],
+      "pre_rerank_score": 0.09235739750445633,
+      "bm25_rank": 4,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.6706996560096741,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9983959794044495,
+      "final_rank": 2
+    },
+    {
+      "id": "6ca1e20fa6730d4fbc68",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第三十条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 7.844518583595817,
+      "rank": 3,
+      "canonical_id": "6ca1e20fa6730d4fbc68",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 30
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 18
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 7.844518583595817
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 6.35480804274262
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 5.537361327951861
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 3
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 7
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.672548234462738
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.656795084476471
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.6508446335792542
+        }
+      ],
+      "pre_rerank_score": 0.08350848084787085,
+      "bm25_rank": 9,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.672548234462738,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.9865735769271851,
+      "final_rank": 3
+    },
+    {
+      "id": "8b8ff9d3b9123e1d4c02",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第四十三条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 8.982504385909012,
+      "rank": 4,
+      "canonical_id": "8b8ff9d3b9123e1d4c02",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 10
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 2
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 14
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 8.982504385909012
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 7.606451394440452
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 5.242884705236785
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 2
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 5
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.6945421695709229
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.6594569087028503
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.6723796129226685
+        }
+      ],
+      "pre_rerank_score": 0.0913149235729881,
+      "bm25_rank": 2,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6945421695709229,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9863524436950684,
+      "final_rank": 4
+    },
+    {
+      "id": "f5a0dd3410d534ce1555",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十三条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 7.874061655488315,
+      "rank": 5,
+      "canonical_id": "f5a0dd3410d534ce1555",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 29
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 21
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 28
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 7.874061655488315
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 6.146537948728023
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 4.863863764412088
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 12
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 25
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 37
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.6455716490745544
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.6341498494148254
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.6217721104621887
+        }
+      ],
+      "pre_rerank_score": 0.07090814355391911,
+      "bm25_rank": 21,
+      "semantic_rank": 12,
+      "semantic_similarity": 0.6455716490745544,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.983177125453949,
+      "final_rank": 5
+    },
+    {
+      "id": "6650450d848dd7585211",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十九条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 7.6334816165915305,
+      "rank": 6,
+      "canonical_id": "6650450d848dd7585211",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 34
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 25
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 22
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 7.6334816165915305
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 5.834658771595948
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 4.989140439136522
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 5
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 3
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.6673686504364014
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.6667096614837646
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.655741810798645
+        }
+      ],
+      "pre_rerank_score": 0.0807811300978725,
+      "bm25_rank": 22,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6673686504364014,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.9790881276130676,
+      "final_rank": 6
+    },
+    {
+      "id": "23047a2ade76844d8d61",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第三十二条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 8.114764760837014,
+      "rank": 7,
+      "canonical_id": "23047a2ade76844d8d61",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 25
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 12
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 19
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 8.114764760837014
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 6.654183497273438
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 5.092534682007853
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 11
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 9
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 25
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.6477940082550049
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.6515058279037476
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.6338804364204407
+        }
+      ],
+      "pre_rerank_score": 0.07865378916713796,
+      "bm25_rank": 12,
+      "semantic_rank": 9,
+      "semantic_similarity": 0.6477940082550049,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.9776073098182678,
+      "final_rank": 7
+    },
+    {
+      "id": "9ecccd57419c08337370",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十四条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 7.906301807878045,
+      "rank": 8,
+      "canonical_id": "9ecccd57419c08337370",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 28
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 22
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 7.906301807878045
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 6.058330075747806
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 5.1519781957537285
+        }
+      ],
+      "pre_rerank_score": 0.03637927113536869,
+      "bm25_rank": 18,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 45,
+      "reranker_score": 0.9557530283927917,
+      "final_rank": 8
+    },
+    {
+      "id": "fa55a1950e1df2f22147",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第五十条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "fa55a1950e1df2f22147",
+      "rank": 9,
+      "similarity_score": 0.6360613107681274,
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 18
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 29
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 17
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.6360613107681274
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 0.6311802864074707
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 0.6405007839202881
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 37
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 4.568898018874757
+        }
+      ],
+      "pre_rerank_score": 0.04735275921422105,
+      "bm25_rank": 37,
+      "semantic_rank": 17,
+      "bm25_score": null,
+      "semantic_similarity": 0.6360613107681274,
+      "pre_rerank_rank": 22,
+      "reranker_score": 0.9020278453826904,
+      "final_rank": 9
+    },
+    {
+      "id": "ff8edffb64a1a820deba",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第四十九条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 9.212373298023484,
+      "rank": 10,
+      "canonical_id": "ff8edffb64a1a820deba",
+      "matched_queries": [
+        "申请劳动仲裁的期限是多长",
+        "劳动仲裁申请期限 规定",
+        "劳动争议仲裁时效 多长时间"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 6
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "rank": 37
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "rank": 39
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 9.212373298023484
+        },
+        {
+          "query": "劳动仲裁申请期限 规定",
+          "score": 5.185865681041738
+        },
+        {
+          "query": "劳动争议仲裁时效 多长时间",
+          "score": 4.538905510258296
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "rank": 50
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "申请劳动仲裁的期限是多长",
+          "score": 0.6032330989837646
+        }
+      ],
+      "pre_rerank_score": 0.04465271269394981,
+      "bm25_rank": 6,
+      "semantic_rank": 50,
+      "semantic_similarity": 0.6032330989837646,
+      "pre_rerank_rank": 29,
+      "reranker_score": 0.8917768597602844,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "bbf2e7bc4f47a70cae51": 1
+  }
+}

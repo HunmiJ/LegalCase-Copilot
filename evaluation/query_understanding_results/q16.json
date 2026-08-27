@@ -1,0 +1,1154 @@
+{
+  "original_query": "公司一直不给我签劳动合同",
+  "structured_understanding": {
+    "original_query": "公司一直不给我签劳动合同",
+    "domain": "劳动争议",
+    "issue": "书面劳动合同、未订立劳动合同、双倍工资",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "书面劳动合同",
+      "未订立劳动合同",
+      "双倍工资"
+    ],
+    "search_queries": [
+      "公司一直不给我签劳动合同",
+      "书面劳动合同 未订立劳动合同 双倍工资",
+      "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "公司一直不给我签劳动合同",
+    "书面劳动合同 未订立劳动合同 双倍工资",
+    "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第八十二条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "0418dd9a22827d6edb71",
+    "aea9c0e1739543174598"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "0418dd9a22827d6edb71": null,
+      "aea9c0e1739543174598": 1
+    },
+    "candidate_recall_at_20": 0.5,
+    "candidate_recall_at_50": 0.5
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 56,
+      "reranking_candidate_count": 56,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 130,
+      "reranking_candidate_count": 130,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "0418dd9a22827d6edb71": 13,
+      "aea9c0e1739543174598": 1
+    }
+  },
+  "query_understanding_latency_ms": 0.000500003807246685,
+  "multi_query_retrieval_latency_ms": 28.69420000934042,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "d507b06ae94939f9c73f",
+        "rank": 1,
+        "similarity_score": 0.6060106754302979,
+        "reranker_score": 0.8980007171630859,
+        "final_rank": 1
+      },
+      {
+        "id": "9f794318cf7515d5a789",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "9f794318cf7515d5a789",
+        "rank": 2,
+        "similarity_score": 0.5849573016166687,
+        "reranker_score": 0.895340085029602,
+        "final_rank": 2
+      },
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "rank": 3,
+        "similarity_score": 0.5962537527084351,
+        "reranker_score": 0.8777169585227966,
+        "final_rank": 3
+      },
+      {
+        "id": "11c340491c3672d334ac",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "11c340491c3672d334ac",
+        "rank": 4,
+        "similarity_score": 0.5869967937469482,
+        "reranker_score": 0.8391303420066833,
+        "final_rank": 4
+      },
+      {
+        "id": "9eeb1a2362c58d638e06",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第六条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "9eeb1a2362c58d638e06",
+        "rank": 5,
+        "similarity_score": 0.6098076105117798,
+        "reranker_score": 0.8302804231643677,
+        "final_rank": 5
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "aea9c0e1739543174598",
+        "rank": 6,
+        "similarity_score": 0.642168402671814,
+        "reranker_score": 0.8180333375930786,
+        "final_rank": 6
+      },
+      {
+        "id": "e05896bbd64940a29b80",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "e05896bbd64940a29b80",
+        "rank": 7,
+        "similarity_score": 0.5748381018638611,
+        "reranker_score": 0.8158296942710876,
+        "final_rank": 7
+      },
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "0be45f9befb5840ded72",
+        "rank": 8,
+        "similarity_score": 0.587833046913147,
+        "reranker_score": 0.8112354874610901,
+        "final_rank": 8
+      },
+      {
+        "id": "10e13242360b544c672e",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "10e13242360b544c672e",
+        "rank": 9,
+        "similarity_score": 0.5754234790802002,
+        "reranker_score": 0.7715973854064941,
+        "final_rank": 9
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "ce59fc8a7767d629495d",
+        "rank": 10,
+        "similarity_score": 0.6229922771453857,
+        "reranker_score": 0.7701019644737244,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "b970f53950cc98494a78",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 1.7194206508823893,
+        "rank": 1,
+        "canonical_id": "b970f53950cc98494a78",
+        "bm25_rank": 41,
+        "rrf_score": 0.009900990099009901,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 74,
+        "reranker_score": 0.9319469332695007,
+        "final_rank": 1
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 1.9325357992428729,
+        "rank": 2,
+        "canonical_id": "d507b06ae94939f9c73f",
+        "bm25_rank": 27,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.6060106754302979,
+        "rrf_score": 0.025383141762452106,
+        "hybrid_rank": 7,
+        "reranker_score": 0.8980005979537964,
+        "final_rank": 2
+      },
+      {
+        "id": "9f794318cf7515d5a789",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "9f794318cf7515d5a789",
+        "rank": 3,
+        "similarity_score": 0.5849573016166687,
+        "semantic_rank": 26,
+        "semantic_similarity": 0.5849573016166687,
+        "rrf_score": 0.011627906976744186,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 52,
+        "reranker_score": 0.895340085029602,
+        "final_rank": 3
+      },
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "rank": 4,
+        "similarity_score": 0.5962537527084351,
+        "semantic_rank": 17,
+        "semantic_similarity": 0.5962537527084351,
+        "rrf_score": 0.012987012987012988,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 40,
+        "reranker_score": 0.8777168989181519,
+        "final_rank": 4
+      },
+      {
+        "id": "11c340491c3672d334ac",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 1.7403130859631637,
+        "rank": 5,
+        "canonical_id": "11c340491c3672d334ac",
+        "bm25_rank": 38,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.5869967937469482,
+        "rrf_score": 0.0222522744037374,
+        "hybrid_rank": 13,
+        "reranker_score": 0.8391303420066833,
+        "final_rank": 5
+      },
+      {
+        "id": "9eeb1a2362c58d638e06",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第六条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "9eeb1a2362c58d638e06",
+        "rank": 6,
+        "similarity_score": 0.6098076105117798,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6098076105117798,
+        "rrf_score": 0.014285714285714285,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 29,
+        "reranker_score": 0.8302804231643677,
+        "final_rank": 6
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 1.6729175644110286,
+        "rank": 7,
+        "canonical_id": "aea9c0e1739543174598",
+        "bm25_rank": 45,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.642168402671814,
+        "rrf_score": 0.025917252146760345,
+        "hybrid_rank": 5,
+        "reranker_score": 0.8180333375930786,
+        "final_rank": 7
+      },
+      {
+        "id": "e05896bbd64940a29b80",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 1.615066092905442,
+        "rank": 8,
+        "canonical_id": "e05896bbd64940a29b80",
+        "bm25_rank": 48,
+        "semantic_rank": 48,
+        "semantic_similarity": 0.5748381018638611,
+        "rrf_score": 0.018518518518518517,
+        "hybrid_rank": 16,
+        "reranker_score": 0.8158296942710876,
+        "final_rank": 8
+      },
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 2.310218509309138,
+        "rank": 9,
+        "canonical_id": "0be45f9befb5840ded72",
+        "bm25_rank": 21,
+        "semantic_rank": 22,
+        "semantic_similarity": 0.587833046913147,
+        "rrf_score": 0.02454080096356519,
+        "hybrid_rank": 10,
+        "reranker_score": 0.8112354874610901,
+        "final_rank": 9
+      },
+      {
+        "id": "cf69b9d72596ac0968ac",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 1.8296264463251246,
+        "rank": 10,
+        "canonical_id": "cf69b9d72596ac0968ac",
+        "bm25_rank": 31,
+        "rrf_score": 0.01098901098901099,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 59,
+        "reranker_score": 0.7998419404029846,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "b970f53950cc98494a78",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 1.7194206508823893,
+        "rank": 1,
+        "canonical_id": "b970f53950cc98494a78",
+        "matched_queries": [
+          "公司一直不给我签劳动合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 41
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 1.7194206508823893
+          }
+        ],
+        "pre_rerank_score": 0.009900990099009901,
+        "bm25_rank": 41,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 118,
+        "reranker_score": 0.9319469332695007,
+        "final_rank": 1
+      },
+      {
+        "id": "d507b06ae94939f9c73f",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第九十八条",
+        "chapter": "第十二章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 1.9325357992428729,
+        "rank": 2,
+        "canonical_id": "d507b06ae94939f9c73f",
+        "matched_queries": [
+          "公司一直不给我签劳动合同"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 27
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 1.9325357992428729
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 12
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 0.6060106754302979
+          }
+        ],
+        "pre_rerank_score": 0.025383141762452106,
+        "bm25_rank": 27,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.6060106754302979,
+        "pre_rerank_rank": 48,
+        "reranker_score": 0.8980005979537964,
+        "final_rank": 2
+      },
+      {
+        "id": "9f794318cf7515d5a789",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "9f794318cf7515d5a789",
+        "rank": 3,
+        "similarity_score": 0.5849573016166687,
+        "matched_queries": [
+          "公司一直不给我签劳动合同",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 26
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 3
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 0.5849573016166687
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.645994246006012
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6928707361221313
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 10.598277268412842
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 12.05627329834144
+          }
+        ],
+        "pre_rerank_score": 0.07274293573883177,
+        "bm25_rank": 5,
+        "semantic_rank": 3,
+        "bm25_score": null,
+        "semantic_similarity": 0.5849573016166687,
+        "pre_rerank_rank": 9,
+        "reranker_score": 0.895340085029602,
+        "final_rank": 3
+      },
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "rank": 4,
+        "similarity_score": 0.5962537527084351,
+        "matched_queries": [
+          "公司一直不给我签劳动合同",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 17
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 18
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 0.5962537527084351
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6336761713027954
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6324124336242676
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 24
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 5.261556105211142
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 5.913101131600756
+          }
+        ],
+        "pre_rerank_score": 0.06478380774155422,
+        "bm25_rank": 17,
+        "semantic_rank": 11,
+        "bm25_score": null,
+        "semantic_similarity": 0.5962537527084351,
+        "pre_rerank_rank": 11,
+        "reranker_score": 0.8777169585227966,
+        "final_rank": 4
+      },
+      {
+        "id": "b5148b0e5f30717618d6",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b5148b0e5f30717618d6",
+        "rank": 5,
+        "similarity_score": 0.6177352666854858,
+        "matched_queries": [
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 28
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6177352666854858
+          }
+        ],
+        "pre_rerank_score": 0.011363636363636364,
+        "bm25_rank": null,
+        "semantic_rank": 28,
+        "bm25_score": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 101,
+        "reranker_score": 0.8639664649963379,
+        "final_rank": 5
+      },
+      {
+        "id": "11c340491c3672d334ac",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 1.7403130859631637,
+        "rank": 6,
+        "canonical_id": "11c340491c3672d334ac",
+        "matched_queries": [
+          "公司一直不给我签劳动合同",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 38
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 49
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 1.7403130859631637
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 3.082450186165951
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 23
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 47
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 0.5869967937469482
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6015641689300537
+          }
+        ],
+        "pre_rerank_score": 0.040772380722866264,
+        "bm25_rank": 38,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.5869967937469482,
+        "pre_rerank_rank": 30,
+        "reranker_score": 0.8391303420066833,
+        "final_rank": 6
+      },
+      {
+        "id": "9eeb1a2362c58d638e06",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第六条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "9eeb1a2362c58d638e06",
+        "rank": 7,
+        "similarity_score": 0.6098076105117798,
+        "matched_queries": [
+          "公司一直不给我签劳动合同",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 10
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 5
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 0.6098076105117798
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.7022151947021484
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6840497255325317
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 1
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 11.415596835208742
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 13.19202087294758
+          }
+        ],
+        "pre_rerank_score": 0.07833023078924718,
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "bm25_score": null,
+        "semantic_similarity": 0.6098076105117798,
+        "pre_rerank_rank": 5,
+        "reranker_score": 0.8302804231643677,
+        "final_rank": 7
+      },
+      {
+        "id": "b8e9078be393318aa410",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "b8e9078be393318aa410",
+        "rank": 8,
+        "similarity_score": 0.6082820296287537,
+        "matched_queries": [
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 39
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6082820296287537
+          }
+        ],
+        "pre_rerank_score": 0.010101010101010102,
+        "bm25_rank": null,
+        "semantic_rank": 39,
+        "bm25_score": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 114,
+        "reranker_score": 0.8299384713172913,
+        "final_rank": 8
+      },
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 1.6729175644110286,
+        "rank": 9,
+        "canonical_id": "aea9c0e1739543174598",
+        "matched_queries": [
+          "公司一直不给我签劳动合同",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 45
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 4
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 1.6729175644110286
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 11.323811439425057
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 12.436101958661032
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "rank": 1
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 4
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司一直不给我签劳动合同",
+            "score": 0.642168402671814
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.7057381272315979
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6917504668235779
+          }
+        ],
+        "pre_rerank_score": 0.08942531666288937,
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.642168402671814,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.8180333375930786,
+        "final_rank": 9
+      },
+      {
+        "id": "6d47d7481e86d755572d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十六条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": null,
+        "rank": 10,
+        "canonical_id": "6d47d7481e86d755572d",
+        "matched_queries": [
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": false,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 45
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 4.840802931996339
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 25
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6218745708465576
+          }
+        ],
+        "pre_rerank_score": 0.021288515406162466,
+        "bm25_rank": 45,
+        "semantic_rank": 25,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 63,
+        "reranker_score": 0.8161539435386658,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "0418dd9a22827d6edb71": null,
+      "aea9c0e1739543174598": 6
+    },
+    "v04_reranked": {
+      "0418dd9a22827d6edb71": null,
+      "aea9c0e1739543174598": 7
+    },
+    "v05_multi_query_reranked": {
+      "0418dd9a22827d6edb71": null,
+      "aea9c0e1739543174598": 9
+    }
+  }
+}

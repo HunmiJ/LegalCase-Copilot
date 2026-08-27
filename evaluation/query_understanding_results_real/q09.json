@@ -1,0 +1,921 @@
+{
+  "original_query": "试用期工资最低应该是多少",
+  "structured_understanding": {
+    "original_query": "试用期工资最低应该是多少",
+    "domain": "劳动争议",
+    "issue": "试用期工资的最低支付标准问题",
+    "user_intent": "用户想知道试用期内工资的最低法定标准，可能是为了核实自己试用期工资的合法性",
+    "legal_concepts": [
+      "试用期工资",
+      "最低工资标准",
+      "劳动合同约定工资"
+    ],
+    "search_queries": [
+      "试用期工资最低标准",
+      "试用期工资不得低于最低工资标准",
+      "试用期工资法律规定"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "试用期工资最低应该是多少",
+    "试用期工资最低标准",
+    "试用期工资不得低于最低工资标准"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 9397.932599997148
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "6f4778840c152cd7c52d"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 37,
+      "reranking_candidate_count": 37,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 101,
+      "reranking_candidate_count": 101,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 48.01460000453517,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 15147.586016668356,
+  "final_retrieval_ranking": [
+    {
+      "id": "6eed67cbe036c0b3f1a3",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十五条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 12.966591129318907,
+      "rank": 1,
+      "canonical_id": "6eed67cbe036c0b3f1a3",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 2
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 3
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 12.966591129318907
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 8.112252051827246
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 23.651868703837536
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 2
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 2
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.7332504987716675
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.7211902141571045
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.7597662210464478
+        }
+      ],
+      "pre_rerank_score": 0.09678258752822476,
+      "bm25_rank": 1,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.7332504987716675,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.99334716796875,
+      "final_rank": 1
+    },
+    {
+      "id": "6f4778840c152cd7c52d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第二十条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 13.615625026491994,
+      "rank": 2,
+      "canonical_id": "6f4778840c152cd7c52d",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 1
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 2
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 13.615625026491994
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 8.471801592606608
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 23.469851149435964
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 1
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 1
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.7357842922210693
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.7253072261810303
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.7605631947517395
+        }
+      ],
+      "pre_rerank_score": 0.09783183500793233,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7357842922210693,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9923624992370605,
+      "final_rank": 2
+    },
+    {
+      "id": "4f673c03ac355bbdb670",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十三条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 8.855394281267893,
+      "rank": 3,
+      "canonical_id": "4f673c03ac355bbdb670",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 3
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 1
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 8.855394281267893
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 8.855394281267893
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 11.13221723739643
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 3
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 4
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.6592664122581482
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.6411328315734863
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.6849338412284851
+        }
+      ],
+      "pre_rerank_score": 0.09413024386518684,
+      "bm25_rank": 1,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6592664122581482,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.5041539072990417,
+      "final_rank": 3
+    },
+    {
+      "id": "bfc0f277ec69386c4521",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十一条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 6.348614679254497,
+      "rank": 4,
+      "canonical_id": "bfc0f277ec69386c4521",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 5
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 5
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 13
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 6.348614679254497
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 6.348614679254497
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 9.376815199760124
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 4
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 5
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.6421279907226562
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.6140122413635254
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.6521854400634766
+        }
+      ],
+      "pre_rerank_score": 0.09110247629083246,
+      "bm25_rank": 5,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.6421279907226562,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.3543620705604553,
+      "final_rank": 4
+    },
+    {
+      "id": "aea9c0e1739543174598",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十二条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 3.420860232705262,
+      "rank": 5,
+      "canonical_id": "aea9c0e1739543174598",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 25
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 17
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 34
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 3.420860232705262
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 3.420860232705262
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 3.420860232705262
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 19
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 25
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 18
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.5114469528198242
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.4863412082195282
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.5442464351654053
+        }
+      ],
+      "pre_rerank_score": 0.07263346329267338,
+      "bm25_rank": 17,
+      "semantic_rank": 18,
+      "semantic_similarity": 0.5114469528198242,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.2926301956176758,
+      "final_rank": 5
+    },
+    {
+      "id": "33f756fb2dfa81c1c390",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "33f756fb2dfa81c1c390",
+      "rank": 6,
+      "similarity_score": 0.5467053055763245,
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 12
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 12
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.5467053055763245
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.5406796336174011
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.5700898766517639
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 14
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 9.178795431070839
+        }
+      ],
+      "pre_rerank_score": 0.05518018018018018,
+      "bm25_rank": 14,
+      "semantic_rank": 12,
+      "bm25_score": null,
+      "semantic_similarity": 0.5467053055763245,
+      "pre_rerank_rank": 29,
+      "reranker_score": 0.2786763906478882,
+      "final_rank": 6
+    },
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 1.7519055467894757,
+      "rank": 7,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 49
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 36
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 1.7519055467894757
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 1.7519055467894757
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 12.073826977645343
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 23
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 20
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 22
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.5063340067863464
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.49848103523254395
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.5299575328826904
+        }
+      ],
+      "pre_rerank_score": 0.0717189087001914,
+      "bm25_rank": 5,
+      "semantic_rank": 20,
+      "semantic_similarity": 0.5063340067863464,
+      "pre_rerank_rank": 17,
+      "reranker_score": 0.2714712619781494,
+      "final_rank": 7
+    },
+    {
+      "id": "d2d1fa50be0e2eb18ca9",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第四十四条",
+      "chapter": "第四章工作时间和休息休假",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 4.851381314567507,
+      "rank": 8,
+      "canonical_id": "d2d1fa50be0e2eb18ca9",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 10
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 9
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 4.851381314567507
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 4.851381314567507
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 11.555729050580052
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 22
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 24
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 23
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.5069730281829834
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.4871510863304138
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.5262460708618164
+        }
+      ],
+      "pre_rerank_score": 0.07963242688890962,
+      "bm25_rank": 8,
+      "semantic_rank": 22,
+      "semantic_similarity": 0.5069730281829834,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.2512701153755188,
+      "final_rank": 8
+    },
+    {
+      "id": "814f14dbcfba76ffd8fa",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 2.8380806002901124,
+      "rank": 9,
+      "canonical_id": "814f14dbcfba76ffd8fa",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 31
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 23
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 47
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 2.8380806002901124
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 2.8380806002901124
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 2.8380806002901124
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 16
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 19
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 20
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.5166054964065552
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.4995400905609131
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.5356090664863586
+        }
+      ],
+      "pre_rerank_score": 0.07069912073756206,
+      "bm25_rank": 23,
+      "semantic_rank": 16,
+      "semantic_similarity": 0.5166054964065552,
+      "pre_rerank_rank": 18,
+      "reranker_score": 0.19563324749469757,
+      "final_rank": 9
+    },
+    {
+      "id": "eb83dac6edd6d0805c37",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第四十八条",
+      "chapter": "第五章工 资",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 2.954379291881817,
+      "rank": 10,
+      "canonical_id": "eb83dac6edd6d0805c37",
+      "matched_queries": [
+        "试用期工资最低应该是多少",
+        "试用期工资最低标准",
+        "试用期工资不得低于最低工资标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 30
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 22
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 2.954379291881817
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 2.954379291881817
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 19.010955595346122
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "rank": 5
+        },
+        {
+          "query": "试用期工资最低标准",
+          "rank": 3
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期工资最低应该是多少",
+          "score": 0.6318308115005493
+        },
+        {
+          "query": "试用期工资最低标准",
+          "score": 0.6506017446517944
+        },
+        {
+          "query": "试用期工资不得低于最低工资标准",
+          "score": 0.6493098735809326
+        }
+      ],
+      "pre_rerank_score": 0.08582149557759314,
+      "bm25_rank": 3,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6318308115005493,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.18286575376987457,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "6f4778840c152cd7c52d": 2
+  }
+}

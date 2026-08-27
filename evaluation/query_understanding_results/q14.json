@@ -1,0 +1,1145 @@
+{
+  "original_query": "单位一直不发工资我能解除合同吗",
+  "structured_understanding": {
+    "original_query": "单位一直不发工资我能解除合同吗",
+    "domain": "劳动争议",
+    "issue": "解除劳动合同、违法解除、经济补偿",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "解除劳动合同",
+      "违法解除",
+      "经济补偿",
+      "赔偿金",
+      "劳动报酬",
+      "工资支付",
+      "拖欠工资"
+    ],
+    "search_queries": [
+      "单位一直不发工资我能解除合同吗",
+      "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+      "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "单位一直不发工资我能解除合同吗",
+    "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+    "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十八条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "010a3d3447e4190eb8bd"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "010a3d3447e4190eb8bd": 2
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 73,
+      "reranking_candidate_count": 73,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 136,
+      "reranking_candidate_count": 136,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "010a3d3447e4190eb8bd": 19
+    }
+  },
+  "query_understanding_latency_ms": 0.000600004568696022,
+  "multi_query_retrieval_latency_ms": 36.07870000996627,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "010a3d3447e4190eb8bd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "010a3d3447e4190eb8bd",
+        "rank": 1,
+        "similarity_score": 0.6846061944961548,
+        "reranker_score": 0.9786337614059448,
+        "final_rank": 1
+      },
+      {
+        "id": "5d7b35281180b3762caf",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十六条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5d7b35281180b3762caf",
+        "rank": 2,
+        "similarity_score": 0.6310478448867798,
+        "reranker_score": 0.9737911820411682,
+        "final_rank": 2
+      },
+      {
+        "id": "d05bd575eeb0f9bcea71",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "d05bd575eeb0f9bcea71",
+        "rank": 3,
+        "similarity_score": 0.6945435404777527,
+        "reranker_score": 0.971140444278717,
+        "final_rank": 3
+      },
+      {
+        "id": "2bcc1dccc654eec05ead",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "2bcc1dccc654eec05ead",
+        "rank": 4,
+        "similarity_score": 0.6606078147888184,
+        "reranker_score": 0.9703567624092102,
+        "final_rank": 4
+      },
+      {
+        "id": "29476b0279bcac88d061",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "29476b0279bcac88d061",
+        "rank": 5,
+        "similarity_score": 0.6628867387771606,
+        "reranker_score": 0.9669802784919739,
+        "final_rank": 5
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "rank": 6,
+        "similarity_score": 0.6645735502243042,
+        "reranker_score": 0.9664589762687683,
+        "final_rank": 6
+      },
+      {
+        "id": "5d1a2b54f1459dba8abd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5d1a2b54f1459dba8abd",
+        "rank": 7,
+        "similarity_score": 0.6371461153030396,
+        "reranker_score": 0.9659295082092285,
+        "final_rank": 7
+      },
+      {
+        "id": "c29cf823132e5bd8afaa",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十四条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "c29cf823132e5bd8afaa",
+        "rank": 8,
+        "similarity_score": 0.6268275380134583,
+        "reranker_score": 0.9658020734786987,
+        "final_rank": 8
+      },
+      {
+        "id": "0ab715b85400079a8854",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "0ab715b85400079a8854",
+        "rank": 9,
+        "similarity_score": 0.6303683519363403,
+        "reranker_score": 0.9637434482574463,
+        "final_rank": 9
+      },
+      {
+        "id": "6db850d5c3086c6973a8",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十二条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "6db850d5c3086c6973a8",
+        "rank": 10,
+        "similarity_score": 0.6535279154777527,
+        "reranker_score": 0.9621315002441406,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "010a3d3447e4190eb8bd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "010a3d3447e4190eb8bd",
+        "rank": 1,
+        "similarity_score": 0.6846061944961548,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6846061944961548,
+        "rrf_score": 0.016129032258064516,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 11,
+        "reranker_score": 0.9786337614059448,
+        "final_rank": 1
+      },
+      {
+        "id": "5d7b35281180b3762caf",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十六条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5d7b35281180b3762caf",
+        "rank": 2,
+        "similarity_score": 0.6310478448867798,
+        "semantic_rank": 29,
+        "semantic_similarity": 0.6310478448867798,
+        "rrf_score": 0.011235955056179775,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 56,
+        "reranker_score": 0.9737911820411682,
+        "final_rank": 2
+      },
+      {
+        "id": "d05bd575eeb0f9bcea71",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "d05bd575eeb0f9bcea71",
+        "rank": 3,
+        "similarity_score": 0.6945435404777527,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6945435404777527,
+        "rrf_score": 0.01639344262295082,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 10,
+        "reranker_score": 0.971140444278717,
+        "final_rank": 3
+      },
+      {
+        "id": "2bcc1dccc654eec05ead",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "2bcc1dccc654eec05ead",
+        "rank": 4,
+        "similarity_score": 0.6606078147888184,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.6606078147888184,
+        "rrf_score": 0.014705882352941176,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 21,
+        "reranker_score": 0.9703567624092102,
+        "final_rank": 4
+      },
+      {
+        "id": "29476b0279bcac88d061",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "29476b0279bcac88d061",
+        "rank": 5,
+        "similarity_score": 0.6628867387771606,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6628867387771606,
+        "rrf_score": 0.014925373134328358,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 19,
+        "reranker_score": 0.9669802784919739,
+        "final_rank": 5
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "rank": 6,
+        "similarity_score": 0.6645735502243042,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6645735502243042,
+        "rrf_score": 0.015151515151515152,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 18,
+        "reranker_score": 0.9664589762687683,
+        "final_rank": 6
+      },
+      {
+        "id": "5d1a2b54f1459dba8abd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5d1a2b54f1459dba8abd",
+        "rank": 7,
+        "similarity_score": 0.6371461153030396,
+        "semantic_rank": 21,
+        "semantic_similarity": 0.6371461153030396,
+        "rrf_score": 0.012345679012345678,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 42,
+        "reranker_score": 0.9659295082092285,
+        "final_rank": 7
+      },
+      {
+        "id": "c29cf823132e5bd8afaa",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十四条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "c29cf823132e5bd8afaa",
+        "rank": 8,
+        "similarity_score": 0.6268275380134583,
+        "semantic_rank": 34,
+        "semantic_similarity": 0.6268275380134583,
+        "rrf_score": 0.010638297872340425,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 65,
+        "reranker_score": 0.9658020734786987,
+        "final_rank": 8
+      },
+      {
+        "id": "0ab715b85400079a8854",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "0ab715b85400079a8854",
+        "rank": 9,
+        "similarity_score": 0.6303683519363403,
+        "semantic_rank": 32,
+        "semantic_similarity": 0.6303683519363403,
+        "rrf_score": 0.010869565217391304,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 61,
+        "reranker_score": 0.9637434482574463,
+        "final_rank": 9
+      },
+      {
+        "id": "6db850d5c3086c6973a8",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十二条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.119502330954834,
+        "rank": 10,
+        "canonical_id": "6db850d5c3086c6973a8",
+        "bm25_rank": 36,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.6535279154777527,
+        "rrf_score": 0.024305555555555552,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9621315002441406,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "010a3d3447e4190eb8bd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "010a3d3447e4190eb8bd",
+        "rank": 1,
+        "similarity_score": 0.6846061944961548,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 2
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 16
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6846061944961548
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6736338138580322
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 46
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "rank": 41
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 6.676574423474353
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "score": 7.229297083595801
+          }
+        ],
+        "pre_rerank_score": 0.048621879358067464,
+        "bm25_rank": 41,
+        "semantic_rank": 2,
+        "bm25_score": null,
+        "semantic_similarity": 0.6846061944961548,
+        "pre_rerank_rank": 19,
+        "reranker_score": 0.9786337614059448,
+        "final_rank": 1
+      },
+      {
+        "id": "5d7b35281180b3762caf",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十六条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5d7b35281180b3762caf",
+        "rank": 2,
+        "similarity_score": 0.6310478448867798,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 29
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 30
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6310478448867798
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6494451761245728
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "rank": 43
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "score": 7.2005652840776175
+          }
+        ],
+        "pre_rerank_score": 0.032055804031368554,
+        "bm25_rank": 43,
+        "semantic_rank": 29,
+        "bm25_score": null,
+        "semantic_similarity": 0.6310478448867798,
+        "pre_rerank_rank": 49,
+        "reranker_score": 0.9737911820411682,
+        "final_rank": 2
+      },
+      {
+        "id": "d05bd575eeb0f9bcea71",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "d05bd575eeb0f9bcea71",
+        "rank": 3,
+        "similarity_score": 0.6945435404777527,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 1
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 32
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6945435404777527
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6467458605766296
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 50
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 6.381668742049394
+          }
+        ],
+        "pre_rerank_score": 0.036353916931251215,
+        "bm25_rank": 50,
+        "semantic_rank": 1,
+        "bm25_score": null,
+        "semantic_similarity": 0.6945435404777527,
+        "pre_rerank_rank": 36,
+        "reranker_score": 0.971140444278717,
+        "final_rank": 3
+      },
+      {
+        "id": "2bcc1dccc654eec05ead",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "2bcc1dccc654eec05ead",
+        "rank": 4,
+        "similarity_score": 0.6606078147888184,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 8
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 28
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6606078147888184
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6515501737594604
+          }
+        ],
+        "pre_rerank_score": 0.02606951871657754,
+        "bm25_rank": null,
+        "semantic_rank": 8,
+        "bm25_score": null,
+        "semantic_similarity": 0.6606078147888184,
+        "pre_rerank_rank": 54,
+        "reranker_score": 0.9703567624092102,
+        "final_rank": 4
+      },
+      {
+        "id": "29476b0279bcac88d061",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "29476b0279bcac88d061",
+        "rank": 5,
+        "similarity_score": 0.6628867387771606,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 7
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 25
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6628867387771606
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6559658050537109
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 14
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 10.570784608398453
+          }
+        ],
+        "pre_rerank_score": 0.040203592530194815,
+        "bm25_rank": 14,
+        "semantic_rank": 7,
+        "bm25_score": null,
+        "semantic_similarity": 0.6628867387771606,
+        "pre_rerank_rank": 30,
+        "reranker_score": 0.9669802784919739,
+        "final_rank": 5
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "rank": 6,
+        "similarity_score": 0.6645735502243042,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 6
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 50
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6645735502243042
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6357144117355347
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 45
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "rank": 47
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 6.724172361632798
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "score": 6.943146836929824
+          }
+        ],
+        "pre_rerank_score": 0.04311202815875713,
+        "bm25_rank": 45,
+        "semantic_rank": 6,
+        "bm25_score": null,
+        "semantic_similarity": 0.6645735502243042,
+        "pre_rerank_rank": 26,
+        "reranker_score": 0.9664589762687683,
+        "final_rank": 6
+      },
+      {
+        "id": "5d1a2b54f1459dba8abd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第二十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "5d1a2b54f1459dba8abd",
+        "rank": 7,
+        "similarity_score": 0.6371461153030396,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 21
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6371461153030396
+          }
+        ],
+        "pre_rerank_score": 0.012345679012345678,
+        "bm25_rank": null,
+        "semantic_rank": 21,
+        "bm25_score": null,
+        "semantic_similarity": 0.6371461153030396,
+        "pre_rerank_rank": 97,
+        "reranker_score": 0.9659295082092285,
+        "final_rank": 7
+      },
+      {
+        "id": "c29cf823132e5bd8afaa",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十四条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "c29cf823132e5bd8afaa",
+        "rank": 8,
+        "similarity_score": 0.6268275380134583,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 34
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 23
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "rank": 26
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6268275380134583
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6606165170669556
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "score": 0.6495364904403687
+          }
+        ],
+        "pre_rerank_score": 0.03431439762016895,
+        "bm25_rank": null,
+        "semantic_rank": 23,
+        "bm25_score": null,
+        "semantic_similarity": 0.6268275380134583,
+        "pre_rerank_rank": 42,
+        "reranker_score": 0.9658020734786987,
+        "final_rank": 8
+      },
+      {
+        "id": "0ab715b85400079a8854",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十五条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "0ab715b85400079a8854",
+        "rank": 9,
+        "similarity_score": 0.6303683519363403,
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗",
+          "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 32
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 9
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "rank": 8
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6303683519363403
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 0.6857341527938843
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "score": 0.6801562905311584
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "rank": 7
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬 工资支付 拖欠工资",
+            "score": 15.796442215816029
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金 劳动报酬",
+            "score": 11.86749161103323
+          }
+        ],
+        "pre_rerank_score": 0.07112260658591377,
+        "bm25_rank": 2,
+        "semantic_rank": 8,
+        "bm25_score": null,
+        "semantic_similarity": 0.6303683519363403,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.9637434482574463,
+        "final_rank": 9
+      },
+      {
+        "id": "6db850d5c3086c6973a8",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十二条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 2.119502330954834,
+        "rank": 10,
+        "canonical_id": "6db850d5c3086c6973a8",
+        "matched_queries": [
+          "单位一直不发工资我能解除合同吗"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 36
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 2.119502330954834
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "rank": 12
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "单位一直不发工资我能解除合同吗",
+            "score": 0.6535279154777527
+          }
+        ],
+        "pre_rerank_score": 0.024305555555555552,
+        "bm25_rank": 36,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.6535279154777527,
+        "pre_rerank_rank": 58,
+        "reranker_score": 0.9621315002441406,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "010a3d3447e4190eb8bd": 1
+    },
+    "v04_reranked": {
+      "010a3d3447e4190eb8bd": 1
+    },
+    "v05_multi_query_reranked": {
+      "010a3d3447e4190eb8bd": 1
+    }
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "original_query": "竞业限制最长不能超过几年",
+  "structured_understanding": {
+    "original_query": "竞业限制最长不能超过几年",
+    "domain": "劳动争议",
+    "issue": "竞业限制的法定最长年限",
+    "user_intent": "咨询竞业限制的法定最长期限",
+    "legal_concepts": [
+      "竞业限制",
+      "竞业限制期限",
+      "劳动合同法",
+      "法定上限"
+    ],
+    "search_queries": [
+      "竞业限制 最长 期限 劳动法",
+      "劳动合同法 竞业限制 年限",
+      "竞业限制 不得超过 几年"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "竞业限制最长不能超过几年",
+    "竞业限制 最长 期限 劳动法",
+    "劳动合同法 竞业限制 年限"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 11265.90810000198
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十四条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8988b10cddc6715d3b7a"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 44,
+      "reranking_candidate_count": 44,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 119,
+      "reranking_candidate_count": 119,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 48.28879999695346,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 17015.835716665606,
+  "final_retrieval_ranking": [
+    {
+      "id": "8988b10cddc6715d3b7a",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第二十四条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 12.193331475577816,
+      "rank": 1,
+      "canonical_id": "8988b10cddc6715d3b7a",
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 2
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 12.193331475577816
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 12.618700961785903
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 11.176864903891833
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 1
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.6340751647949219
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.6543665528297424
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.7041304111480713
+        }
+      ],
+      "pre_rerank_score": 0.09561239042994729,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6340751647949219,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9941408038139343,
+      "final_rank": 1
+    },
+    {
+      "id": "bfc0f277ec69386c4521",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十一条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 11.506988673618547,
+      "rank": 2,
+      "canonical_id": "bfc0f277ec69386c4521",
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 4
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 11.506988673618547
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 8.602061309975706
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 8
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 11
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.5671825408935547
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.6073853969573975
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6326169967651367
+        }
+      ],
+      "pre_rerank_score": 0.07279703190727199,
+      "bm25_rank": 4,
+      "semantic_rank": 8,
+      "semantic_similarity": 0.5671825408935547,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.8487451076507568,
+      "final_rank": 2
+    },
+    {
+      "id": "530ce64ec7f72df553ad",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第九条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "530ce64ec7f72df553ad",
+      "rank": 3,
+      "similarity_score": 0.5226068496704102,
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 15
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 15
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.5226068496704102
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.5846887826919556
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6491872072219849
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 13
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 6.937508448076597
+        }
+      ],
+      "pre_rerank_score": 0.054651011089367256,
+      "bm25_rank": 13,
+      "semantic_rank": 10,
+      "bm25_score": null,
+      "semantic_similarity": 0.5226068496704102,
+      "pre_rerank_rank": 16,
+      "reranker_score": 0.6389312744140625,
+      "final_rank": 3
+    },
+    {
+      "id": "b2661177cf5f7c1bb10a",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十九条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 11.712237031237713,
+      "rank": 4,
+      "canonical_id": "b2661177cf5f7c1bb10a",
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 3
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 11.712237031237713
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 11.712237031237713
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 12.902848560803454
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 2
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.6170624494552612
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.6861284971237183
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6847521066665649
+        }
+      ],
+      "pre_rerank_score": 0.09653496512301378,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6170624494552612,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.55825275182724,
+      "final_rank": 4
+    },
+    {
+      "id": "85a66e465f72e3cb969e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第十九条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.09130323049624,
+      "rank": 5,
+      "canonical_id": "85a66e465f72e3cb969e",
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 20
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 15
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 4.09130323049624
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 4.36799608620453
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 10
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 28
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 14
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.5307053327560425
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.5667592883110046
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6300876140594482
+        }
+      ],
+      "pre_rerank_score": 0.06499619749619749,
+      "bm25_rank": 15,
+      "semantic_rank": 10,
+      "semantic_similarity": 0.5307053327560425,
+      "pre_rerank_rank": 12,
+      "reranker_score": 0.5379443168640137,
+      "final_rank": 5
+    },
+    {
+      "id": "9255b6a1d720ff18dc6f",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十八条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 9.112793957480456,
+      "rank": 6,
+      "canonical_id": "9255b6a1d720ff18dc6f",
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 10
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 9.112793957480456
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 9.112793957480456
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 10.27277580377282
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 3
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.6098685264587402
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.6660782098770142
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.678961992263794
+        }
+      ],
+      "pre_rerank_score": 0.09033972563384328,
+      "bm25_rank": 8,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6098685264587402,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.5253807306289673,
+      "final_rank": 6
+    },
+    {
+      "id": "e99ff54a5f383bbeb5d3",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": null,
+      "rank": 7,
+      "canonical_id": "e99ff54a5f383bbeb5d3",
+      "matched_queries": [
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 12
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 7.528035026024507
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 25
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6148039698600769
+        }
+      ],
+      "pre_rerank_score": 0.02565359477124183,
+      "bm25_rank": 12,
+      "semantic_rank": 25,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 56,
+      "reranker_score": 0.5079427361488342,
+      "final_rank": 7
+    },
+    {
+      "id": "39db8abff774d54a0bec",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十四条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 10.469960839290192,
+      "rank": 8,
+      "canonical_id": "39db8abff774d54a0bec",
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 5
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 10.469960839290192
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 10.469960839290192
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 11.600849435059015
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 5
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.600210428237915
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.6665863990783691
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6734731197357178
+        }
+      ],
+      "pre_rerank_score": 0.09329977817881044,
+      "bm25_rank": 2,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.600210428237915,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.4218049645423889,
+      "final_rank": 8
+    },
+    {
+      "id": "37d2a6c8c8f70ab05cd1",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "37d2a6c8c8f70ab05cd1",
+      "rank": 9,
+      "similarity_score": 0.5011570453643799,
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "竞业限制 最长 期限 劳动法",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 19
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 14
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.5011570453643799
+        },
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 0.5859960317611694
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6365898847579956
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "rank": 14
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业限制 最长 期限 劳动法",
+          "score": 5.364943200594954
+        }
+      ],
+      "pre_rerank_score": 0.053769761917381816,
+      "bm25_rank": 14,
+      "semantic_rank": 11,
+      "bm25_score": null,
+      "semantic_similarity": 0.5011570453643799,
+      "pre_rerank_rank": 18,
+      "reranker_score": 0.40450042486190796,
+      "final_rank": 9
+    },
+    {
+      "id": "b5148b0e5f30717618d6",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "b5148b0e5f30717618d6",
+      "rank": 10,
+      "similarity_score": 0.4666471481323242,
+      "matched_queries": [
+        "竞业限制最长不能超过几年",
+        "劳动合同法 竞业限制 年限"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "rank": 35
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 21
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业限制最长不能超过几年",
+          "score": 0.4666471481323242
+        },
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 0.6192994713783264
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "rank": 17
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同法 竞业限制 年限",
+          "score": 5.302012069240167
+        }
+      ],
+      "pre_rerank_score": 0.03585900778883235,
+      "bm25_rank": 17,
+      "semantic_rank": 21,
+      "bm25_score": null,
+      "semantic_similarity": 0.4666471481323242,
+      "pre_rerank_rank": 41,
+      "reranker_score": 0.3717730939388275,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "8988b10cddc6715d3b7a": 1
+  }
+}

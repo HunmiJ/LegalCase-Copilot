@@ -1,0 +1,816 @@
+{
+  "original_query": "竞业协议离职后公司不给补偿",
+  "structured_understanding": {
+    "original_query": "竞业协议离职后公司不给补偿",
+    "domain": "劳动争议",
+    "issue": "竞业限制协议经济补偿纠纷",
+    "user_intent": "了解公司不支付竞业限制补偿时的法律后果及维权途径",
+    "legal_concepts": [
+      "竞业限制",
+      "经济补偿",
+      "离职后义务"
+    ],
+    "search_queries": [
+      "竞业限制 离职 公司不支付 补偿金 法律后果",
+      "竞业协议无效 未支付补偿金 劳动争议",
+      "竞业限制补偿 劳动仲裁 申请流程"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "竞业协议离职后公司不给补偿",
+    "竞业限制 离职 公司不支付 补偿金 法律后果",
+    "竞业协议无效 未支付补偿金 劳动争议"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8354.262500011828
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十三条"
+    },
+    {
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "article_number": "第三十六条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "33f756fb2dfa81c1c390",
+    "968baed58037116615f3"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 52,
+      "reranking_candidate_count": 52,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 127,
+      "reranking_candidate_count": 127,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 57.99770000157878,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 14113.89901668008,
+  "final_retrieval_ranking": [
+    {
+      "id": "9255b6a1d720ff18dc6f",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十八条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 12.588781988212217,
+      "rank": 1,
+      "canonical_id": "9255b6a1d720ff18dc6f",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果",
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 2
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 8
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 12.588781988212217
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 10.545209251911936
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 12.75810308764165
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 1
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 3
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.6577931642532349
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.6492689847946167
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 0.689018726348877
+        }
+      ],
+      "pre_rerank_score": 0.09510342123805278,
+      "bm25_rank": 2,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6577931642532349,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9614102244377136,
+      "final_rank": 1
+    },
+    {
+      "id": "39db8abff774d54a0bec",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十四条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 7.756871498253103,
+      "rank": 2,
+      "canonical_id": "39db8abff774d54a0bec",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果",
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 7
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 2
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 7.756871498253103
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 11.866450039578176
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 13.915630054157576
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 7
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 2
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.6162123680114746
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.6521930694580078
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 0.6691272258758545
+        }
+      ],
+      "pre_rerank_score": 0.09365376855925173,
+      "bm25_rank": 1,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6162123680114746,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9528541564941406,
+      "final_rank": 2
+    },
+    {
+      "id": "33f756fb2dfa81c1c390",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 10.290666322455797,
+      "rank": 3,
+      "canonical_id": "33f756fb2dfa81c1c390",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果",
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 5
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 10
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 10.290666322455797
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 9.329907462329281
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 10.851062291360279
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 2
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 1
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.6495287418365479
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.6630243062973022
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 0.6755404472351074
+        }
+      ],
+      "pre_rerank_score": 0.09296931970286015,
+      "bm25_rank": 5,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6495287418365479,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.8915179371833801,
+      "final_rank": 3
+    },
+    {
+      "id": "b2661177cf5f7c1bb10a",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十九条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 12.425188026054556,
+      "rank": 4,
+      "canonical_id": "b2661177cf5f7c1bb10a",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果",
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 3
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 1
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 12.425188026054556
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 13.182475699306128
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 13.394612815814025
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 3
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 6
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.6372623443603516
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.637653112411499
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 0.6738227009773254
+        }
+      ],
+      "pre_rerank_score": 0.09480463716317762,
+      "bm25_rank": 1,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6372623443603516,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.8805771470069885,
+      "final_rank": 4
+    },
+    {
+      "id": "b5148b0e5f30717618d6",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "b5148b0e5f30717618d6",
+      "rank": 5,
+      "similarity_score": 0.5875879526138306,
+      "matched_queries": [
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 36
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 0.5875879526138306
+        }
+      ],
+      "pre_rerank_score": 0.010416666666666666,
+      "bm25_rank": null,
+      "semantic_rank": 36,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 104,
+      "reranker_score": 0.8565068244934082,
+      "final_rank": 5
+    },
+    {
+      "id": "2dfc7eb764fccf6a81b2",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十七条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 12.836334186813396,
+      "rank": 6,
+      "canonical_id": "2dfc7eb764fccf6a81b2",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果",
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 1
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 4
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 12.836334186813396
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 11.628795781597415
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 10.999591559452778
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 4
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 7
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.6281473636627197
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.6272934675216675
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 0.6564144492149353
+        }
+      ],
+      "pre_rerank_score": 0.09265931349483575,
+      "bm25_rank": 1,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.6281473636627197,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.8556420207023621,
+      "final_rank": 6
+    },
+    {
+      "id": "f2200d426137ce083c2d",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十五条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "f2200d426137ce083c2d",
+      "rank": 7,
+      "similarity_score": 0.5755149126052856,
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 15
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 17
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.5755149126052856
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.5862329006195068
+        }
+      ],
+      "pre_rerank_score": 0.02632034632034632,
+      "bm25_rank": null,
+      "semantic_rank": 15,
+      "bm25_score": null,
+      "semantic_similarity": 0.5755149126052856,
+      "pre_rerank_rank": 45,
+      "reranker_score": 0.8520735502243042,
+      "final_rank": 7
+    },
+    {
+      "id": "ce59fc8a7767d629495d",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第五条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 5.251265439607533,
+      "rank": 8,
+      "canonical_id": "ce59fc8a7767d629495d",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 22
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 35
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 5.251265439607533
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 3.2333583642553667
+        }
+      ],
+      "pre_rerank_score": 0.0227214377406932,
+      "bm25_rank": 22,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 61,
+      "reranker_score": 0.7835102677345276,
+      "final_rank": 8
+    },
+    {
+      "id": "824595609b6375a43b7c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第九十条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 7.512412941564245,
+      "rank": 9,
+      "canonical_id": "824595609b6375a43b7c",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果",
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 10
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 11
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 38
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 7.512412941564245
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 7.6367505434502
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 5.535376404159573
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 11
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.5846623182296753
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.5986464023590088
+        }
+      ],
+      "pre_rerank_score": 0.06674331704512791,
+      "bm25_rank": 10,
+      "semantic_rank": 11,
+      "semantic_similarity": 0.5846623182296753,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.7765721082687378,
+      "final_rank": 9
+    },
+    {
+      "id": "577fa255d4076e370f03",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 6.357751208165418,
+      "rank": 10,
+      "canonical_id": "577fa255d4076e370f03",
+      "matched_queries": [
+        "竞业协议离职后公司不给补偿",
+        "竞业限制 离职 公司不支付 补偿金 法律后果",
+        "竞业协议无效 未支付补偿金 劳动争议"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 16
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 9
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 6.357751208165418
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 9.497702690285358
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 8.036315413489753
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "rank": 5
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "rank": 5
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "竞业协议离职后公司不给补偿",
+          "score": 0.6170669198036194
+        },
+        {
+          "query": "竞业限制 离职 公司不支付 补偿金 法律后果",
+          "score": 0.6406177878379822
+        },
+        {
+          "query": "竞业协议无效 未支付补偿金 劳动争议",
+          "score": 0.6932191252708435
+        }
+      ],
+      "pre_rerank_score": 0.08930607537540051,
+      "bm25_rank": 9,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6170669198036194,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.7370063066482544,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "33f756fb2dfa81c1c390": 3,
+    "968baed58037116615f3": null
+  }
+}

@@ -1,0 +1,1202 @@
+{
+  "original_query": "劳动仲裁是不是过一年就不能申请了",
+  "structured_understanding": {
+    "original_query": "劳动仲裁是不是过一年就不能申请了",
+    "domain": "劳动争议",
+    "issue": "劳动争议仲裁、仲裁时效、一年",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "劳动争议仲裁",
+      "仲裁时效",
+      "一年"
+    ],
+    "search_queries": [
+      "劳动仲裁是不是过一年就不能申请了",
+      "劳动争议仲裁 仲裁时效 一年",
+      "劳动争议 劳动争议仲裁 仲裁时效 一年"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "劳动仲裁是不是过一年就不能申请了",
+    "劳动争议仲裁 仲裁时效 一年",
+    "劳动争议 劳动争议仲裁 仲裁时效 一年"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第二十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "bbf2e7bc4f47a70cae51"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "bbf2e7bc4f47a70cae51": 11
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 62,
+      "reranking_candidate_count": 62,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 112,
+      "reranking_candidate_count": 112,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "bbf2e7bc4f47a70cae51": 1
+    }
+  },
+  "query_understanding_latency_ms": 0.000600004568696022,
+  "multi_query_retrieval_latency_ms": 25.46259999508038,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "bbf2e7bc4f47a70cae51",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十七条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "bbf2e7bc4f47a70cae51",
+        "rank": 1,
+        "similarity_score": 0.6639803051948547,
+        "reranker_score": 0.9958212375640869,
+        "final_rank": 1
+      },
+      {
+        "id": "4abbb7d165632bc243e7",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十二条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "4abbb7d165632bc243e7",
+        "rank": 2,
+        "similarity_score": 0.6824804544448853,
+        "reranker_score": 0.8427777886390686,
+        "final_rank": 2
+      },
+      {
+        "id": "b4fd4d3b6f24f4f033ff",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五十一条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "b4fd4d3b6f24f4f033ff",
+        "rank": 3,
+        "similarity_score": 0.6567343473434448,
+        "reranker_score": 0.769872784614563,
+        "final_rank": 3
+      },
+      {
+        "id": "8b8ff9d3b9123e1d4c02",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十三条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "8b8ff9d3b9123e1d4c02",
+        "rank": 4,
+        "similarity_score": 0.6582425832748413,
+        "reranker_score": 0.6784787178039551,
+        "final_rank": 4
+      },
+      {
+        "id": "27a17fc1a3be349cd8c0",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第二十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "27a17fc1a3be349cd8c0",
+        "rank": 5,
+        "similarity_score": 0.6384528875350952,
+        "reranker_score": 0.6511715650558472,
+        "final_rank": 5
+      },
+      {
+        "id": "18bbb9efba59727691d8",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "18bbb9efba59727691d8",
+        "rank": 6,
+        "similarity_score": 0.6818588972091675,
+        "reranker_score": 0.6302491426467896,
+        "final_rank": 6
+      },
+      {
+        "id": "780cb636b8f87b644631",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "780cb636b8f87b644631",
+        "rank": 7,
+        "similarity_score": 0.6287602782249451,
+        "reranker_score": 0.605044960975647,
+        "final_rank": 7
+      },
+      {
+        "id": "f5a0dd3410d534ce1555",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十三条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "f5a0dd3410d534ce1555",
+        "rank": 8,
+        "similarity_score": 0.6943638324737549,
+        "reranker_score": 0.5753639936447144,
+        "final_rank": 8
+      },
+      {
+        "id": "50ec4b0030f6faee5fb4",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "50ec4b0030f6faee5fb4",
+        "rank": 9,
+        "similarity_score": 0.6648807525634766,
+        "reranker_score": 0.5067684054374695,
+        "final_rank": 9
+      },
+      {
+        "id": "6650450d848dd7585211",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十九条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "6650450d848dd7585211",
+        "rank": 10,
+        "similarity_score": 0.6826000213623047,
+        "reranker_score": 0.47850707173347473,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "bbf2e7bc4f47a70cae51",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十七条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 11.924188555496528,
+        "rank": 1,
+        "canonical_id": "bbf2e7bc4f47a70cae51",
+        "bm25_rank": 1,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6639803051948547,
+        "rrf_score": 0.03047794966520434,
+        "hybrid_rank": 2,
+        "reranker_score": 0.9958212375640869,
+        "final_rank": 1
+      },
+      {
+        "id": "4abbb7d165632bc243e7",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十二条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 7.511312698431768,
+        "rank": 2,
+        "canonical_id": "4abbb7d165632bc243e7",
+        "bm25_rank": 13,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6824804544448853,
+        "rrf_score": 0.029571646010002173,
+        "hybrid_rank": 3,
+        "reranker_score": 0.8427777886390686,
+        "final_rank": 2
+      },
+      {
+        "id": "b4fd4d3b6f24f4f033ff",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五十一条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "b4fd4d3b6f24f4f033ff",
+        "rank": 3,
+        "similarity_score": 0.6567343473434448,
+        "semantic_rank": 17,
+        "semantic_similarity": 0.6567343473434448,
+        "rrf_score": 0.012987012987012988,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 38,
+        "reranker_score": 0.769872784614563,
+        "final_rank": 3
+      },
+      {
+        "id": "8b8ff9d3b9123e1d4c02",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十三条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 9.367102940612414,
+        "rank": 4,
+        "canonical_id": "8b8ff9d3b9123e1d4c02",
+        "bm25_rank": 2,
+        "semantic_rank": 16,
+        "semantic_similarity": 0.6582425832748413,
+        "rrf_score": 0.02928692699490662,
+        "hybrid_rank": 4,
+        "reranker_score": 0.6784787178039551,
+        "final_rank": 4
+      },
+      {
+        "id": "0bacfb74ff62f979f4fc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第十二条",
+        "chapter": "第二章调 解",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 5.5069236379558,
+        "rank": 5,
+        "canonical_id": "0bacfb74ff62f979f4fc",
+        "bm25_rank": 40,
+        "rrf_score": 0.01,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 65,
+        "reranker_score": 0.6533842086791992,
+        "final_rank": 5
+      },
+      {
+        "id": "27a17fc1a3be349cd8c0",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第二十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "27a17fc1a3be349cd8c0",
+        "rank": 6,
+        "similarity_score": 0.6384528875350952,
+        "semantic_rank": 39,
+        "semantic_similarity": 0.6384528875350952,
+        "rrf_score": 0.010101010101010102,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 63,
+        "reranker_score": 0.6511715650558472,
+        "final_rank": 6
+      },
+      {
+        "id": "18bbb9efba59727691d8",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "18bbb9efba59727691d8",
+        "rank": 7,
+        "similarity_score": 0.6818588972091675,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6818588972091675,
+        "rrf_score": 0.015625,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 25,
+        "reranker_score": 0.6302491426467896,
+        "final_rank": 7
+      },
+      {
+        "id": "780cb636b8f87b644631",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "780cb636b8f87b644631",
+        "rank": 8,
+        "similarity_score": 0.6287602782249451,
+        "semantic_rank": 50,
+        "semantic_similarity": 0.6287602782249451,
+        "rrf_score": 0.00909090909090909,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 77,
+        "reranker_score": 0.605044960975647,
+        "final_rank": 8
+      },
+      {
+        "id": "f5a0dd3410d534ce1555",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十三条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 6.146537948728023,
+        "rank": 9,
+        "canonical_id": "f5a0dd3410d534ce1555",
+        "bm25_rank": 28,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6943638324737549,
+        "rrf_score": 0.027757078986587184,
+        "hybrid_rank": 6,
+        "reranker_score": 0.5753639936447144,
+        "final_rank": 9
+      },
+      {
+        "id": "50ec4b0030f6faee5fb4",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 6.808326310207407,
+        "rank": 10,
+        "canonical_id": "50ec4b0030f6faee5fb4",
+        "bm25_rank": 16,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6648807525634766,
+        "rrf_score": 0.027443609022556388,
+        "hybrid_rank": 7,
+        "reranker_score": 0.5067684054374695,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "bbf2e7bc4f47a70cae51",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十七条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 11.924188555496528,
+        "rank": 1,
+        "canonical_id": "bbf2e7bc4f47a70cae51",
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 1
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 11.924188555496528
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 20.043835180140935
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 22.32089933484004
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 1
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6639803051948547
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6937870383262634
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6858562231063843
+          }
+        ],
+        "pre_rerank_score": 0.09605172015700762,
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6639803051948547,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9958212375640869,
+        "final_rank": 1
+      },
+      {
+        "id": "4abbb7d165632bc243e7",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十二条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 7.511312698431768,
+        "rank": 2,
+        "canonical_id": "4abbb7d165632bc243e7",
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 13
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 8
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 7.511312698431768
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 8.319761084305826
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 11.112091990939195
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 15
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6824804544448853
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6145322322845459
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6216737627983093
+          }
+        ],
+        "pre_rerank_score": 0.08682194911631934,
+        "bm25_rank": 7,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6824804544448853,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.8427777886390686,
+        "final_rank": 2
+      },
+      {
+        "id": "b4fd4d3b6f24f4f033ff",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五十一条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "b4fd4d3b6f24f4f033ff",
+        "rank": 3,
+        "similarity_score": 0.6567343473434448,
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 23
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6567343473434448
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.613951563835144
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6097115874290466
+          }
+        ],
+        "pre_rerank_score": 0.03911971280035084,
+        "bm25_rank": null,
+        "semantic_rank": 11,
+        "bm25_score": null,
+        "semantic_similarity": 0.6567343473434448,
+        "pre_rerank_rank": 39,
+        "reranker_score": 0.769872784614563,
+        "final_rank": 3
+      },
+      {
+        "id": "8b8ff9d3b9123e1d4c02",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十三条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 9.367102940612414,
+        "rank": 4,
+        "canonical_id": "8b8ff9d3b9123e1d4c02",
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 18
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 14
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 9.367102940612414
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.514661973947352
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 10.48576941047357
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 16
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 16
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 29
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6582425832748413
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6093111038208008
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6066657900810242
+          }
+        ],
+        "pre_rerank_score": 0.08001480312195483,
+        "bm25_rank": 2,
+        "semantic_rank": 16,
+        "semantic_similarity": 0.6582425832748413,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.6784787178039551,
+        "final_rank": 4
+      },
+      {
+        "id": "0bacfb74ff62f979f4fc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第十二条",
+        "chapter": "第二章调 解",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 5.5069236379558,
+        "rank": 5,
+        "canonical_id": "0bacfb74ff62f979f4fc",
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 40
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 5.5069236379558
+          }
+        ],
+        "pre_rerank_score": 0.01,
+        "bm25_rank": 40,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 102,
+        "reranker_score": 0.6533842086791992,
+        "final_rank": 5
+      },
+      {
+        "id": "27a17fc1a3be349cd8c0",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第二十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "27a17fc1a3be349cd8c0",
+        "rank": 6,
+        "similarity_score": 0.6384528875350952,
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 39
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 29
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 40
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6384528875350952
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5947177410125732
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6010635495185852
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 15.216205485000593
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 16.50629050131268
+          }
+        ],
+        "pre_rerank_score": 0.06359502967331891,
+        "bm25_rank": 2,
+        "semantic_rank": 29,
+        "bm25_score": null,
+        "semantic_similarity": 0.6384528875350952,
+        "pre_rerank_rank": 10,
+        "reranker_score": 0.6511715650558472,
+        "final_rank": 6
+      },
+      {
+        "id": "18bbb9efba59727691d8",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十九条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "18bbb9efba59727691d8",
+        "rank": 7,
+        "similarity_score": 0.6818588972091675,
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 4
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6818588972091675
+          }
+        ],
+        "pre_rerank_score": 0.015625,
+        "bm25_rank": null,
+        "semantic_rank": 4,
+        "bm25_score": null,
+        "semantic_similarity": 0.6818588972091675,
+        "pre_rerank_rank": 80,
+        "reranker_score": 0.6302491426467896,
+        "final_rank": 7
+      },
+      {
+        "id": "780cb636b8f87b644631",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "780cb636b8f87b644631",
+        "rank": 8,
+        "similarity_score": 0.6287602782249451,
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 50
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 19
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 35
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6287602782249451
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.60455322265625
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6026339530944824
+          }
+        ],
+        "pre_rerank_score": 0.03227545272848404,
+        "bm25_rank": null,
+        "semantic_rank": 19,
+        "bm25_score": null,
+        "semantic_similarity": 0.6287602782249451,
+        "pre_rerank_rank": 50,
+        "reranker_score": 0.605044960975647,
+        "final_rank": 8
+      },
+      {
+        "id": "f5a0dd3410d534ce1555",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十三条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 6.146537948728023,
+        "rank": 9,
+        "canonical_id": "f5a0dd3410d534ce1555",
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 28
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 23
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 28
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 6.146537948728023
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.295700476669942
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.727727528824175
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 1
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6943638324737549
+          }
+        ],
+        "pre_rerank_score": 0.05116890812130789,
+        "bm25_rank": 23,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6943638324737549,
+        "pre_rerank_rank": 16,
+        "reranker_score": 0.5753639936447144,
+        "final_rank": 9
+      },
+      {
+        "id": "50ec4b0030f6faee5fb4",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 6.808326310207407,
+        "rank": 10,
+        "canonical_id": "50ec4b0030f6faee5fb4",
+        "matched_queries": [
+          "劳动仲裁是不是过一年就不能申请了",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 16
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 33
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 42
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 6.808326310207407
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 6.950513840727542
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 8.830367113691112
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "rank": 10
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁是不是过一年就不能申请了",
+            "score": 0.6648807525634766
+          }
+        ],
+        "pre_rerank_score": 0.04800021876322685,
+        "bm25_rank": 16,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6648807525634766,
+        "pre_rerank_rank": 19,
+        "reranker_score": 0.5067684054374695,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "bbf2e7bc4f47a70cae51": 1
+    },
+    "v04_reranked": {
+      "bbf2e7bc4f47a70cae51": 1
+    },
+    "v05_multi_query_reranked": {
+      "bbf2e7bc4f47a70cae51": 1
+    }
+  }
+}

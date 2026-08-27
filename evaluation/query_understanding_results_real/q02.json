@@ -1,0 +1,796 @@
+{
+  "original_query": "公司要解除我的劳动合同需要什么条件",
+  "structured_understanding": {
+    "original_query": "公司要解除我的劳动合同需要什么条件",
+    "domain": "劳动争议",
+    "issue": "用人单位单方解除劳动合同的法定条件",
+    "user_intent": "用户想了解公司单方解除劳动合同需要满足哪些法定情形",
+    "legal_concepts": [
+      "劳动合同解除",
+      "过失性辞退",
+      "非过失性辞退",
+      "经济性裁员"
+    ],
+    "search_queries": [
+      "劳动合同法 第三十九条 过失性辞退 条件",
+      "劳动合同法 第四十条 无过失性辞退 情形",
+      "劳动合同法 第四十一条 经济性裁员 条件"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司要解除我的劳动合同需要什么条件",
+    "劳动合同法 第三十九条 过失性辞退 条件",
+    "劳动合同法 第四十条 无过失性辞退 情形"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 6852.830200019525
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十九条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "d05bd575eeb0f9bcea71",
+    "e58adbe7103d1351f93c"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 70,
+      "reranking_candidate_count": 70,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 136,
+      "reranking_candidate_count": 136,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 69.71870001871139,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12624.18771670491,
+  "final_retrieval_ranking": [
+    {
+      "id": "0be45f9befb5840ded72",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十九条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 5.168050599311608,
+      "rank": 1,
+      "canonical_id": "0be45f9befb5840ded72",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第三十九条 过失性辞退 条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 24
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 50
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 5.168050599311608
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 2.6484465632857734
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 7
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6866353154182434
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 0.6524161100387573
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6310097575187683
+        }
+      ],
+      "pre_rerank_score": 0.06519454840350362,
+      "bm25_rank": 24,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6866353154182434,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.9948939085006714,
+      "final_rank": 1
+    },
+    {
+      "id": "2bcc1dccc654eec05ead",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十八条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 5.940105297915963,
+      "rank": 2,
+      "canonical_id": "2bcc1dccc654eec05ead",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第三十九条 过失性辞退 条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 13
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 33
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 32
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 5.940105297915963
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 3.323094975718598
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 4.370497884100351
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 16
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 44
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 40
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6778813600540161
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 0.6185413599014282
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6046485304832458
+        }
+      ],
+      "pre_rerank_score": 0.06809416287864734,
+      "bm25_rank": 13,
+      "semantic_rank": 16,
+      "semantic_similarity": 0.6778813600540161,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.994891881942749,
+      "final_rank": 2
+    },
+    {
+      "id": "010a3d3447e4190eb8bd",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十八条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 6.349094763681604,
+      "rank": 3,
+      "canonical_id": "010a3d3447e4190eb8bd",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第三十九条 过失性辞退 条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 36
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 35
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 6.349094763681604
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 3.1622407149211234
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 4.18662173606991
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 11
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 34
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6834688782691956
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6083142161369324
+        }
+      ],
+      "pre_rerank_score": 0.05995150165644859,
+      "bm25_rank": 10,
+      "semantic_rank": 11,
+      "semantic_similarity": 0.6834688782691956,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.9948400855064392,
+      "final_rank": 3
+    },
+    {
+      "id": "e58adbe7103d1351f93c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十九条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 6.037150264538638,
+      "rank": 4,
+      "canonical_id": "e58adbe7103d1351f93c",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第三十九条 过失性辞退 条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 12
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 40
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 6.037150264538638
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 6.070734204215706
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 3.823810234461166
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 20
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6836994886398315
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 0.6373481750488281
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6381027102470398
+        }
+      ],
+      "pre_rerank_score": 0.08122497630893154,
+      "bm25_rank": 4,
+      "semantic_rank": 7,
+      "semantic_similarity": 0.6836994886398315,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9934824109077454,
+      "final_rank": 4
+    },
+    {
+      "id": "10e13242360b544c672e",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十五条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 6.289251070834419,
+      "rank": 5,
+      "canonical_id": "10e13242360b544c672e",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第三十九条 过失性辞退 条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 6.289251070834419
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 9
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 9
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6843308806419373
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 0.6587767601013184
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6331443190574646
+        }
+      ],
+      "pre_rerank_score": 0.059199046546694854,
+      "bm25_rank": 11,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6843308806419373,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.9928977489471436,
+      "final_rank": 5
+    },
+    {
+      "id": "e9adc8e7834e5162fa09",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十一条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 6.376058965826255,
+      "rank": 6,
+      "canonical_id": "e9adc8e7834e5162fa09",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 9
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 33
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 6.376058965826255
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 4.363291044975638
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 45
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 43
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6471343636512756
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6035116910934448
+        }
+      ],
+      "pre_rerank_score": 0.04447798918311861,
+      "bm25_rank": 9,
+      "semantic_rank": 43,
+      "semantic_similarity": 0.6471343636512756,
+      "pre_rerank_rank": 21,
+      "reranker_score": 0.9921694397926331,
+      "final_rank": 6
+    },
+    {
+      "id": "d05bd575eeb0f9bcea71",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "d05bd575eeb0f9bcea71",
+      "rank": 7,
+      "similarity_score": 0.6879115104675293,
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 31
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6879115104675293
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6092844009399414
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 24
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 4.995659466677329
+        }
+      ],
+      "pre_rerank_score": 0.03827838827838828,
+      "bm25_rank": 24,
+      "semantic_rank": 5,
+      "bm25_score": null,
+      "semantic_similarity": 0.6879115104675293,
+      "pre_rerank_rank": 29,
+      "reranker_score": 0.992002010345459,
+      "final_rank": 7
+    },
+    {
+      "id": "6db850d5c3086c6973a8",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十二条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "6db850d5c3086c6973a8",
+      "rank": 8,
+      "similarity_score": 0.6767337322235107,
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 17
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6767337322235107
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6519871354103088
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 5.844198094874866
+        }
+      ],
+      "pre_rerank_score": 0.04346496265221733,
+      "bm25_rank": 11,
+      "semantic_rank": 1,
+      "bm25_score": null,
+      "semantic_similarity": 0.6767337322235107,
+      "pre_rerank_rank": 23,
+      "reranker_score": 0.9912342429161072,
+      "final_rank": 8
+    },
+    {
+      "id": "f528dbe5d9d5f643e33d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十三条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.562171856326727,
+      "rank": 9,
+      "canonical_id": "f528dbe5d9d5f643e33d",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第四十条 无过失性辞退 情形"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 41
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 4.562171856326727
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 26
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 0.6621662378311157
+        },
+        {
+          "query": "劳动合同法 第四十条 无过失性辞退 情形",
+          "score": 0.6330469250679016
+        }
+      ],
+      "pre_rerank_score": 0.03561340411800761,
+      "bm25_rank": 41,
+      "semantic_rank": 11,
+      "semantic_similarity": 0.6621662378311157,
+      "pre_rerank_rank": 38,
+      "reranker_score": 0.9892498254776001,
+      "final_rank": 9
+    },
+    {
+      "id": "5598feecff55a268d41d",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十三条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 5.301101908927332,
+      "rank": 10,
+      "canonical_id": "5598feecff55a268d41d",
+      "matched_queries": [
+        "公司要解除我的劳动合同需要什么条件",
+        "劳动合同法 第三十九条 过失性辞退 条件"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "rank": 22
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 38
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司要解除我的劳动合同需要什么条件",
+          "score": 5.301101908927332
+        },
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 3.048054891127288
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "rank": 22
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动合同法 第三十九条 过失性辞退 条件",
+          "score": 0.6368509531021118
+        }
+      ],
+      "pre_rerank_score": 0.03459432553509209,
+      "bm25_rank": 22,
+      "semantic_rank": 22,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 41,
+      "reranker_score": 0.9873661994934082,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "e58adbe7103d1351f93c": 4,
+    "d05bd575eeb0f9bcea71": 7
+  }
+}

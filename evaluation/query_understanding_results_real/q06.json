@@ -1,0 +1,848 @@
+{
+  "original_query": "公司没有通知工会就把我解雇了",
+  "structured_understanding": {
+    "original_query": "公司没有通知工会就把我解雇了",
+    "domain": "劳动争议",
+    "issue": "未通知工会即单方解除劳动合同的合法性",
+    "user_intent": "咨询公司未通知工会解雇是否合法及如何维权",
+    "legal_concepts": [
+      "通知工会",
+      "单方解除劳动合同",
+      "违法解除",
+      "赔偿金"
+    ],
+    "search_queries": [
+      "劳动合同法 第四十三条 未通知工会 解除 效力",
+      "未通知工会 解除劳动合同 违法解除 赔偿金",
+      "公司解雇 未通知工会 法律责任"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司没有通知工会就把我解雇了",
+    "劳动合同法 第四十三条 未通知工会 解除 效力",
+    "未通知工会 解除劳动合同 违法解除 赔偿金"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8698.518000019249
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "article_number": "第四十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "b6d0fb44056ecdefe76c"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 57,
+      "reranking_candidate_count": 57,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 125,
+      "reranking_candidate_count": 125,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 68.13359999796376,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 14468.290416683885,
+  "final_retrieval_ranking": [
+    {
+      "id": "b6d0fb44056ecdefe76c",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十七条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 8.651632124172938,
+      "rank": 1,
+      "canonical_id": "b6d0fb44056ecdefe76c",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 2
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 8.651632124172938
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 15.411803644489332
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 17.682804176883973
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 3
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.566223680973053
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.7129536271095276
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.6942195892333984
+        }
+      ],
+      "pre_rerank_score": 0.09554905403662675,
+      "bm25_rank": 1,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.566223680973053,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9601883888244629,
+      "final_rank": 1
+    },
+    {
+      "id": "f528dbe5d9d5f643e33d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十三条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 8.134703813436333,
+      "rank": 2,
+      "canonical_id": "f528dbe5d9d5f643e33d",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 1
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 8.134703813436333
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 16.2552964055349
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 12.733094786366573
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 1
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.6589738130569458
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.7724285125732422
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.7337157726287842
+        }
+      ],
+      "pre_rerank_score": 0.09757581862288368,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6589738130569458,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.8641757965087891,
+      "final_rank": 2
+    },
+    {
+      "id": "aba8852401847a67264c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第五十六条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.037401138972173,
+      "rank": 3,
+      "canonical_id": "aba8852401847a67264c",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 19
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 12
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 50
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 4.037401138972173
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 6.293358272371693
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 4.037401138972173
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 21
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.5701043605804443
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.6543244123458862
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.6614388227462769
+        }
+      ],
+      "pre_rerank_score": 0.07923370484024492,
+      "bm25_rank": 12,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.5701043605804443,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.628250777721405,
+      "final_rank": 3
+    },
+    {
+      "id": "e9adc8e7834e5162fa09",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十一条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 3.6052889373274732,
+      "rank": 4,
+      "canonical_id": "e9adc8e7834e5162fa09",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 27
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 25
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 29
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 3.6052889373274732
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 5.38477270765094
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 5.3962965758933334
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 22
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 44
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.5146812200546265
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.6331800222396851
+        }
+      ],
+      "pre_rerank_score": 0.05630542037870006,
+      "bm25_rank": 25,
+      "semantic_rank": 22,
+      "semantic_similarity": 0.5146812200546265,
+      "pre_rerank_rank": 15,
+      "reranker_score": 0.5489045977592468,
+      "final_rank": 4
+    },
+    {
+      "id": "a33f8c157bd11a0ba6f6",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第三十二条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 3.1889362820140574,
+      "rank": 5,
+      "canonical_id": "a33f8c157bd11a0ba6f6",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 39
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 5
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 7
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 3.1889362820140574
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 8.313533273785799
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 8.572076541684956
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 12
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 16
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.5718735456466675
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.6751947999000549
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.6279443502426147
+        }
+      ],
+      "pre_rerank_score": 0.08333079811870071,
+      "bm25_rank": 5,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.5718735456466675,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.5353265404701233,
+      "final_rank": 5
+    },
+    {
+      "id": "daf7300f7458e59be7b2",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十一条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 3.9808892263821374,
+      "rank": 6,
+      "canonical_id": "daf7300f7458e59be7b2",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 20
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 16
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 3.9808892263821374
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 5.937403560963864
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 12
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 33
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.5407555103302002
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.642615795135498
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.6374762654304504
+        }
+      ],
+      "pre_rerank_score": 0.06438397884002753,
+      "bm25_rank": 16,
+      "semantic_rank": 11,
+      "semantic_similarity": 0.5407555103302002,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.5191071033477783,
+      "final_rank": 6
+    },
+    {
+      "id": "68ed36cc6224a6ff338b",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十八条",
+      "chapter": "第六章监督检查",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.343422527397837,
+      "rank": 7,
+      "canonical_id": "68ed36cc6224a6ff338b",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 17
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 10
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 35
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 4.343422527397837
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 6.418236307489497
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 4.815264244766848
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 13
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 22
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.5341439247131348
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.6541566848754883
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.6497710943222046
+        }
+      ],
+      "pre_rerank_score": 0.07861816828473513,
+      "bm25_rank": 10,
+      "semantic_rank": 7,
+      "semantic_similarity": 0.5341439247131348,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.5118820071220398,
+      "final_rank": 7
+    },
+    {
+      "id": "0edc50b6000f7dea04f7",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六条",
+      "chapter": "第一章总 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 3.192017779190482,
+      "rank": 8,
+      "canonical_id": "0edc50b6000f7dea04f7",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 38
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 29
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 3.192017779190482
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 5.107174076658505
+        }
+      ],
+      "pre_rerank_score": 0.021440036688832834,
+      "bm25_rank": 29,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 67,
+      "reranker_score": 0.4772273004055023,
+      "final_rank": 8
+    },
+    {
+      "id": "ce59fc8a7767d629495d",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第五条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "ce59fc8a7767d629495d",
+      "rank": 9,
+      "similarity_score": 0.512824535369873,
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 23
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 48
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.512824535369873
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.5862882137298584
+        }
+      ],
+      "pre_rerank_score": 0.021307452030343597,
+      "bm25_rank": null,
+      "semantic_rank": 23,
+      "bm25_score": null,
+      "semantic_similarity": 0.512824535369873,
+      "pre_rerank_rank": 68,
+      "reranker_score": 0.4744337797164917,
+      "final_rank": 9
+    },
+    {
+      "id": "ace340ffd8d88d546d04",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第三十条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 4.494238222804723,
+      "rank": 10,
+      "canonical_id": "ace340ffd8d88d546d04",
+      "matched_queries": [
+        "公司没有通知工会就把我解雇了",
+        "劳动合同法 第四十三条 未通知工会 解除 效力",
+        "未通知工会 解除劳动合同 违法解除 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 13
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 15
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 4.494238222804723
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 5.973193558150453
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 8.019509501343416
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "rank": 2
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司没有通知工会就把我解雇了",
+          "score": 0.6405389308929443
+        },
+        {
+          "query": "劳动合同法 第四十三条 未通知工会 解除 效力",
+          "score": 0.7442814111709595
+        },
+        {
+          "query": "未通知工会 解除劳动合同 违法解除 赔偿金",
+          "score": 0.7141442894935608
+        }
+      ],
+      "pre_rerank_score": 0.0899118138677016,
+      "bm25_rank": 9,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6405389308929443,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.4590054750442505,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "b6d0fb44056ecdefe76c": 1
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "original_query": "哪些员工可以签竞业限制",
+  "structured_understanding": {
+    "original_query": "哪些员工可以签竞业限制",
+    "domain": "劳动争议",
+    "issue": "竞业限制的适用对象范围，即哪些员工属于可以签订竞业限制的主体",
+    "user_intent": "用户希望了解法律规定的竞业限制适用人员范围，以判断特定员工（如管理人员、技术人员或接触商业秘密的员工）是否符合签订竞业限制的条件",
+    "legal_concepts": [
+      "竞业限制",
+      "高级管理人员",
+      "高级技术人员",
+      "负有保密义务的人员"
+    ],
+    "search_queries": [
+      "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+      "哪些员工可以签订竞业限制 法律规定",
+      "竞业限制 人员范围 劳动争议"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "哪些员工可以签竞业限制",
+    "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+    "哪些员工可以签订竞业限制 法律规定"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 10997.30190000264
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十四条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8988b10cddc6715d3b7a"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 49,
+      "reranking_candidate_count": 49,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 154,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 61.840099981054664,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 16760.780816650367,
+  "final_retrieval_ranking": [
+    {
+      "id": "8988b10cddc6715d3b7a",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第二十四条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 10.019878815186836,
+      "rank": 1,
+      "canonical_id": "8988b10cddc6715d3b7a",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 7
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 2
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 10.019878815186836
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 34.56104928894277
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 11.77468337285879
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 2
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.6611170768737793
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.6847963929176331
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6881985068321228
+        }
+      ],
+      "pre_rerank_score": 0.09636376551930986,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6611170768737793,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9916423559188843,
+      "final_rank": 1
+    },
+    {
+      "id": "39db8abff774d54a0bec",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十四条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 10.469960839290192,
+      "rank": 2,
+      "canonical_id": "39db8abff774d54a0bec",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 1
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 4
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 10.469960839290192
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 41.21191574826147
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 10.469960839290192
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 1
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.5928111672401428
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.7104111909866333
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6354630589485168
+        }
+      ],
+      "pre_rerank_score": 0.09628694924999791,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.5928111672401428,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9742732048034668,
+      "final_rank": 2
+    },
+    {
+      "id": "968baed58037116615f3",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第二十三条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 10.88091872897707,
+      "rank": 3,
+      "canonical_id": "968baed58037116615f3",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 4
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 10.88091872897707
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 18.413505603482
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 10.88091872897707
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 7
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 4
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.5702188611030579
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.6655683517456055
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.5937672257423401
+        }
+      ],
+      "pre_rerank_score": 0.09246313555112304,
+      "bm25_rank": 2,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.5702188611030579,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.839560329914093,
+      "final_rank": 3
+    },
+    {
+      "id": "760565b3f8fe91c9b80e",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 10.100596319189933,
+      "rank": 4,
+      "canonical_id": "760565b3f8fe91c9b80e",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 7
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 7
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 10.100596319189933
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 14.651168211004014
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 10.100596319189933
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 8
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.5922243595123291
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.6359859108924866
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6428146958351135
+        }
+      ],
+      "pre_rerank_score": 0.09171019190419344,
+      "bm25_rank": 6,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.5922243595123291,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.6916913986206055,
+      "final_rank": 4
+    },
+    {
+      "id": "474d1755961d13636779",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十三条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 10.404467524080133,
+      "rank": 5,
+      "canonical_id": "474d1755961d13636779",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 6
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 10.404467524080133
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 15.779325175237453
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 10.404467524080133
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 4
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 3
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.5872197151184082
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.6667905449867249
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6243716478347778
+        }
+      ],
+      "pre_rerank_score": 0.09328414640914641,
+      "bm25_rank": 4,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.5872197151184082,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.6268172264099121,
+      "final_rank": 5
+    },
+    {
+      "id": "33f756fb2dfa81c1c390",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 7.6219874760033335,
+      "rank": 6,
+      "canonical_id": "33f756fb2dfa81c1c390",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 9
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 10
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 7.6219874760033335
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 13.583761112248517
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 7.783615391438769
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 7
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.581082284450531
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.640633225440979
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6175463795661926
+        }
+      ],
+      "pre_rerank_score": 0.0887587860981761,
+      "bm25_rank": 9,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.581082284450531,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.6178361773490906,
+      "final_rank": 6
+    },
+    {
+      "id": "9255b6a1d720ff18dc6f",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十八条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 9.112793957480456,
+      "rank": 7,
+      "canonical_id": "9255b6a1d720ff18dc6f",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 8
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 9.112793957480456
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 13.944315375973513
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 9.112793957480456
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 6
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.563809335231781
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.6408031582832336
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6045223474502563
+        }
+      ],
+      "pre_rerank_score": 0.08868092691622104,
+      "bm25_rank": 8,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.563809335231781,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.610469400882721,
+      "final_rank": 7
+    },
+    {
+      "id": "b2661177cf5f7c1bb10a",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十九条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 11.712237031237713,
+      "rank": 8,
+      "canonical_id": "b2661177cf5f7c1bb10a",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 10
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 11.712237031237713
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 12.902848560803454
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 11.712237031237713
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 11
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.5786638259887695
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.6161010265350342
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6104272603988647
+        }
+      ],
+      "pre_rerank_score": 0.09119572651201345,
+      "bm25_rank": 1,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.5786638259887695,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.6024000644683838,
+      "final_rank": 8
+    },
+    {
+      "id": "2dfc7eb764fccf6a81b2",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十七条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 10.277495470663405,
+      "rank": 9,
+      "canonical_id": "2dfc7eb764fccf6a81b2",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 3
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 10.277495470663405
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 18.617007896323727
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 10.277495470663405
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 9
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "rank": 5
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.5565608739852905
+        },
+        {
+          "query": "劳动合同法 竞业限制 适用对象 高级管理人员 高级技术人员 保密义务",
+          "score": 0.658186137676239
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.6054422855377197
+        }
+      ],
+      "pre_rerank_score": 0.09121188855127856,
+      "bm25_rank": 3,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.5565608739852905,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.5772032141685486,
+      "final_rank": 9
+    },
+    {
+      "id": "c6c19f25fb9f322f370d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十九条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 1.7636165290174963,
+      "rank": 10,
+      "canonical_id": "c6c19f25fb9f322f370d",
+      "matched_queries": [
+        "哪些员工可以签竞业限制",
+        "哪些员工可以签订竞业限制 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 31
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 1.7636165290174963
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "rank": 33
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "rank": 32
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "哪些员工可以签竞业限制",
+          "score": 0.4838916063308716
+        },
+        {
+          "query": "哪些员工可以签订竞业限制 法律规定",
+          "score": 0.5163558125495911
+        }
+      ],
+      "pre_rerank_score": 0.032611264378445304,
+      "bm25_rank": 31,
+      "semantic_rank": 32,
+      "semantic_similarity": 0.4838916063308716,
+      "pre_rerank_rank": 34,
+      "reranker_score": 0.5032793879508972,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "8988b10cddc6715d3b7a": 1
+  }
+}

@@ -1,0 +1,1382 @@
+{
+  "original_query": "劳务派遣只能用于什么岗位",
+  "structured_understanding": {
+    "original_query": "劳务派遣只能用于什么岗位",
+    "domain": "劳动争议",
+    "issue": "劳务派遣、用工单位、派遣单位",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "劳务派遣",
+      "用工单位",
+      "派遣单位"
+    ],
+    "search_queries": [
+      "劳务派遣只能用于什么岗位",
+      "劳务派遣 用工单位 派遣单位",
+      "劳动争议 劳务派遣 用工单位 派遣单位"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "劳务派遣只能用于什么岗位",
+    "劳务派遣 用工单位 派遣单位",
+    "劳动争议 劳务派遣 用工单位 派遣单位"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第六十六条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "91a082f4f444612764e6"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "91a082f4f444612764e6": 3
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 29,
+      "reranking_candidate_count": 29,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 128,
+      "reranking_candidate_count": 128,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "91a082f4f444612764e6": 15
+    }
+  },
+  "query_understanding_latency_ms": 0.000500003807246685,
+  "multi_query_retrieval_latency_ms": 25.9129999903962,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "91a082f4f444612764e6",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "91a082f4f444612764e6",
+        "rank": 1,
+        "similarity_score": 0.6584082841873169,
+        "reranker_score": 0.9981629252433777,
+        "final_rank": 1
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "bbe3c41f64841060367e",
+        "rank": 2,
+        "similarity_score": 0.6611915826797485,
+        "reranker_score": 0.8627318143844604,
+        "final_rank": 2
+      },
+      {
+        "id": "16e4b463a51f7af7d944",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "16e4b463a51f7af7d944",
+        "rank": 3,
+        "similarity_score": 0.6486721634864807,
+        "reranker_score": 0.8305515646934509,
+        "final_rank": 3
+      },
+      {
+        "id": "118f561cefd72bb49f5e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十八条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "118f561cefd72bb49f5e",
+        "rank": 4,
+        "similarity_score": 0.6514643430709839,
+        "reranker_score": 0.8147358894348145,
+        "final_rank": 4
+      },
+      {
+        "id": "a95f687e9b92bd0fbfc8",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十九条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "a95f687e9b92bd0fbfc8",
+        "rank": 5,
+        "similarity_score": 0.610568106174469,
+        "reranker_score": 0.7064772844314575,
+        "final_rank": 5
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "rank": 6,
+        "similarity_score": 0.609208345413208,
+        "reranker_score": 0.7046176791191101,
+        "final_rank": 6
+      },
+      {
+        "id": "cc6ef5e1e07a350b26e1",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十八条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "cc6ef5e1e07a350b26e1",
+        "rank": 7,
+        "similarity_score": 0.6369527578353882,
+        "reranker_score": 0.6761435866355896,
+        "final_rank": 7
+      },
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "856ff4352cf88c807cfb",
+        "rank": 8,
+        "similarity_score": 0.6271075010299683,
+        "reranker_score": 0.5580564737319946,
+        "final_rank": 8
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "37d603c79fa15eb7b176",
+        "rank": 9,
+        "similarity_score": 0.660290002822876,
+        "reranker_score": 0.5078212022781372,
+        "final_rank": 9
+      },
+      {
+        "id": "7a73146bdc9e31c48e72",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十七条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "7a73146bdc9e31c48e72",
+        "rank": 10,
+        "similarity_score": 0.6296184062957764,
+        "reranker_score": 0.47358909249305725,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "91a082f4f444612764e6",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 15.055984528329072,
+        "rank": 1,
+        "canonical_id": "91a082f4f444612764e6",
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6584082841873169,
+        "rrf_score": 0.032266458495966696,
+        "hybrid_rank": 2,
+        "reranker_score": 0.9981629252433777,
+        "final_rank": 1
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 14.089660927467008,
+        "rank": 2,
+        "canonical_id": "bbe3c41f64841060367e",
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6611915826797485,
+        "rrf_score": 0.03252247488101534,
+        "hybrid_rank": 1,
+        "reranker_score": 0.8627318143844604,
+        "final_rank": 2
+      },
+      {
+        "id": "16e4b463a51f7af7d944",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 10.486157788389324,
+        "rank": 3,
+        "canonical_id": "16e4b463a51f7af7d944",
+        "bm25_rank": 5,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6486721634864807,
+        "rrf_score": 0.030536130536130537,
+        "hybrid_rank": 4,
+        "reranker_score": 0.8305514454841614,
+        "final_rank": 3
+      },
+      {
+        "id": "118f561cefd72bb49f5e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十八条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 9.938404730330035,
+        "rank": 4,
+        "canonical_id": "118f561cefd72bb49f5e",
+        "bm25_rank": 9,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6514643430709839,
+        "rrf_score": 0.029877369007803793,
+        "hybrid_rank": 6,
+        "reranker_score": 0.8147358894348145,
+        "final_rank": 4
+      },
+      {
+        "id": "a95f687e9b92bd0fbfc8",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十九条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 8.39593382934956,
+        "rank": 5,
+        "canonical_id": "a95f687e9b92bd0fbfc8",
+        "bm25_rank": 18,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.610568106174469,
+        "rrf_score": 0.026709401709401708,
+        "hybrid_rank": 16,
+        "reranker_score": 0.7064772844314575,
+        "final_rank": 5
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.39593382934956,
+        "rank": 6,
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "bm25_rank": 17,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.609208345413208,
+        "rrf_score": 0.02668564312399929,
+        "hybrid_rank": 17,
+        "reranker_score": 0.7046176791191101,
+        "final_rank": 6
+      },
+      {
+        "id": "cc6ef5e1e07a350b26e1",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十八条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 10.396873496077022,
+        "rank": 7,
+        "canonical_id": "cc6ef5e1e07a350b26e1",
+        "bm25_rank": 6,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.6369527578353882,
+        "rrf_score": 0.029857397504456328,
+        "hybrid_rank": 7,
+        "reranker_score": 0.6761435866355896,
+        "final_rank": 7
+      },
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 13.540063539940416,
+        "rank": 8,
+        "canonical_id": "856ff4352cf88c807cfb",
+        "bm25_rank": 3,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6271075010299683,
+        "rrf_score": 0.029957522915269395,
+        "hybrid_rank": 5,
+        "reranker_score": 0.5580564737319946,
+        "final_rank": 8
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.680638789001655,
+        "rank": 9,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "bm25_rank": 21,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.660290002822876,
+        "rrf_score": 0.028474711270410194,
+        "hybrid_rank": 9,
+        "reranker_score": 0.507821261882782,
+        "final_rank": 9
+      },
+      {
+        "id": "7a73146bdc9e31c48e72",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十七条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 9.114243128254742,
+        "rank": 10,
+        "canonical_id": "7a73146bdc9e31c48e72",
+        "bm25_rank": 13,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6296184062957764,
+        "rrf_score": 0.02819138376017471,
+        "hybrid_rank": 11,
+        "reranker_score": 0.47358909249305725,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "91a082f4f444612764e6",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 15.055984528329072,
+        "rank": 1,
+        "canonical_id": "91a082f4f444612764e6",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 1
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 18
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 19
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 15.055984528329072
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 17.30288944079043
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 18.5292393374664
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 3
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 44
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.6584082841873169
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.5770689249038696
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.5522754788398743
+          }
+        ],
+        "pre_rerank_score": 0.08087409729347891,
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6584082841873169,
+        "pre_rerank_rank": 15,
+        "reranker_score": 0.9981629252433777,
+        "final_rank": 1
+      },
+      {
+        "id": "bbe3c41f64841060367e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十九条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 14.089660927467008,
+        "rank": 2,
+        "canonical_id": "bbe3c41f64841060367e",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 2
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 2
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 14.089660927467008
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 27.522157410833152
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 28.438533915544017
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 1
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 4
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.6611915826797485
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.6351263523101807
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.6251057386398315
+          }
+        ],
+        "pre_rerank_score": 0.09627855527016024,
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6611915826797485,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.8627318143844604,
+        "final_rank": 2
+      },
+      {
+        "id": "16e4b463a51f7af7d944",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第三十条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 10.486157788389324,
+        "rank": 3,
+        "canonical_id": "16e4b463a51f7af7d944",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 5
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 10.486157788389324
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 24.30612139957902
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 25.8500563274526
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 6
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 12
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.6486721634864807
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.6028732061386108
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.5988960862159729
+          }
+        ],
+        "pre_rerank_score": 0.08904565700340347,
+        "bm25_rank": 5,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6486721634864807,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.8305515646934509,
+        "final_rank": 3
+      },
+      {
+        "id": "118f561cefd72bb49f5e",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十八条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 9.938404730330035,
+        "rank": 4,
+        "canonical_id": "118f561cefd72bb49f5e",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 9
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 11
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 9.938404730330035
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 23.72714391022054
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 24.548884188111906
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 5
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 7
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.6514643430709839
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.6327998042106628
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.6126900911331177
+          }
+        ],
+        "pre_rerank_score": 0.08919723770332942,
+        "bm25_rank": 7,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6514643430709839,
+        "pre_rerank_rank": 5,
+        "reranker_score": 0.8147358894348145,
+        "final_rank": 4
+      },
+      {
+        "id": "a95f687e9b92bd0fbfc8",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十九条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 8.39593382934956,
+        "rank": 5,
+        "canonical_id": "a95f687e9b92bd0fbfc8",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 18
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 14
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 8.39593382934956
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 21.034642838581924
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 22.97253060187213
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 12
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.610568106174469
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.6205777525901794
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.6140360832214355
+          }
+        ],
+        "pre_rerank_score": 0.08403945903945904,
+        "bm25_rank": 14,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.610568106174469,
+        "pre_rerank_rank": 11,
+        "reranker_score": 0.7064772844314575,
+        "final_rank": 5
+      },
+      {
+        "id": "fe61e4c1fd1eb89c8f0b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十四条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.39593382934956,
+        "rank": 6,
+        "canonical_id": "fe61e4c1fd1eb89c8f0b",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 17
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 12
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 12
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 8.39593382934956
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 22.691980678203635
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 24.15256194176721
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 13
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 10
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.609208345413208
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.6178256869316101
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.605471134185791
+          }
+        ],
+        "pre_rerank_score": 0.08367450832181972,
+        "bm25_rank": 12,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.609208345413208,
+        "pre_rerank_rank": 12,
+        "reranker_score": 0.7046176791191101,
+        "final_rank": 6
+      },
+      {
+        "id": "cc6ef5e1e07a350b26e1",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第二十八条",
+        "chapter": "第四章劳务派遣特别规定",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 10.396873496077022,
+        "rank": 7,
+        "canonical_id": "cc6ef5e1e07a350b26e1",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 6
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 10.396873496077022
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 22.820328285823745
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 24.581591561508336
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 8
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 9
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 8
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.6369527578353882
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.6097989678382874
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.6091209053993225
+          }
+        ],
+        "pre_rerank_score": 0.08742625480855372,
+        "bm25_rank": 6,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.6369527578353882,
+        "pre_rerank_rank": 8,
+        "reranker_score": 0.6761435866355896,
+        "final_rank": 7
+      },
+      {
+        "id": "856ff4352cf88c807cfb",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十三条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 13.540063539940416,
+        "rank": 8,
+        "canonical_id": "856ff4352cf88c807cfb",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 3
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 8
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 13.540063539940416
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 24.547548212212995
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 25.395030055661664
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 11
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 14
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.6271075010299683
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.6102070808410645
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.5963767170906067
+          }
+        ],
+        "pre_rerank_score": 0.08826741651928065,
+        "bm25_rank": 3,
+        "semantic_rank": 8,
+        "semantic_similarity": 0.6271075010299683,
+        "pre_rerank_rank": 7,
+        "reranker_score": 0.5580564737319946,
+        "final_rank": 8
+      },
+      {
+        "id": "37d603c79fa15eb7b176",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十二条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.680638789001655,
+        "rank": 9,
+        "canonical_id": "37d603c79fa15eb7b176",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 21
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 17
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 4.680638789001655
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 17.50078781511439
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 19.201601384569756
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 2
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 9
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.660290002822876
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.633367657661438
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.6085671186447144
+          }
+        ],
+        "pre_rerank_score": 0.08456649086762456,
+        "bm25_rank": 17,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.660290002822876,
+        "pre_rerank_rank": 9,
+        "reranker_score": 0.5078212022781372,
+        "final_rank": 9
+      },
+      {
+        "id": "7a73146bdc9e31c48e72",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六十七条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 9.114243128254742,
+        "rank": 10,
+        "canonical_id": "7a73146bdc9e31c48e72",
+        "matched_queries": [
+          "劳务派遣只能用于什么岗位",
+          "劳务派遣 用工单位 派遣单位",
+          "劳动争议 劳务派遣 用工单位 派遣单位"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 13
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 13
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 13
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 9.114243128254742
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 21.4242742623499
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 23.042069747039932
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "rank": 9
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "rank": 12
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "rank": 13
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳务派遣只能用于什么岗位",
+            "score": 0.6296184062957764
+          },
+          {
+            "query": "劳务派遣 用工单位 派遣单位",
+            "score": 0.5971614718437195
+          },
+          {
+            "query": "劳动争议 劳务派遣 用工单位 派遣单位",
+            "score": 0.5968511700630188
+          }
+        ],
+        "pre_rerank_score": 0.0831761630600225,
+        "bm25_rank": 13,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6296184062957764,
+        "pre_rerank_rank": 13,
+        "reranker_score": 0.47358909249305725,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "91a082f4f444612764e6": 1
+    },
+    "v04_reranked": {
+      "91a082f4f444612764e6": 1
+    },
+    "v05_multi_query_reranked": {
+      "91a082f4f444612764e6": 1
+    }
+  }
+}

@@ -1,0 +1,938 @@
+{
+  "original_query": "劳务派遣只能用于什么岗位",
+  "structured_understanding": {
+    "original_query": "劳务派遣只能用于什么岗位",
+    "domain": "劳动争议",
+    "issue": "劳务派遣用工的岗位适用范围，即劳务派遣只能用于临时性、辅助性或者替代性工作岗位",
+    "user_intent": "用户想了解劳务派遣的岗位限制条件，即哪些岗位可以使用劳务派遣",
+    "legal_concepts": [
+      "劳务派遣",
+      "临时性岗位",
+      "辅助性岗位",
+      "替代性岗位",
+      "三性岗位"
+    ],
+    "search_queries": [
+      "劳务派遣 三性岗位 临时性 辅助性 替代性",
+      "劳动合同法 劳务派遣 岗位限制",
+      "劳务派遣 只能在 临时性 辅助性 替代性 岗位 使用"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "劳务派遣只能用于什么岗位",
+    "劳务派遣 三性岗位 临时性 辅助性 替代性",
+    "劳动合同法 劳务派遣 岗位限制"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 7092.595800000709
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第六十六条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "91a082f4f444612764e6"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 33,
+      "reranking_candidate_count": 33,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 131,
+      "reranking_candidate_count": 131,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 51.22059999848716,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12845.455216665869,
+  "final_retrieval_ranking": [
+    {
+      "id": "91a082f4f444612764e6",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十六条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 15.055984528329072,
+      "rank": 1,
+      "canonical_id": "91a082f4f444612764e6",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 1
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 15.055984528329072
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 29.28574129751242
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 13.164509433534334
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 3
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 1
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 16
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.6584082841873169
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.6518712043762207
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6362578868865967
+        }
+      ],
+      "pre_rerank_score": 0.09408425435172632,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6584082841873169,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9981629252433777,
+      "final_rank": 1
+    },
+    {
+      "id": "bbe3c41f64841060367e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第五十九条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 14.089660927467008,
+      "rank": 2,
+      "canonical_id": "bbe3c41f64841060367e",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 2
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 14.089660927467008
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 14.089660927467008
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 15.317188496159984
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 1
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 10
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.6611915826797485
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.4993717670440674
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6776476502418518
+        }
+      ],
+      "pre_rerank_score": 0.09545969630580949,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6611915826797485,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.8627318143844604,
+      "final_rank": 2
+    },
+    {
+      "id": "16e4b463a51f7af7d944",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第三十条",
+      "chapter": "第四章劳务派遣特别规定",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 10.486157788389324,
+      "rank": 3,
+      "canonical_id": "16e4b463a51f7af7d944",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 5
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 10.486157788389324
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 10.486157788389324
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 12.554328107564846
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 6
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 2
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.6486721634864807
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.5458784699440002
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6866854429244995
+        }
+      ],
+      "pre_rerank_score": 0.09359473595327641,
+      "bm25_rank": 5,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6486721634864807,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.8305514454841614,
+      "final_rank": 3
+    },
+    {
+      "id": "118f561cefd72bb49f5e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第五十八条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 9.938404730330035,
+      "rank": 4,
+      "canonical_id": "118f561cefd72bb49f5e",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 9
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 9
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 15
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 9.938404730330035
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 9.938404730330035
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 11.039162814187003
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 5
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 27
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.6514643430709839
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.4718330204486847
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6558767557144165
+        }
+      ],
+      "pre_rerank_score": 0.08308659772677765,
+      "bm25_rank": 9,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6514643430709839,
+      "pre_rerank_rank": 12,
+      "reranker_score": 0.8147358894348145,
+      "final_rank": 4
+    },
+    {
+      "id": "a95f687e9b92bd0fbfc8",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十九条",
+      "chapter": "第四章劳务派遣特别规定",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 8.39593382934956,
+      "rank": 5,
+      "canonical_id": "a95f687e9b92bd0fbfc8",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 18
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 18
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 16
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 8.39593382934956
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 8.39593382934956
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 10.991821701029608
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 12
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 8
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.610568106174469
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.5017178058624268
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6757268905639648
+        }
+      ],
+      "pre_rerank_score": 0.08301869161969781,
+      "bm25_rank": 16,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.610568106174469,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.7064772844314575,
+      "final_rank": 5
+    },
+    {
+      "id": "fe61e4c1fd1eb89c8f0b",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十四条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 8.39593382934956,
+      "rank": 6,
+      "canonical_id": "fe61e4c1fd1eb89c8f0b",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 17
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 17
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 8.39593382934956
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 8.39593382934956
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 10.352448163931285
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 13
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 5
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.609208345413208
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.5145814418792725
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6727491617202759
+        }
+      ],
+      "pre_rerank_score": 0.08302929946765564,
+      "bm25_rank": 17,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.609208345413208,
+      "pre_rerank_rank": 13,
+      "reranker_score": 0.7046176791191101,
+      "final_rank": 6
+    },
+    {
+      "id": "cc6ef5e1e07a350b26e1",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十八条",
+      "chapter": "第四章劳务派遣特别规定",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 10.396873496077022,
+      "rank": 7,
+      "canonical_id": "cc6ef5e1e07a350b26e1",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 6
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 6
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 10.396873496077022
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 10.396873496077022
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 12.75616491779618
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 8
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 19
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.6369527578353882
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.47927072644233704
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6729196310043335
+        }
+      ],
+      "pre_rerank_score": 0.08843637127330352,
+      "bm25_rank": 5,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6369527578353882,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.6761435866355896,
+      "final_rank": 7
+    },
+    {
+      "id": "856ff4352cf88c807cfb",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十三条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 13.540063539940416,
+      "rank": 8,
+      "canonical_id": "856ff4352cf88c807cfb",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 3
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 3
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 13.540063539940416
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 13.540063539940416
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 14.67530360933549
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 11
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 7
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 17
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.6271075010299683
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.5054275989532471
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.634873628616333
+        }
+      ],
+      "pre_rerank_score": 0.08987195716769113,
+      "bm25_rank": 2,
+      "semantic_rank": 7,
+      "semantic_similarity": 0.6271075010299683,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.5580564737319946,
+      "final_rank": 8
+    },
+    {
+      "id": "37d603c79fa15eb7b176",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十二条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.680638789001655,
+      "rank": 9,
+      "canonical_id": "37d603c79fa15eb7b176",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 21
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 20
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 20
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 4.680638789001655
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 4.680638789001655
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 6.699058236049825
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 2
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 13
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 7
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.660290002822876
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.491377055644989
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.667943000793457
+        }
+      ],
+      "pre_rerank_score": 0.08209871454172486,
+      "bm25_rank": 20,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.660290002822876,
+      "pre_rerank_rank": 15,
+      "reranker_score": 0.5078212022781372,
+      "final_rank": 9
+    },
+    {
+      "id": "7a73146bdc9e31c48e72",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十七条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 9.114243128254742,
+      "rank": 10,
+      "canonical_id": "7a73146bdc9e31c48e72",
+      "matched_queries": [
+        "劳务派遣只能用于什么岗位",
+        "劳务派遣 三性岗位 临时性 辅助性 替代性",
+        "劳动合同法 劳务派遣 岗位限制"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 13
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 13
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 9.114243128254742
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 9.114243128254742
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 11.281352987308374
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "rank": 9
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "rank": 12
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "rank": 9
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣只能用于什么岗位",
+          "score": 0.6296184062957764
+        },
+        {
+          "query": "劳务派遣 三性岗位 临时性 辅助性 替代性",
+          "score": 0.4935150146484375
+        },
+        {
+          "query": "劳动合同法 劳务派遣 岗位限制",
+          "score": 0.6628100275993347
+        }
+      ],
+      "pre_rerank_score": 0.08435616345149181,
+      "bm25_rank": 11,
+      "semantic_rank": 9,
+      "semantic_similarity": 0.6296184062957764,
+      "pre_rerank_rank": 10,
+      "reranker_score": 0.47358909249305725,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "91a082f4f444612764e6": 1
+  }
+}

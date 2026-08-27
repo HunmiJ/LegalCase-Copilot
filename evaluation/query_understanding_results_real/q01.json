@@ -1,0 +1,642 @@
+{
+  "original_query": "老板突然把我开了怎么办",
+  "structured_understanding": {
+    "original_query": "老板突然把我开了怎么办",
+    "domain": "劳动争议",
+    "issue": "用人单位单方解除劳动合同的合法性及劳动者救济途径",
+    "user_intent": "劳动者被突然辞退，想了解自身权利和维权方式",
+    "legal_concepts": [
+      "违法解除劳动合同",
+      "经济赔偿金",
+      "劳动仲裁"
+    ],
+    "search_queries": [
+      "违法解除劳动合同 赔偿金",
+      "用人单位单方解除劳动合同 劳动者维权",
+      "被辞退 劳动仲裁 申请流程"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "老板突然把我开了怎么办",
+    "违法解除劳动合同 赔偿金",
+    "用人单位单方解除劳动合同 劳动者维权"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 7151.212299999315
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十八条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第八十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8d5feddf081b799ab5c0",
+    "cf69b9d72596ac0968ac"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 77,
+      "reranking_candidate_count": 77,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 142,
+      "reranking_candidate_count": 142,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 77.21180000226013,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12930.062916668248,
+  "final_retrieval_ranking": [
+    {
+      "id": "44838775dc6a34619f27",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第五十三条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "44838775dc6a34619f27",
+      "rank": 1,
+      "similarity_score": 0.46977484226226807,
+      "matched_queries": [
+        "老板突然把我开了怎么办",
+        "违法解除劳动合同 赔偿金",
+        "用人单位单方解除劳动合同 劳动者维权"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "rank": 20
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 13
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 33
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "score": 0.46977484226226807
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 0.6530427932739258
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 0.6436790227890015
+        }
+      ],
+      "pre_rerank_score": 0.03695131830902931,
+      "bm25_rank": null,
+      "semantic_rank": 13,
+      "bm25_score": null,
+      "semantic_similarity": 0.46977484226226807,
+      "pre_rerank_rank": 34,
+      "reranker_score": 0.4011310040950775,
+      "final_rank": 1
+    },
+    {
+      "id": "e3dc9f2e1c4c29c0f062",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十七条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "e3dc9f2e1c4c29c0f062",
+      "rank": 2,
+      "similarity_score": 0.6370555758476257,
+      "matched_queries": [
+        "用人单位单方解除劳动合同 劳动者维权"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 36
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 0.6370555758476257
+        }
+      ],
+      "pre_rerank_score": 0.010416666666666666,
+      "bm25_rank": null,
+      "semantic_rank": 36,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 117,
+      "reranker_score": 0.3554489314556122,
+      "final_rank": 2
+    },
+    {
+      "id": "b5148b0e5f30717618d6",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 2.661789089054467,
+      "rank": 3,
+      "canonical_id": "b5148b0e5f30717618d6",
+      "matched_queries": [
+        "老板突然把我开了怎么办",
+        "违法解除劳动合同 赔偿金",
+        "用人单位单方解除劳动合同 劳动者维权"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "rank": 9
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 18
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 14
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "score": 2.661789089054467
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 3.1260363536968683
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 5.961708657297928
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 44
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 0.6305428147315979
+        }
+      ],
+      "pre_rerank_score": 0.050442164572599354,
+      "bm25_rank": 9,
+      "semantic_rank": 44,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 24,
+      "reranker_score": 0.2738470733165741,
+      "final_rank": 3
+    },
+    {
+      "id": "31c8454c3c5fe890ab51",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十九条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "31c8454c3c5fe890ab51",
+      "rank": 4,
+      "similarity_score": 0.46356064081192017,
+      "matched_queries": [
+        "老板突然把我开了怎么办"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": false,
+      "semantic_ranks": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "rank": 30
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "score": 0.46356064081192017
+        }
+      ],
+      "pre_rerank_score": 0.011111111111111112,
+      "bm25_rank": null,
+      "semantic_rank": 30,
+      "bm25_score": null,
+      "semantic_similarity": 0.46356064081192017,
+      "pre_rerank_rank": 105,
+      "reranker_score": 0.2730478346347809,
+      "final_rank": 4
+    },
+    {
+      "id": "446436c9a0d85d6ae909",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第一条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": null,
+      "rank": 5,
+      "canonical_id": "446436c9a0d85d6ae909",
+      "matched_queries": [
+        "违法解除劳动合同 赔偿金",
+        "用人单位单方解除劳动合同 劳动者维权"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 27
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 23
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 2.696779153965534
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 5.400361070182091
+        }
+      ],
+      "pre_rerank_score": 0.023542445644647556,
+      "bm25_rank": 23,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 52,
+      "reranker_score": 0.26386743783950806,
+      "final_rank": 5
+    },
+    {
+      "id": "66a562e477f57e24789f",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十四条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": null,
+      "rank": 6,
+      "canonical_id": "66a562e477f57e24789f",
+      "matched_queries": [
+        "用人单位单方解除劳动合同 劳动者维权"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 34
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 5.038105766786244
+        }
+      ],
+      "pre_rerank_score": 0.010638297872340425,
+      "bm25_rank": 34,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 112,
+      "reranker_score": 0.2581389546394348,
+      "final_rank": 6
+    },
+    {
+      "id": "bf4b81067e47e99db73c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十七条",
+      "chapter": "第六章监督检查",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "bf4b81067e47e99db73c",
+      "rank": 7,
+      "similarity_score": 0.4651482403278351,
+      "matched_queries": [
+        "老板突然把我开了怎么办",
+        "违法解除劳动合同 赔偿金"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "rank": 26
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 36
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "score": 0.4651482403278351
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 0.6255673170089722
+        }
+      ],
+      "pre_rerank_score": 0.02204457364341085,
+      "bm25_rank": null,
+      "semantic_rank": 26,
+      "bm25_score": null,
+      "semantic_similarity": 0.4651482403278351,
+      "pre_rerank_rank": 60,
+      "reranker_score": 0.21535231173038483,
+      "final_rank": 7
+    },
+    {
+      "id": "d507b06ae94939f9c73f",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十八条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "d507b06ae94939f9c73f",
+      "rank": 8,
+      "similarity_score": 0.46249452233314514,
+      "matched_queries": [
+        "老板突然把我开了怎么办",
+        "违法解除劳动合同 赔偿金",
+        "用人单位单方解除劳动合同 劳动者维权"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "rank": 33
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 28
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 41
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "score": 0.46249452233314514
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 0.6323506236076355
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 0.6338908076286316
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 48
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 44
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 2.1376234030368364
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 4.881051897231482
+        }
+      ],
+      "pre_rerank_score": 0.05089195850933315,
+      "bm25_rank": 44,
+      "semantic_rank": 28,
+      "bm25_score": null,
+      "semantic_similarity": 0.46249452233314514,
+      "pre_rerank_rank": 23,
+      "reranker_score": 0.20996825397014618,
+      "final_rank": 8
+    },
+    {
+      "id": "21c153566e22e0c55b7c",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十八条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "canonical_id": "21c153566e22e0c55b7c",
+      "rank": 9,
+      "similarity_score": 0.45890313386917114,
+      "matched_queries": [
+        "老板突然把我开了怎么办",
+        "违法解除劳动合同 赔偿金",
+        "用人单位单方解除劳动合同 劳动者维权"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "rank": 41
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 15
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 34
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "老板突然把我开了怎么办",
+          "score": 0.45890313386917114
+        },
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 0.6527528166770935
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 0.6417850255966187
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 2
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 7.539929948246028
+        },
+        {
+          "query": "用人单位单方解除劳动合同 劳动者维权",
+          "score": 6.4649991141486405
+        }
+      ],
+      "pre_rerank_score": 0.06538626894736356,
+      "bm25_rank": 2,
+      "semantic_rank": 15,
+      "bm25_score": null,
+      "semantic_similarity": 0.45890313386917114,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.2093028724193573,
+      "final_rank": 9
+    },
+    {
+      "id": "7013f2495638f0a97cf8",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第三十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": null,
+      "rank": 10,
+      "canonical_id": "7013f2495638f0a97cf8",
+      "matched_queries": [
+        "违法解除劳动合同 赔偿金"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 3.9189728887536663
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "rank": 32
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "违法解除劳动合同 赔偿金",
+          "score": 0.6279796361923218
+        }
+      ],
+      "pre_rerank_score": 0.024954072259644827,
+      "bm25_rank": 11,
+      "semantic_rank": 32,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 48,
+      "reranker_score": 0.20570550858974457,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "8d5feddf081b799ab5c0": null,
+    "cf69b9d72596ac0968ac": null
+  }
+}

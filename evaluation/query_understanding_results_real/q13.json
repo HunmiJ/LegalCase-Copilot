@@ -1,0 +1,702 @@
+{
+  "original_query": "公司拖欠工资可以投诉吗",
+  "structured_understanding": {
+    "original_query": "公司拖欠工资可以投诉吗",
+    "domain": "劳动争议",
+    "issue": "公司拖欠工资的投诉可行性和途径",
+    "user_intent": "确认是否可以通过投诉维权，并了解相关投诉渠道",
+    "legal_concepts": [
+      "拖欠工资",
+      "劳动监察投诉",
+      "工资支付"
+    ],
+    "search_queries": [
+      "公司拖欠工资投诉渠道",
+      "拖欠工资劳动监察投诉规定",
+      "拖欠工资投诉需要什么材料"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司拖欠工资可以投诉吗",
+    "公司拖欠工资投诉渠道",
+    "拖欠工资劳动监察投诉规定"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 7227.079199976288
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第九条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "16ab4ea605fedaa8d702",
+    "dae9ab7d9f3c32fdee18"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 78,
+      "reranking_candidate_count": 78,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 173,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 52.06329998327419,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12980.781316626235,
+  "final_retrieval_ranking": [
+    {
+      "id": "dae9ab7d9f3c32fdee18",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第九条",
+      "chapter": "第一章总 则",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 7.042707676937244,
+      "rank": 1,
+      "canonical_id": "dae9ab7d9f3c32fdee18",
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "公司拖欠工资投诉渠道",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 1
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 2
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 7.042707676937244
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 5.722703205422431
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 8.02095363714487
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 2
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 1
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.6524388790130615
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.5740102529525757
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 0.6397755146026611
+        }
+      ],
+      "pre_rerank_score": 0.0967989820200952,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6524388790130615,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9928190112113953,
+      "final_rank": 1
+    },
+    {
+      "id": "5288684dd8006a0519df",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "5288684dd8006a0519df",
+      "rank": 2,
+      "similarity_score": 0.6545525789260864,
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "公司拖欠工资投诉渠道",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 1
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 2
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.6545525789260864
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.56880784034729
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 0.6815589070320129
+        }
+      ],
+      "pre_rerank_score": 0.048915917503966164,
+      "bm25_rank": null,
+      "semantic_rank": 1,
+      "bm25_score": null,
+      "semantic_similarity": 0.6545525789260864,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.9814412593841553,
+      "final_rank": 2
+    },
+    {
+      "id": "31c8454c3c5fe890ab51",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十九条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 2.0554815610708466,
+      "rank": 3,
+      "canonical_id": "31c8454c3c5fe890ab51",
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 4
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 39
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 2.0554815610708466
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 2.1776921068853987
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 42
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.5585257411003113
+        }
+      ],
+      "pre_rerank_score": 0.035529931669637554,
+      "bm25_rank": 4,
+      "semantic_rank": 42,
+      "semantic_similarity": 0.5585257411003113,
+      "pre_rerank_rank": 29,
+      "reranker_score": 0.6380701661109924,
+      "final_rank": 3
+    },
+    {
+      "id": "bf4b81067e47e99db73c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十七条",
+      "chapter": "第六章监督检查",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "bf4b81067e47e99db73c",
+      "rank": 4,
+      "similarity_score": 0.5593706369400024,
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "公司拖欠工资投诉渠道",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 41
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 10
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 19
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.5593706369400024
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.5040466785430908
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 0.6020140647888184
+        }
+      ],
+      "pre_rerank_score": 0.03684493223282545,
+      "bm25_rank": null,
+      "semantic_rank": 10,
+      "bm25_score": null,
+      "semantic_similarity": 0.5593706369400024,
+      "pre_rerank_rank": 26,
+      "reranker_score": 0.6128053069114685,
+      "final_rank": 4
+    },
+    {
+      "id": "0ab715b85400079a8854",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "0ab715b85400079a8854",
+      "rank": 5,
+      "similarity_score": 0.6005287170410156,
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "公司拖欠工资投诉渠道",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 8
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 11
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.6005287170410156
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.502907395362854
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 0.6093556880950928
+        }
+      ],
+      "pre_rerank_score": 0.042679278284083584,
+      "bm25_rank": null,
+      "semantic_rank": 8,
+      "bm25_score": null,
+      "semantic_similarity": 0.6005287170410156,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.6105444431304932,
+      "final_rank": 5
+    },
+    {
+      "id": "8e0da708c54cb4e90c66",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第三十六条",
+      "chapter": "第六章附则",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 5.954829767029351,
+      "rank": 6,
+      "canonical_id": "8e0da708c54cb4e90c66",
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "公司拖欠工资投诉渠道",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 2
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 1
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 5.954829767029351
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 5.954829767029351
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 14.411603034837341
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 27
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 4
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.5681471824645996
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.531222939491272
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 0.6572507619857788
+        }
+      ],
+      "pre_rerank_score": 0.0921642026355939,
+      "bm25_rank": 1,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.5681471824645996,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.6098544001579285,
+      "final_rank": 6
+    },
+    {
+      "id": "547afe92cd1078555151",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第十六条",
+      "chapter": "第二章调 解",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "547afe92cd1078555151",
+      "rank": 7,
+      "similarity_score": 0.6057361364364624,
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "公司拖欠工资投诉渠道",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 5
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 7
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 27
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.6057361364364624
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.5118555426597595
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 0.59199059009552
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.0
+        }
+      ],
+      "pre_rerank_score": 0.05462475421301978,
+      "bm25_rank": 18,
+      "semantic_rank": 5,
+      "bm25_score": null,
+      "semantic_similarity": 0.6057361364364624,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.6054053902626038,
+      "final_rank": 7
+    },
+    {
+      "id": "f5a0dd3410d534ce1555",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十三条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 1.7298318800906096,
+      "rank": 8,
+      "canonical_id": "f5a0dd3410d534ce1555",
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": false,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 17
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 1.7298318800906096
+        }
+      ],
+      "pre_rerank_score": 0.012987012987012988,
+      "bm25_rank": 17,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 102,
+      "reranker_score": 0.5862701535224915,
+      "final_rank": 8
+    },
+    {
+      "id": "18bbb9efba59727691d8",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十九条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "18bbb9efba59727691d8",
+      "rank": 9,
+      "similarity_score": 0.6351784467697144,
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗",
+        "公司拖欠工资投诉渠道",
+        "拖欠工资劳动监察投诉规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 3
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "rank": 3
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 0.6351784467697144
+        },
+        {
+          "query": "公司拖欠工资投诉渠道",
+          "score": 0.5404592752456665
+        },
+        {
+          "query": "拖欠工资劳动监察投诉规定",
+          "score": 0.6269540190696716
+        }
+      ],
+      "pre_rerank_score": 0.046897546897546896,
+      "bm25_rank": null,
+      "semantic_rank": 3,
+      "bm25_score": null,
+      "semantic_similarity": 0.6351784467697144,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.5548071265220642,
+      "final_rank": 9
+    },
+    {
+      "id": "9ecccd57419c08337370",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十四条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 1.8504408380826454,
+      "rank": 10,
+      "canonical_id": "9ecccd57419c08337370",
+      "matched_queries": [
+        "公司拖欠工资可以投诉吗"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": false,
+      "bm25_ranks": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司拖欠工资可以投诉吗",
+          "score": 1.8504408380826454
+        }
+      ],
+      "pre_rerank_score": 0.014084507042253521,
+      "bm25_rank": 11,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 92,
+      "reranker_score": 0.5364135503768921,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "16ab4ea605fedaa8d702": null,
+    "dae9ab7d9f3c32fdee18": 1
+  }
+}

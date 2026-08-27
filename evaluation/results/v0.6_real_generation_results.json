@@ -1,0 +1,747 @@
+{
+  "provider": "real_llm",
+  "model": "deepseek-v4-flash",
+  "query_count": 9,
+  "in_domain_generation_success_count": 6,
+  "in_domain_retry_count": 1,
+  "in_domain_fallback_count": 0,
+  "average_expanded_query_count": null,
+  "latency_ms": {
+    "generation_average": 14566.242788892447,
+    "total_average": 22679.283144447254,
+    "in_domain_no_retry_total_average": 25084.56418000278,
+    "in_domain_with_retry_total_average": 48393.555499991635
+  },
+  "rows": [
+    {
+      "query_id": "in01",
+      "query": "公司工作两年突然把我辞退了，没有提前通知，也不给补偿怎么办？",
+      "category": "in_domain",
+      "status": "completed",
+      "generation_status": "success",
+      "generation_success": true,
+      "retry_count": 1,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 3,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 5,
+      "context_char_count": 889,
+      "latency_breakdown_ms": {
+        "bm25": 1.1193999962415546,
+        "semantic": 24.754999991273507,
+        "reranker": 10964.448999991873,
+        "context_builder": 0.039000005926936865,
+        "generation": 35221.97929999675,
+        "validation": 0.23900001542642713,
+        "total": 48393.555499991635
+      },
+      "response": {
+        "issue_summary": [
+          "劳动者在公司工作两年后被突然辞退，用人单位未提前通知且未支付经济补偿，劳动者询问如何维权。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "根据现有规定，如果用人单位解除劳动合同属于违法解除，劳动者可能有权主张赔偿金。若用人单位建立了工会，且其解除行为属于法律规定的特定情形但未事先通知工会，劳动者可以以违法解除为由请求支付赔偿金。",
+            "citations": [
+              "[2]"
+            ]
+          },
+          {
+            "claim": "如果用人单位违法解除劳动合同并支付了赔偿金，则不再需要另行支付经济补偿。赔偿金的计算年限自用工之日起计算。",
+            "citations": [
+              "[3]"
+            ]
+          },
+          {
+            "claim": "对于非全日制用工，用人单位可以随时通知终止用工且无需支付经济补偿。但本案中劳动者工作两年，是否属于非全日制用工需根据实际情况判断，现有信息不足以排除或确认。",
+            "citations": [
+              "[1]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "用人单位是否建立了工会组织",
+          "用人单位解除劳动合同的具体理由",
+          "解除行为是否属于法律规定的特定情形（如劳动者严重违纪、不能胜任工作等）",
+          "劳动者的工作性质是否为非全日制用工",
+          "用人单位是否提前三十日书面通知或额外支付一个月工资（如适用）"
+        ],
+        "next_steps": [
+          "要求用人单位出具书面解除劳动合同通知书，明确解除理由。",
+          "收集相关证据，如劳动合同、工资银行流水、考勤记录、解除通知等。",
+          "向当地劳动监察部门投诉或申请劳动仲裁，以确定解除的合法性并主张相应权利。",
+          "咨询专业律师，结合具体事实判断是否构成违法解除。"
+        ],
+        "disclaimer": "本分析仅基于提供的有限法律条文，不构成正式法律意见。实际问题需结合完整案情及所有相关法律依据进行判断。",
+        "relevant_laws": [
+          {
+            "citation": "[2]",
+            "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+            "article_number": "第四十七条",
+            "text": "建立了工会组织的用人单位解除劳动合同符合劳动合同法第三十九条、第四十条规定，但未按照劳动合同法第四十三条规定事先通知工会，劳动者以用人单位违法解除劳动合同为由请求用人单位支付赔偿金的，人民法院应予支持，但起诉前用人单位已经补正有关程序的除外。"
+          },
+          {
+            "citation": "[3]",
+            "law_name": "中华人民共和国劳动合同法实施条例",
+            "article_number": "第二十五条",
+            "text": "用人单位违反劳动合同法的规定解除或者终止劳动合同，依照劳动合同法第八十七条的规定支付了赔偿金的，不再支付经济补偿。赔偿金的计算年限自用工之日起计算。"
+          },
+          {
+            "citation": "[1]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第七十一条",
+            "text": "非全日制用工双方当事人任何一方都可以随时通知对方终止用工。终止用工，用人单位不向劳动者支付经济补偿。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "wall_clock_ms": 48393.72089999961
+    },
+    {
+      "query_id": "in02",
+      "query": "公司一直让我加班但是不给加班费怎么办？",
+      "category": "in_domain",
+      "status": "completed",
+      "generation_status": "success",
+      "generation_success": true,
+      "retry_count": 0,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 3,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 5,
+      "context_char_count": 1100,
+      "latency_breakdown_ms": {
+        "bm25": 1.3118000060785562,
+        "semantic": 10.337399988202378,
+        "reranker": 10305.090400011977,
+        "context_builder": 0.02609999501146376,
+        "generation": 13178.283199988073,
+        "validation": 0.06600000779144466,
+        "total": 23495.338100008667
+      },
+      "response": {
+        "issue_summary": [
+          "公司安排加班但不支付加班费，用户询问如何应对。根据现行法律，用人单位应当依法支付加班费，劳动者可通过行政投诉、仲裁等途径维权。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "用人单位安排加班的，应当按照国家规定向劳动者支付加班费。",
+            "citations": [
+              "[3]"
+            ]
+          },
+          {
+            "claim": "用人单位安排加班不支付加班费的，劳动行政部门可责令限期支付，逾期不支付的，需加付赔偿金。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "劳动者主张加班费，应当就加班事实的存在承担举证责任；但若有证据证明用人单位掌握加班事实存在的证据而拒不提供，由用人单位承担不利后果。",
+            "citations": [
+              "[2]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "加班的具体事实和证据情况（如打卡记录、加班审批单、工资条、工作通讯记录等）",
+          "是否已与公司就加班费进行过沟通或达成相关协议",
+          "工作性质是否为标准工时制、综合计算工时制或不定时工作制",
+          "公司是否存在劳动派遣等用工形式（涉及用工单位支付加班费义务）"
+        ],
+        "next_steps": [
+          "根据[2]，注意收集和保存加班事实的证据，如考勤记录、加班通知、工作记录、工资银行流水等；若证据由公司掌握，可依法要求公司提供。",
+          "根据[1]，可向当地劳动行政部门投诉举报，要求责令公司限期支付加班费；逾期不支付的，可主张加付赔偿金。",
+          "若行政处理无法解决，可依法申请劳动仲裁，注意仲裁时效等程序要求（需结合其他法律规定）。",
+          "如果与公司签订过关于加班费等协议，根据[4]，注意审查协议是否存在无效或可撤销情形。"
+        ],
+        "disclaimer": "本分析仅基于提供的法律条文作出，不构成正式法律意见；具体情况需结合完整证据和事实，建议咨询专业律师或当地劳动监察部门。",
+        "relevant_laws": [
+          {
+            "citation": "[3]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第三十一条",
+            "text": "用人单位应当严格执行劳动定额标准，不得强迫或者变相强迫劳动者加班。用人单位安排加班的，应当按照国家有关规定向劳动者支付加班费。"
+          },
+          {
+            "citation": "[1]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第八十五条",
+            "text": "用人单位有下列情形之一的，由劳动行政部门责令限期支付劳动报酬、加班费或者经济补偿；劳动报酬低于当地最低工资标准的，应当支付其差额部分；逾期不支付的，责令用人单位按应付金额百分之五十以上百分之一百以下的标准向劳动者加付赔偿金：\n（一）未按照劳动合同的约定或者国家规定及时足额支付劳动者劳动报酬的；\n（二）低于当地最低工资标准支付劳动者工资的；\n（三）安排加班不支付加班费的；\n（四）解除或者终止劳动合同，未依照本法规定向劳动者支付经济补偿的。"
+          },
+          {
+            "citation": "[2]",
+            "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+            "article_number": "第四十二条",
+            "text": "劳动者主张加班费的，应当就加班事实的存在承担举证责任。但劳动者有证据证明用人单位掌握加班事实存在的证据，用人单位不提供的，由用人单位承担不利后果。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "wall_clock_ms": 23495.43049998465
+    },
+    {
+      "query_id": "in03",
+      "query": "公司工作半年一直没有跟我签劳动合同怎么办？",
+      "category": "in_domain",
+      "status": "completed",
+      "generation_status": "success",
+      "generation_success": true,
+      "retry_count": 0,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 3,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 5,
+      "context_char_count": 1017,
+      "latency_breakdown_ms": {
+        "bm25": 1.0476000024937093,
+        "semantic": 27.60669999406673,
+        "reranker": 10563.286700024037,
+        "context_builder": 0.02750000567175448,
+        "generation": 28779.145700013032,
+        "validation": 0.08590001380071044,
+        "total": 39371.43349999678
+      },
+      "response": {
+        "issue_summary": [
+          "公司工作半年一直没有签劳动合同，询问如何处理。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "根据法律规定，用人单位自用工之日起超过一个月不满一年未与劳动者订立书面劳动合同的，应当向劳动者每月支付二倍的工资。您工作半年，属于该情形，有权主张自用工满一个月次日起的双倍工资差额。",
+            "citations": [
+              "[1]",
+              "[2]"
+            ]
+          },
+          {
+            "claim": "用人单位未与劳动者订立书面劳动合同的，应当与劳动者补订书面劳动合同。您可要求公司补订合同。",
+            "citations": [
+              "[2]"
+            ]
+          },
+          {
+            "claim": "用人单位故意拖延不订立劳动合同的，由劳动行政部门责令改正；对劳动者造成损害的，应当承担赔偿责任。您可向劳动行政部门投诉。",
+            "citations": [
+              "[3]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "需要进一步确认：1.您与公司是否存在实际用工关系（如工资支付记录、考勤、工作证等）；2.公司未签合同的原因，是否有证据证明您曾要求签订但公司拒绝；3.您工作的具体起止日期，以确定是否满半年；4.您的月工资标准，以便计算双倍工资差额。"
+        ],
+        "next_steps": [
+          "1. 先与公司协商，要求补订书面劳动合同并支付未签合同期间的双倍工资差额；2. 若协商不成，可向劳动行政部门（劳动监察机构）投诉，要求责令公司改正并承担相应责任；3. 注意保存劳动关系存在的相关证据。"
+        ],
+        "disclaimer": "本分析仅基于提供的法律条文，不构成正式法律意见；具体情形需要结合证据和事实，最终处理结果由有权机关依法认定。",
+        "relevant_laws": [
+          {
+            "citation": "[1]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第八十二条",
+            "text": "用人单位自用工之日起超过一个月不满一年未与劳动者订立书面劳动合同的，应当向劳动者每月支付二倍的工资。\n用人单位违反本法规定不与劳动者订立无固定期限劳动合同的，自应当订立无固定期限劳动合同之日起向劳动者每月支付二倍的工资。"
+          },
+          {
+            "citation": "[2]",
+            "law_name": "中华人民共和国劳动合同法实施条例",
+            "article_number": "第六条",
+            "text": "用人单位自用工之日起超过一个月不满一年未与劳动者订立书面劳动合同的，应当依照劳动合同法第八十二条的规定向劳动者每月支付两倍的工资，并与劳动者补订书面劳动合同；劳动者不与用人单位订立书面劳动合同的，用人单位应当书面通知劳动者终止劳动关系，并依照劳动合同法第四十七条的规定支付经济补偿。\n前款规定的用人单位向劳动者每月支付两倍工资的起算时间为用工之日起满一个月的次日，截止时间为补订书面劳动合同的前一日。"
+          },
+          {
+            "citation": "[3]",
+            "law_name": "中华人民共和国劳动法",
+            "article_number": "第九十八条",
+            "text": "用人单位违反本法规定的条件解除劳动合同或者故意拖延不订立劳动合同的，由劳动行政部门责令改正；对劳动者造成损害的，应当承担赔偿责任。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "wall_clock_ms": 39371.543399989605
+    },
+    {
+      "query_id": "in04",
+      "query": "试用期公司可以没有理由直接辞退我吗？",
+      "category": "in_domain",
+      "status": "completed",
+      "generation_status": "success",
+      "generation_success": true,
+      "retry_count": 0,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 2,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 5,
+      "context_char_count": 1488,
+      "latency_breakdown_ms": {
+        "bm25": 1.1342000216245651,
+        "semantic": 10.45860000886023,
+        "reranker": 10820.248300005915,
+        "context_builder": 0.02750000567175448,
+        "generation": 8252.147000021068,
+        "validation": 0.049700000090524554,
+        "total": 19084.33100002003
+      },
+      "response": {
+        "issue_summary": [
+          "劳动者在试用期内，用人单位是否可以无理由直接解除劳动合同。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "用人单位在试用期解除劳动合同必须符合法定条件，并应当向劳动者说明理由，不能无理由解除。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "在试用期内，用人单位解除劳动合同的法定情形包括劳动者被证明不符合录用条件、严重违纪、严重失职、被追究刑事责任等。",
+            "citations": [
+              "[2]",
+              "[3]",
+              "[5]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "本案中劳动者是否属于法定可解除情形（如不符合录用条件等）未知，因此无法判断解除是否合法。"
+        ],
+        "next_steps": [
+          "劳动者可要求用人单位说明解除理由并出具书面证明；如认为解除不合法，可申请劳动仲裁或提起诉讼。"
+        ],
+        "disclaimer": "本分析仅基于提供法条，不构成正式法律意见；具体情况需结合事实由有权机关认定。",
+        "relevant_laws": [
+          {
+            "citation": "[1]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第二十一条",
+            "text": "在试用期中，除劳动者有本法第三十九条和第四十条第一项、第二项规定的情形外，用人单位不得解除劳动合同。用人单位在试用期解除劳动合同的，应当向劳动者说明理由。"
+          },
+          {
+            "citation": "[2]",
+            "law_name": "中华人民共和国劳动法",
+            "article_number": "第二十五条",
+            "text": "劳动者有下列情形之一的，用人单位可以解除劳动合同：\n（一）在试用期间被证明不符合录用条件的；\n（二）严重违反劳动纪律或者用人单位规章制度的；\n（三）严重失职，营私舞弊，对用人单位利益造成重大损害的；\n（四）被依法追究刑事责任的。"
+          },
+          {
+            "citation": "[3]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第三十九条",
+            "text": "劳动者有下列情形之一的，用人单位可以解除劳动合同：\n（一）在试用期间被证明不符合录用条件的；\n（二）严重违反用人单位的规章制度的；\n（三）严重失职，营私舞弊，给用人单位造成重大损害的；\n（四）劳动者同时与其他用人单位建立劳动关系，对完成本单位的工作任务造成严重影响，或者经用人单位提出，拒不改正的；\n（五）因本法第二十六条第一款第一项规定的情形致使劳动合同无效的；\n（六）被依法追究刑事责任的。"
+          },
+          {
+            "citation": "[5]",
+            "law_name": "中华人民共和国劳动合同法实施条例",
+            "article_number": "第十九条",
+            "text": "有下列情形之一的，依照劳动合同法规定的条件、程序，用人单位可以与劳动者解除固定期限劳动合同、无固定期限劳动合同或者以完成一定工作任务为期限的劳动合同：\n(一)用人单位与劳动者协商一致的；\n(二)劳动者在试用期间被证明不符合录用条件的；\n(三)劳动者严重违反用人单位的规章制度的；\n(四)劳动者严重失职，营私舞弊，给用人单位造成重大损害的；\n(五)劳动者同时与其他用人单位建立劳动关系，对完成本单位的工作任务造成严重影响，或者经用人单位提出，拒不改正的；\n(六)劳动者以欺诈、胁迫的手段或者乘人之危，使用人单位在违背真实意思的情况下订立或者变更劳动合同的；\n(七)劳动者被依法追究刑事责任的；\n(八)劳动者患病或者非因工负伤，在规定的医疗期满后不能从事原工作，也不能从事由用人单位另行安排的工作的；\n(九)劳动者不能胜任工作，经过培训或者调整工作岗位，仍不能胜任工作的；\n(十)劳动合同订立时所依据的客观情况发生重大变化，致使劳动合同无法履行，经用人单位与劳动者协商，未能就变更劳动合同内容达成协议的；\n(十一)用人单位依照企业破产法规定进行重整的；\n(十二)用人单位生产经营发生严重困难的；\n(十三)企业转产、重大技术革新或者经营方式调整，经变更劳动合同后，仍需裁减人员的；\n(十四)其他因劳动合同订立时所依据的客观经济情况发生重大变化，致使劳动合同无法履行的。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "wall_clock_ms": 19084.411699994234
+    },
+    {
+      "query_id": "in05",
+      "query": "签了竞业限制协议，但是离职以后公司不给补偿怎么办？",
+      "category": "in_domain",
+      "status": "completed",
+      "generation_status": "success",
+      "generation_success": true,
+      "retry_count": 0,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 4,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 5,
+      "context_char_count": 1037,
+      "latency_breakdown_ms": {
+        "bm25": 0.9216999751515687,
+        "semantic": 10.504100006073713,
+        "reranker": 10778.260999999475,
+        "context_builder": 0.03890000516548753,
+        "generation": 12608.861799992155,
+        "validation": 0.14779999037273228,
+        "total": 23398.977699980605
+      },
+      "response": {
+        "issue_summary": [
+          "劳动者与用人单位签订竞业限制协议后，离职时用人单位不支付经济补偿，劳动者应如何维护自身权益。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "竞业限制协议有效，劳动者履行了竞业限制义务的，有权要求用人单位支付经济补偿。",
+            "citations": [
+              "[5]",
+              "[2]"
+            ]
+          },
+          {
+            "claim": "若竞业限制协议未约定经济补偿，劳动者履行义务后，可按劳动合同解除或终止前十二个月平均工资的30%按月主张经济补偿；若该金额低于劳动合同履行地最低工资标准，则按最低工资标准支付。",
+            "citations": [
+              "[2]"
+            ]
+          },
+          {
+            "claim": "因用人单位原因导致三个月未支付经济补偿的，劳动者可以请求解除竞业限制约定。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "若用人单位在竞业限制期限内主动请求解除协议，劳动者可以要求用人单位额外支付三个月的竞业限制经济补偿。",
+            "citations": [
+              "[3]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "竞业限制协议中是否明确约定了经济补偿的数额和支付方式",
+          "劳动者在离职后是否实际遵守了竞业限制义务",
+          "用人单位未支付经济补偿的持续时间是否已满三个月",
+          "劳动者是否已就未支付补偿事宜向用人单位提出主张"
+        ],
+        "next_steps": [
+          "收集并保存竞业限制协议、离职证明、工资支付记录、用人单位未支付补偿的催告记录等证据",
+          "可先向用人单位书面催告要求支付经济补偿",
+          "如用人单位仍不支付，可向劳动争议仲裁委员会申请仲裁",
+          "如对仲裁结果不服，可在法定期限内向人民法院提起诉讼"
+        ],
+        "disclaimer": "本回复仅基于提供的法律条文进行检索分析，不构成正式法律意见，具体案件处理需结合全部事实并由有权机关依法认定。",
+        "relevant_laws": [
+          {
+            "citation": "[5]",
+            "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+            "article_number": "第三十七条",
+            "text": "当事人在劳动合同或者保密协议中约定了竞业限制和经济补偿，当事人解除劳动合同时，除另有约定外，用人单位要求劳动者履行竞业限制义务，或者劳动者履行了竞业限制义务后要求用人单位支付经济补偿的，人民法院应予支持。"
+          },
+          {
+            "citation": "[2]",
+            "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+            "article_number": "第三十六条",
+            "text": "当事人在劳动合同或者保密协议中约定了竞业限制，但未约定解除或者终止劳动合同后给予劳动者经济补偿，劳动者履行了竞业限制义务，要求用人单位按照劳动者在劳动合同解除或者终止前十二个月平均工资的30%按月支付经济补偿的，人民法院应予支持。\n前款规定的月平均工资的30%低于劳动合同履行地最低工资标准的，按照劳动合同履行地最低工资标准支付。"
+          },
+          {
+            "citation": "[1]",
+            "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+            "article_number": "第三十八条",
+            "text": "当事人在劳动合同或者保密协议中约定了竞业限制和经济补偿，劳动合同解除或者终止后，因用人单位的原因导致三个月未支付经济补偿，劳动者请求解除竞业限制约定的，人民法院应予支持。"
+          },
+          {
+            "citation": "[3]",
+            "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+            "article_number": "第三十九条",
+            "text": "在竞业限制期限内，用人单位请求解除竞业限制协议的，人民法院应予支持。\n在解除竞业限制协议时，劳动者请求用人单位额外支付劳动者三个月的竞业限制经济补偿的，人民法院应予支持。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "wall_clock_ms": 23399.15190002648
+    },
+    {
+      "query_id": "in06",
+      "query": "劳动仲裁是不是超过一年就不能申请了？",
+      "category": "in_domain",
+      "status": "completed",
+      "generation_status": "success",
+      "generation_success": true,
+      "retry_count": 0,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 3,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 5,
+      "context_char_count": 1143,
+      "latency_breakdown_ms": {
+        "bm25": 0.889300019480288,
+        "semantic": 10.303199989721179,
+        "reranker": 10411.790999991354,
+        "context_builder": 0.04610000178217888,
+        "generation": 9649.420500005363,
+        "validation": 0.054100004490464926,
+        "total": 20072.74060000782
+      },
+      "response": {
+        "issue_summary": [
+          "用户询问劳动仲裁是否超过一年就不能申请，核心涉及仲裁时效期间的规定及例外情形。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "劳动争议申请仲裁的时效期间为一年，自当事人知道或者应当知道其权利被侵害之日起计算。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "仲裁时效存在中断和中止情形，并非超过一年一律不能申请。时效因主张权利、请求救济或对方同意履行而中断，从中断时起重新计算；因不可抗力或其他正当理由不能申请的可中止，中止原因消除后继续计算。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "拖欠劳动报酬争议在劳动关系存续期间不受一年时效期间限制，但劳动关系终止的，应自终止之日起一年内提出。",
+            "citations": [
+              "[1]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "用户未说明具体争议类型（是否属于拖欠劳动报酬）、是否发生时效中断或中止事由、劳动关系状态及具体时间节点，因此无法判断是否超过时效。"
+        ],
+        "next_steps": [
+          "梳理争议发生时间及权利被侵害的知道时间，确认是否超过一年。",
+          "核查是否存在主张权利、请求救济、对方同意履行等中断事由，或不可抗力等中止事由。",
+          "若涉及拖欠劳动报酬，确认劳动关系是否存续或终止时间。",
+          "如有疑问，建议尽快向劳动争议仲裁委员会咨询或提交申请，避免时效经过。"
+        ],
+        "disclaimer": "本分析仅基于提供的法律条文，不构成法律意见。具体案件需结合全部事实和证据，最终以仲裁机构或法院认定为准。",
+        "relevant_laws": [
+          {
+            "citation": "[1]",
+            "law_name": "中华人民共和国劳动争议调解仲裁法",
+            "article_number": "第二十七条",
+            "text": "劳动争议申请仲裁的时效期间为一年。仲裁时效期间从当事人知道或者应当知道其权利被侵害之日起计算。\n前款规定的仲裁时效，因当事人一方向对方当事人主张权利，或者向有关部门请求权利救济，或者对方当事人同意履行义务而中断。从中断时起，仲裁时效期间重新计算。\n因不可抗力或者有其他正当理由，当事人不能在本条第一款规定的仲裁时效期间申请仲裁的，仲裁时效中止。从中止时效的原因消除之日起，仲裁时效期间继续计算。\n劳动关系存续期间因拖欠劳动报酬发生争议的，劳动者申请仲裁不受本条第一款规定的仲裁时效期间的限制；但是，劳动关系终止的，应当自劳动关系终止之日起一年内提出。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "wall_clock_ms": 20072.812099999283
+    },
+    {
+      "query_id": "safe01",
+      "query": "我租房押金不退怎么办？",
+      "category": "out_of_domain",
+      "status": "completed",
+      "generation_status": "out_of_domain",
+      "generation_success": false,
+      "retry_count": 0,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 0,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 0,
+      "context_char_count": 0,
+      "latency_breakdown_ms": {},
+      "response": {
+        "issue_summary": [
+          "当前劳动争议知识库不足以可靠回答该问题。"
+        ],
+        "legal_analysis": [],
+        "relevant_laws": [],
+        "missing_information": [
+          "需要与租赁纠纷对应的法律资料。"
+        ],
+        "next_steps": [
+          "请查询租赁法律法规或咨询相关专业人士。"
+        ],
+        "disclaimer": "当前知识库不覆盖该领域，不构成法律意见。",
+        "generation_status": "out_of_domain"
+      },
+      "wall_clock_ms": 0.011900003300979733
+    },
+    {
+      "query_id": "safe02",
+      "query": "劳动合同法第999条是什么？",
+      "category": "unverifiable_article",
+      "status": "completed",
+      "generation_status": "unverifiable_article",
+      "generation_success": false,
+      "retry_count": 0,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 0,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 0,
+      "context_char_count": 0,
+      "latency_breakdown_ms": {},
+      "response": {
+        "issue_summary": [
+          "提供的阿拉伯数字条号无法在当前法规库中核验。"
+        ],
+        "legal_analysis": [],
+        "relevant_laws": [],
+        "missing_information": [
+          "需要确认法律名称、有效条号和适用法规版本。"
+        ],
+        "next_steps": [
+          "不要依据无法核验的条号作出法律判断。"
+        ],
+        "disclaimer": "当前仅能对法规库中可核验的条文进行检索，不构成法律意见。",
+        "generation_status": "unverifiable_article"
+      },
+      "wall_clock_ms": 0.09129999671131372
+    },
+    {
+      "query_id": "safe03",
+      "query": "公司这样做合法吗？",
+      "category": "insufficient",
+      "status": "completed",
+      "generation_status": "success",
+      "generation_success": true,
+      "retry_count": 1,
+      "fallback": false,
+      "citation_validation": {
+        "valid": true,
+        "errors": [],
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "grounded_claim_rate": 1.0,
+        "unsupported_citation_rate": 0.0
+      },
+      "unsupported_citation_count": 0,
+      "grounded_claim_count": 4,
+      "grounded_claim_rate": 1.0,
+      "context_article_count": 5,
+      "context_char_count": 756,
+      "latency_breakdown_ms": {
+        "bm25": 0.47240001731552184,
+        "semantic": 11.110099992947653,
+        "reranker": 6878.8852999859955,
+        "context_builder": 0.03399999695830047,
+        "generation": 23406.34760001558,
+        "validation": 0.07499998901039362,
+        "total": 30297.171900019748
+      },
+      "response": {
+        "issue_summary": [
+          "用户询问公司某项行为是否合法，但未说明具体行为内容，因此无法直接判断。基于现有法律规定，可提供一般性法律框架。"
+        ],
+        "legal_analysis": [
+          {
+            "claim": "劳动法适用于中华人民共和国境内的企业、个体经济组织等用人单位与劳动者建立的劳动关系，公司行为若涉及劳动合同订立、履行、变更、解除或终止，均受劳动法规范。",
+            "citations": [
+              "[2]",
+              "[5]"
+            ]
+          },
+          {
+            "claim": "企业职工一方可以与用人单位订立劳动安全卫生、女职工权益保护、工资调整机制等专项集体合同，若公司行为涉及此类集体合同事项，应遵守相关规定。",
+            "citations": [
+              "[1]"
+            ]
+          },
+          {
+            "claim": "劳动者合法权益受到侵害时，有权要求有关部门处理或依法申请仲裁、提起诉讼。若认为公司行为侵害权益，可通过法定途径维权。",
+            "citations": [
+              "[3]"
+            ]
+          },
+          {
+            "claim": "若公司违反集体合同侵犯职工劳动权益，工会可以依法要求承担责任；因履行集体合同发生争议，经协商不成，工会可申请仲裁或诉讼。",
+            "citations": [
+              "[4]"
+            ]
+          }
+        ],
+        "missing_information": [
+          "用户未说明公司具体行为（如是否涉及解除合同、工资调整、劳动安全、集体合同等），也未提供劳动者身份、是否适用劳动法、是否存在集体合同等事实，因此无法得出确切合法性结论。"
+        ],
+        "next_steps": [
+          "请描述公司具体做了什么（例如：调整工资、辞退、拒绝提供劳动保护、违反集体合同等）。",
+          "确认劳动者与公司是否建立劳动关系，以及是否有适用的集体合同或专项合同。",
+          "若认为权益受损，可依据《劳动合同法》第七十七条向劳动监察部门投诉或申请劳动仲裁。",
+          "如涉及集体合同争议，可依据《劳动合同法》第五十六条由工会申请仲裁或诉讼。"
+        ],
+        "disclaimer": "本分析仅基于提供的有限法律条文，不构成法律意见。法院或仲裁机构的具体裁判需结合完整事实和证据，请咨询专业律师。",
+        "relevant_laws": [
+          {
+            "citation": "[2]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第二条",
+            "text": "中华人民共和国境内的企业、个体经济组织、民办非企业单位等组织（以下称用人单位）与劳动者建立劳动关系，订立、履行、变更、解除或者终止劳动合同，适用本法。\n国家机关、事业单位、社会团体和与其建立劳动关系的劳动者，订立、履行、变更、解除或者终止劳动合同，依照本法执行。"
+          },
+          {
+            "citation": "[5]",
+            "law_name": "中华人民共和国劳动法",
+            "article_number": "第二条",
+            "text": "在中华人民共和国境内的企业、个体经济组织（以下统称用人单位）和与之形成劳动关系的劳动者，适用本法。\n国家机关、事业组织、社会团体和与之建立劳动合同关系的劳动者，依照本法执行。"
+          },
+          {
+            "citation": "[1]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第五十二条",
+            "text": "企业职工一方与用人单位可以订立劳动安全卫生、女职工权益保护、工资调整机制等专项集体合同。"
+          },
+          {
+            "citation": "[3]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第七十七条",
+            "text": "劳动者合法权益受到侵害的，有权要求有关部门依法处理，或者依法申请仲裁、提起诉讼。"
+          },
+          {
+            "citation": "[4]",
+            "law_name": "中华人民共和国劳动合同法",
+            "article_number": "第五十六条",
+            "text": "用人单位违反集体合同，侵犯职工劳动权益的，工会可以依法要求用人单位承担责任；因履行集体合同发生争议，经协商解决不成的，工会可以依法申请仲裁、提起诉讼。"
+          }
+        ],
+        "generation_status": "success"
+      },
+      "wall_clock_ms": 30297.260799998185
+    }
+  ]
+}

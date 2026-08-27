@@ -1,0 +1,795 @@
+{
+  "original_query": "劳动仲裁申请书要写什么",
+  "structured_understanding": {
+    "original_query": "劳动仲裁申请书要写什么",
+    "domain": "劳动争议",
+    "issue": "劳动仲裁申请书的法定内容与格式要求",
+    "user_intent": "用户需要了解撰写劳动仲裁申请书时应包含哪些内容，以便准备申请材料",
+    "legal_concepts": [
+      "劳动仲裁",
+      "仲裁申请书",
+      "仲裁请求",
+      "事实与理由",
+      "证据"
+    ],
+    "search_queries": [
+      "劳动仲裁申请书 格式 内容要求",
+      "劳动争议仲裁 申请书 必备条款",
+      "劳动仲裁申请书 范文 写法"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "劳动仲裁申请书要写什么",
+    "劳动仲裁申请书 格式 内容要求",
+    "劳动争议仲裁 申请书 必备条款"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 9160.068899975158
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第二十八条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "50ec4b0030f6faee5fb4"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 60,
+      "reranking_candidate_count": 60,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 111,
+      "reranking_candidate_count": 111,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 47.974999994039536,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 14909.68271663587,
+  "final_retrieval_ranking": [
+    {
+      "id": "50ec4b0030f6faee5fb4",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十八条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 7.644255003023254,
+      "rank": 1,
+      "canonical_id": "50ec4b0030f6faee5fb4",
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 2
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 4
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 5
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 7.644255003023254
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 7.644255003023254
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 8.188806067321446
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 1
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.7182235717773438
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.6810026168823242
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6635103225708008
+        }
+      ],
+      "pre_rerank_score": 0.09631897551153237,
+      "bm25_rank": 2,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7182235717773438,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9991672039031982,
+      "final_rank": 1
+    },
+    {
+      "id": "7ea2bafd1507034028bc",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第四十条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "7ea2bafd1507034028bc",
+      "rank": 2,
+      "similarity_score": 0.6833178400993347,
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 3
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 7
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6833178400993347
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.6363597512245178
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6355199217796326
+        }
+      ],
+      "pre_rerank_score": 0.044882896049597755,
+      "bm25_rank": null,
+      "semantic_rank": 3,
+      "bm25_score": null,
+      "semantic_similarity": 0.6833178400993347,
+      "pre_rerank_rank": 24,
+      "reranker_score": 0.9814437627792358,
+      "final_rank": 2
+    },
+    {
+      "id": "c0c42e00153c62afad78",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第四十二条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "c0c42e00153c62afad78",
+      "rank": 3,
+      "similarity_score": 0.6711940765380859,
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 6
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 8
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 14
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6711940765380859
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.6337964534759521
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6300787925720215
+        }
+      ],
+      "pre_rerank_score": 0.043370911017969846,
+      "bm25_rank": null,
+      "semantic_rank": 6,
+      "bm25_score": null,
+      "semantic_similarity": 0.6711940765380859,
+      "pre_rerank_rank": 25,
+      "reranker_score": 0.9692474603652954,
+      "final_rank": 3
+    },
+    {
+      "id": "4abbb7d165632bc243e7",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十二条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 4.7471707556043174,
+      "rank": 4,
+      "canonical_id": "4abbb7d165632bc243e7",
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 7
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 2
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 13
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 4.7471707556043174
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 7.824480737552309
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 5.5560459954695975
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 5
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 4
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6734104156494141
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.6524225473403931
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6486141085624695
+        }
+      ],
+      "pre_rerank_score": 0.09114726629860995,
+      "bm25_rank": 2,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.6734104156494141,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9657951593399048,
+      "final_rank": 4
+    },
+    {
+      "id": "2958223eff2a246cee7c",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第四十六条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 3.786858172660077,
+      "rank": 5,
+      "canonical_id": "2958223eff2a246cee7c",
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 40
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 41
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 3.786858172660077
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 4.591799132704878
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 4
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 2
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6793433427810669
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.6629588603973389
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6599487066268921
+        }
+      ],
+      "pre_rerank_score": 0.06778405461513894,
+      "bm25_rank": 40,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6793433427810669,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.9578821659088135,
+      "final_rank": 5
+    },
+    {
+      "id": "6f87053b7685d832f1a8",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十四条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 4.253376288723646,
+      "rank": 6,
+      "canonical_id": "6f87053b7685d832f1a8",
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 21
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 39
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 27
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 4.253376288723646
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 4.253376288723646
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 4.976345679426882
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 2
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 3
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6907670497894287
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.656895637512207
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6537407636642456
+        }
+      ],
+      "pre_rerank_score": 0.08181600599101527,
+      "bm25_rank": 21,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6907670497894287,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.9512540102005005,
+      "final_rank": 6
+    },
+    {
+      "id": "0bacfb74ff62f979f4fc",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第十二条",
+      "chapter": "第二章调 解",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "0bacfb74ff62f979f4fc",
+      "rank": 7,
+      "similarity_score": 0.6248164772987366,
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 22
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 27
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6248164772987366
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.5978661179542542
+        }
+      ],
+      "pre_rerank_score": 0.02368937482478273,
+      "bm25_rank": null,
+      "semantic_rank": 22,
+      "bm25_score": null,
+      "semantic_similarity": 0.6248164772987366,
+      "pre_rerank_rank": 60,
+      "reranker_score": 0.9511816501617432,
+      "final_rank": 7
+    },
+    {
+      "id": "6ca1e20fa6730d4fbc68",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第三十条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 11.203753383415307,
+      "rank": 8,
+      "canonical_id": "6ca1e20fa6730d4fbc68",
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 1
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 1
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 11.203753383415307
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 11.203753383415307
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 12.004431777720702
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 7
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 5
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6589506268501282
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.6394630670547485
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6464313864707947
+        }
+      ],
+      "pre_rerank_score": 0.09464183153931136,
+      "bm25_rank": 1,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6589506268501282,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9219388365745544,
+      "final_rank": 8
+    },
+    {
+      "id": "31c8454c3c5fe890ab51",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第七十九条",
+      "chapter": "第十章劳动争议",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 4.947005960983661,
+      "rank": 9,
+      "canonical_id": "31c8454c3c5fe890ab51",
+      "matched_queries": [
+        "劳动仲裁申请书要写什么",
+        "劳动仲裁申请书 格式 内容要求",
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 3
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 3
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 10
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 4.947005960983661
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 7.723144215483497
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 5.835092977407816
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "rank": 13
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "rank": 28
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 16
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动仲裁申请书要写什么",
+          "score": 0.6335233449935913
+        },
+        {
+          "query": "劳动仲裁申请书 格式 内容要求",
+          "score": 0.5977880954742432
+        },
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6294896602630615
+        }
+      ],
+      "pre_rerank_score": 0.0842519072692108,
+      "bm25_rank": 3,
+      "semantic_rank": 13,
+      "semantic_similarity": 0.6335233449935913,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.9010177850723267,
+      "final_rank": 9
+    },
+    {
+      "id": "fd3a9a641abb653b75ef",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第十四条",
+      "chapter": "第二章调 解",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "canonical_id": "fd3a9a641abb653b75ef",
+      "rank": 10,
+      "similarity_score": 0.6105486750602722,
+      "matched_queries": [
+        "劳动争议仲裁 申请书 必备条款"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "rank": 48
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳动争议仲裁 申请书 必备条款",
+          "score": 0.6105486750602722
+        }
+      ],
+      "pre_rerank_score": 0.009259259259259259,
+      "bm25_rank": null,
+      "semantic_rank": 48,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 107,
+      "reranker_score": 0.8909053802490234,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "50ec4b0030f6faee5fb4": 1
+  }
+}

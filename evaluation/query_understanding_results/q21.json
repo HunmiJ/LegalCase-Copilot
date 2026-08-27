@@ -1,0 +1,1202 @@
+{
+  "original_query": "劳动仲裁申请书要写什么",
+  "structured_understanding": {
+    "original_query": "劳动仲裁申请书要写什么",
+    "domain": "劳动争议",
+    "issue": "劳动争议仲裁、仲裁时效、一年",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "劳动争议仲裁",
+      "仲裁时效",
+      "一年"
+    ],
+    "search_queries": [
+      "劳动仲裁申请书要写什么",
+      "劳动争议仲裁 仲裁时效 一年",
+      "劳动争议 劳动争议仲裁 仲裁时效 一年"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "劳动仲裁申请书要写什么",
+    "劳动争议仲裁 仲裁时效 一年",
+    "劳动争议 劳动争议仲裁 仲裁时效 一年"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第二十八条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "50ec4b0030f6faee5fb4"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "50ec4b0030f6faee5fb4": 1
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 50,
+      "reranking_candidate_count": 50,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 93,
+      "reranking_candidate_count": 93,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "50ec4b0030f6faee5fb4": 23
+    }
+  },
+  "query_understanding_latency_ms": 0.000600004568696022,
+  "multi_query_retrieval_latency_ms": 24.380999995628372,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "50ec4b0030f6faee5fb4",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "50ec4b0030f6faee5fb4",
+        "rank": 1,
+        "similarity_score": 0.7182235717773438,
+        "reranker_score": 0.9991672039031982,
+        "final_rank": 1
+      },
+      {
+        "id": "7ea2bafd1507034028bc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "7ea2bafd1507034028bc",
+        "rank": 2,
+        "similarity_score": 0.6833178400993347,
+        "reranker_score": 0.9814437627792358,
+        "final_rank": 2
+      },
+      {
+        "id": "c0c42e00153c62afad78",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十二条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "c0c42e00153c62afad78",
+        "rank": 3,
+        "similarity_score": 0.6711940765380859,
+        "reranker_score": 0.9692474603652954,
+        "final_rank": 3
+      },
+      {
+        "id": "4abbb7d165632bc243e7",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十二条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "4abbb7d165632bc243e7",
+        "rank": 4,
+        "similarity_score": 0.6734104156494141,
+        "reranker_score": 0.9657951593399048,
+        "final_rank": 4
+      },
+      {
+        "id": "2958223eff2a246cee7c",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十六条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "2958223eff2a246cee7c",
+        "rank": 5,
+        "similarity_score": 0.6793433427810669,
+        "reranker_score": 0.9578821659088135,
+        "final_rank": 5
+      },
+      {
+        "id": "6f87053b7685d832f1a8",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十四条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "6f87053b7685d832f1a8",
+        "rank": 6,
+        "similarity_score": 0.6907670497894287,
+        "reranker_score": 0.9512540102005005,
+        "final_rank": 6
+      },
+      {
+        "id": "0bacfb74ff62f979f4fc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第十二条",
+        "chapter": "第二章调 解",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "0bacfb74ff62f979f4fc",
+        "rank": 7,
+        "similarity_score": 0.6248164772987366,
+        "reranker_score": 0.9511816501617432,
+        "final_rank": 7
+      },
+      {
+        "id": "6ca1e20fa6730d4fbc68",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第三十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "6ca1e20fa6730d4fbc68",
+        "rank": 8,
+        "similarity_score": 0.6589506268501282,
+        "reranker_score": 0.9219387173652649,
+        "final_rank": 8
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "rank": 9,
+        "similarity_score": 0.6335233449935913,
+        "reranker_score": 0.9010179042816162,
+        "final_rank": 9
+      },
+      {
+        "id": "b0ede4f0841876db556b",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十二条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b0ede4f0841876db556b",
+        "rank": 10,
+        "similarity_score": 0.6225382685661316,
+        "reranker_score": 0.8881145715713501,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "50ec4b0030f6faee5fb4",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 7.644255003023254,
+        "rank": 1,
+        "canonical_id": "50ec4b0030f6faee5fb4",
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7182235717773438,
+        "rrf_score": 0.03252247488101534,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9991672039031982,
+        "final_rank": 1
+      },
+      {
+        "id": "7ea2bafd1507034028bc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "7ea2bafd1507034028bc",
+        "rank": 2,
+        "similarity_score": 0.6833178400993347,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6833178400993347,
+        "rrf_score": 0.015873015873015872,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 27,
+        "reranker_score": 0.9814437627792358,
+        "final_rank": 2
+      },
+      {
+        "id": "c0c42e00153c62afad78",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十二条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "c0c42e00153c62afad78",
+        "rank": 3,
+        "similarity_score": 0.6711940765380859,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6711940765380859,
+        "rrf_score": 0.015151515151515152,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 29,
+        "reranker_score": 0.9692474603652954,
+        "final_rank": 3
+      },
+      {
+        "id": "4abbb7d165632bc243e7",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十二条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.7471707556043174,
+        "rank": 4,
+        "canonical_id": "4abbb7d165632bc243e7",
+        "bm25_rank": 7,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6734104156494141,
+        "rrf_score": 0.030309988518943745,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9657951593399048,
+        "final_rank": 4
+      },
+      {
+        "id": "2958223eff2a246cee7c",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十六条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 3.786858172660077,
+        "rank": 5,
+        "canonical_id": "2958223eff2a246cee7c",
+        "bm25_rank": 40,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6793433427810669,
+        "rrf_score": 0.025625000000000002,
+        "hybrid_rank": 9,
+        "reranker_score": 0.957882285118103,
+        "final_rank": 5
+      },
+      {
+        "id": "6f87053b7685d832f1a8",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十四条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 4.253376288723646,
+        "rank": 6,
+        "canonical_id": "6f87053b7685d832f1a8",
+        "bm25_rank": 21,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6907670497894287,
+        "rrf_score": 0.028474711270410194,
+        "hybrid_rank": 5,
+        "reranker_score": 0.9512540102005005,
+        "final_rank": 6
+      },
+      {
+        "id": "0bacfb74ff62f979f4fc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第十二条",
+        "chapter": "第二章调 解",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "0bacfb74ff62f979f4fc",
+        "rank": 7,
+        "similarity_score": 0.6248164772987366,
+        "semantic_rank": 22,
+        "semantic_similarity": 0.6248164772987366,
+        "rrf_score": 0.012195121951219513,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 43,
+        "reranker_score": 0.9511816501617432,
+        "final_rank": 7
+      },
+      {
+        "id": "6ca1e20fa6730d4fbc68",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第三十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 11.203753383415307,
+        "rank": 8,
+        "canonical_id": "6ca1e20fa6730d4fbc68",
+        "bm25_rank": 1,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6589506268501282,
+        "rrf_score": 0.03131881575727918,
+        "hybrid_rank": 2,
+        "reranker_score": 0.9219387173652649,
+        "final_rank": 8
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.947005960983661,
+        "rank": 9,
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "bm25_rank": 3,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.6335233449935913,
+        "rrf_score": 0.029571646010002173,
+        "hybrid_rank": 4,
+        "reranker_score": 0.9010179042816162,
+        "final_rank": 9
+      },
+      {
+        "id": "b0ede4f0841876db556b",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十二条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 4.253081273270503,
+        "rank": 10,
+        "canonical_id": "b0ede4f0841876db556b",
+        "bm25_rank": 22,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.6225382685661316,
+        "rrf_score": 0.02424331472230385,
+        "hybrid_rank": 16,
+        "reranker_score": 0.8881145715713501,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "50ec4b0030f6faee5fb4",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 7.644255003023254,
+        "rank": 1,
+        "canonical_id": "50ec4b0030f6faee5fb4",
+        "matched_queries": [
+          "劳动仲裁申请书要写什么",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 33
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 42
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 7.644255003023254
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 6.950513840727542
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 8.830367113691112
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 1
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.7182235717773438
+          }
+        ],
+        "pre_rerank_score": 0.0530790846216858,
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7182235717773438,
+        "pre_rerank_rank": 23,
+        "reranker_score": 0.9991672039031982,
+        "final_rank": 1
+      },
+      {
+        "id": "7ea2bafd1507034028bc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "7ea2bafd1507034028bc",
+        "rank": 2,
+        "similarity_score": 0.6833178400993347,
+        "matched_queries": [
+          "劳动仲裁申请书要写什么"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 3
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6833178400993347
+          }
+        ],
+        "pre_rerank_score": 0.015873015873015872,
+        "bm25_rank": null,
+        "semantic_rank": 3,
+        "bm25_score": null,
+        "semantic_similarity": 0.6833178400993347,
+        "pre_rerank_rank": 79,
+        "reranker_score": 0.9814437627792358,
+        "final_rank": 2
+      },
+      {
+        "id": "c0c42e00153c62afad78",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十二条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "c0c42e00153c62afad78",
+        "rank": 3,
+        "similarity_score": 0.6711940765380859,
+        "matched_queries": [
+          "劳动仲裁申请书要写什么"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6711940765380859
+          }
+        ],
+        "pre_rerank_score": 0.015151515151515152,
+        "bm25_rank": null,
+        "semantic_rank": 6,
+        "bm25_score": null,
+        "semantic_similarity": 0.6711940765380859,
+        "pre_rerank_rank": 80,
+        "reranker_score": 0.9692474603652954,
+        "final_rank": 3
+      },
+      {
+        "id": "4abbb7d165632bc243e7",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十二条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.7471707556043174,
+        "rank": 4,
+        "canonical_id": "4abbb7d165632bc243e7",
+        "matched_queries": [
+          "劳动仲裁申请书要写什么",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 8
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 4.7471707556043174
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 8.319761084305826
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 11.112091990939195
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 15
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6734104156494141
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6145322322845459
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6216737627983093
+          }
+        ],
+        "pre_rerank_score": 0.0875602916252609,
+        "bm25_rank": 7,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6734104156494141,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9657951593399048,
+        "final_rank": 4
+      },
+      {
+        "id": "2958223eff2a246cee7c",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十六条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 3.786858172660077,
+        "rank": 5,
+        "canonical_id": "2958223eff2a246cee7c",
+        "matched_queries": [
+          "劳动仲裁申请书要写什么",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 40
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 41
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 36
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 3.786858172660077
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 6.672917555103537
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.183598265409756
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 36
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6793433427810669
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5915221571922302
+          }
+        ],
+        "pre_rerank_score": 0.056359323432343233,
+        "bm25_rank": 36,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6793433427810669,
+        "pre_rerank_rank": 18,
+        "reranker_score": 0.957882285118103,
+        "final_rank": 5
+      },
+      {
+        "id": "6f87053b7685d832f1a8",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第二十四条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 4.253376288723646,
+        "rank": 6,
+        "canonical_id": "6f87053b7685d832f1a8",
+        "matched_queries": [
+          "劳动仲裁申请书要写什么",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 21
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 19
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 23
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 4.253376288723646
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.456917381958672
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.952691358853764
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 48
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6907670497894287
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5868584513664246
+          }
+        ],
+        "pre_rerank_score": 0.06244039114885505,
+        "bm25_rank": 19,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6907670497894287,
+        "pre_rerank_rank": 13,
+        "reranker_score": 0.9512540102005005,
+        "final_rank": 6
+      },
+      {
+        "id": "0bacfb74ff62f979f4fc",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第十二条",
+        "chapter": "第二章调 解",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "0bacfb74ff62f979f4fc",
+        "rank": 7,
+        "similarity_score": 0.6248164772987366,
+        "matched_queries": [
+          "劳动仲裁申请书要写什么"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 22
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6248164772987366
+          }
+        ],
+        "pre_rerank_score": 0.012195121951219513,
+        "bm25_rank": null,
+        "semantic_rank": 22,
+        "bm25_score": null,
+        "semantic_similarity": 0.6248164772987366,
+        "pre_rerank_rank": 82,
+        "reranker_score": 0.9511816501617432,
+        "final_rank": 7
+      },
+      {
+        "id": "6ca1e20fa6730d4fbc68",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第三十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 11.203753383415307,
+        "rank": 8,
+        "canonical_id": "6ca1e20fa6730d4fbc68",
+        "matched_queries": [
+          "劳动仲裁申请书要写什么",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 9
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 11.203753383415307
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 8.310688208434541
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 11.074722655903724
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 25
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 45
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6589506268501282
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5992926955223083
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5998178720474243
+          }
+        ],
+        "pre_rerank_score": 0.08180596713957122,
+        "bm25_rank": 1,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6589506268501282,
+        "pre_rerank_rank": 4,
+        "reranker_score": 0.9219387173652649,
+        "final_rank": 8
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.947005960983661,
+        "rank": 9,
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "matched_queries": [
+          "劳动仲裁申请书要写什么",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 4.947005960983661
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 8.604406831506079
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 11.670185954815631
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 13
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 18
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 13
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6335233449935913
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6091175079345703
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.623496413230896
+          }
+        ],
+        "pre_rerank_score": 0.08734842022513255,
+        "bm25_rank": 3,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.6335233449935913,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.9010179042816162,
+        "final_rank": 9
+      },
+      {
+        "id": "b0ede4f0841876db556b",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十二条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 4.253081273270503,
+        "rank": 10,
+        "canonical_id": "b0ede4f0841876db556b",
+        "matched_queries": [
+          "劳动仲裁申请书要写什么",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 22
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 25
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 4.253081273270503
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.515952521656825
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.869979536931687
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "rank": 23
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁申请书要写什么",
+            "score": 0.6225382685661316
+          }
+        ],
+        "pre_rerank_score": 0.048995033591669776,
+        "bm25_rank": 17,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.6225382685661316,
+        "pre_rerank_rank": 29,
+        "reranker_score": 0.8881144523620605,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "50ec4b0030f6faee5fb4": 1
+    },
+    "v04_reranked": {
+      "50ec4b0030f6faee5fb4": 1
+    },
+    "v05_multi_query_reranked": {
+      "50ec4b0030f6faee5fb4": 1
+    }
+  }
+}

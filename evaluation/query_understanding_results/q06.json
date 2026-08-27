@@ -1,0 +1,1156 @@
+{
+  "original_query": "公司没有通知工会就把我解雇了",
+  "structured_understanding": {
+    "original_query": "公司没有通知工会就把我解雇了",
+    "domain": "劳动争议",
+    "issue": "解除劳动合同、违法解除、经济补偿",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "解除劳动合同",
+      "违法解除",
+      "经济补偿",
+      "赔偿金"
+    ],
+    "search_queries": [
+      "公司没有通知工会就把我解雇了",
+      "解除劳动合同 违法解除 经济补偿 赔偿金",
+      "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "公司没有通知工会就把我解雇了",
+    "解除劳动合同 违法解除 经济补偿 赔偿金",
+    "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "article_number": "第四十七条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "b6d0fb44056ecdefe76c"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "b6d0fb44056ecdefe76c": 6
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 63,
+      "reranking_candidate_count": 63,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 131,
+      "reranking_candidate_count": 131,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "b6d0fb44056ecdefe76c": 1
+    }
+  },
+  "query_understanding_latency_ms": 0.000600004568696022,
+  "multi_query_retrieval_latency_ms": 25.975199998356402,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "b6d0fb44056ecdefe76c",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b6d0fb44056ecdefe76c",
+        "rank": 1,
+        "similarity_score": 0.566223680973053,
+        "reranker_score": 0.9601883888244629,
+        "final_rank": 1
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "rank": 2,
+        "similarity_score": 0.6589738130569458,
+        "reranker_score": 0.8641757965087891,
+        "final_rank": 2
+      },
+      {
+        "id": "aba8852401847a67264c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "aba8852401847a67264c",
+        "rank": 3,
+        "similarity_score": 0.5701043605804443,
+        "reranker_score": 0.628250777721405,
+        "final_rank": 3
+      },
+      {
+        "id": "e9adc8e7834e5162fa09",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十一条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "e9adc8e7834e5162fa09",
+        "rank": 4,
+        "similarity_score": 0.5146812200546265,
+        "reranker_score": 0.5489047169685364,
+        "final_rank": 4
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "rank": 5,
+        "similarity_score": 0.5718735456466675,
+        "reranker_score": 0.5353265404701233,
+        "final_rank": 5
+      },
+      {
+        "id": "daf7300f7458e59be7b2",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "daf7300f7458e59be7b2",
+        "rank": 6,
+        "similarity_score": 0.5407555103302002,
+        "reranker_score": 0.5191071033477783,
+        "final_rank": 6
+      },
+      {
+        "id": "68ed36cc6224a6ff338b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十八条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "68ed36cc6224a6ff338b",
+        "rank": 7,
+        "similarity_score": 0.5341439247131348,
+        "reranker_score": 0.5118820071220398,
+        "final_rank": 7
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "ce59fc8a7767d629495d",
+        "rank": 8,
+        "similarity_score": 0.512824535369873,
+        "reranker_score": 0.47443369030952454,
+        "final_rank": 8
+      },
+      {
+        "id": "ace340ffd8d88d546d04",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "ace340ffd8d88d546d04",
+        "rank": 9,
+        "similarity_score": 0.6405389308929443,
+        "reranker_score": 0.4590054750442505,
+        "final_rank": 9
+      },
+      {
+        "id": "ef1b029fa626124ad1e2",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "ef1b029fa626124ad1e2",
+        "rank": 10,
+        "similarity_score": 0.4983133375644684,
+        "reranker_score": 0.43291088938713074,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "b6d0fb44056ecdefe76c",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 8.651632124172938,
+        "rank": 1,
+        "canonical_id": "b6d0fb44056ecdefe76c",
+        "bm25_rank": 2,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.566223680973053,
+        "rrf_score": 0.03128054740957967,
+        "hybrid_rank": 2,
+        "reranker_score": 0.9601883888244629,
+        "final_rank": 1
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.134703813436333,
+        "rank": 2,
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "bm25_rank": 3,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6589738130569458,
+        "rrf_score": 0.032266458495966696,
+        "hybrid_rank": 1,
+        "reranker_score": 0.8641757965087891,
+        "final_rank": 2
+      },
+      {
+        "id": "aba8852401847a67264c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.037401138972173,
+        "rank": 3,
+        "canonical_id": "aba8852401847a67264c",
+        "bm25_rank": 19,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.5701043605804443,
+        "rrf_score": 0.028283227848101264,
+        "hybrid_rank": 7,
+        "reranker_score": 0.628250777721405,
+        "final_rank": 3
+      },
+      {
+        "id": "e9adc8e7834e5162fa09",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十一条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.6052889373274732,
+        "rank": 4,
+        "canonical_id": "e9adc8e7834e5162fa09",
+        "bm25_rank": 27,
+        "semantic_rank": 22,
+        "semantic_similarity": 0.5146812200546265,
+        "rrf_score": 0.02368937482478273,
+        "hybrid_rank": 16,
+        "reranker_score": 0.5489047169685364,
+        "final_rank": 4
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 3.1889362820140574,
+        "rank": 5,
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "bm25_rank": 39,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.5718735456466675,
+        "rrf_score": 0.025974025974025976,
+        "hybrid_rank": 11,
+        "reranker_score": 0.5353265404701233,
+        "final_rank": 5
+      },
+      {
+        "id": "daf7300f7458e59be7b2",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.9808892263821374,
+        "rank": 6,
+        "canonical_id": "daf7300f7458e59be7b2",
+        "bm25_rank": 20,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.5407555103302002,
+        "rrf_score": 0.02638888888888889,
+        "hybrid_rank": 10,
+        "reranker_score": 0.5191071033477783,
+        "final_rank": 6
+      },
+      {
+        "id": "68ed36cc6224a6ff338b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十八条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.343422527397837,
+        "rank": 7,
+        "canonical_id": "68ed36cc6224a6ff338b",
+        "bm25_rank": 17,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.5341439247131348,
+        "rrf_score": 0.02668564312399929,
+        "hybrid_rank": 9,
+        "reranker_score": 0.5118820071220398,
+        "final_rank": 7
+      },
+      {
+        "id": "0edc50b6000f7dea04f7",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.192017779190482,
+        "rank": 8,
+        "canonical_id": "0edc50b6000f7dea04f7",
+        "bm25_rank": 38,
+        "rrf_score": 0.01020408163265306,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 60,
+        "reranker_score": 0.4772273004055023,
+        "final_rank": 8
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "ce59fc8a7767d629495d",
+        "rank": 9,
+        "similarity_score": 0.512824535369873,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.512824535369873,
+        "rrf_score": 0.012048192771084338,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 37,
+        "reranker_score": 0.47443369030952454,
+        "final_rank": 9
+      },
+      {
+        "id": "ace340ffd8d88d546d04",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.494238222804723,
+        "rank": 10,
+        "canonical_id": "ace340ffd8d88d546d04",
+        "bm25_rank": 13,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6405389308929443,
+        "rrf_score": 0.029827662395050816,
+        "hybrid_rank": 3,
+        "reranker_score": 0.4590054750442505,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "b6d0fb44056ecdefe76c",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 8.651632124172938,
+        "rank": 1,
+        "canonical_id": "b6d0fb44056ecdefe76c",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了",
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 2
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 3
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 8.651632124172938
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 10.425194703772187
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 12.7123264094574
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 6
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 1
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.566223680973053
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6677814722061157
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.7028096914291382
+          }
+        ],
+        "pre_rerank_score": 0.09457153693007739,
+        "bm25_rank": 2,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.566223680973053,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9601883888244629,
+        "final_rank": 1
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 8.134703813436333,
+        "rank": 2,
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 3
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 48
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 8.134703813436333
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 4.598390972930239
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 1
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 30
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.6589738130569458
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6228644847869873
+          }
+        ],
+        "pre_rerank_score": 0.05263682886633707,
+        "bm25_rank": 3,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6589738130569458,
+        "pre_rerank_rank": 17,
+        "reranker_score": 0.8641757965087891,
+        "final_rank": 2
+      },
+      {
+        "id": "aba8852401847a67264c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第五十六条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.037401138972173,
+        "rank": 3,
+        "canonical_id": "aba8852401847a67264c",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了",
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 19
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 4.037401138972173
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 4
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 38
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 47
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.5701043605804443
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6140327453613281
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6290029287338257
+          }
+        ],
+        "pre_rerank_score": 0.04783310387327769,
+        "bm25_rank": 19,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.5701043605804443,
+        "pre_rerank_rank": 24,
+        "reranker_score": 0.628250777721405,
+        "final_rank": 3
+      },
+      {
+        "id": "e9adc8e7834e5162fa09",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十一条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.6052889373274732,
+        "rank": 4,
+        "canonical_id": "e9adc8e7834e5162fa09",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 27
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 3.6052889373274732
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 22
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.5146812200546265
+          }
+        ],
+        "pre_rerank_score": 0.02368937482478273,
+        "bm25_rank": 27,
+        "semantic_rank": 22,
+        "semantic_similarity": 0.5146812200546265,
+        "pre_rerank_rank": 59,
+        "reranker_score": 0.5489045977592468,
+        "final_rank": 4
+      },
+      {
+        "id": "a33f8c157bd11a0ba6f6",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十二条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 3.1889362820140574,
+        "rank": 5,
+        "canonical_id": "a33f8c157bd11a0ba6f6",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 39
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 3.1889362820140574
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 3
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 50
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.5718735456466675
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6054180264472961
+          }
+        ],
+        "pre_rerank_score": 0.03506493506493506,
+        "bm25_rank": 39,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.5718735456466675,
+        "pre_rerank_rank": 40,
+        "reranker_score": 0.5353265404701233,
+        "final_rank": 5
+      },
+      {
+        "id": "daf7300f7458e59be7b2",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十一条",
+        "chapter": "第五章特别规定",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.9808892263821374,
+        "rank": 6,
+        "canonical_id": "daf7300f7458e59be7b2",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了",
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 20
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 42
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 44
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 3.9808892263821374
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 5.022536299007018
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 6.483117562570594
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 12
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 46
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.5407555103302002
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6088756322860718
+          }
+        ],
+        "pre_rerank_score": 0.05524215733705189,
+        "bm25_rank": 20,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.5407555103302002,
+        "pre_rerank_rank": 12,
+        "reranker_score": 0.5191071033477783,
+        "final_rank": 6
+      },
+      {
+        "id": "68ed36cc6224a6ff338b",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第七十八条",
+        "chapter": "第六章监督检查",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.343422527397837,
+        "rank": 7,
+        "canonical_id": "68ed36cc6224a6ff338b",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 17
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 4.343422527397837
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 13
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.5341439247131348
+          }
+        ],
+        "pre_rerank_score": 0.02668564312399929,
+        "bm25_rank": 17,
+        "semantic_rank": 13,
+        "semantic_similarity": 0.5341439247131348,
+        "pre_rerank_rank": 51,
+        "reranker_score": 0.5118820071220398,
+        "final_rank": 7
+      },
+      {
+        "id": "0edc50b6000f7dea04f7",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第六条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.192017779190482,
+        "rank": 8,
+        "canonical_id": "0edc50b6000f7dea04f7",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 38
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 3.192017779190482
+          }
+        ],
+        "pre_rerank_score": 0.01020408163265306,
+        "bm25_rank": 38,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 109,
+        "reranker_score": 0.4772273004055023,
+        "final_rank": 8
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "ce59fc8a7767d629495d",
+        "rank": 9,
+        "similarity_score": 0.512824535369873,
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 23
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.512824535369873
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 50
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 6.108541414139339
+          }
+        ],
+        "pre_rerank_score": 0.02113910186199343,
+        "bm25_rank": 50,
+        "semantic_rank": 23,
+        "bm25_score": null,
+        "semantic_similarity": 0.512824535369873,
+        "pre_rerank_rank": 75,
+        "reranker_score": 0.47443369030952454,
+        "final_rank": 9
+      },
+      {
+        "id": "ace340ffd8d88d546d04",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第三十条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 4.494238222804723,
+        "rank": 10,
+        "canonical_id": "ace340ffd8d88d546d04",
+        "matched_queries": [
+          "公司没有通知工会就把我解雇了",
+          "解除劳动合同 违法解除 经济补偿 赔偿金",
+          "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 13
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 4.494238222804723
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "rank": 2
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 16
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 42
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司没有通知工会就把我解雇了",
+            "score": 0.6405389308929443
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6476476192474365
+          },
+          {
+            "query": "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6361722946166992
+          }
+        ],
+        "pre_rerank_score": 0.05278947870052037,
+        "bm25_rank": 13,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6405389308929443,
+        "pre_rerank_rank": 16,
+        "reranker_score": 0.4590054750442505,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "b6d0fb44056ecdefe76c": 1
+    },
+    "v04_reranked": {
+      "b6d0fb44056ecdefe76c": 1
+    },
+    "v05_multi_query_reranked": {
+      "b6d0fb44056ecdefe76c": 1
+    }
+  }
+}

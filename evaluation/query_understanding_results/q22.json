@@ -1,0 +1,1270 @@
+{
+  "original_query": "劳动仲裁裁决不服还能去法院吗",
+  "structured_understanding": {
+    "original_query": "劳动仲裁裁决不服还能去法院吗",
+    "domain": "劳动争议",
+    "issue": "劳动争议仲裁、仲裁时效、一年",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "劳动争议仲裁",
+      "仲裁时效",
+      "一年"
+    ],
+    "search_queries": [
+      "劳动仲裁裁决不服还能去法院吗",
+      "劳动争议仲裁 仲裁时效 一年",
+      "劳动争议 劳动争议仲裁 仲裁时效 一年"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "劳动仲裁裁决不服还能去法院吗",
+    "劳动争议仲裁 仲裁时效 一年",
+    "劳动争议 劳动争议仲裁 仲裁时效 一年"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "article_number": "第五条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "b282cee83e749718fdb7"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "b282cee83e749718fdb7": 6
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 65,
+      "reranking_candidate_count": 65,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 95,
+      "reranking_candidate_count": 95,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "b282cee83e749718fdb7": 24
+    }
+  },
+  "query_understanding_latency_ms": 0.0005999754648655653,
+  "multi_query_retrieval_latency_ms": 33.54689999832772,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "f5a0dd3410d534ce1555",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十三条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "f5a0dd3410d534ce1555",
+        "rank": 1,
+        "similarity_score": 0.7497062683105469,
+        "reranker_score": 0.9992827773094177,
+        "final_rank": 1
+      },
+      {
+        "id": "999fbe025a6903319147",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "999fbe025a6903319147",
+        "rank": 2,
+        "similarity_score": 0.7183593511581421,
+        "reranker_score": 0.9987163543701172,
+        "final_rank": 2
+      },
+      {
+        "id": "209d2a92bd3f2527d4de",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "209d2a92bd3f2527d4de",
+        "rank": 3,
+        "similarity_score": 0.744162917137146,
+        "reranker_score": 0.9983447790145874,
+        "final_rank": 3
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "rank": 4,
+        "similarity_score": 0.7248421907424927,
+        "reranker_score": 0.9975628852844238,
+        "final_rank": 4
+      },
+      {
+        "id": "fa55a1950e1df2f22147",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "fa55a1950e1df2f22147",
+        "rank": 5,
+        "similarity_score": 0.7385610938072205,
+        "reranker_score": 0.9972079396247864,
+        "final_rank": 5
+      },
+      {
+        "id": "08f5001a92efc74579b0",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第二十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "08f5001a92efc74579b0",
+        "rank": 6,
+        "similarity_score": 0.6600063443183899,
+        "reranker_score": 0.9963439106941223,
+        "final_rank": 6
+      },
+      {
+        "id": "b282cee83e749718fdb7",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "canonical_id": "b282cee83e749718fdb7",
+        "rank": 7,
+        "similarity_score": 0.721450924873352,
+        "reranker_score": 0.9959226846694946,
+        "final_rank": 7
+      },
+      {
+        "id": "f92e4af2c99b0aadd7cd",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "f92e4af2c99b0aadd7cd",
+        "rank": 8,
+        "similarity_score": 0.6797047257423401,
+        "reranker_score": 0.9950929880142212,
+        "final_rank": 8
+      },
+      {
+        "id": "9ecccd57419c08337370",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十四条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "9ecccd57419c08337370",
+        "rank": 9,
+        "similarity_score": 0.6692579388618469,
+        "reranker_score": 0.993054211139679,
+        "final_rank": 9
+      },
+      {
+        "id": "b8ecfa7ac84998420772",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "b8ecfa7ac84998420772",
+        "rank": 10,
+        "similarity_score": 0.6626919507980347,
+        "reranker_score": 0.9929301142692566,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "f5a0dd3410d534ce1555",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十三条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 10.65683828146662,
+        "rank": 1,
+        "canonical_id": "f5a0dd3410d534ce1555",
+        "bm25_rank": 4,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7497062683105469,
+        "rrf_score": 0.032018442622950824,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9992827773094177,
+        "final_rank": 1
+      },
+      {
+        "id": "999fbe025a6903319147",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.167376431959605,
+        "rank": 2,
+        "canonical_id": "999fbe025a6903319147",
+        "bm25_rank": 6,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.7183593511581421,
+        "rrf_score": 0.03007688828584351,
+        "hybrid_rank": 5,
+        "reranker_score": 0.9987163543701172,
+        "final_rank": 2
+      },
+      {
+        "id": "209d2a92bd3f2527d4de",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 10.086871780953077,
+        "rank": 3,
+        "canonical_id": "209d2a92bd3f2527d4de",
+        "bm25_rank": 7,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.744162917137146,
+        "rrf_score": 0.031054405392392875,
+        "hybrid_rank": 2,
+        "reranker_score": 0.9983447790145874,
+        "final_rank": 3
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 9.904560193420798,
+        "rank": 4,
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "bm25_rank": 9,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.7248421907424927,
+        "rrf_score": 0.030117753623188408,
+        "hybrid_rank": 4,
+        "reranker_score": 0.9975628852844238,
+        "final_rank": 4
+      },
+      {
+        "id": "fa55a1950e1df2f22147",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 9.45643734882071,
+        "rank": 5,
+        "canonical_id": "fa55a1950e1df2f22147",
+        "bm25_rank": 10,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.7385610938072205,
+        "rrf_score": 0.030158730158730156,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9972079396247864,
+        "final_rank": 5
+      },
+      {
+        "id": "08f5001a92efc74579b0",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第二十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.577383503667502,
+        "rank": 6,
+        "canonical_id": "08f5001a92efc74579b0",
+        "bm25_rank": 2,
+        "semantic_rank": 44,
+        "semantic_similarity": 0.6600063443183899,
+        "rrf_score": 0.02574441687344913,
+        "hybrid_rank": 11,
+        "reranker_score": 0.9963439106941223,
+        "final_rank": 6
+      },
+      {
+        "id": "b282cee83e749718fdb7",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 8.612055517065738,
+        "rank": 7,
+        "canonical_id": "b282cee83e749718fdb7",
+        "bm25_rank": 14,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.721450924873352,
+        "rrf_score": 0.028665028665028666,
+        "hybrid_rank": 6,
+        "reranker_score": 0.9959226846694946,
+        "final_rank": 7
+      },
+      {
+        "id": "f92e4af2c99b0aadd7cd",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.869427465540431,
+        "rank": 8,
+        "canonical_id": "f92e4af2c99b0aadd7cd",
+        "bm25_rank": 1,
+        "semantic_rank": 26,
+        "semantic_similarity": 0.6797047257423401,
+        "rrf_score": 0.028021349599695006,
+        "hybrid_rank": 8,
+        "reranker_score": 0.9950929880142212,
+        "final_rank": 8
+      },
+      {
+        "id": "9ecccd57419c08337370",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十四条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 9.163423012777677,
+        "rank": 9,
+        "canonical_id": "9ecccd57419c08337370",
+        "bm25_rank": 11,
+        "semantic_rank": 35,
+        "semantic_similarity": 0.6692579388618469,
+        "rrf_score": 0.024610822831727205,
+        "hybrid_rank": 18,
+        "reranker_score": 0.993054211139679,
+        "final_rank": 9
+      },
+      {
+        "id": "b8ecfa7ac84998420772",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.227233386924283,
+        "rank": 10,
+        "canonical_id": "b8ecfa7ac84998420772",
+        "bm25_rank": 3,
+        "semantic_rank": 42,
+        "semantic_similarity": 0.6626919507980347,
+        "rrf_score": 0.025676937441643323,
+        "hybrid_rank": 13,
+        "reranker_score": 0.9929301142692566,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "f5a0dd3410d534ce1555",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十三条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 10.65683828146662,
+        "rank": 1,
+        "canonical_id": "f5a0dd3410d534ce1555",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 23
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 28
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 10.65683828146662
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.295700476669942
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.727727528824175
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 1
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.7497062683105469
+          }
+        ],
+        "pre_rerank_score": 0.055430271757671526,
+        "bm25_rank": 4,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.7497062683105469,
+        "pre_rerank_rank": 17,
+        "reranker_score": 0.9992827773094177,
+        "final_rank": 1
+      },
+      {
+        "id": "999fbe025a6903319147",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 10.167376431959605,
+        "rank": 2,
+        "canonical_id": "999fbe025a6903319147",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 34
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 44
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 10.167376431959605
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 6.944497566649822
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 8.655455072430446
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 7
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.7183593511581421
+          }
+        ],
+        "pre_rerank_score": 0.050330570773568555,
+        "bm25_rank": 6,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.7183593511581421,
+        "pre_rerank_rank": 22,
+        "reranker_score": 0.9987163543701172,
+        "final_rank": 2
+      },
+      {
+        "id": "209d2a92bd3f2527d4de",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第四十八条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 10.086871780953077,
+        "rank": 3,
+        "canonical_id": "209d2a92bd3f2527d4de",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 42
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 46
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 10.086871780953077
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 6.620936984279881
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 8.612642801306306
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.744162917137146
+          }
+        ],
+        "pre_rerank_score": 0.05029228922517127,
+        "bm25_rank": 7,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.744162917137146,
+        "pre_rerank_rank": 23,
+        "reranker_score": 0.9983447790145874,
+        "final_rank": 3
+      },
+      {
+        "id": "31c8454c3c5fe890ab51",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第七十九条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 9.904560193420798,
+        "rank": 4,
+        "canonical_id": "31c8454c3c5fe890ab51",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 9
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 5
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 9.904560193420798
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 8.604406831506079
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 11.670185954815631
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 18
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 13
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.7248421907424927
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.6091175079345703
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.623496413230896
+          }
+        ],
+        "pre_rerank_score": 0.08789452783831879,
+        "bm25_rank": 3,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.7248421907424927,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9975628852844238,
+        "final_rank": 4
+      },
+      {
+        "id": "fa55a1950e1df2f22147",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五十条",
+        "chapter": "第三章仲 裁",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 9.45643734882071,
+        "rank": 5,
+        "canonical_id": "fa55a1950e1df2f22147",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 10
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 40
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 37
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 9.45643734882071
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 6.690139507720309
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.137796037749514
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 28
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 48
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.7385610938072205
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5968235731124878
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5992687940597534
+          }
+        ],
+        "pre_rerank_score": 0.07109090413214124,
+        "bm25_rank": 10,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.7385610938072205,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.9972079396247864,
+        "final_rank": 5
+      },
+      {
+        "id": "08f5001a92efc74579b0",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第二十条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.577383503667502,
+        "rank": 6,
+        "canonical_id": "08f5001a92efc74579b0",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 28
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 29
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 11.577383503667502
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.217720040263748
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.6190793966284
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 44
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.6600063443183899
+          }
+        ],
+        "pre_rerank_score": 0.048344008293265274,
+        "bm25_rank": 2,
+        "semantic_rank": 44,
+        "semantic_similarity": 0.6600063443183899,
+        "pre_rerank_rank": 27,
+        "reranker_score": 0.9963439106941223,
+        "final_rank": 6
+      },
+      {
+        "id": "b282cee83e749718fdb7",
+        "law_name": "中华人民共和国劳动争议调解仲裁法",
+        "article_number": "第五条",
+        "chapter": "第一章总 则",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+        "bm25_score": 8.612055517065738,
+        "rank": 7,
+        "canonical_id": "b282cee83e749718fdb7",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 14
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 35
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 32
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 8.612055517065738
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 6.921775018825056
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.454177789300806
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 6
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.721450924873352
+          }
+        ],
+        "pre_rerank_score": 0.05006090967189365,
+        "bm25_rank": 14,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.721450924873352,
+        "pre_rerank_rank": 24,
+        "reranker_score": 0.9959226846694946,
+        "final_rank": 7
+      },
+      {
+        "id": "f92e4af2c99b0aadd7cd",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第十六条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.869427465540431,
+        "rank": 8,
+        "canonical_id": "f92e4af2c99b0aadd7cd",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 12
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 11.869427465540431
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.902609353383893
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 10.793860479875141
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 26
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 44
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 47
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.6797047257423401
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5882726311683655
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 0.5995742082595825
+          }
+        ],
+        "pre_rerank_score": 0.07495592453874539,
+        "bm25_rank": 1,
+        "semantic_rank": 26,
+        "semantic_similarity": 0.6797047257423401,
+        "pre_rerank_rank": 5,
+        "reranker_score": 0.9950931072235107,
+        "final_rank": 8
+      },
+      {
+        "id": "9ecccd57419c08337370",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第八十四条",
+        "chapter": "第十章劳动争议",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 9.163423012777677,
+        "rank": 9,
+        "canonical_id": "9ecccd57419c08337370",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 13
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 18
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 9.163423012777677
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.628275436830101
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 10.303956391507457
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 35
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.6692579388618469
+          }
+        ],
+        "pre_rerank_score": 0.05112996578922633,
+        "bm25_rank": 11,
+        "semantic_rank": 35,
+        "semantic_similarity": 0.6692579388618469,
+        "pre_rerank_rank": 21,
+        "reranker_score": 0.993054211139679,
+        "final_rank": 9
+      },
+      {
+        "id": "b8ecfa7ac84998420772",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 11.227233386924283,
+        "rank": 10,
+        "canonical_id": "b8ecfa7ac84998420772",
+        "matched_queries": [
+          "劳动仲裁裁决不服还能去法院吗",
+          "劳动争议仲裁 仲裁时效 一年",
+          "劳动争议 劳动争议仲裁 仲裁时效 一年"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "rank": 30
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "rank": 27
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 11.227233386924283
+          },
+          {
+            "query": "劳动争议仲裁 仲裁时效 一年",
+            "score": 7.1496108991417575
+          },
+          {
+            "query": "劳动争议 劳动争议仲裁 仲裁时效 一年",
+            "score": 9.765369775957081
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "rank": 42
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "劳动仲裁裁决不服还能去法院吗",
+            "score": 0.6626919507980347
+          }
+        ],
+        "pre_rerank_score": 0.048282301426317654,
+        "bm25_rank": 3,
+        "semantic_rank": 42,
+        "semantic_similarity": 0.6626919507980347,
+        "pre_rerank_rank": 28,
+        "reranker_score": 0.9929301142692566,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "b282cee83e749718fdb7": 7
+    },
+    "v04_reranked": {
+      "b282cee83e749718fdb7": 7
+    },
+    "v05_multi_query_reranked": {
+      "b282cee83e749718fdb7": 7
+    }
+  }
+}

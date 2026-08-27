@@ -1,0 +1,858 @@
+{
+  "original_query": "试用期被辞退公司需要说明理由吗",
+  "structured_understanding": {
+    "original_query": "试用期被辞退公司需要说明理由吗",
+    "domain": "劳动争议",
+    "issue": "试用期解除劳动合同是否需要用人单位说明具体理由",
+    "user_intent": "咨询法律要求，了解公司是否必须给出辞退理由",
+    "legal_concepts": [
+      "试用期",
+      "解除劳动合同",
+      "说明理由义务"
+    ],
+    "search_queries": [
+      "试用期被辞退需要公司说明理由吗",
+      "试用期解除劳动合同是否需要说明理由",
+      "试用期不符合录用条件解除需说明理由吗"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "试用期被辞退公司需要说明理由吗",
+    "试用期被辞退需要公司说明理由吗",
+    "试用期解除劳动合同是否需要说明理由"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 6743.019699992146
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第二十一条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "5d1a2b54f1459dba8abd"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 40,
+      "reranking_candidate_count": 40,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 107,
+      "reranking_candidate_count": 107,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 60.350999992806464,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12505.009516651626,
+  "final_retrieval_ranking": [
+    {
+      "id": "5d1a2b54f1459dba8abd",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第二十一条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 14.275550652647464,
+      "rank": 1,
+      "canonical_id": "5d1a2b54f1459dba8abd",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 1
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 1
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 14.275550652647464
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 14.275550652647464
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 16.967944047587785
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 1
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 1
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.6961219310760498
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.6919368505477905
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.8106316924095154
+        }
+      ],
+      "pre_rerank_score": 0.09836065573770493,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6961219310760498,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9796252250671387,
+      "final_rank": 1
+    },
+    {
+      "id": "10e13242360b544c672e",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十五条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 3.1048815627791653,
+      "rank": 2,
+      "canonical_id": "10e13242360b544c672e",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 34
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 34
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 3.1048815627791653
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 3.1048815627791653
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 3
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 3
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.604881227016449
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.6033840775489807
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.7097928524017334
+        }
+      ],
+      "pre_rerank_score": 0.06840724287532798,
+      "bm25_rank": 34,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.604881227016449,
+      "pre_rerank_rank": 13,
+      "reranker_score": 0.4456479549407959,
+      "final_rank": 2
+    },
+    {
+      "id": "f528dbe5d9d5f643e33d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十三条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 3.8706946239279656,
+      "rank": 3,
+      "canonical_id": "f528dbe5d9d5f643e33d",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 20
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 20
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 3.8706946239279656
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 3.8706946239279656
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 6.449410813486604
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 15
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 16
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 16
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5490306615829468
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5488908290863037
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.6787060499191284
+        }
+      ],
+      "pre_rerank_score": 0.07980063795853269,
+      "bm25_rank": 6,
+      "semantic_rank": 15,
+      "semantic_similarity": 0.5490306615829468,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.30941760540008545,
+      "final_rank": 3
+    },
+    {
+      "id": "e58adbe7103d1351f93c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十九条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.482706842757837,
+      "rank": 4,
+      "canonical_id": "e58adbe7103d1351f93c",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 49
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 49
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 2.482706842757837
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 2.482706842757837
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 5
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 6
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5899246335029602
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5900119543075562
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.707420825958252
+        }
+      ],
+      "pre_rerank_score": 0.0640362695408567,
+      "bm25_rank": 49,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.5899246335029602,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.3002517521381378,
+      "final_rank": 4
+    },
+    {
+      "id": "fa6ff67807af21b75793",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 5.0878044699610285,
+      "rank": 5,
+      "canonical_id": "fa6ff67807af21b75793",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 11
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 11
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 12
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 5.0878044699610285
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 5.0878044699610285
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 5.0878044699610285
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 7
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 7
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5832818746566772
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5835981965065002
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.7102506160736084
+        }
+      ],
+      "pre_rerank_score": 0.08753364924205265,
+      "bm25_rank": 11,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.5832818746566772,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.24181653559207916,
+      "final_rank": 5
+    },
+    {
+      "id": "a33f8c157bd11a0ba6f6",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第三十二条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 3.50355211212903,
+      "rank": 6,
+      "canonical_id": "a33f8c157bd11a0ba6f6",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 26
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 26
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 3.50355211212903
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 3.50355211212903
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 5.425874838564921
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 6
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 5
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5844061970710754
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5917363166809082
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.7297425270080566
+        }
+      ],
+      "pre_rerank_score": 0.08400548378993695,
+      "bm25_rank": 11,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.5844061970710754,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.23633642494678497,
+      "final_rank": 6
+    },
+    {
+      "id": "6650450d848dd7585211",
+      "law_name": "中华人民共和国劳动争议调解仲裁法",
+      "article_number": "第二十九条",
+      "chapter": "第三章仲 裁",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动争议调解仲裁法_20071229.docx",
+      "bm25_score": 7.003805172705001,
+      "rank": 7,
+      "canonical_id": "6650450d848dd7585211",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 2
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 2
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 4
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 7.003805172705001
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 7.003805172705001
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 7.003805172705001
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 13
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 15
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5496963858604431
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5499193668365479
+        }
+      ],
+      "pre_rerank_score": 0.07491502798644867,
+      "bm25_rank": 2,
+      "semantic_rank": 13,
+      "semantic_similarity": 0.5496963858604431,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.2052818089723587,
+      "final_rank": 7
+    },
+    {
+      "id": "0be45f9befb5840ded72",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第十九条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "0be45f9befb5840ded72",
+      "rank": 8,
+      "similarity_score": 0.5491105318069458,
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 14
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 13
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 15
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5491105318069458
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5570331811904907
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.6792392730712891
+        }
+      ],
+      "pre_rerank_score": 0.04054547698383315,
+      "bm25_rank": null,
+      "semantic_rank": 13,
+      "bm25_score": null,
+      "semantic_similarity": 0.5491105318069458,
+      "pre_rerank_rank": 33,
+      "reranker_score": 0.1685679405927658,
+      "final_rank": 8
+    },
+    {
+      "id": "f2c74dc5574022ac7734",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十七条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 4.236409311214856,
+      "rank": 9,
+      "canonical_id": "f2c74dc5574022ac7734",
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 17
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 17
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 4.236409311214856
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 4.236409311214856
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 7.3580064663091385
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 11
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 11
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5602796077728271
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5654333233833313
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.7020731568336487
+        }
+      ],
+      "pre_rerank_score": 0.08497795466953871,
+      "bm25_rank": 2,
+      "semantic_rank": 8,
+      "semantic_similarity": 0.5602796077728271,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.16741925477981567,
+      "final_rank": 9
+    },
+    {
+      "id": "b5148b0e5f30717618d6",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "b5148b0e5f30717618d6",
+      "rank": 10,
+      "similarity_score": 0.5398009419441223,
+      "matched_queries": [
+        "试用期被辞退公司需要说明理由吗",
+        "试用期被辞退需要公司说明理由吗",
+        "试用期解除劳动合同是否需要说明理由"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "rank": 25
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "rank": 24
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "rank": 33
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "试用期被辞退公司需要说明理由吗",
+          "score": 0.5398009419441223
+        },
+        {
+          "query": "试用期被辞退需要公司说明理由吗",
+          "score": 0.5411867499351501
+        },
+        {
+          "query": "试用期解除劳动合同是否需要说明理由",
+          "score": 0.6515729427337646
+        }
+      ],
+      "pre_rerank_score": 0.03442215595915786,
+      "bm25_rank": null,
+      "semantic_rank": 24,
+      "bm25_score": null,
+      "semantic_similarity": 0.5398009419441223,
+      "pre_rerank_rank": 40,
+      "reranker_score": 0.16278748214244843,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "5d1a2b54f1459dba8abd": 1
+  }
+}

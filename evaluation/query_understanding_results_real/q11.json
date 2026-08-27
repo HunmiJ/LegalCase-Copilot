@@ -1,0 +1,832 @@
+{
+  "original_query": "公司强迫员工加班合法么",
+  "structured_understanding": {
+    "original_query": "公司强迫员工加班合法么",
+    "domain": "劳动争议",
+    "issue": "公司强迫员工加班是否合法，涉及工作时间制度和劳动者权益保护",
+    "user_intent": "用户询问公司强迫加班的合法性，希望了解法律是否允许以及相关法律后果",
+    "legal_concepts": [
+      "工作时间制度",
+      "加班",
+      "强迫劳动",
+      "劳动者权益",
+      "劳动法",
+      "劳动合同法",
+      "加班费",
+      "行政处罚"
+    ],
+    "search_queries": [
+      "公司强迫员工加班 违法 劳动法规定",
+      "强制加班 法律 工作时间限制 处罚",
+      "用人单位违法延长工作时间 法律责任"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司强迫员工加班合法么",
+    "公司强迫员工加班 违法 劳动法规定",
+    "强制加班 法律 工作时间限制 处罚"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 9692.971100012073
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十一条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "5aac0afbda6fae5f053c"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 67,
+      "reranking_candidate_count": 67,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 164,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 57.9765000147745,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 15452.58641669352,
+  "final_retrieval_ranking": [
+    {
+      "id": "5aac0afbda6fae5f053c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第三十一条",
+      "chapter": "第三章劳动合同的履行和变更",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 13.78999518071154,
+      "rank": 1,
+      "canonical_id": "5aac0afbda6fae5f053c",
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 1
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 1
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 13.78999518071154
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 14.033573292852466
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 7.518699607541184
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 1
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 1
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.704092264175415
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.6731157898902893
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.6523385047912598
+        }
+      ],
+      "pre_rerank_score": 0.09784022898776998,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.704092264175415,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9842811822891235,
+      "final_rank": 1
+    },
+    {
+      "id": "1d0ba5aa3930f5ddd655",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十三条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "1d0ba5aa3930f5ddd655",
+      "rank": 2,
+      "similarity_score": 0.5220627784729004,
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 33
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 10
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 21
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5220627784729004
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.5469339489936829
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.5286281108856201
+        }
+      ],
+      "pre_rerank_score": 0.03738408147010298,
+      "bm25_rank": null,
+      "semantic_rank": 10,
+      "bm25_score": null,
+      "semantic_similarity": 0.5220627784729004,
+      "pre_rerank_rank": 22,
+      "reranker_score": 0.811520516872406,
+      "final_rank": 2
+    },
+    {
+      "id": "8fba11448fdd77357791",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十二条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 6.990583499356915,
+      "rank": 3,
+      "canonical_id": "8fba11448fdd77357791",
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 2
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 2
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 7
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 6.990583499356915
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 6.990583499356915
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 6.990583499356915
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 2
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 2
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.6636528968811035
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.6358790397644043
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.6376807689666748
+        }
+      ],
+      "pre_rerank_score": 0.09557053442465094,
+      "bm25_rank": 2,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.6636528968811035,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.688473641872406,
+      "final_rank": 3
+    },
+    {
+      "id": "a34a2fc49f5f34b565a0",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第四十三条",
+      "chapter": "第四章工作时间和休息休假",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "a34a2fc49f5f34b565a0",
+      "rank": 4,
+      "similarity_score": 0.5183125734329224,
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 40
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 28
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5183125734329224
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.5214394927024841
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.584234893321991
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 18
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 1.5575924358962747
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 7.008170699169643
+        }
+      ],
+      "pre_rerank_score": 0.06472027972027972,
+      "bm25_rank": 6,
+      "semantic_rank": 5,
+      "bm25_score": null,
+      "semantic_similarity": 0.5183125734329224,
+      "pre_rerank_rank": 9,
+      "reranker_score": 0.424927294254303,
+      "final_rank": 4
+    },
+    {
+      "id": "0ab715b85400079a8854",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 2.9529531704896046,
+      "rank": 5,
+      "canonical_id": "0ab715b85400079a8854",
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 13
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 14
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 19
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 2.9529531704896046
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 2.9529531704896046
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 5.161538772300538
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 38
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5195831060409546
+        }
+      ],
+      "pre_rerank_score": 0.05007445313125414,
+      "bm25_rank": 13,
+      "semantic_rank": 38,
+      "semantic_similarity": 0.5195831060409546,
+      "pre_rerank_rank": 13,
+      "reranker_score": 0.4163241684436798,
+      "final_rank": 5
+    },
+    {
+      "id": "b838b8a5a4fd159c4ea8",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十八条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 3.2469601058921307,
+      "rank": 6,
+      "canonical_id": "b838b8a5a4fd159c4ea8",
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 12
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 13
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 3.2469601058921307
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 3.2469601058921307
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 16
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 15
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 28
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5387477874755859
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.5419495701789856
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.5175563097000122
+        }
+      ],
+      "pre_rerank_score": 0.06544238345968699,
+      "bm25_rank": 12,
+      "semantic_rank": 15,
+      "semantic_similarity": 0.5387477874755859,
+      "pre_rerank_rank": 8,
+      "reranker_score": 0.3630244731903076,
+      "final_rank": 6
+    },
+    {
+      "id": "9b5b56acd6f613a55afd",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第三十九条",
+      "chapter": "第四章工作时间和休息休假",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "9b5b56acd6f613a55afd",
+      "rank": 7,
+      "similarity_score": 0.5340962409973145,
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 21
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 21
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 10
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5340962409973145
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.5321813225746155
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.5688148140907288
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 27
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 15
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 1.3621063474884927
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 5.434312474935988
+        }
+      ],
+      "pre_rerank_score": 0.0638046585173022,
+      "bm25_rank": 15,
+      "semantic_rank": 10,
+      "bm25_score": null,
+      "semantic_similarity": 0.5340962409973145,
+      "pre_rerank_rank": 10,
+      "reranker_score": 0.349164754152298,
+      "final_rank": 7
+    },
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 3.325247581208128,
+      "rank": 8,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 11
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 12
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 43
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 3.325247581208128
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 3.4711656876814647
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 3.325247581208128
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 4
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 4
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5625646710395813
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.5576586723327637
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.5794481039047241
+        }
+      ],
+      "pre_rerank_score": 0.08363801614816126,
+      "bm25_rank": 11,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.5625646710395813,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.31816205382347107,
+      "final_rank": 8
+    },
+    {
+      "id": "ec37ec953120671fc5c5",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十六条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 3.983530948883479,
+      "rank": 9,
+      "canonical_id": "ec37ec953120671fc5c5",
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定",
+        "强制加班 法律 工作时间限制 处罚"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 7
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 6
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 3.983530948883479
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 4.910260044570785
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 14
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 14
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5443601012229919
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.5442387461662292
+        },
+        {
+          "query": "强制加班 法律 工作时间限制 处罚",
+          "score": 0.55769282579422
+        }
+      ],
+      "pre_rerank_score": 0.07118842235512406,
+      "bm25_rank": 6,
+      "semantic_rank": 11,
+      "semantic_similarity": 0.5443601012229919,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.29045620560646057,
+      "final_rank": 9
+    },
+    {
+      "id": "bf4b81067e47e99db73c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十七条",
+      "chapter": "第六章监督检查",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "bf4b81067e47e99db73c",
+      "rank": 10,
+      "similarity_score": 0.5520152449607849,
+      "matched_queries": [
+        "公司强迫员工加班合法么",
+        "公司强迫员工加班 违法 劳动法规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "rank": 10
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "rank": 17
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司强迫员工加班合法么",
+          "score": 0.5520152449607849
+        },
+        {
+          "query": "公司强迫员工加班 违法 劳动法规定",
+          "score": 0.5398106575012207
+        }
+      ],
+      "pre_rerank_score": 0.027272727272727275,
+      "bm25_rank": null,
+      "semantic_rank": 10,
+      "bm25_score": null,
+      "semantic_similarity": 0.5520152449607849,
+      "pre_rerank_rank": 41,
+      "reranker_score": 0.28007879853248596,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "5aac0afbda6fae5f053c": 1
+  }
+}

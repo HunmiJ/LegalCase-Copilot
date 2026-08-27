@@ -1,0 +1,1092 @@
+{
+  "original_query": "公司要解除我的劳动合同需要什么条件",
+  "structured_understanding": {
+    "original_query": "公司要解除我的劳动合同需要什么条件",
+    "domain": "劳动争议",
+    "issue": "解除劳动合同、违法解除、经济补偿",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "解除劳动合同",
+      "违法解除",
+      "经济补偿",
+      "赔偿金"
+    ],
+    "search_queries": [
+      "公司要解除我的劳动合同需要什么条件",
+      "解除劳动合同 违法解除 经济补偿 赔偿金",
+      "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "公司要解除我的劳动合同需要什么条件",
+    "解除劳动合同 违法解除 经济补偿 赔偿金",
+    "劳动争议 解除劳动合同 违法解除 经济补偿 赔偿金"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第三十九条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "d05bd575eeb0f9bcea71",
+    "e58adbe7103d1351f93c"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "d05bd575eeb0f9bcea71": 5,
+      "e58adbe7103d1351f93c": 10
+    },
+    "candidate_recall_at_20": 1.0,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 63,
+      "reranking_candidate_count": 63,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 115,
+      "reranking_candidate_count": 115,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "d05bd575eeb0f9bcea71": 58,
+      "e58adbe7103d1351f93c": 36
+    }
+  },
+  "query_understanding_latency_ms": 0.000900006853044033,
+  "multi_query_retrieval_latency_ms": 30.838699982268736,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "0be45f9befb5840ded72",
+        "rank": 1,
+        "similarity_score": 0.6866353154182434,
+        "reranker_score": 0.9948939085006714,
+        "final_rank": 1
+      },
+      {
+        "id": "2bcc1dccc654eec05ead",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "2bcc1dccc654eec05ead",
+        "rank": 2,
+        "similarity_score": 0.6778813600540161,
+        "reranker_score": 0.994891881942749,
+        "final_rank": 2
+      },
+      {
+        "id": "010a3d3447e4190eb8bd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "010a3d3447e4190eb8bd",
+        "rank": 3,
+        "similarity_score": 0.6834688782691956,
+        "reranker_score": 0.9948400855064392,
+        "final_rank": 3
+      },
+      {
+        "id": "e58adbe7103d1351f93c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "e58adbe7103d1351f93c",
+        "rank": 4,
+        "similarity_score": 0.6836994886398315,
+        "reranker_score": 0.9934824109077454,
+        "final_rank": 4
+      },
+      {
+        "id": "10e13242360b544c672e",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "10e13242360b544c672e",
+        "rank": 5,
+        "similarity_score": 0.6843308806419373,
+        "reranker_score": 0.9928977489471436,
+        "final_rank": 5
+      },
+      {
+        "id": "e9adc8e7834e5162fa09",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十一条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "e9adc8e7834e5162fa09",
+        "rank": 6,
+        "similarity_score": 0.6471343636512756,
+        "reranker_score": 0.9921694397926331,
+        "final_rank": 6
+      },
+      {
+        "id": "d05bd575eeb0f9bcea71",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "d05bd575eeb0f9bcea71",
+        "rank": 7,
+        "similarity_score": 0.6879115104675293,
+        "reranker_score": 0.992002010345459,
+        "final_rank": 7
+      },
+      {
+        "id": "6db850d5c3086c6973a8",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十二条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "6db850d5c3086c6973a8",
+        "rank": 8,
+        "similarity_score": 0.6767337322235107,
+        "reranker_score": 0.9912342429161072,
+        "final_rank": 8
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "rank": 9,
+        "similarity_score": 0.6621662378311157,
+        "reranker_score": 0.9892498254776001,
+        "final_rank": 9
+      },
+      {
+        "id": "6c949fba88ee2a8e1d60",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十九条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "canonical_id": "6c949fba88ee2a8e1d60",
+        "rank": 10,
+        "similarity_score": 0.6715472936630249,
+        "reranker_score": 0.987188994884491,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 5.168050599311608,
+        "rank": 1,
+        "canonical_id": "0be45f9befb5840ded72",
+        "bm25_rank": 24,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6866353154182434,
+        "rrf_score": 0.026830135039090264,
+        "hybrid_rank": 8,
+        "reranker_score": 0.9948939085006714,
+        "final_rank": 1
+      },
+      {
+        "id": "2bcc1dccc654eec05ead",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 5.940105297915963,
+        "rank": 2,
+        "canonical_id": "2bcc1dccc654eec05ead",
+        "bm25_rank": 13,
+        "semantic_rank": 16,
+        "semantic_similarity": 0.6778813600540161,
+        "rrf_score": 0.026856524873828405,
+        "hybrid_rank": 7,
+        "reranker_score": 0.994891881942749,
+        "final_rank": 2
+      },
+      {
+        "id": "010a3d3447e4190eb8bd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.349094763681604,
+        "rank": 3,
+        "canonical_id": "010a3d3447e4190eb8bd",
+        "bm25_rank": 10,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6834688782691956,
+        "rrf_score": 0.028370221327967807,
+        "hybrid_rank": 4,
+        "reranker_score": 0.9948400855064392,
+        "final_rank": 3
+      },
+      {
+        "id": "e58adbe7103d1351f93c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.037150264538638,
+        "rank": 4,
+        "canonical_id": "e58adbe7103d1351f93c",
+        "bm25_rank": 12,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6836994886398315,
+        "rrf_score": 0.02817460317460317,
+        "hybrid_rank": 5,
+        "reranker_score": 0.9934824109077454,
+        "final_rank": 4
+      },
+      {
+        "id": "10e13242360b544c672e",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 6.289251070834419,
+        "rank": 5,
+        "canonical_id": "10e13242360b544c672e",
+        "bm25_rank": 11,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6843308806419373,
+        "rrf_score": 0.028577260665441927,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9928977489471436,
+        "final_rank": 5
+      },
+      {
+        "id": "e9adc8e7834e5162fa09",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十一条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.376058965826255,
+        "rank": 6,
+        "canonical_id": "e9adc8e7834e5162fa09",
+        "bm25_rank": 9,
+        "semantic_rank": 45,
+        "semantic_similarity": 0.6471343636512756,
+        "rrf_score": 0.024016563146997932,
+        "hybrid_rank": 15,
+        "reranker_score": 0.9921694397926331,
+        "final_rank": 6
+      },
+      {
+        "id": "d05bd575eeb0f9bcea71",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "d05bd575eeb0f9bcea71",
+        "rank": 7,
+        "similarity_score": 0.6879115104675293,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6879115104675293,
+        "rrf_score": 0.015384615384615385,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 31,
+        "reranker_score": 0.992002010345459,
+        "final_rank": 7
+      },
+      {
+        "id": "6db850d5c3086c6973a8",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十二条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "6db850d5c3086c6973a8",
+        "rank": 8,
+        "similarity_score": 0.6767337322235107,
+        "semantic_rank": 17,
+        "semantic_similarity": 0.6767337322235107,
+        "rrf_score": 0.012987012987012988,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 38,
+        "reranker_score": 0.9912342429161072,
+        "final_rank": 8
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.562171856326727,
+        "rank": 9,
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "bm25_rank": 41,
+        "semantic_rank": 26,
+        "semantic_similarity": 0.6621662378311157,
+        "rrf_score": 0.02152889707575409,
+        "hybrid_rank": 25,
+        "reranker_score": 0.9892498254776001,
+        "final_rank": 9
+      },
+      {
+        "id": "5598feecff55a268d41d",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十三条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 5.301101908927332,
+        "rank": 10,
+        "canonical_id": "5598feecff55a268d41d",
+        "bm25_rank": 22,
+        "rrf_score": 0.012195121951219513,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 43,
+        "reranker_score": 0.9873661994934082,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "0be45f9befb5840ded72",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十九条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 5.168050599311608,
+        "rank": 1,
+        "canonical_id": "0be45f9befb5840ded72",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 24
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 5.168050599311608
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 7
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 31
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6866353154182434
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6223207116127014
+          }
+        ],
+        "pre_rerank_score": 0.037819146028101255,
+        "bm25_rank": 24,
+        "semantic_rank": 7,
+        "semantic_similarity": 0.6866353154182434,
+        "pre_rerank_rank": 37,
+        "reranker_score": 0.9948939085006714,
+        "final_rank": 1
+      },
+      {
+        "id": "2bcc1dccc654eec05ead",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第十八条",
+        "chapter": "第三章劳动合同的解除和终止",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 5.940105297915963,
+        "rank": 2,
+        "canonical_id": "2bcc1dccc654eec05ead",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 13
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 5.940105297915963
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 16
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 26
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6778813600540161
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6255311965942383
+          }
+        ],
+        "pre_rerank_score": 0.03848443185057259,
+        "bm25_rank": 13,
+        "semantic_rank": 16,
+        "semantic_similarity": 0.6778813600540161,
+        "pre_rerank_rank": 35,
+        "reranker_score": 0.994891881942749,
+        "final_rank": 2
+      },
+      {
+        "id": "010a3d3447e4190eb8bd",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十八条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.349094763681604,
+        "rank": 3,
+        "canonical_id": "010a3d3447e4190eb8bd",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 10
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 6.349094763681604
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 11
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 19
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6834688782691956
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6400709748268127
+          }
+        ],
+        "pre_rerank_score": 0.04102844917606907,
+        "bm25_rank": 10,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6834688782691956,
+        "pre_rerank_rank": 32,
+        "reranker_score": 0.9948400855064392,
+        "final_rank": 3
+      },
+      {
+        "id": "e58adbe7103d1351f93c",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第三十九条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.037150264538638,
+        "rank": 4,
+        "canonical_id": "e58adbe7103d1351f93c",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 12
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 6.037150264538638
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 10
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 37
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6836994886398315
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6158117055892944
+          }
+        ],
+        "pre_rerank_score": 0.038483881525118634,
+        "bm25_rank": 12,
+        "semantic_rank": 10,
+        "semantic_similarity": 0.6836994886398315,
+        "pre_rerank_rank": 36,
+        "reranker_score": 0.9934824109077454,
+        "final_rank": 4
+      },
+      {
+        "id": "10e13242360b544c672e",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十五条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 6.289251070834419,
+        "rank": 5,
+        "canonical_id": "10e13242360b544c672e",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 11
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 6.289251070834419
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 9
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6843308806419373
+          }
+        ],
+        "pre_rerank_score": 0.028577260665441927,
+        "bm25_rank": 11,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6843308806419373,
+        "pre_rerank_rank": 54,
+        "reranker_score": 0.9928977489471436,
+        "final_rank": 5
+      },
+      {
+        "id": "e9adc8e7834e5162fa09",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十一条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 6.376058965826255,
+        "rank": 6,
+        "canonical_id": "e9adc8e7834e5162fa09",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 9
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 6.376058965826255
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 45
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6471343636512756
+          }
+        ],
+        "pre_rerank_score": 0.024016563146997932,
+        "bm25_rank": 9,
+        "semantic_rank": 45,
+        "semantic_similarity": 0.6471343636512756,
+        "pre_rerank_rank": 61,
+        "reranker_score": 0.9921694397926331,
+        "final_rank": 6
+      },
+      {
+        "id": "d05bd575eeb0f9bcea71",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "d05bd575eeb0f9bcea71",
+        "rank": 7,
+        "similarity_score": 0.6879115104675293,
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 5
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 40
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6879115104675293
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6138508915901184
+          }
+        ],
+        "pre_rerank_score": 0.025384615384615387,
+        "bm25_rank": null,
+        "semantic_rank": 5,
+        "bm25_score": null,
+        "semantic_similarity": 0.6879115104675293,
+        "pre_rerank_rank": 58,
+        "reranker_score": 0.992002010345459,
+        "final_rank": 7
+      },
+      {
+        "id": "6db850d5c3086c6973a8",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十二条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "6db850d5c3086c6973a8",
+        "rank": 8,
+        "similarity_score": 0.6767337322235107,
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 17
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 44
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6767337322235107
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6100561022758484
+          }
+        ],
+        "pre_rerank_score": 0.022602397602397604,
+        "bm25_rank": null,
+        "semantic_rank": 17,
+        "bm25_score": null,
+        "semantic_similarity": 0.6767337322235107,
+        "pre_rerank_rank": 65,
+        "reranker_score": 0.9912342429161072,
+        "final_rank": 8
+      },
+      {
+        "id": "f528dbe5d9d5f643e33d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第四十三条",
+        "chapter": "第四章劳动合同的解除和终止",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 4.562171856326727,
+        "rank": 9,
+        "canonical_id": "f528dbe5d9d5f643e33d",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件",
+          "解除劳动合同 违法解除 经济补偿 赔偿金"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 41
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 48
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 4.562171856326727
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 4.598390972930239
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 26
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "rank": 30
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 0.6621662378311157
+          },
+          {
+            "query": "解除劳动合同 违法解除 经济补偿 赔偿金",
+            "score": 0.6228644847869873
+          }
+        ],
+        "pre_rerank_score": 0.04189926744612446,
+        "bm25_rank": 41,
+        "semantic_rank": 26,
+        "semantic_similarity": 0.6621662378311157,
+        "pre_rerank_rank": 31,
+        "reranker_score": 0.9892498254776001,
+        "final_rank": 9
+      },
+      {
+        "id": "5598feecff55a268d41d",
+        "law_name": "中华人民共和国劳动法",
+        "article_number": "第二十三条",
+        "chapter": "第三章劳动合同和集体合同",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+        "bm25_score": 5.301101908927332,
+        "rank": 10,
+        "canonical_id": "5598feecff55a268d41d",
+        "matched_queries": [
+          "公司要解除我的劳动合同需要什么条件"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "rank": 22
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "公司要解除我的劳动合同需要什么条件",
+            "score": 5.301101908927332
+          }
+        ],
+        "pre_rerank_score": 0.012195121951219513,
+        "bm25_rank": 22,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 85,
+        "reranker_score": 0.9873661994934082,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "d05bd575eeb0f9bcea71": 7,
+      "e58adbe7103d1351f93c": 4
+    },
+    "v04_reranked": {
+      "d05bd575eeb0f9bcea71": 7,
+      "e58adbe7103d1351f93c": 4
+    },
+    "v05_multi_query_reranked": {
+      "d05bd575eeb0f9bcea71": 7,
+      "e58adbe7103d1351f93c": 4
+    }
+  }
+}

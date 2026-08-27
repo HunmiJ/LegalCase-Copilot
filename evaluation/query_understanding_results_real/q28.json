@@ -1,0 +1,943 @@
+{
+  "original_query": "劳务派遣单位和用工单位谁给工资",
+  "structured_understanding": {
+    "original_query": "劳务派遣单位和用工单位谁给工资",
+    "domain": "劳动争议",
+    "issue": "劳务派遣中工资支付义务主体认定",
+    "user_intent": "咨询劳务派遣关系中工资应由哪一方支付",
+    "legal_concepts": [
+      "劳务派遣",
+      "工资支付",
+      "用人单位义务",
+      "用工单位义务"
+    ],
+    "search_queries": [
+      "劳务派遣 工资支付 责任主体",
+      "劳务派遣单位 用工单位 工资发放 法律规定",
+      "劳务派遣 工资由谁支付 法律依据"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "劳务派遣单位和用工单位谁给工资",
+    "劳务派遣 工资支付 责任主体",
+    "劳务派遣单位 用工单位 工资发放 法律规定"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 7154.37090001069
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第五十八条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第五十九条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "118f561cefd72bb49f5e",
+    "bbe3c41f64841060367e"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 28,
+      "reranking_candidate_count": 28,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 98,
+      "reranking_candidate_count": 98,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 67.02259997837245,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12923.032316655735,
+  "final_retrieval_ranking": [
+    {
+      "id": "856ff4352cf88c807cfb",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十三条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 19.59242369568079,
+      "rank": 1,
+      "canonical_id": "856ff4352cf88c807cfb",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 5
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 11
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 4
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 19.59242369568079
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 9.36324754876873
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 19.69834619972901
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 4
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 6
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.6970429420471191
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.5938076972961426
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6727660298347473
+        }
+      ],
+      "pre_rerank_score": 0.09057651993132523,
+      "bm25_rank": 4,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.6970429420471191,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.9988551139831543,
+      "final_rank": 1
+    },
+    {
+      "id": "38f92e2084a2107c6f4e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 25.33193805618997,
+      "rank": 2,
+      "canonical_id": "38f92e2084a2107c6f4e",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 1
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 2
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 25.33193805618997
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 12.918716063688036
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 22.54974000868408
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 3
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 1
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.7043315172195435
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.6276538372039795
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6998239755630493
+        }
+      ],
+      "pre_rerank_score": 0.09731140825799738,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7043315172195435,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9982650876045227,
+      "final_rank": 2
+    },
+    {
+      "id": "ba0eb5a2f481dede721c",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十一条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 18.41621194514407,
+      "rank": 3,
+      "canonical_id": "ba0eb5a2f481dede721c",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 9
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 14
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 18.41621194514407
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 8.847946774505022
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 18.456514304232584
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 6
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 4
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.6891924142837524
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.6008874177932739
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6998087167739868
+        }
+      ],
+      "pre_rerank_score": 0.08936168051417412,
+      "bm25_rank": 8,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6891924142837524,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.9953210949897766,
+      "final_rank": 3
+    },
+    {
+      "id": "118f561cefd72bb49f5e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第五十八条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 18.16304182389157,
+      "rank": 4,
+      "canonical_id": "118f561cefd72bb49f5e",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 10
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 4
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 9
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 18.16304182389157
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 11.51718456383377
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 18.441700639903768
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 1
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 2
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 5
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.715224027633667
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.6099685430526733
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6893072724342346
+        }
+      ],
+      "pre_rerank_score": 0.09231055817453342,
+      "bm25_rank": 4,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.715224027633667,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.9943634271621704,
+      "final_rank": 4
+    },
+    {
+      "id": "bbe3c41f64841060367e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第五十九条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 21.872481480382394,
+      "rank": 5,
+      "canonical_id": "bbe3c41f64841060367e",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 3
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 1
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 21.872481480382394
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 14.154877967797486
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 21.827533116968688
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 5
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 8
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 13
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.6932287216186523
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.5914214849472046
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6542235612869263
+        }
+      ],
+      "pre_rerank_score": 0.09218461862857408,
+      "bm25_rank": 1,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6932287216186523,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.9910205006599426,
+      "final_rank": 5
+    },
+    {
+      "id": "fd46d93f6e523af3446e",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第九十二条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 21.90417958599112,
+      "rank": 6,
+      "canonical_id": "fd46d93f6e523af3446e",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 2
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 3
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 3
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 21.90417958599112
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 11.778204836143267
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 20.200978761919835
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 11
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 11
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 11
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.645161509513855
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.5815027952194214
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6563823223114014
+        }
+      ],
+      "pre_rerank_score": 0.09012858513085682,
+      "bm25_rank": 2,
+      "semantic_rank": 11,
+      "semantic_similarity": 0.645161509513855,
+      "pre_rerank_rank": 5,
+      "reranker_score": 0.983410656452179,
+      "final_rank": 6
+    },
+    {
+      "id": "7eadd9a8ac96aece8281",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第三十五条",
+      "chapter": "第五章法律责任",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 20.851208719687776,
+      "rank": 7,
+      "canonical_id": "7eadd9a8ac96aece8281",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 4
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 5
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 10
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 20.851208719687776
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 10.97368373104205
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 18.21337653163732
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 13
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 5
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 12
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.6438332200050354
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.59935462474823
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6560643315315247
+        }
+      ],
+      "pre_rerank_score": 0.08826746408082026,
+      "bm25_rank": 4,
+      "semantic_rank": 5,
+      "semantic_similarity": 0.6438332200050354,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.983313262462616,
+      "final_rank": 7
+    },
+    {
+      "id": "37d603c79fa15eb7b176",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十二条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 15.025265307668112,
+      "rank": 8,
+      "canonical_id": "37d603c79fa15eb7b176",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 15
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 20
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 17
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 15.025265307668112
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 7.82990400064895
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 14.980441072080687
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 2
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 7
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.7077422142028809
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.5935032367706299
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.710302472114563
+        }
+      ],
+      "pre_rerank_score": 0.08626819433569002,
+      "bm25_rank": 15,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.7077422142028809,
+      "pre_rerank_rank": 10,
+      "reranker_score": 0.9812113046646118,
+      "final_rank": 8
+    },
+    {
+      "id": "ada01fb90cdc44ccfbba",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十四条",
+      "chapter": "第六章监督检查",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 12.193056412750595,
+      "rank": 9,
+      "canonical_id": "ada01fb90cdc44ccfbba",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 20
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 22
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 20
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 12.193056412750595
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 7.088187403110778
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 13.569491229420747
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 36
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 43
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 35
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.5758163928985596
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.5026094913482666
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6026209592819214
+        }
+      ],
+      "pre_rerank_score": 0.06784684227143754,
+      "bm25_rank": 20,
+      "semantic_rank": 35,
+      "semantic_similarity": 0.5758163928985596,
+      "pre_rerank_rank": 22,
+      "reranker_score": 0.9579899311065674,
+      "final_rank": 9
+    },
+    {
+      "id": "fe61e4c1fd1eb89c8f0b",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第六十四条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 17.904419779243934,
+      "rank": 10,
+      "canonical_id": "fe61e4c1fd1eb89c8f0b",
+      "matched_queries": [
+        "劳务派遣单位和用工单位谁给工资",
+        "劳务派遣 工资支付 责任主体",
+        "劳务派遣单位 用工单位 工资发放 法律规定"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 11
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 16
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 17.904419779243934
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 8.39593382934956
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 18.16377818975841
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "rank": 9
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "rank": 3
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "rank": 9
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "劳务派遣单位和用工单位谁给工资",
+          "score": 0.6573755741119385
+        },
+        {
+          "query": "劳务派遣 工资支付 责任主体",
+          "score": 0.6069951057434082
+        },
+        {
+          "query": "劳务派遣单位 用工单位 工资发放 法律规定",
+          "score": 0.6700113415718079
+        }
+      ],
+      "pre_rerank_score": 0.08618543194074184,
+      "bm25_rank": 11,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.6573755741119385,
+      "pre_rerank_rank": 11,
+      "reranker_score": 0.9208542108535767,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "118f561cefd72bb49f5e": 4,
+    "bbe3c41f64841060367e": 5
+  }
+}

@@ -1,0 +1,828 @@
+{
+  "original_query": "公司裁员我能拿到补偿吗",
+  "structured_understanding": {
+    "original_query": "公司裁员我能拿到补偿吗",
+    "domain": "劳动争议",
+    "issue": "裁员经济补偿",
+    "user_intent": "确认裁员情形下自己是否有权获得经济补偿及补偿条件",
+    "legal_concepts": [
+      "经济补偿",
+      "裁员",
+      "解除劳动合同"
+    ],
+    "search_queries": [
+      "公司裁员经济补偿条件",
+      "裁员解除劳动合同补偿标准",
+      "劳动者被裁员是否有权获得经济补偿"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司裁员我能拿到补偿吗",
+    "公司裁员经济补偿条件",
+    "裁员解除劳动合同补偿标准"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 6776.901999983238
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十一条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第四十六条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "bde88ceab0e2db0542ae",
+    "e9adc8e7834e5162fa09"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 54,
+      "reranking_candidate_count": 54,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 120,
+      "reranking_candidate_count": 120,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 50.54490000475198,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 12529.085716654663,
+  "final_retrieval_ranking": [
+    {
+      "id": "ce59fc8a7767d629495d",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第五条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 2.1209652563508126,
+      "rank": 1,
+      "canonical_id": "ce59fc8a7767d629495d",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 25
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 29
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 2.1209652563508126
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 3.9888577750052656
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 10
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 45
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 0.5882554054260254
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.5303249359130859
+        }
+      ],
+      "pre_rerank_score": 0.046810184748056524,
+      "bm25_rank": 25,
+      "semantic_rank": 10,
+      "semantic_similarity": 0.5882554054260254,
+      "pre_rerank_rank": 25,
+      "reranker_score": 0.6316227316856384,
+      "final_rank": 1
+    },
+    {
+      "id": "95582b1a19c49ea6346d",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第二十八条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 2.7599991244592035,
+      "rank": 2,
+      "canonical_id": "95582b1a19c49ea6346d",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 5
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 6
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 8
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 2.7599991244592035
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 5.190676242169365
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 5.094214365041862
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 2
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 1
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 0.6003092527389526
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.611282467842102
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 0.696799099445343
+        }
+      ],
+      "pre_rerank_score": 0.09415793039303788,
+      "bm25_rank": 5,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6003092527389526,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.5859354734420776,
+      "final_rank": 2
+    },
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.3376859960279623,
+      "rank": 3,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 19
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 20
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 4
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 2.3376859960279623
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 4.396440221194618
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 6.6922344226507935
+        }
+      ],
+      "pre_rerank_score": 0.04078322784810127,
+      "bm25_rank": 4,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 32,
+      "reranker_score": 0.5595131516456604,
+      "final_rank": 3
+    },
+    {
+      "id": "bde88ceab0e2db0542ae",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十六条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 1.3770300248359464,
+      "rank": 4,
+      "canonical_id": "bde88ceab0e2db0542ae",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 41
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 28
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 16
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 1.3770300248359464
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 4.042621046612907
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 4.3132085127969475
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 35
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 18
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 4
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 0.5684309005737305
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.5561156272888184
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 0.6673394441604614
+        }
+      ],
+      "pre_rerank_score": 0.07339434980947487,
+      "bm25_rank": 16,
+      "semantic_rank": 4,
+      "semantic_similarity": 0.5684309005737305,
+      "pre_rerank_rank": 12,
+      "reranker_score": 0.5424720048904419,
+      "final_rank": 4
+    },
+    {
+      "id": "cf69b9d72596ac0968ac",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十八条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "cf69b9d72596ac0968ac",
+      "rank": 5,
+      "similarity_score": 0.6145550012588501,
+      "matched_queries": [
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 41
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 0.6145550012588501
+        }
+      ],
+      "pre_rerank_score": 0.009900990099009901,
+      "bm25_rank": null,
+      "semantic_rank": 41,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 93,
+      "reranker_score": 0.5406486392021179,
+      "final_rank": 5
+    },
+    {
+      "id": "0ab715b85400079a8854",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十五条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 1.5996868464452485,
+      "rank": 6,
+      "canonical_id": "0ab715b85400079a8854",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 39
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 15
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 11
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 1.5996868464452485
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 4.696286643568163
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 4.695075382389239
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 30
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 21
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 23
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 0.570294201374054
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.5531662106513977
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 0.6340967416763306
+        }
+      ],
+      "pre_rerank_score": 0.07302383337113809,
+      "bm25_rank": 11,
+      "semantic_rank": 21,
+      "semantic_similarity": 0.570294201374054,
+      "pre_rerank_rank": 13,
+      "reranker_score": 0.539211094379425,
+      "final_rank": 6
+    },
+    {
+      "id": "daf7300f7458e59be7b2",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第七十一条",
+      "chapter": "第五章特别规定",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.6705953407778793,
+      "rank": 7,
+      "canonical_id": "daf7300f7458e59be7b2",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 9
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 10
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 50
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 2.6705953407778793
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 5.022536299007018
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 2.6705953407778793
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 18
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 40
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 0.5761652588844299
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.5343994498252869
+        }
+      ],
+      "pre_rerank_score": 0.060689889820324604,
+      "bm25_rank": 9,
+      "semantic_rank": 18,
+      "semantic_similarity": 0.5761652588844299,
+      "pre_rerank_rank": 18,
+      "reranker_score": 0.528348982334137,
+      "final_rank": 7
+    },
+    {
+      "id": "8e59951ef00ac0bb73e9",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十八条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 2.3642568289573527,
+      "rank": 8,
+      "canonical_id": "8e59951ef00ac0bb73e9",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 18
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 19
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 43
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 2.3642568289573527
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 4.4464114657500895
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 2.7287033159256158
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 13
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.563483715057373
+        }
+      ],
+      "pre_rerank_score": 0.04888610866967806,
+      "bm25_rank": 18,
+      "semantic_rank": 13,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 23,
+      "reranker_score": 0.5257088541984558,
+      "final_rank": 8
+    },
+    {
+      "id": "47a7ab234e762dc809e0",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第二十二条",
+      "chapter": "第三章劳动合同的解除和终止",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "bm25_score": 2.3642568289573527,
+      "rank": 9,
+      "canonical_id": "47a7ab234e762dc809e0",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 17
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 18
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 15
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 2.3642568289573527
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 4.4464114657500895
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 4.388588933788308
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 11
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 7
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 0.585432231426239
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.5747894048690796
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 0.6685596704483032
+        }
+      ],
+      "pre_rerank_score": 0.08402375519045689,
+      "bm25_rank": 15,
+      "semantic_rank": 3,
+      "semantic_similarity": 0.585432231426239,
+      "pre_rerank_rank": 6,
+      "reranker_score": 0.5236627459526062,
+      "final_rank": 9
+    },
+    {
+      "id": "8d5feddf081b799ab5c0",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十七条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 2.586801880939281,
+      "rank": 10,
+      "canonical_id": "8d5feddf081b799ab5c0",
+      "matched_queries": [
+        "公司裁员我能拿到补偿吗",
+        "公司裁员经济补偿条件",
+        "裁员解除劳动合同补偿标准"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 10
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 11
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 2.586801880939281
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 4.8649475819024035
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 7.379391107620332
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "rank": 9
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "rank": 6
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "rank": 2
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司裁员我能拿到补偿吗",
+          "score": 0.5886316299438477
+        },
+        {
+          "query": "公司裁员经济补偿条件",
+          "score": 0.5766168236732483
+        },
+        {
+          "query": "裁员解除劳动合同补偿标准",
+          "score": 0.6805151700973511
+        }
+      ],
+      "pre_rerank_score": 0.09027255461880039,
+      "bm25_rank": 2,
+      "semantic_rank": 2,
+      "semantic_similarity": 0.5886316299438477,
+      "pre_rerank_rank": 2,
+      "reranker_score": 0.49577054381370544,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "bde88ceab0e2db0542ae": 4,
+    "e9adc8e7834e5162fa09": null
+  }
+}

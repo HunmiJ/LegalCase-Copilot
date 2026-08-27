@@ -1,0 +1,770 @@
+{
+  "original_query": "加班费的举证责任在谁",
+  "structured_understanding": {
+    "original_query": "加班费的举证责任在谁",
+    "domain": "劳动争议",
+    "issue": "加班费争议中的举证责任分配问题",
+    "user_intent": "用户希望了解在加班费纠纷中，法律上规定由哪一方承担举证责任",
+    "legal_concepts": [
+      "举证责任",
+      "加班费",
+      "劳动争议"
+    ],
+    "search_queries": [
+      "加班费 举证责任 劳动争议",
+      "加班费 举证责任 谁承担",
+      "加班费 纠纷 举证责任分配"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "加班费的举证责任在谁",
+    "加班费 举证责任 劳动争议",
+    "加班费 举证责任 谁承担"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 7347.911000018939
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "article_number": "第四十二条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "8fba11448fdd77357791"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 69,
+      "reranking_candidate_count": 69,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 161,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 59.98089999775402,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 13109.530716683366,
+  "final_retrieval_ranking": [
+    {
+      "id": "8fba11448fdd77357791",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十二条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 12.133571757654071,
+      "rank": 1,
+      "canonical_id": "8fba11448fdd77357791",
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 劳动争议",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 1
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 1
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 1
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 12.133571757654071
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 11.598067768764507
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 13.48934261412975
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 1
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 1
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.6954081654548645
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 0.7396607398986816
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.7128371000289917
+        }
+      ],
+      "pre_rerank_score": 0.09836065573770493,
+      "bm25_rank": 1,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.6954081654548645,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.9960393905639648,
+      "final_rank": 1
+    },
+    {
+      "id": "7b188658a130d109130d",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十四条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "bm25_score": 7.8537420102434075,
+      "rank": 2,
+      "canonical_id": "7b188658a130d109130d",
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 劳动争议",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 2
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 2
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 2
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 7.8537420102434075
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 8.341974190535012
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 5.779021540798927
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 15
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 6
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 27
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.45491188764572144
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 0.5532321929931641
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.4695509076118469
+        }
+      ],
+      "pre_rerank_score": 0.08836619813260525,
+      "bm25_rank": 2,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.45491188764572144,
+      "pre_rerank_rank": 4,
+      "reranker_score": 0.7734512686729431,
+      "final_rank": 2
+    },
+    {
+      "id": "c584472b304555389650",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十五条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 6.917923918446018,
+      "rank": 3,
+      "canonical_id": "c584472b304555389650",
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 劳动争议",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 3
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 4
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 4
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 6.917923918446018
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 5.944220311965197
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 4.665711241811996
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 9
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 15
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 6
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.466434121131897
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 0.5308889150619507
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.49896880984306335
+        }
+      ],
+      "pre_rerank_score": 0.09010061798105276,
+      "bm25_rank": 3,
+      "semantic_rank": 6,
+      "semantic_similarity": 0.466434121131897,
+      "pre_rerank_rank": 3,
+      "reranker_score": 0.7320184111595154,
+      "final_rank": 3
+    },
+    {
+      "id": "1d0ba5aa3930f5ddd655",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十三条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "1d0ba5aa3930f5ddd655",
+      "rank": 4,
+      "similarity_score": 0.49316295981407166,
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 劳动争议",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 3
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 4
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 3
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.49316295981407166
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 0.5544896125793457
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.5277130007743835
+        }
+      ],
+      "pre_rerank_score": 0.047371031746031744,
+      "bm25_rank": null,
+      "semantic_rank": 3,
+      "bm25_score": null,
+      "semantic_similarity": 0.49316295981407166,
+      "pre_rerank_rank": 17,
+      "reranker_score": 0.41859254240989685,
+      "final_rank": 4
+    },
+    {
+      "id": "d507b06ae94939f9c73f",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十八条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": null,
+      "rank": 5,
+      "canonical_id": "d507b06ae94939f9c73f",
+      "matched_queries": [
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 19
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 2.8812329527336966
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 38
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.46054211258888245
+        }
+      ],
+      "pre_rerank_score": 0.022862309480754326,
+      "bm25_rank": 19,
+      "semantic_rank": 38,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 53,
+      "reranker_score": 0.40193042159080505,
+      "final_rank": 5
+    },
+    {
+      "id": "3904f5b659d0c9921597",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第八十九条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "3904f5b659d0c9921597",
+      "rank": 6,
+      "similarity_score": 0.4471134543418884,
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 劳动争议",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 18
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 14
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 21
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.4471134543418884
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 0.5331970453262329
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.47505417466163635
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 16
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 2.9408774731147758
+        }
+      ],
+      "pre_rerank_score": 0.051837600083214114,
+      "bm25_rank": 16,
+      "semantic_rank": 14,
+      "bm25_score": null,
+      "semantic_similarity": 0.4471134543418884,
+      "pre_rerank_rank": 10,
+      "reranker_score": 0.4001431167125702,
+      "final_rank": 6
+    },
+    {
+      "id": "181616c295670ffbe00e",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十五条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "181616c295670ffbe00e",
+      "rank": 7,
+      "similarity_score": 0.4292075037956238,
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 38
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 31
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.4292075037956238
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.4635177552700043
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 23
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 2.796168479928548
+        }
+      ],
+      "pre_rerank_score": 0.03324128539274839,
+      "bm25_rank": 23,
+      "semantic_rank": 31,
+      "bm25_score": null,
+      "semantic_similarity": 0.4292075037956238,
+      "pre_rerank_rank": 30,
+      "reranker_score": 0.34492596983909607,
+      "final_rank": 7
+    },
+    {
+      "id": "49a516010dcfc2066ff3",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "49a516010dcfc2066ff3",
+      "rank": 8,
+      "similarity_score": 0.4625975787639618,
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 劳动争议",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 11
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 18
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 13
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.4625975787639618
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 0.528407096862793
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.4854978322982788
+        }
+      ],
+      "pre_rerank_score": 0.04060364999975264,
+      "bm25_rank": null,
+      "semantic_rank": 11,
+      "bm25_score": null,
+      "semantic_similarity": 0.4625975787639618,
+      "pre_rerank_rank": 23,
+      "reranker_score": 0.33434027433395386,
+      "final_rank": 8
+    },
+    {
+      "id": "39ba879f9aad46f1835c",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第一百零二条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "39ba879f9aad46f1835c",
+      "rank": 9,
+      "similarity_score": 0.4362509250640869,
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 劳动争议",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 30
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "rank": 34
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 14
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.4362509250640869
+        },
+        {
+          "query": "加班费 举证责任 劳动争议",
+          "score": 0.5138469338417053
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.4847675561904907
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 2.9107496992400836
+        }
+      ],
+      "pre_rerank_score": 0.04808343531747787,
+      "bm25_rank": 18,
+      "semantic_rank": 14,
+      "bm25_score": null,
+      "semantic_similarity": 0.4362509250640869,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.3179487884044647,
+      "final_rank": 9
+    },
+    {
+      "id": "d639edee00b4938da29c",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十九条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "canonical_id": "d639edee00b4938da29c",
+      "rank": 10,
+      "similarity_score": 0.4261966347694397,
+      "matched_queries": [
+        "加班费的举证责任在谁",
+        "加班费 举证责任 谁承担"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "加班费的举证责任在谁",
+          "rank": 48
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 19
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "加班费的举证责任在谁",
+          "score": 0.4261966347694397
+        },
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 0.47649067640304565
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "rank": 10
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "加班费 举证责任 谁承担",
+          "score": 3.1705989121231215
+        }
+      ],
+      "pre_rerank_score": 0.036203201393074806,
+      "bm25_rank": 10,
+      "semantic_rank": 19,
+      "bm25_score": null,
+      "semantic_similarity": 0.4261966347694397,
+      "pre_rerank_rank": 27,
+      "reranker_score": 0.2942081391811371,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "8fba11448fdd77357791": 1
+  }
+}

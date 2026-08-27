@@ -1,0 +1,696 @@
+{
+  "original_query": "公司一直不给我签劳动合同",
+  "structured_understanding": {
+    "original_query": "公司一直不给我签劳动合同",
+    "domain": "劳动争议",
+    "issue": "用人单位未与劳动者签订劳动合同的法律问题",
+    "user_intent": "咨询公司不签劳动合同的法律后果及维权方式",
+    "legal_concepts": [
+      "未签订劳动合同",
+      "双倍工资",
+      "事实劳动关系",
+      "劳动仲裁",
+      "劳动合同法"
+    ],
+    "search_queries": [
+      "用人单位未签订劳动合同的法律责任",
+      "未签劳动合同双倍工资差额计算",
+      "事实劳动关系认定标准及法律依据"
+    ],
+    "provider_status": "real_llm"
+  },
+  "expanded_queries": [
+    "公司一直不给我签劳动合同",
+    "用人单位未签订劳动合同的法律责任",
+    "未签劳动合同双倍工资差额计算"
+  ],
+  "understanding_meta": {
+    "cache_hit": false,
+    "schema_valid": true,
+    "schema_success_on_first_attempt": true,
+    "retry_count": 0,
+    "fallback": false,
+    "latency_ms": 8057.30179999955
+  },
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第八十二条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "0418dd9a22827d6edb71",
+    "aea9c0e1739543174598"
+  ],
+  "candidate_coverage": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 74,
+      "reranking_candidate_count": 74,
+      "candidate_recall": 0.5
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 151,
+      "reranking_candidate_count": 150,
+      "candidate_recall": 1.0
+    }
+  },
+  "retrieval_latency_ms": 66.12189998850226,
+  "reranker_latency_ms": 5701.638816666673,
+  "total_latency_ms": 13825.062516654725,
+  "final_retrieval_ranking": [
+    {
+      "id": "b970f53950cc98494a78",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "bm25_score": 1.7194206508823893,
+      "rank": 1,
+      "canonical_id": "b970f53950cc98494a78",
+      "matched_queries": [
+        "公司一直不给我签劳动合同"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": false,
+      "bm25_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 41
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 1.7194206508823893
+        }
+      ],
+      "pre_rerank_score": 0.009900990099009901,
+      "bm25_rank": 41,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 131,
+      "reranker_score": 0.9319469332695007,
+      "final_rank": 1
+    },
+    {
+      "id": "d507b06ae94939f9c73f",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第九十八条",
+      "chapter": "第十二章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 1.9325357992428729,
+      "rank": 2,
+      "canonical_id": "d507b06ae94939f9c73f",
+      "matched_queries": [
+        "公司一直不给我签劳动合同",
+        "用人单位未签订劳动合同的法律责任"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 27
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 23
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 1.9325357992428729
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 6.612933900542632
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 12
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 9
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 0.6060106754302979
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 0.6601591110229492
+        }
+      ],
+      "pre_rerank_score": 0.051924088156724856,
+      "bm25_rank": 23,
+      "semantic_rank": 9,
+      "semantic_similarity": 0.6060106754302979,
+      "pre_rerank_rank": 13,
+      "reranker_score": 0.8980005979537964,
+      "final_rank": 2
+    },
+    {
+      "id": "9f794318cf7515d5a789",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+      "article_number": "第七条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+      "canonical_id": "9f794318cf7515d5a789",
+      "rank": 3,
+      "similarity_score": 0.5849573016166687,
+      "matched_queries": [
+        "公司一直不给我签劳动合同",
+        "用人单位未签订劳动合同的法律责任",
+        "未签劳动合同双倍工资差额计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 26
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 16
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 23
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 0.5849573016166687
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 0.6507419347763062
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 0.5606663823127747
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 8
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 32
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 7.537453496028066
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 2.4998436307257426
+        }
+      ],
+      "pre_rerank_score": 0.06240944205500311,
+      "bm25_rank": 8,
+      "semantic_rank": 16,
+      "bm25_score": null,
+      "semantic_similarity": 0.5849573016166687,
+      "pre_rerank_rank": 7,
+      "reranker_score": 0.895340085029602,
+      "final_rank": 3
+    },
+    {
+      "id": "7c8b17cb55c584d2c73d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第十四条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "7c8b17cb55c584d2c73d",
+      "rank": 4,
+      "similarity_score": 0.5962537527084351,
+      "matched_queries": [
+        "公司一直不给我签劳动合同",
+        "未签劳动合同双倍工资差额计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 17
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 29
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 0.5962537527084351
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 0.5559326410293579
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 44
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 0.642423659526045
+        }
+      ],
+      "pre_rerank_score": 0.033838352658577375,
+      "bm25_rank": 44,
+      "semantic_rank": 17,
+      "bm25_score": null,
+      "semantic_similarity": 0.5962537527084351,
+      "pre_rerank_rank": 34,
+      "reranker_score": 0.8777169585227966,
+      "final_rank": 4
+    },
+    {
+      "id": "b5148b0e5f30717618d6",
+      "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+      "article_number": "第四十六条",
+      "chapter": null,
+      "document_type": "司法解释",
+      "issuing_authority": "最高人民法院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+      "canonical_id": "b5148b0e5f30717618d6",
+      "rank": 5,
+      "similarity_score": 0.6198874115943909,
+      "matched_queries": [
+        "用人单位未签订劳动合同的法律责任",
+        "未签劳动合同双倍工资差额计算"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 43
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 0.6198874115943909
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 21
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 3.531341127948982
+        }
+      ],
+      "pre_rerank_score": 0.022054416876423347,
+      "bm25_rank": 21,
+      "semantic_rank": 43,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 66,
+      "reranker_score": 0.8639664649963379,
+      "final_rank": 5
+    },
+    {
+      "id": "11c340491c3672d334ac",
+      "law_name": "中华人民共和国劳动法",
+      "article_number": "第十八条",
+      "chapter": "第三章劳动合同和集体合同",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动法_20181229.docx",
+      "bm25_score": 1.7403130859631637,
+      "rank": 6,
+      "canonical_id": "11c340491c3672d334ac",
+      "matched_queries": [
+        "公司一直不给我签劳动合同",
+        "用人单位未签订劳动合同的法律责任",
+        "未签劳动合同双倍工资差额计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 38
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 40
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 1.7403130859631637
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 0.6516261235797692
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 23
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 39
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 0.5869967937469482
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 0.6221821308135986
+        }
+      ],
+      "pre_rerank_score": 0.042353284504747506,
+      "bm25_rank": 38,
+      "semantic_rank": 23,
+      "semantic_similarity": 0.5869967937469482,
+      "pre_rerank_rank": 20,
+      "reranker_score": 0.8391303420066833,
+      "final_rank": 6
+    },
+    {
+      "id": "bde88ceab0e2db0542ae",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第四十六条",
+      "chapter": "第四章劳动合同的解除和终止",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": null,
+      "rank": 7,
+      "canonical_id": "bde88ceab0e2db0542ae",
+      "matched_queries": [
+        "未签劳动合同双倍工资差额计算"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 46
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 0.6327569068857763
+        }
+      ],
+      "pre_rerank_score": 0.009433962264150943,
+      "bm25_rank": 46,
+      "semantic_rank": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 142,
+      "reranker_score": 0.8308873772621155,
+      "final_rank": 7
+    },
+    {
+      "id": "9eeb1a2362c58d638e06",
+      "law_name": "中华人民共和国劳动合同法实施条例",
+      "article_number": "第六条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "行政法规",
+      "issuing_authority": "国务院",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+      "canonical_id": "9eeb1a2362c58d638e06",
+      "rank": 8,
+      "similarity_score": 0.6098076105117798,
+      "matched_queries": [
+        "公司一直不给我签劳动合同",
+        "用人单位未签订劳动合同的法律责任",
+        "未签劳动合同双倍工资差额计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 10
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 8
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 0.6098076105117798
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 0.59637451171875
+        }
+      ],
+      "bm25_ranks": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 36
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 22
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 6.09761879344879
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 3.2808637408315775
+        }
+      ],
+      "pre_rerank_score": 0.05160338525654164,
+      "bm25_rank": 22,
+      "semantic_rank": 8,
+      "bm25_score": null,
+      "semantic_similarity": 0.6098076105117798,
+      "pre_rerank_rank": 14,
+      "reranker_score": 0.8302804231643677,
+      "final_rank": 8
+    },
+    {
+      "id": "aea9c0e1739543174598",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第八十二条",
+      "chapter": "第七章法律责任",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "bm25_score": 1.6729175644110286,
+      "rank": 9,
+      "canonical_id": "aea9c0e1739543174598",
+      "matched_queries": [
+        "公司一直不给我签劳动合同",
+        "用人单位未签订劳动合同的法律责任",
+        "未签劳动合同双倍工资差额计算"
+      ],
+      "from_original_query": true,
+      "from_expanded_query": true,
+      "bm25_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 45
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 5
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 18
+        }
+      ],
+      "bm25_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 1.6729175644110286
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 8.293804951560254
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 3.95137869140823
+        }
+      ],
+      "semantic_ranks": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "rank": 1
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 17
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "rank": 1
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "公司一直不给我签劳动合同",
+          "score": 0.642168402671814
+        },
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 0.6503154039382935
+        },
+        {
+          "query": "未签劳动合同双倍工资差额计算",
+          "score": 0.6356912851333618
+        }
+      ],
+      "pre_rerank_score": 0.08350283596185237,
+      "bm25_rank": 5,
+      "semantic_rank": 1,
+      "semantic_similarity": 0.642168402671814,
+      "pre_rerank_rank": 1,
+      "reranker_score": 0.8180333375930786,
+      "final_rank": 9
+    },
+    {
+      "id": "6d47d7481e86d755572d",
+      "law_name": "中华人民共和国劳动合同法",
+      "article_number": "第二十六条",
+      "chapter": "第二章劳动合同的订立",
+      "document_type": "法律",
+      "issuing_authority": "全国人民代表大会常务委员会",
+      "publish_date": null,
+      "effective_date": null,
+      "status": null,
+      "source_name": null,
+      "source_url": null,
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "canonical_id": "6d47d7481e86d755572d",
+      "rank": 10,
+      "similarity_score": 0.6187523603439331,
+      "matched_queries": [
+        "用人单位未签订劳动合同的法律责任"
+      ],
+      "from_original_query": false,
+      "from_expanded_query": true,
+      "semantic_ranks": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "rank": 44
+        }
+      ],
+      "semantic_scores": [
+        {
+          "query": "用人单位未签订劳动合同的法律责任",
+          "score": 0.6187523603439331
+        }
+      ],
+      "pre_rerank_score": 0.009615384615384616,
+      "bm25_rank": null,
+      "semantic_rank": 44,
+      "bm25_score": null,
+      "semantic_similarity": null,
+      "pre_rerank_rank": 138,
+      "reranker_score": 0.8161539435386658,
+      "final_rank": 10
+    }
+  ],
+  "final_relevant_ranks": {
+    "aea9c0e1739543174598": 9,
+    "0418dd9a22827d6edb71": null
+  }
+}

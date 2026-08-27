@@ -1,0 +1,222 @@
+{
+  "provider": "real_llm",
+  "model": "deepseek-v4-flash",
+  "smoke_tests": [
+    {
+      "smoke_id": "s01",
+      "query": "公司工作两年突然把我辞退了，没有提前通知，也不给补偿怎么办？",
+      "model": "deepseek-v4-flash",
+      "status": "success",
+      "result": {
+        "query": "公司工作两年突然把我辞退了，没有提前通知，也不给补偿怎么办？",
+        "response": {
+          "issue_summary": [
+            "生成模型未能在有限重试内完成可靠的结构化回答。"
+          ],
+          "legal_analysis": [],
+          "relevant_laws": [
+            {
+              "citation": "[1]",
+              "law_name": "中华人民共和国劳动合同法",
+              "article_number": "第七十一条",
+              "text": "非全日制用工双方当事人任何一方都可以随时通知对方终止用工。终止用工，用人单位不向劳动者支付经济补偿。"
+            },
+            {
+              "citation": "[2]",
+              "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+              "article_number": "第四十七条",
+              "text": "建立了工会组织的用人单位解除劳动合同符合劳动合同法第三十九条、第四十条规定，但未按照劳动合同法第四十三条规定事先通知工会，劳动者以用人单位违法解除劳动合同为由请求用人单位支付赔偿金的，人民法院应予支持，但起诉前用人单位已经补正有关程序的除外。"
+            },
+            {
+              "citation": "[3]",
+              "law_name": "中华人民共和国劳动合同法实施条例",
+              "article_number": "第二十五条",
+              "text": "用人单位违反劳动合同法的规定解除或者终止劳动合同，依照劳动合同法第八十七条的规定支付了赔偿金的，不再支付经济补偿。赔偿金的计算年限自用工之日起计算。"
+            },
+            {
+              "citation": "[4]",
+              "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+              "article_number": "第三十八条",
+              "text": "当事人在劳动合同或者保密协议中约定了竞业限制和经济补偿，劳动合同解除或者终止后，因用人单位的原因导致三个月未支付经济补偿，劳动者请求解除竞业限制约定的，人民法院应予支持。"
+            },
+            {
+              "citation": "[5]",
+              "law_name": "中华人民共和国劳动合同法实施条例",
+              "article_number": "第五条",
+              "text": "自用工之日起一个月内，经用人单位书面通知后，劳动者不与用人单位订立书面劳动合同的，用人单位应当书面通知劳动者终止劳动关系，无需向劳动者支付经济补偿，但是应当依法向劳动者支付其实际工作时间的劳动报酬。"
+            }
+          ],
+          "missing_information": [
+            "需要结合完整事实、证据和程序状态进一步判断。"
+          ],
+          "next_steps": [
+            "请先核对上列法律条文，并咨询专业法律人士。"
+          ],
+          "disclaimer": "当前仅展示检索到的法律条文，不构成确定性法律意见。",
+          "generation_status": "retrieval_only",
+          "failure_reason": "generation_validation_failed"
+        },
+        "retrieval_latency_ms": 13001.423900015652,
+        "generation_meta": {
+          "retry_count": 2,
+          "fallback": true,
+          "validation": {
+            "valid": true,
+            "errors": [],
+            "citation_validity": 1.0,
+            "citation_precision": 1.0,
+            "grounded_claim_rate": 1.0,
+            "unsupported_citation_rate": 0.0
+          }
+        }
+      },
+      "wall_clock_ms": 91150.03940000315
+    },
+    {
+      "smoke_id": "s02",
+      "query": "公司一直让我加班但是不给加班费怎么办？",
+      "model": "deepseek-v4-flash",
+      "status": "success",
+      "result": {
+        "query": "公司一直让我加班但是不给加班费怎么办？",
+        "response": {
+          "issue_summary": [
+            "生成模型未能在有限重试内完成可靠的结构化回答。"
+          ],
+          "legal_analysis": [],
+          "relevant_laws": [
+            {
+              "citation": "[1]",
+              "law_name": "中华人民共和国劳动合同法",
+              "article_number": "第八十五条",
+              "text": "用人单位有下列情形之一的，由劳动行政部门责令限期支付劳动报酬、加班费或者经济补偿；劳动报酬低于当地最低工资标准的，应当支付其差额部分；逾期不支付的，责令用人单位按应付金额百分之五十以上百分之一百以下的标准向劳动者加付赔偿金：\n（一）未按照劳动合同的约定或者国家规定及时足额支付劳动者劳动报酬的；\n（二）低于当地最低工资标准支付劳动者工资的；\n（三）安排加班不支付加班费的；\n（四）解除或者终止劳动合同，未依照本法规定向劳动者支付经济补偿的。"
+            },
+            {
+              "citation": "[2]",
+              "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+              "article_number": "第四十二条",
+              "text": "劳动者主张加班费的，应当就加班事实的存在承担举证责任。但劳动者有证据证明用人单位掌握加班事实存在的证据，用人单位不提供的，由用人单位承担不利后果。"
+            },
+            {
+              "citation": "[3]",
+              "law_name": "中华人民共和国劳动合同法",
+              "article_number": "第三十一条",
+              "text": "用人单位应当严格执行劳动定额标准，不得强迫或者变相强迫劳动者加班。用人单位安排加班的，应当按照国家有关规定向劳动者支付加班费。"
+            },
+            {
+              "citation": "[4]",
+              "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+              "article_number": "第三十五条",
+              "text": "劳动者与用人单位就解除或者终止劳动合同办理相关手续、支付工资报酬、加班费、经济补偿或者赔偿金等达成的协议，不违反法律、行政法规的强制性规定，且不存在欺诈、胁迫或者乘人之危情形的，应当认定有效。\n前款协议存在重大误解或者显失公平情形，当事人请求撤销的，人民法院应予支持。"
+            },
+            {
+              "citation": "[5]",
+              "law_name": "中华人民共和国劳动合同法",
+              "article_number": "第六十二条",
+              "text": "用工单位应当履行下列义务：\n（一）执行国家劳动标准，提供相应的劳动条件和劳动保护；\n（二）告知被派遣劳动者的工作要求和劳动报酬；\n（三）支付加班费、绩效奖金，提供与工作岗位相关的福利待遇；\n（四）对在岗被派遣劳动者进行工作岗位所必需的培训；\n（五）连续用工的，实行正常的工资调整机制。\n用工单位不得将被派遣劳动者再派遣到其他用人单位。"
+            }
+          ],
+          "missing_information": [
+            "需要结合完整事实、证据和程序状态进一步判断。"
+          ],
+          "next_steps": [
+            "请先核对上列法律条文，并咨询专业法律人士。"
+          ],
+          "disclaimer": "当前仅展示检索到的法律条文，不构成确定性法律意见。",
+          "generation_status": "retrieval_only",
+          "failure_reason": "generation_validation_failed"
+        },
+        "retrieval_latency_ms": 10465.327699988848,
+        "generation_meta": {
+          "retry_count": 2,
+          "fallback": true,
+          "validation": {
+            "valid": true,
+            "errors": [],
+            "citation_validity": 1.0,
+            "citation_precision": 1.0,
+            "grounded_claim_rate": 1.0,
+            "unsupported_citation_rate": 0.0
+          }
+        }
+      },
+      "wall_clock_ms": 77366.7737999931
+    },
+    {
+      "smoke_id": "s03",
+      "query": "我租房押金不退怎么办？",
+      "model": "deepseek-v4-flash",
+      "status": "success",
+      "result": {
+        "query": "我租房押金不退怎么办？",
+        "response": {
+          "issue_summary": [
+            "当前劳动争议知识库不足以可靠回答该问题。"
+          ],
+          "legal_analysis": [],
+          "relevant_laws": [],
+          "missing_information": [
+            "需要与租赁纠纷对应的法律资料。"
+          ],
+          "next_steps": [
+            "请查询租赁法律法规或咨询相关专业人士。"
+          ],
+          "disclaimer": "当前知识库不覆盖该领域，不构成法律意见。",
+          "generation_status": "out_of_domain"
+        },
+        "retrieval_latency_ms": 0.0,
+        "generation_meta": {
+          "retry_count": 0,
+          "fallback": false,
+          "validation": {
+            "valid": true,
+            "errors": [],
+            "citation_validity": 1.0,
+            "citation_precision": 1.0,
+            "grounded_claim_rate": 1.0,
+            "unsupported_citation_rate": 0.0
+          }
+        }
+      },
+      "wall_clock_ms": 0.008400005754083395
+    },
+    {
+      "smoke_id": "s04",
+      "query": "劳动合同法第999条规定了什么？",
+      "model": "deepseek-v4-flash",
+      "status": "success",
+      "result": {
+        "query": "劳动合同法第999条规定了什么？",
+        "response": {
+          "issue_summary": [
+            "提供的阿拉伯数字条号无法在当前法规库中核验。"
+          ],
+          "legal_analysis": [],
+          "relevant_laws": [],
+          "missing_information": [
+            "需要确认法律名称、有效条号和适用法规版本。"
+          ],
+          "next_steps": [
+            "不要依据无法核验的条号作出法律判断。"
+          ],
+          "disclaimer": "当前仅能对法规库中可核验的条文进行检索，不构成法律意见。",
+          "generation_status": "unverifiable_article"
+        },
+        "retrieval_latency_ms": 0.0,
+        "generation_meta": {
+          "retry_count": 0,
+          "fallback": false,
+          "validation": {
+            "valid": true,
+            "errors": [],
+            "citation_validity": 1.0,
+            "citation_precision": 1.0,
+            "grounded_claim_rate": 1.0,
+            "unsupported_citation_rate": 0.0
+          }
+        }
+      },
+      "wall_clock_ms": 0.09450002107769251
+    }
+  ]
+}

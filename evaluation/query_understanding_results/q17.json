@@ -1,0 +1,1305 @@
+{
+  "original_query": "没有书面劳动合同有什么后果",
+  "structured_understanding": {
+    "original_query": "没有书面劳动合同有什么后果",
+    "domain": "劳动争议",
+    "issue": "书面劳动合同、未订立劳动合同、双倍工资",
+    "user_intent": "查找适用的劳动争议法律规则",
+    "legal_concepts": [
+      "书面劳动合同",
+      "未订立劳动合同",
+      "双倍工资"
+    ],
+    "search_queries": [
+      "没有书面劳动合同有什么后果",
+      "书面劳动合同 未订立劳动合同 双倍工资",
+      "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+    ],
+    "provider_status": "mock",
+    "cache_hit": true
+  },
+  "expanded_queries": [
+    "没有书面劳动合同有什么后果",
+    "书面劳动合同 未订立劳动合同 双倍工资",
+    "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+  ],
+  "relevant_articles": [
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第十条"
+    },
+    {
+      "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+      "article_number": "第八十二条"
+    }
+  ],
+  "relevant_canonical_ids": [
+    "0418dd9a22827d6edb71",
+    "aea9c0e1739543174598"
+  ],
+  "original_retrieval": {
+    "semantic_rank": {
+      "0418dd9a22827d6edb71": 21,
+      "aea9c0e1739543174598": 5
+    },
+    "candidate_recall_at_20": 0.5,
+    "candidate_recall_at_50": 1.0
+  },
+  "multi_query_candidates": {
+    "at_20": {
+      "query_count": 3,
+      "raw_candidate_count": 120,
+      "unique_candidate_count": 46,
+      "reranking_candidate_count": 46,
+      "candidate_recall": 1.0
+    },
+    "at_50": {
+      "query_count": 3,
+      "raw_candidate_count": 300,
+      "unique_candidate_count": 127,
+      "reranking_candidate_count": 127,
+      "candidate_recall": 1.0
+    },
+    "candidate_rank_at_50": {
+      "0418dd9a22827d6edb71": 5,
+      "aea9c0e1739543174598": 3
+    }
+  },
+  "query_understanding_latency_ms": 0.0005999754648655653,
+  "multi_query_retrieval_latency_ms": 25.44789999956265,
+  "final_retrieval_ranking": {
+    "semantic_reranked": [
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "aea9c0e1739543174598",
+        "rank": 1,
+        "similarity_score": 0.6327009201049805,
+        "reranker_score": 0.9847827553749084,
+        "final_rank": 1
+      },
+      {
+        "id": "9eeb1a2362c58d638e06",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第六条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "9eeb1a2362c58d638e06",
+        "rank": 2,
+        "similarity_score": 0.6320371031761169,
+        "reranker_score": 0.9739304184913635,
+        "final_rank": 2
+      },
+      {
+        "id": "579caffe2757c31ddf61",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "579caffe2757c31ddf61",
+        "rank": 3,
+        "similarity_score": 0.6671264171600342,
+        "reranker_score": 0.9638391137123108,
+        "final_rank": 3
+      },
+      {
+        "id": "9f794318cf7515d5a789",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "9f794318cf7515d5a789",
+        "rank": 4,
+        "similarity_score": 0.6131147146224976,
+        "reranker_score": 0.9571530222892761,
+        "final_rank": 4
+      },
+      {
+        "id": "6d930fa87deeea740517",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "6d930fa87deeea740517",
+        "rank": 5,
+        "similarity_score": 0.6019597053527832,
+        "reranker_score": 0.9521355032920837,
+        "final_rank": 5
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "ce59fc8a7767d629495d",
+        "rank": 6,
+        "similarity_score": 0.6444294452667236,
+        "reranker_score": 0.9004999399185181,
+        "final_rank": 6
+      },
+      {
+        "id": "ff740c2d8cdc09f8a63a",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "canonical_id": "ff740c2d8cdc09f8a63a",
+        "rank": 7,
+        "similarity_score": 0.6191126108169556,
+        "reranker_score": 0.8963631987571716,
+        "final_rank": 7
+      },
+      {
+        "id": "af703e7124423e1e324a",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十一条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "af703e7124423e1e324a",
+        "rank": 8,
+        "similarity_score": 0.6215916872024536,
+        "reranker_score": 0.8551545739173889,
+        "final_rank": 8
+      },
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "rank": 9,
+        "similarity_score": 0.5966506004333496,
+        "reranker_score": 0.8513405919075012,
+        "final_rank": 9
+      },
+      {
+        "id": "e05896bbd64940a29b80",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第八条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "canonical_id": "e05896bbd64940a29b80",
+        "rank": 10,
+        "similarity_score": 0.5931093692779541,
+        "reranker_score": 0.8486718535423279,
+        "final_rank": 10
+      }
+    ],
+    "v04_reranked": [
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.229684253110056,
+        "rank": 1,
+        "canonical_id": "aea9c0e1739543174598",
+        "bm25_rank": 21,
+        "semantic_rank": 5,
+        "semantic_similarity": 0.6327009201049805,
+        "rrf_score": 0.027730294396961064,
+        "hybrid_rank": 8,
+        "reranker_score": 0.9847827553749084,
+        "final_rank": 1
+      },
+      {
+        "id": "9eeb1a2362c58d638e06",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第六条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 4.8530106296104405,
+        "rank": 2,
+        "canonical_id": "9eeb1a2362c58d638e06",
+        "bm25_rank": 9,
+        "semantic_rank": 6,
+        "semantic_similarity": 0.6320371031761169,
+        "rrf_score": 0.02964426877470356,
+        "hybrid_rank": 3,
+        "reranker_score": 0.9739304184913635,
+        "final_rank": 2
+      },
+      {
+        "id": "579caffe2757c31ddf61",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.322096952507295,
+        "rank": 3,
+        "canonical_id": "579caffe2757c31ddf61",
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6671264171600342,
+        "rrf_score": 0.03278688524590164,
+        "hybrid_rank": 1,
+        "reranker_score": 0.9638391137123108,
+        "final_rank": 3
+      },
+      {
+        "id": "9f794318cf7515d5a789",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 2.805077745080118,
+        "rank": 4,
+        "canonical_id": "9f794318cf7515d5a789",
+        "bm25_rank": 26,
+        "semantic_rank": 12,
+        "semantic_similarity": 0.6131147146224976,
+        "rrf_score": 0.025516795865633074,
+        "hybrid_rank": 12,
+        "reranker_score": 0.9571530222892761,
+        "final_rank": 4
+      },
+      {
+        "id": "6d930fa87deeea740517",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "6d930fa87deeea740517",
+        "rank": 5,
+        "similarity_score": 0.6019597053527832,
+        "semantic_rank": 23,
+        "semantic_similarity": 0.6019597053527832,
+        "rrf_score": 0.012048192771084338,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 37,
+        "reranker_score": 0.9521355032920837,
+        "final_rank": 5
+      },
+      {
+        "id": "446436c9a0d85d6ae909",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第一条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 2.9099503562706053,
+        "rank": 6,
+        "canonical_id": "446436c9a0d85d6ae909",
+        "bm25_rank": 25,
+        "rrf_score": 0.011764705882352941,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "hybrid_rank": 41,
+        "reranker_score": 0.9210572242736816,
+        "final_rank": 6
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 3.2809707306001354,
+        "rank": 7,
+        "canonical_id": "ce59fc8a7767d629495d",
+        "bm25_rank": 19,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6444294452667236,
+        "rrf_score": 0.028531243721117136,
+        "hybrid_rank": 6,
+        "reranker_score": 0.9004999399185181,
+        "final_rank": 7
+      },
+      {
+        "id": "ff740c2d8cdc09f8a63a",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 4.1037104500399835,
+        "rank": 8,
+        "canonical_id": "ff740c2d8cdc09f8a63a",
+        "bm25_rank": 13,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.6191126108169556,
+        "rrf_score": 0.027783137179239824,
+        "hybrid_rank": 7,
+        "reranker_score": 0.8963631987571716,
+        "final_rank": 8
+      },
+      {
+        "id": "af703e7124423e1e324a",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十一条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "af703e7124423e1e324a",
+        "rank": 9,
+        "similarity_score": 0.6215916872024536,
+        "semantic_rank": 9,
+        "semantic_similarity": 0.6215916872024536,
+        "rrf_score": 0.014492753623188406,
+        "bm25_rank": null,
+        "bm25_score": null,
+        "hybrid_rank": 24,
+        "reranker_score": 0.8551545739173889,
+        "final_rank": 9
+      },
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 5.214872849588238,
+        "rank": 10,
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "bm25_rank": 8,
+        "semantic_rank": 30,
+        "semantic_similarity": 0.5966506004333496,
+        "rrf_score": 0.025816993464052286,
+        "hybrid_rank": 11,
+        "reranker_score": 0.8513407111167908,
+        "final_rank": 10
+      }
+    ],
+    "v05_multi_query_reranked": [
+      {
+        "id": "aea9c0e1739543174598",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十二条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 3.229684253110056,
+        "rank": 1,
+        "canonical_id": "aea9c0e1739543174598",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 21
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 4
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 3.229684253110056
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 11.323811439425057
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 12.436101958661032
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 5
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 2
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 4
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6327009201049805
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.7057381272315979
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6917504668235779
+          }
+        ],
+        "pre_rerank_score": 0.0912383589130901,
+        "bm25_rank": 2,
+        "semantic_rank": 2,
+        "semantic_similarity": 0.6327009201049805,
+        "pre_rerank_rank": 3,
+        "reranker_score": 0.9847827553749084,
+        "final_rank": 1
+      },
+      {
+        "id": "9eeb1a2362c58d638e06",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第六条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 4.8530106296104405,
+        "rank": 2,
+        "canonical_id": "9eeb1a2362c58d638e06",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 9
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 1
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 4.8530106296104405
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 11.415596835208742
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 13.19202087294758
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 6
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 3
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 5
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6320371031761169
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.7022151947021484
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6840497255325317
+          }
+        ],
+        "pre_rerank_score": 0.09368878527823646,
+        "bm25_rank": 1,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6320371031761169,
+        "pre_rerank_rank": 2,
+        "reranker_score": 0.9739304184913635,
+        "final_rank": 2
+      },
+      {
+        "id": "579caffe2757c31ddf61",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十一条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 7.322096952507295,
+        "rank": 3,
+        "canonical_id": "579caffe2757c31ddf61",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 1
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 8
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 7.322096952507295
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 8.96411910089428
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 10.187021757396675
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 1
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 1
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 2
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6671264171600342
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.7100273966789246
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.7008895874023438
+          }
+        ],
+        "pre_rerank_score": 0.09472112483279933,
+        "bm25_rank": 1,
+        "semantic_rank": 1,
+        "semantic_similarity": 0.6671264171600342,
+        "pre_rerank_rank": 1,
+        "reranker_score": 0.9638391137123108,
+        "final_rank": 3
+      },
+      {
+        "id": "9f794318cf7515d5a789",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（二）",
+        "article_number": "第七条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）_20250731.docx",
+        "bm25_score": 2.805077745080118,
+        "rank": 4,
+        "canonical_id": "9f794318cf7515d5a789",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 26
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 5
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 6
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 2.805077745080118
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 10.598277268412842
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 12.05627329834144
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 12
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 8
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 3
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6131147146224976
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.645994246006012
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6928707361221313
+          }
+        ],
+        "pre_rerank_score": 0.08663182462772066,
+        "bm25_rank": 5,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6131147146224976,
+        "pre_rerank_rank": 8,
+        "reranker_score": 0.9571530222892761,
+        "final_rank": 4
+      },
+      {
+        "id": "6d930fa87deeea740517",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第四十三条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "canonical_id": "6d930fa87deeea740517",
+        "rank": 5,
+        "similarity_score": 0.6019597053527832,
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 23
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 19
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6019597053527832
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.631145179271698
+          }
+        ],
+        "pre_rerank_score": 0.024706420619185605,
+        "bm25_rank": null,
+        "semantic_rank": 19,
+        "bm25_score": null,
+        "semantic_similarity": 0.6019597053527832,
+        "pre_rerank_rank": 48,
+        "reranker_score": 0.9521355032920837,
+        "final_rank": 5
+      },
+      {
+        "id": "446436c9a0d85d6ae909",
+        "law_name": "最高人民法院关于审理劳动争议案件适用法律问题的解释（一）",
+        "article_number": "第一条",
+        "chapter": null,
+        "document_type": "司法解释",
+        "issuing_authority": "最高人民法院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）_20201229.docx",
+        "bm25_score": 2.9099503562706053,
+        "rank": 6,
+        "canonical_id": "446436c9a0d85d6ae909",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": false,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 25
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 2.9099503562706053
+          }
+        ],
+        "pre_rerank_score": 0.011764705882352941,
+        "bm25_rank": 25,
+        "semantic_rank": null,
+        "semantic_similarity": null,
+        "pre_rerank_rank": 80,
+        "reranker_score": 0.9210572242736816,
+        "final_rank": 6
+      },
+      {
+        "id": "ce59fc8a7767d629495d",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第五条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 3.2809707306001354,
+        "rank": 7,
+        "canonical_id": "ce59fc8a7767d629495d",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 19
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 15
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 16
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 3.2809707306001354
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 5.645866798766019
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 7.299476775555277
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 3
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 7
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 12
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6444294452667236
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6504849195480347
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6395283937454224
+          }
+        ],
+        "pre_rerank_score": 0.08383673381450982,
+        "bm25_rank": 15,
+        "semantic_rank": 3,
+        "semantic_similarity": 0.6444294452667236,
+        "pre_rerank_rank": 10,
+        "reranker_score": 0.9004999399185181,
+        "final_rank": 7
+      },
+      {
+        "id": "ff740c2d8cdc09f8a63a",
+        "law_name": "中华人民共和国劳动合同法实施条例",
+        "article_number": "第七条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "行政法规",
+        "issuing_authority": "国务院",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法实施条例_20080918.docx",
+        "bm25_score": 4.1037104500399835,
+        "rank": 8,
+        "canonical_id": "ff740c2d8cdc09f8a63a",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 13
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 6
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 7
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 4.1037104500399835
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 10.509819019344317
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 11.975320420161578
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 11
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 4
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 8
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6191126108169556
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6879067420959473
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6729825735092163
+          }
+        ],
+        "pre_rerank_score": 0.08819090781802452,
+        "bm25_rank": 6,
+        "semantic_rank": 4,
+        "semantic_similarity": 0.6191126108169556,
+        "pre_rerank_rank": 6,
+        "reranker_score": 0.8963631987571716,
+        "final_rank": 8
+      },
+      {
+        "id": "af703e7124423e1e324a",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第八十一条",
+        "chapter": "第七章法律责任",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "canonical_id": "af703e7124423e1e324a",
+        "rank": 9,
+        "similarity_score": 0.6215916872024536,
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 9
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 20
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.6215916872024536
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6182656288146973
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6307227611541748
+          }
+        ],
+        "bm25_ranks": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 31
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 23
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 3.825696930248561
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 6.002299502926107
+          }
+        ],
+        "pre_rerank_score": 0.06301697037029672,
+        "bm25_rank": 23,
+        "semantic_rank": 9,
+        "bm25_score": null,
+        "semantic_similarity": 0.6215916872024536,
+        "pre_rerank_rank": 12,
+        "reranker_score": 0.8551545739173889,
+        "final_rank": 9
+      },
+      {
+        "id": "7c8b17cb55c584d2c73d",
+        "law_name": "中华人民共和国劳动合同法",
+        "article_number": "第十四条",
+        "chapter": "第二章劳动合同的订立",
+        "document_type": "法律",
+        "issuing_authority": "全国人民代表大会常务委员会",
+        "publish_date": null,
+        "effective_date": null,
+        "status": null,
+        "source_name": null,
+        "source_url": null,
+        "source_file": "data/raw/laws/中华人民共和国劳动合同法_20121228.docx",
+        "bm25_score": 5.214872849588238,
+        "rank": 10,
+        "canonical_id": "7c8b17cb55c584d2c73d",
+        "matched_queries": [
+          "没有书面劳动合同有什么后果",
+          "书面劳动合同 未订立劳动合同 双倍工资",
+          "劳动争议 书面劳动合同 未订立劳动合同 双倍工资"
+        ],
+        "from_original_query": true,
+        "from_expanded_query": true,
+        "bm25_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 8
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 17
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 24
+          }
+        ],
+        "bm25_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 5.214872849588238
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 5.261556105211142
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 5.913101131600756
+          }
+        ],
+        "semantic_ranks": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "rank": 30
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 11
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "rank": 18
+          }
+        ],
+        "semantic_scores": [
+          {
+            "query": "没有书面劳动合同有什么后果",
+            "score": 0.5966506004333496
+          },
+          {
+            "query": "书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6336761713027954
+          },
+          {
+            "query": "劳动争议 书面劳动合同 未订立劳动合同 双倍工资",
+            "score": 0.6324124336242676
+          }
+        ],
+        "pre_rerank_score": 0.07761378821859352,
+        "bm25_rank": 8,
+        "semantic_rank": 11,
+        "semantic_similarity": 0.5966506004333496,
+        "pre_rerank_rank": 11,
+        "reranker_score": 0.8513405323028564,
+        "final_rank": 10
+      }
+    ]
+  },
+  "final_relevant_ranks": {
+    "semantic_reranked": {
+      "0418dd9a22827d6edb71": null,
+      "aea9c0e1739543174598": 1
+    },
+    "v04_reranked": {
+      "0418dd9a22827d6edb71": null,
+      "aea9c0e1739543174598": 1
+    },
+    "v05_multi_query_reranked": {
+      "0418dd9a22827d6edb71": null,
+      "aea9c0e1739543174598": 1
+    }
+  }
+}
