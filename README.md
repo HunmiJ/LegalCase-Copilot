@@ -2,49 +2,57 @@
 
 ## 劳动法律信息检索与类案辅助分析系统
 
-An AI-powered labor-law retrieval and case-augmented RAG assistant with hybrid retrieval, cross-encoder reranking, grounded generation, and citation validation.
+LegalCase-Copilot 是一个面向劳动争议场景的法律信息检索与类案辅助分析系统。项目实现了从问题理解、法规与案例检索、混合召回、Cross-Encoder Reranker 重排、上下文构建，到结构化生成、引用校验和安全 fallback 的完整流程。
 
-LegalCase-Copilot is an engineering-oriented research and demonstration system for labor-dispute legal information retrieval. It implements a complete retrieval → reranking → context building → generation → validation pipeline rather than simply forwarding a question to an LLM API.
+本项目用于工程研究、系统演示和评测，不替代律师或其他专业法律服务，也不对具体案件作出法律结论。
 
-## Project Overview
+## 项目概览
 
-The system combines 372 article-level labor-law and judicial-interpretation records with a 6,492-case public labor-dispute corpus, BM25 sparse retrieval, dense semantic retrieval, hybrid fusion, cross-encoder reranking, DeepSeek-compatible grounded generation, deterministic LAW/CASE citations, citation validation, article sanitization, and safe fallback.
+系统将以下能力组合为一条可审计的 production-style pipeline：
 
-The 6,492-case production corpus and its generated embeddings are external runtime assets. They are not included in this repository.
+- 372 条法规及司法解释的 article-level 检索记录
+- 6,492 条劳动争议案例的外部 production corpus 接口
+- BM25 稀疏检索与 dense semantic retrieval
+- Hybrid Retrieval 融合与 Cross-Encoder Reranker 重排
+- Case-Augmented RAG：法规证据与类案证据分开检索、组合使用
+- DeepSeek-compatible grounded generation
+- 确定性的 `LAW-*` / `CASE-*` citation namespace
+- Citation Validation、article sanitization 和安全 fallback
+
+6,492 案例 production corpus 及其生成的 embeddings 不随本仓库发布，需要用户从具有适当来源和使用权限的渠道自行准备。
 
 ## Demo
 
-The Streamlit demo presents law-only and law + 6,492-case augmentation modes in one page. It displays provider/corpus status, structured analysis, citation metadata, risk notes, confidence, and safe retrieval-only fallback.
+Streamlit Demo 在同一页面提供两种模式：法规检索、法规 + 类案增强。页面会展示 provider 和 corpus 状态、结构化回答、完整法律分析、LAW/CASE citation metadata、风险提示、置信度，以及不伪造 AI 结论的 retrieval-only fallback。
 
-![Demo home](docs/images/demo-home.png)
+### 首页
 
-![Case-augmented result](docs/images/demo-case-augmented-success.png)
+<a href="docs/images/demo-home.png"><img src="docs/images/demo-home.png" alt="LegalCase-Copilot Demo 首页" width="900"></a>
 
-See the [Web Demo guide](docs/demo.md) for the additional law-only and fallback screenshots.
+### 法规检索结果
 
-## Key Features
+<a href="docs/images/demo-law-only-success.png"><img src="docs/images/demo-law-only-success.png" alt="法规检索模式真实生成结果" width="900"></a>
 
-- Hybrid sparse+dense retrieval
-- Cross-encoder reranking with `BAAI/bge-reranker-base`
-- Configurable full-case corpus integration
-- Case-Augmented RAG with separate law and case evidence
-- Grounded structured generation with bounded retries
-- Deterministic `LAW-*` and `CASE-*` citation namespaces
-- Citation metadata rendering and validation against retrieved context
-- Unsupported article-number sanitization
-- Safe refusal and retrieval-only fallback
-- Real-provider evaluation and Streamlit presentation layer
+### 法规 + 类案增强结果
 
-## System Architecture
+<a href="docs/images/demo-case-augmented-success.png"><img src="docs/images/demo-case-augmented-success.png" alt="法规与类案增强模式真实生成结果" width="900"></a>
+
+### 安全 fallback
+
+<a href="docs/images/demo-fallback.png"><img src="docs/images/demo-fallback.png" alt="生成失败时的安全 fallback" width="900"></a>
+
+生成失败时，页面会明确标注“AI 分析暂时未生成成功”，只展示检索到的证据，不使用检索文本拼接虚假回答，也不伪造 confidence。详细启动方式见 [Demo 使用说明](docs/demo.md)。
+
+## 核心架构
 
 ```mermaid
 flowchart TD
-    Q[User Query] --> P[Query Processing]
+    Q[用户问题] --> P[问题理解]
     P --> R[BM25 + Dense Retrieval]
     R --> F[Hybrid Fusion]
     F --> X[Cross-Encoder Reranker]
-    X --> L[Labor Laws<br/>372 articles]
-    X --> C[Labor Cases<br/>6,492 cases]
+    X --> L[劳动法规<br/>372 条]
+    X --> C[劳动案例<br/>6,492 条]
     L --> B[Generation Context Builder]
     C --> B
     B --> D[DeepSeek-compatible Provider]
@@ -54,52 +62,47 @@ flowchart TD
     V --> A[Structured Answer<br/>LAW / CASE Metadata]
 ```
 
-## Dataset & Corpus
+法规和案例始终保持独立的检索与引用空间：法规提供规范性依据，案例提供类案事实、争议焦点、裁判理由和结果等辅助证据。案例检索不可用时，法规-only 路径仍可运行。
 
-### Labor-law corpus
+## 数据与语料边界
 
-The production law corpus contains 372 article-level records derived from six labor-law and judicial-interpretation source documents. Complete structured law records are not included in the public repository because their redistribution provenance is not confirmed.
+### 法规语料
 
-The original source-document packages are not included. The repository contains law schema, metadata, provenance notes, and parsing code; users who regenerate records must obtain texts from a suitable official source and verify its redistribution terms.
+生产评测使用 372 条 article-level 法规及司法解释记录。完整法规正文、原始 DOCX/PDF 和未经确认再分发许可的派生文本不包含在公开仓库中。仓库保留 schema、metadata、provenance 说明和处理代码，用户如需重建语料，应从合适的官方来源获取文本并自行确认使用条件。
 
-### Case corpus
+### 案例语料
 
-- Production corpus: 6,492 public labor-dispute cases
-- Curated retrieval benchmark: 19 cases
+- Production corpus：6,492 条劳动争议案例
+- Curated benchmark：19 个案例
+- Public test fixture：完全合成的小型样本，不是真实司法案例
 
-The production corpus comes from a public labor-case dataset derived from publicly available Chinese judgment data. It is not an official People’s Court database, a project-built official case repository, or a claim of automatic crawling from China Judgments Online.
+6,492 corpus 来源于公开可访问的劳动案例数据，但不代表官方人民法院案例库，也不代表项目自动爬取中国裁判文书网。由于体积、来源和授权边界，production corpus、full-corpus embeddings、raw court PDFs 和其他外部原始数据不随仓库发布。
 
-Because of size, provenance, and licensing considerations, the production corpus, generated full-corpus embeddings, and external raw labor dataset are not distributed in this repository. Users must obtain permitted data separately.
+更多边界说明见 [THIRD_PARTY_DATA.md](THIRD_PARTY_DATA.md) 和 [评测数据公开政策](docs/evaluation_data_policy.md)。
 
-## Retrieval Pipeline
+## 检索与 RAG 流程
 
-1. Query processing identifies labor-law retrieval intent.
-2. BM25 and dense semantic retrieval produce candidates.
-3. Hybrid fusion combines sparse and dense rankings.
-4. A cross-encoder reranks the candidate set.
-5. The context builder creates bounded, citation-addressable evidence.
+1. Query Processing 识别劳动法律范围和检索意图。
+2. BM25 与 dense semantic retrieval 召回候选法规或案例。
+3. Hybrid Fusion 融合稀疏与语义排序。
+4. Cross-Encoder Reranker 对候选集合进行重排。
+5. Context Builder 构建有边界、可引用的证据上下文。
+6. Generation 输出结构化回答。
+7. Citation Validation 校验引用是否对应真实检索证据。
 
-## Case-Augmented RAG
+模型输出中的引用不会被直接信任。`LAW-*` 和 `CASE-*` 命名空间相互独立，引用 metadata 从已验证的检索上下文中确定性生成。
 
-Law evidence and similar-case evidence are retrieved separately and combined into a bounded generation context. Responses may cite laws with `LAW-*` identifiers and cases with `CASE-*` identifiers. Case metadata is rendered from retrieved records rather than copied from opaque model output.
+## 安全与 fallback
 
-## Safety & Citation Validation
+系统在问题超出劳动法律范围、检索证据不足、生成或 schema 校验失败、引用无法对应检索上下文、模型返回不受支持条号时采用保守行为。页面会进入明确的 retrieval-only 或 evidence-insufficient 状态，不把检索结果伪装成 AI 成功回答，也不显示虚假的置信度。
 
-The generation layer validates structured responses against actual retrieved context, normalizes citations, sanitizes unsupported article-number references, and rejects unsupported citations. If generation fails, the UI does not fabricate an answer or confidence score:
-
-> AI 分析暂时未生成成功。
->
-> 以上为检索结果，不代表 AI 生成结论。
-
-The default local provider is deterministic Mock mode and is visibly labeled as such. Mock output is offline demonstration only and is not real AI generation.
-
-## Evaluation
+## 评测结果
 
 ### Full-corpus retrieval evaluation
 
-These results use 30 weakly supervised full-corpus retrieval queries, not an expert human-labeled benchmark:
+以下结果基于 30 条 weakly supervised full-corpus retrieval queries，不是专家人工标注基准：
 
-| Method | R@1 | R@3 | R@5 |
+| 方法 | R@1 | R@3 | R@5 |
 |---|---:|---:|---:|
 | BM25 | 0.8667 | 0.9333 | 0.9333 |
 | Semantic | 0.5333 | 0.5667 | 0.6000 |
@@ -108,30 +111,30 @@ These results use 30 weakly supervised full-corpus retrieval queries, not an exp
 
 ### Final 30-query real generation evaluation
 
-| Mode | Generation success | Citation validity |
+| 模式 | Generation success | Citation validity |
 |---|---:|---:|
 | Law-only | 86.67% | 100% |
 | Law + 6,492 cases | 96.67% | 100% |
 
-| Mode | Legal-basis accuracy | Case-reference accuracy | Average latency |
+| 模式 | Legal-basis accuracy | Case-reference accuracy | 平均延迟 |
 |---|---:|---:|---:|
 | Law-only | 0.6154 | N/A | 16.91 s |
 | Law + 6,492 cases | 0.6552 | 0.2126 | 36.51 s |
 
-Unsupported citation count was 0 in both modes. Citation validity is calculated for successful responses. Legal-basis accuracy and case-reference accuracy are automatic matching metrics, not expert legal correctness or expert case-similarity judgments. The unsupported-claim metric is not a human sentence-by-sentence fact audit. Generation success is measured on a fixed evaluation set and is not a guarantee for arbitrary questions.
+两种模式的 unsupported citation count 均为 0。上述指标是固定评测集上的自动指标，不等同于专家法律正确性、专业律师审查或对任意问题的保证；legal-basis accuracy 和 case-reference accuracy 也不是人工逐句事实审查。
 
-## Quick Start
+## 快速开始
 
-From the repository root:
+在仓库根目录执行：
 
 ```powershell
 python -m venv .venv
-.\\.venv\\Scripts\\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python -m pip install -r frontend_demo/requirements.txt
 ```
 
-Copy `.env.example` to `.env`. The default mock provider is offline. For a permitted real provider, configure locally:
+复制 `.env.example` 为 `.env`。默认 provider 为离线 Mock 模式；如要使用获准的真实 provider，请仅在本机配置：
 
 ```text
 LEGALCASE_LLM_PROVIDER=real
@@ -141,62 +144,57 @@ LEGALCASE_LLM_MODEL=<your-model-name>
 LEGALCASE_LLM_TIMEOUT=30
 ```
 
-Never commit `.env` or real credentials. The law-only mode requires permitted structured law records prepared locally; complete law text and its indexes are not bundled. Case-augmented production mode additionally requires `cases.jsonl`, `case_embeddings.npy`, and `case_embedding_index.json` under `data/processed/full_cases/`, or an equivalent `CASE_CORPUS_PATH`. The repository does not download these files automatically; when absent, the Demo keeps law-only mode available and marks production case augmentation unavailable.
+不要提交 `.env` 或真实凭据。
 
-Start the Web Demo:
+法规-only 模式需要用户自行准备具有适当权限的结构化法规记录；完整法规正文和索引不随仓库发布。法规 + 类案增强模式还需要 `cases.jsonl`、`case_embeddings.npy` 和 `case_embedding_index.json`，放在 `data/processed/full_cases/`，或通过 `CASE_CORPUS_PATH` 指定等价目录。仓库不会自动下载未知来源的数据；缺少这些文件时，Demo 应明确提示 production case augmentation 不可用，并继续提供法规-only 模式。
+
+启动 Demo：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/run_web_demo.ps1 -Port 8503
 ```
 
-Open <http://localhost:8503>. The script defaults to port 8501 without `-Port`.
+打开 <http://localhost:8503>。
 
-Run tests:
+运行测试：
 
 ```powershell
 python -m pytest tests
 ```
 
-The current regression baseline is 174 passing tests with one environment-specific pytest cache warning.
+公开 clone 的测试以 unit test 和 synthetic fixture contract test 为主；依赖未发布外部语料的 integration test 会明确 skip。当前公开 clone 验证结果为 85 passed、90 skipped、1 warning。
 
-## Project Structure
+## 项目结构
 
 ```text
-backend/        # Providers, search, RAG, generation, and validation
-data/           # Local source and processed artifacts; production corpus is external
-docs/           # Architecture, demo, provenance, and evaluation documentation
-evaluation/     # Reproducible benchmark runners and frozen metrics
-frontend_demo/  # Streamlit presentation layer
-scripts/        # Retrieval, indexing, and demo utilities
-tests/          # Unit and integration tests
+backend/        # Provider、检索、RAG、生成与引用校验
+data/           # 本地 metadata 与外部运行时语料边界
+docs/           # 架构、Demo、评测与 provenance 文档
+evaluation/     # 可复现评测脚本与脱敏指标产物
+frontend_demo/  # Streamlit 展示层
+scripts/        # 检索、索引和 Demo 工具
+tests/          # 单元测试与合成 fixture 测试
 ```
 
-## Limitations
+## 局限性
 
-- Automated evaluation is not equivalent to professional lawyer review or legal correctness certification.
-- Full-corpus case relevance is evaluated primarily with weak supervision and automatic metrics.
-- Case-augmented generation has materially higher latency; final evaluation average was approximately 36.51 seconds.
-- Real local case-augmented queries took approximately 39–58 seconds during browser acceptance.
-- Real provider deployment requires network access and local credentials.
-- The system is for legal information retrieval and similar-case assistance; it does not constitute formal legal advice.
+- 自动评测不等同于专业律师审查或法律正确性认证。
+- Full-corpus case relevance 主要使用 weak supervision 和自动指标评估。
+- 类案增强模式由于案例检索与生成，延迟显著高于法规-only 模式。
+- 真实 provider 运行需要网络访问和本机凭据。
+- 外部语料的获取、处理、再分发和 licensing 由使用者自行负责。
 
-## Data Provenance
+## 免责声明
 
-Law records retain source-document metadata. Curated case records retain provenance fields and stable identifiers. The production corpus is sourced from a public labor-case dataset and remains subject to its provenance and licensing terms. Users are responsible for obtaining and using external data lawfully.
+本系统用于劳动法律信息检索和类案辅助分析，不构成正式法律意见。具体争议请结合完整证据并咨询专业法律人士。
 
-## Public Evaluation Data Boundary
+## 文档
 
-The repository publishes evaluation code, project-authored query definitions, aggregate metrics, sanitized per-query metadata, and failure taxonomy. It does not publish third-party statutory or case text, retrieved full context, or raw prompts/responses containing that material. The 6,492-case production corpus and generated embeddings must be prepared locally from a lawful source. The checked-in case fixture is synthetic and is not a real judicial case. See [evaluation data policy](docs/evaluation_data_policy.md) and [third-party data boundary](THIRD_PARTY_DATA.md).
-
-## Disclaimer
-
-This system is intended for labor-law information retrieval and similar-case analysis. It does not constitute formal legal advice. Specific disputes require complete evidence review and consultation with a qualified legal professional.
-
-## Documentation
-
-- [Web Demo guide](docs/demo.md)
-- [Architecture](docs/architecture.md)
-- [Evaluation report](docs/evaluation_report.md)
-- [Data sources](docs/data_sources.md)
-- [Case data specification](docs/case_data_spec.md)
+- [Demo 使用说明](docs/demo.md)
+- [系统架构](docs/architecture.md)
+- [评测报告](docs/evaluation_report.md)
+- [评测数据公开政策](docs/evaluation_data_policy.md)
+- [数据来源说明](docs/data_sources.md)
+- [案例数据规范](docs/case_data_spec.md)
+- [第三方数据与 provenance 边界](THIRD_PARTY_DATA.md)
 - [MIT License](LICENSE)
