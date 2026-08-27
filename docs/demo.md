@@ -2,7 +2,7 @@
 
 ## Start
 
-From the project root, install the optional UI dependency:
+From the project root, install the optional UI dependency in the Python environment used by the project:
 
 ```powershell
 python -m pip install -r frontend_demo/requirements.txt
@@ -14,7 +14,9 @@ Then start the demo:
 .\scripts\run_web_demo.ps1
 ```
 
-The default offline mode uses the existing deterministic mock provider. To use a configured OpenAI-compatible provider, set the variables in `.env` and start with:
+The single page opens at `http://localhost:8501` and provides both `法规检索` and `法规 + 类案增强` modes. The default offline mode uses the existing deterministic mock provider and is visibly labeled as mock/retrieval-only; it must not be presented as a real AI answer.
+
+To use a configured OpenAI-compatible provider, set the variables in `.env` and start with:
 
 ```powershell
 $env:LEGALCASE_LLM_PROVIDER = "real"
@@ -26,12 +28,13 @@ The UI does not change the RAG pipeline. It calls `backend.rag.pipeline.LegalRAG
 
 ## Page features
 
-- Question input and submit button
-- AI answer panel
-- Verified law-basis citations
-- Related-case citations when case augmentation is enabled and cases are cited
-- Risk note and confidence display
-- Safe handling when the answer contains no citations or the pipeline returns an evidence-insufficient response
+- Explicit law-only / 6,492-case augmented mode selection
+- Provider and corpus status labels
+- Clickable example questions that do not auto-submit
+- Structured answer, legal analysis, verified law metadata, and related-case metadata
+- Risk note and evidence-based confidence display
+- Safe retrieval-only fallback with no fabricated AI answer
+- Cached pipeline resources so Streamlit reruns do not reconstruct the pipeline each time
 
 ## Example questions
 

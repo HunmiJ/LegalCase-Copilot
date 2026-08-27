@@ -8,4 +8,4 @@ $projectRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Pa
 Set-Location $projectRoot
 $env:PYTHONPATH = ".;scripts"
 
-streamlit run frontend_demo/app.py --server.address $Address --server.port $Port
+python -m streamlit run frontend_demo/app.py --server.address $Address --server.port $Port
