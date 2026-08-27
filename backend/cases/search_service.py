@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from pathlib import Path
 
+from .corpus_config import CaseCorpusConfig, resolve_case_corpus
 from .search.models import CaseSearchResult, deduplicate_results
 from .sources.base import CaseSourceProvider, CaseSourceSearchRequest, ProviderUnavailableError
 from .sources.local import LocalCuratedCaseProvider
@@ -17,8 +19,10 @@ class ProviderStatus:
 
 
 class UnifiedCaseSearchService:
-    def __init__(self, local_provider: LocalCuratedCaseProvider | None = None, official_providers: list[CaseSourceProvider] | None = None) -> None:
-        self.local_provider = local_provider or LocalCuratedCaseProvider()
+    def __init__(self, local_provider: LocalCuratedCaseProvider | None = None, official_providers: list[CaseSourceProvider] | None = None,
+                 corpus_path: Path | str | None = None) -> None:
+        self.corpus_config: CaseCorpusConfig = resolve_case_corpus(corpus_path)
+        self.local_provider = local_provider or LocalCuratedCaseProvider(self.corpus_config.corpus_path)
         self.official_providers = official_providers or []
         self.last_reranker_status = "not_used"
         self.provider_status = [
@@ -31,14 +35,14 @@ class UnifiedCaseSearchService:
             raise ValueError("mode must be bm25, semantic, hybrid, or reranked")
         if mode == "hybrid":
             from .sources.hybrid_local import LocalHybridCaseProvider
-            return LocalHybridCaseProvider().search(CaseSourceSearchRequest(query=query, limit=top_k))
+            return LocalHybridCaseProvider(corpus_path=self.corpus_config.corpus_path).search(CaseSourceSearchRequest(query=query, limit=top_k))
         request = CaseSourceSearchRequest(query=query, limit=top_k)
         if mode == "semantic":
             from .sources.semantic_local import LocalSemanticCaseProvider
-            return LocalSemanticCaseProvider().search(request)
+            return LocalSemanticCaseProvider(corpus_path=self.corpus_config.corpus_path).search(request)
         if mode == "reranked":
             from .sources.reranked_local import LocalRerankedCaseProvider
-            provider = LocalRerankedCaseProvider()
+            provider = LocalRerankedCaseProvider(corpus_path=self.corpus_config.corpus_path)
             results = provider.search(request)
             self.last_reranker_status = "available" if provider.reranker_available else f"unavailable: {provider.unavailable_reason}"
             return results

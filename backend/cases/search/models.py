@@ -12,7 +12,10 @@ class CaseSearchResult:
     case_number: str | None = None
     database_case_number: str | None = None
     case_type: str | None = None
+    court: str | None = None
+    judgment_date: str | None = None
     keywords: list[str] = field(default_factory=list)
+    legal_basis: list[str] = field(default_factory=list)
     basic_facts: str | None = None
     dispute_focus: str | None = None
     case_gist: str | None = None

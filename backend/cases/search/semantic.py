@@ -14,8 +14,36 @@ from scripts.semantic_utils import encode_query, load_model
 from .models import CaseSearchResult
 
 
-def case_embedding_text(record: dict[str, Any]) -> str:
-    """Build semantic content without provenance or oversized raw text."""
+def case_embedding_text(record: dict[str, Any], mode: str = "baseline") -> str:
+    """Build semantic content without provenance or oversized raw text.
+
+    ``baseline`` preserves the original V0.7 behavior. ``optimized`` is an
+    explicit experiment mode for the full corpus and is never selected by
+    retrieval implicitly.
+    """
+    if mode not in {"baseline", "optimized"}:
+        raise ValueError("mode must be baseline or optimized")
+    if mode == "optimized":
+        parts: list[str] = [str(record["title"])]
+
+        def add_repeated(value: Any, repeat: int = 1, limit: int | None = None) -> None:
+            if isinstance(value, list):
+                text = " ".join(str(item) for item in value)
+            else:
+                text = str(value or "")
+            if text:
+                text = text[:limit] if limit else text
+                parts.extend([text] * repeat)
+
+        # Repeat compact issue and legal-basis signals so they survive the
+        # encoder context more reliably than long factual narratives.
+        add_repeated(record.get("dispute_focus") or record.get("legal_issues"), repeat=3, limit=500)
+        add_repeated(record.get("legal_basis") or record.get("law_articles"), repeat=2, limit=900)
+        add_repeated(record.get("judgment_result"), repeat=2, limit=600)
+        add_repeated(record.get("case_gist"), repeat=1, limit=500)
+        add_repeated(record.get("basic_facts") or record.get("facts"), repeat=1, limit=240)
+        return " ".join(parts)
+
     parts: list[str] = [str(record["title"])]
     # Put compact discriminative fields first so long facts do not consume the
     # encoder context before dispute focus and case gist are represented.
@@ -71,7 +99,8 @@ class CaseSemanticIndex:
             results.append(CaseSearchResult(
                 case_id=record["case_id"], title=record["title"],
                 case_number=record.get("case_number"), database_case_number=record.get("database_case_number"),
-                case_type=record.get("case_type"), keywords=record.get("keywords", []),
+                case_type=record.get("case_type"), court=record.get("court"), judgment_date=record.get("judgment_date"),
+                keywords=record.get("keywords", []), legal_basis=record.get("legal_basis", []),
                 basic_facts=record.get("basic_facts"), dispute_focus=record.get("dispute_focus"),
                 case_gist=record.get("case_gist"), court_reasoning=record.get("court_reasoning"),
                 judgment_result=record.get("judgment_result"), source_name=record.get("source_name", ""),

@@ -1,86 +1,158 @@
-# LegalCase Copilot
+# LegalCase-Copilot
 
-中文名称：智能法律类案检索与文书生成系统
+AI Labor Law RAG Assistant for Chinese labor-dispute research. The project combines traceable labor-law retrieval, similar-case retrieval, grounded generation, and safety checks. It is a research and demonstration system, not a substitute for qualified legal advice.
 
-## 项目简介
+## Project Overview
 
-LegalCase Copilot 是一个面向法律场景的 AI 项目，目标是帮助用户进行法律法规检索、类案分析，并辅助生成法律文书。
+The assistant supports:
 
-## 当前阶段：V0.1
+- Labor-law and judicial-interpretation retrieval
+- Similar labor-dispute case retrieval
+- BM25, embedding, and hybrid retrieval
+- Cross-encoder reranking
+- Case-Augmented RAG
+- Citation verification and provenance tracking
+- Safety guards and evidence-insufficient refusal
 
-V0.1 聚焦于劳动争议领域，先建设法律法规数据库的原始资料目录，并为后续的数据处理与关键词检索做好项目结构准备。
+The corpus is source-traceable: law records retain their source documents, and curated cases retain official source URLs, source PDFs, stable case IDs, and eligibility metadata.
 
-当前阶段暂不实现 AI、RAG、Embedding、案例检索、前端界面或数据库代码，也不包含虚假的示例法律数据。
-
-## 项目目标
-
-- 整理劳动争议领域的法律法规原始资料
-- 建立可扩展的后端、数据处理脚本和测试目录
-- 为后续法律检索与法律智能应用奠定基础
-
-## 后续计划
-
-后续版本将逐步实现：
-
-1. 法律法规数据清洗、解析与结构化
-2. 基于关键词的法律检索
-3. 类案检索
-4. RAG（检索增强生成）能力
-5. 法律文书生成与辅助编辑
-6. 面向用户的前端界面
-
-## 项目结构
+## Architecture
 
 ```text
-LegalCase-Copilot/
-├─ backend/              # 后端代码（当前暂为空）
-├─ data/
-│  ├─ raw/
-│  │  └─ laws/           # 原始法律法规文件
-│  └─ processed/         # 处理后的数据（当前暂为空）
-├─ scripts/              # 数据处理与维护脚本（当前暂为空）
-├─ tests/                # 测试代码（当前暂为空）
-├─ docs/                 # 项目文档
-├─ .gitignore
-├─ README.md
-└─ requirements.txt
+User question
+      ↓
+Query Understanding
+      ↓
+Law Retrieval ─────────┐
+      ↓                │
+Case Retrieval ────────┤
+      ↓                │
+Reranker               │
+      ↓                │
+Context Builder ◄─────┘
+      ↓
+LLM Generation
+      ↓
+Citation Validator
+      ↓
+Structured answer / safe refusal
 ```
 
-## 开发约定
+The legacy law-only path remains available. Case augmentation is enabled by passing a case search service or `include_cases=True` to `LegalRAGPipeline`.
 
-原始法律法规资料应优先从中国官方法律网站获取，并在后续引入数据时记录来源和获取时间。当前仓库不包含任何虚假的法律法规示例文件。
+## Technical Highlights
 
-## Current development status
+- BM25 keyword retrieval with Chinese tokenization
+- BGE embedding retrieval
+- Deterministic hybrid fusion
+- Cross-encoder reranking with `BAAI/bge-reranker-base`
+- Case-Augmented RAG with separate law and case evidence
+- Grounded generation with bounded retries
+- Citation namespaces: `LAW-*` and `CASE-*`
+- Citation validation against the actual retrieved context
+- Evidence-insufficient fallback for unsupported or out-of-domain questions
 
-The stable default retrieval pipeline is the V0.4 pipeline:
+## Evaluation Results
+
+Results below are frozen artifacts already produced in `evaluation/`.
+
+### Law retrieval
+
+Held-out V0.7.6 hybrid test, 10 queries:
+
+| Method | Recall@1 | Recall@3 | Recall@5 |
+|---|---:|---:|---:|
+| BM25 | 1.0000 | 1.0000 | 1.0000 |
+| Semantic | 0.9000 | 1.0000 | 1.0000 |
+| Hybrid | 1.0000 | 1.0000 | 1.0000 |
+
+### Case retrieval
+
+V0.7.6 Full-30 descriptive case benchmark:
+
+| Method | Recall@1 | Recall@3 | Recall@5 |
+|---|---:|---:|---:|
+| BM25 | 0.8667 | 1.0000 | 1.0000 |
+| Semantic | 0.9333 | 1.0000 | 1.0000 |
+| Hybrid | 0.9667 | 1.0000 | 1.0000 |
+
+### Grounded RAG
+
+Deterministic V0.6 evaluation:
+
+| Citation validity | Grounded claim rate | Unsupported citation rate |
+|---:|---:|---:|
+| 1.0000 | 1.0000 | 0.0000 |
+
+### Case-Augmented RAG
+
+20-query integrated evaluation:
+
+| Mode | Law recall | Case recall | Citation validity |
+|---|---:|---:|---:|
+| Law-only | 0.9750 | 0.0000 | 1.0000 |
+| Law + case | 0.9750 | 0.9750 | 1.0000 |
+
+### Safety
+
+Deterministic V0.9 safety smoke evaluation:
+
+| Refusal accuracy | Unsupported claim rate |
+|---:|---:|
+| 1.0000 | 0.0000 |
+
+These are benchmark and deterministic smoke results, not a claim of production-level legal accuracy.
+
+## Project Structure
 
 ```text
-BM25 + BGE Semantic Retrieval + Candidate Union + BAAI/bge-reranker-base
+backend/
+├─ cases/                  # Case schema, sources, search, retrieval
+├─ llm/                    # Provider interface and configuration
+└─ rag/                    # Context, generation, validation, pipeline
+data/
+├─ raw/                    # Source documents and PDFs
+├─ processed/              # Curated JSONL, SQLite, embeddings, indexes
+└─ runtime/                # Separately managed runtime case artifacts
+docs/                      # Architecture, data, and evaluation documentation
+evaluation/                # Reproducible benchmark runners and outputs
+scripts/                   # Parsing, indexing, search, and demo utilities
+tests/                     # Unit and regression tests
 ```
 
-V0.5 Query Understanding and Query Expansion are retained as optional,
-experimental retrieval enhancements. They are not the default retrieval path.
-The V0.5.1 Real LLM validation showed complete candidate recall at @50, but
-Recall@5 was unchanged and MRR was slightly below V0.4 while adding roughly
-eight seconds of LLM latency. The project therefore does not claim a V0.5
-final-ranking improvement.
+## Quick Start
 
-The V0.5 mock benchmark and V0.5.1 Real LLM benchmark are separate artifacts.
-Mock results are for deterministic development tests only and must not be
-presented as real-model performance results. Real LLM outputs contain model
-results and structured query understanding only; API keys are excluded from
-source code, caches, reports, and Git.
+```powershell
+python -m pip install -r requirements.txt
+$env:PYTHONPATH = ".;scripts"
+python -m pytest tests
+```
 
-## V0.6 grounded legal RAG
+Or run the Windows demo workflow:
 
-V0.6 Grounded Legal RAG is complete. It uses the V0.4 retrieval pipeline and
-defaults to `context_top_k = 8`. The Context Builder creates citation-addressable
-context, and the Citation Validator rejects unsupported or fabricated citations.
-If grounded generation cannot be validated after bounded retries, the system
-uses retrieval-only fallback as an exceptional safety protection, not as the
-normal execution path.
+```powershell
+.\scripts\run_demo.ps1
+```
 
-Mock RAG evaluation and Real LLM smoke-test results are separate artifacts.
-The mock evaluation is deterministic and must not be presented as real-model
-performance. Real smoke results are limited validation evidence and are not a
-claim of broad production-level performance.
+To run a deterministic local query without an external LLM:
+
+```powershell
+$env:PYTHONPATH = ".;scripts"
+python scripts/ask_legal.py "公司违法解除劳动合同怎么办？" --provider mock
+```
+
+For a real OpenAI-compatible provider, copy `.env.example` to `.env` and set the API key locally. Never commit real credentials.
+
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Evaluation report](docs/evaluation_report.md)
+- [Data sources](docs/data_sources.md)
+- [Case data specification](docs/case_data_spec.md)
+
+## Reproducibility Notes
+
+- Formal corpora and benchmark labels are kept separate from runtime collection artifacts.
+- Case IDs and law canonical IDs are used for identity; titles and article numbers alone are not sufficient.
+- The default evaluation provider is deterministic and makes no network calls.
+- Cached files, compiled Python files, debug captures, and smoke-test outputs are excluded from the public project surface.

@@ -1,0 +1,31 @@
+{
+  "before_19_cases": {
+    "corpus_path": "data\\processed\\cases",
+    "corpus_size": 19,
+    "query_count": 32,
+    "law_recall": 0.5365,
+    "case_recall": null,
+    "case_label_covered_query_count": 0,
+    "citation_validity": 1.0,
+    "grounded_claim_rate": 1.0,
+    "unsupported_claim_rate": 0.0,
+    "generation_success_rate": null,
+    "average_latency_ms": 23.53,
+    "average_candidate_count": 13.0
+  },
+  "after_6492_cases": {
+    "corpus_path": "data\\processed\\full_cases",
+    "corpus_size": 6492,
+    "query_count": 32,
+    "law_recall": 0.5365,
+    "case_recall": 0.0,
+    "case_label_covered_query_count": 32,
+    "citation_validity": 1.0,
+    "grounded_claim_rate": 1.0,
+    "unsupported_claim_rate": 0.0,
+    "generation_success_rate": null,
+    "average_latency_ms": 75.88,
+    "average_candidate_count": 13.0
+  },
+  "generation_note": "Not measured: no real LLM provider/reference answers were invoked."
+}

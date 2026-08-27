@@ -1,0 +1,137 @@
+{
+  "query_count": 5,
+  "provider": {
+    "name": "real_llm",
+    "model": "deepseek-v4-flash",
+    "base_url_configured": true
+  },
+  "modes": {
+    "law_only": {
+      "mode": "law-only",
+      "query_count": 5,
+      "generation_success_rate": 0.0,
+      "citation_validity": null,
+      "legal_basis_accuracy": null,
+      "case_reference_accuracy": null,
+      "unsupported_claim_rate": null,
+      "per_query": [
+        {
+          "query": "公司无正当理由单方面解除劳动合同，员工可以要求赔偿吗？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        },
+        {
+          "query": "公司以绩效不达标为由辞退员工，需要证明哪些事实？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        },
+        {
+          "query": "公司没有提前通知就解除劳动合同，是否一定构成违法解除？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        },
+        {
+          "query": "劳动合同到期后公司不再续签，员工能否主张经济补偿？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        },
+        {
+          "query": "员工主动辞职和公司提出解除，经济补偿的结果有什么不同？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        }
+      ]
+    },
+    "law_plus_6492_cases": {
+      "mode": "law+6492-cases",
+      "query_count": 5,
+      "generation_success_rate": 0.0,
+      "citation_validity": null,
+      "legal_basis_accuracy": null,
+      "case_reference_accuracy": null,
+      "unsupported_claim_rate": null,
+      "per_query": [
+        {
+          "query": "公司无正当理由单方面解除劳动合同，员工可以要求赔偿吗？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        },
+        {
+          "query": "公司以绩效不达标为由辞退员工，需要证明哪些事实？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "generation_failed_after_retries",
+          "provider": "real_llm"
+        },
+        {
+          "query": "公司没有提前通知就解除劳动合同，是否一定构成违法解除？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        },
+        {
+          "query": "劳动合同到期后公司不再续签，员工能否主张经济补偿？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        },
+        {
+          "query": "员工主动辞职和公司提出解除，经济补偿的结果有什么不同？",
+          "generation_success": false,
+          "citation_validity": null,
+          "legal_basis_accuracy": null,
+          "case_reference_accuracy": null,
+          "unsupported_claim_rate": null,
+          "failure_reason": "unsupported_citation",
+          "provider": "real_llm"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "legal_basis_accuracy 仅验证模型引用的法规是否来自检索上下文且与expected_laws名称匹配，不代表法律结论正确。",
+    "case_reference_accuracy 仅验证模型引用案例文本是否包含expected_case_topics，不代表人工判断的类案相似性。",
+    "unsupported_claim_rate 使用citation validator的unsupported_citation_rate；没有人工逐句事实核验。"
+  ]
+}

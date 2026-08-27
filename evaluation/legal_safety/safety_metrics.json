@@ -1,0 +1,138 @@
+{
+  "query_count": 4,
+  "refusal_accuracy": 1.0,
+  "citation_accuracy": 1.0,
+  "unsupported_claim_rate": 0.0,
+  "rows": [
+    {
+      "case": "normal",
+      "refusal": false,
+      "expected_refusal": false,
+      "refusal_correct": true,
+      "citation_valid": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "response": {
+        "answer": "需要结合检索依据和完整事实判断。",
+        "legal_basis": [
+          {
+            "citation": "LAW-1",
+            "content": "解除规则。"
+          }
+        ],
+        "related_cases": [],
+        "risk_note": "不构成确定性法律意见。",
+        "confidence": "medium",
+        "issue_summary": [
+          "需要结合检索依据和完整事实判断。"
+        ],
+        "missing_information": [],
+        "next_steps": [],
+        "disclaimer": "不构成确定性法律意见。",
+        "relevant_laws": [
+          {
+            "citation": "LAW-1",
+            "law_name": "劳动合同法",
+            "article_number": "第三十九条",
+            "text": "解除规则。"
+          }
+        ],
+        "legal_analysis": [
+          {
+            "claim": "依据",
+            "citations": [
+              "LAW-1"
+            ]
+          }
+        ],
+        "generation_status": "success"
+      }
+    },
+    {
+      "case": "empty_context",
+      "refusal": true,
+      "expected_refusal": true,
+      "refusal_correct": true,
+      "citation_valid": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "response": {
+        "answer": "无法基于当前法律数据库提供可靠回答。",
+        "legal_basis": [],
+        "related_cases": [],
+        "risk_note": "当前证据不足或问题超出劳动法律数据库覆盖范围；请补充事实并咨询专业人士。",
+        "confidence": "low",
+        "issue_summary": [
+          "无法基于当前法律数据库提供可靠回答。"
+        ],
+        "legal_analysis": [],
+        "relevant_laws": [],
+        "missing_information": [
+          "需要与问题直接对应且可核验的法律依据、事实和证据。"
+        ],
+        "next_steps": [
+          "补充事实、证据和程序信息后重新检索。"
+        ],
+        "disclaimer": "当前证据不足或问题超出劳动法律数据库覆盖范围；请补充事实并咨询专业人士。",
+        "generation_status": "evidence_insufficient",
+        "failure_reason": "empty_context"
+      }
+    },
+    {
+      "case": "out_of_domain",
+      "refusal": true,
+      "expected_refusal": true,
+      "refusal_correct": true,
+      "citation_valid": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "response": {
+        "answer": "无法基于当前法律数据库提供可靠回答。",
+        "legal_basis": [],
+        "related_cases": [],
+        "risk_note": "当前证据不足或问题超出劳动法律数据库覆盖范围；请补充事实并咨询专业人士。",
+        "confidence": "low",
+        "issue_summary": [
+          "无法基于当前法律数据库提供可靠回答。"
+        ],
+        "legal_analysis": [],
+        "relevant_laws": [],
+        "missing_information": [
+          "需要与问题直接对应且可核验的法律依据、事实和证据。"
+        ],
+        "next_steps": [
+          "补充事实、证据和程序信息后重新检索。"
+        ],
+        "disclaimer": "当前证据不足或问题超出劳动法律数据库覆盖范围；请补充事实并咨询专业人士。",
+        "generation_status": "evidence_insufficient",
+        "failure_reason": "out_of_domain"
+      }
+    },
+    {
+      "case": "unsupported_citation",
+      "refusal": true,
+      "expected_refusal": true,
+      "refusal_correct": true,
+      "citation_valid": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "response": {
+        "answer": "无法基于当前法律数据库提供可靠回答。",
+        "legal_basis": [],
+        "related_cases": [],
+        "risk_note": "当前证据不足或问题超出劳动法律数据库覆盖范围；请补充事实并咨询专业人士。",
+        "confidence": "low",
+        "issue_summary": [
+          "无法基于当前法律数据库提供可靠回答。"
+        ],
+        "legal_analysis": [],
+        "relevant_laws": [],
+        "missing_information": [
+          "需要与问题直接对应且可核验的法律依据、事实和证据。"
+        ],
+        "next_steps": [
+          "补充事实、证据和程序信息后重新检索。"
+        ],
+        "disclaimer": "当前证据不足或问题超出劳动法律数据库覆盖范围；请补充事实并咨询专业人士。",
+        "generation_status": "evidence_insufficient",
+        "failure_reason": "unsupported_citation"
+      }
+    }
+  ]
+}

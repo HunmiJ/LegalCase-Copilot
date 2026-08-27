@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from ..corpus_config import resolve_case_corpus
 from ..search.bm25 import CaseBM25Index
 from ..search.models import CaseSearchResult
 from .base import CaseSourceSearchRequest
@@ -15,8 +16,7 @@ class LocalCuratedCaseProvider:
     provider_status = "available"
 
     def __init__(self, corpus_path: Path | None = None) -> None:
-        root = Path(__file__).resolve().parents[3]
-        self.corpus_path = corpus_path or root / "data/processed/cases/cases.jsonl"
+        self.corpus_path = resolve_case_corpus(corpus_path).corpus_path
         self.index = CaseBM25Index.from_jsonl(self.corpus_path)
 
     def search(self, request: CaseSourceSearchRequest | str, top_k: int = 10) -> list[CaseSearchResult]:

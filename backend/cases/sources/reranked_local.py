@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from pathlib import Path
+
 from .base import CaseSourceSearchRequest
 from ..search.reranker import DEFAULT_CANDIDATE_DEPTH, RerankerUnavailableError, load_case_reranker, rerank
 from .hybrid_local import LocalHybridCaseProvider
@@ -12,8 +14,8 @@ class LocalRerankedCaseProvider:
     search_available = True
     provider_status = "available"
 
-    def __init__(self, model=None, model_loader=load_case_reranker, hybrid_provider=None) -> None:
-        self.hybrid_provider = hybrid_provider or LocalHybridCaseProvider(model=model)
+    def __init__(self, model=None, model_loader=load_case_reranker, hybrid_provider=None, corpus_path: Path | None = None) -> None:
+        self.hybrid_provider = hybrid_provider or LocalHybridCaseProvider(model=model, corpus_path=corpus_path)
         self.model = model
         self.model_loader = model_loader
         self.reranker_available = model is not None
