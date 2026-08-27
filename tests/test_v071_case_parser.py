@@ -18,6 +18,7 @@ RAW_DIR = ROOT / "data/raw/cases"
 JSONL_PATH = ROOT / "data/processed/cases/cases.jsonl"
 
 
+@unittest.skipUnless(list(RAW_DIR.glob("*.pdf")), "raw case PDFs are excluded from the public repository")
 class V071CaseParserTest(unittest.TestCase):
     def test_all_case_pdfs_are_discovered_and_readable(self):
         pdfs = sorted(RAW_DIR.glob("*.pdf"))
@@ -62,7 +63,7 @@ class V071CaseParserTest(unittest.TestCase):
             self.assertEqual(row["source_url"], urls[filename])
 
     def test_formal_law_products_and_frozen_benchmark_are_clean(self):
-        protected = ["data/raw/laws", "data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json", "evaluation/retrieval_queries.json"]
+        protected = ["data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json", "evaluation/retrieval_queries.json"]
         for path in protected:
             self.assertEqual(subprocess.run(["git", "diff", "--quiet", "--", path]).returncode, 0, path)
 

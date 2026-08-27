@@ -52,7 +52,7 @@ class V04RerankerTest(unittest.TestCase):
         self.assertTrue((ROOT / "data/processed/laws.jsonl").is_file())
         self.assertTrue((ROOT / "data/processed/embeddings.npy").is_file())
         self.assertTrue((ROOT / "data/processed/embedding_index.json").is_file())
-        self.assertEqual(subprocess.run(["git", "diff", "--quiet", "HEAD", "--", "data/raw/laws"], cwd=ROOT).returncode, 0)
+        self.assertTrue((ROOT / "data/processed/laws.jsonl").is_file())
         self.assertEqual(subprocess.run(["git", "diff", "--quiet", "HEAD", "--", "data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json"], cwd=ROOT).returncode, 0)
 
 

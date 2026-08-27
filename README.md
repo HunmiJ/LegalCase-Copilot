@@ -60,6 +60,8 @@ flowchart TD
 
 The law corpus contains 372 article-level records derived from six labor-law and judicial-interpretation source documents. Records retain source and canonical article metadata for deterministic citation lookup.
 
+The original source-document packages are not included. The repository contains the processed article-level records, metadata, indexes, and parsing code; users who regenerate them must obtain the texts from a suitable official source and verify its redistribution terms.
+
 ### Case corpus
 
 - Production corpus: 6,492 public labor-dispute cases

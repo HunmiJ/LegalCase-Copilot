@@ -136,7 +136,7 @@ class V05QueryUnderstandingTest(unittest.TestCase):
     def test_frozen_benchmark_and_formal_data_are_read_only(self):
         queries = json.loads((ROOT / "evaluation/retrieval_queries.json").read_text(encoding="utf-8"))
         self.assertEqual(len(queries), 30)
-        raw = subprocess.run(["git", "diff", "--name-only", "--", "data/raw/laws", "data/processed/legal.db",
+        raw = subprocess.run(["git", "diff", "--name-only", "--", "data/processed/legal.db",
                               "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json"],
                              cwd=ROOT, capture_output=True, text=True)
         self.assertEqual(raw.stdout.strip(), "")

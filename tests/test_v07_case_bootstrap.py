@@ -62,7 +62,7 @@ class V07CaseBootstrapTest(unittest.TestCase):
         self.assertEqual(report["case_file_count"], 0)
 
     def test_laws_and_formal_products_are_read_only(self):
-        protected = ["data/raw/laws", "data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json"]
+        protected = ["data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json"]
         for path in protected:
             self.assertEqual(subprocess.run(["git", "diff", "--quiet", "--", path]).returncode, 0, path)
 

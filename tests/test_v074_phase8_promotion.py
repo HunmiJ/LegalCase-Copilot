@@ -37,6 +37,8 @@ class V074Phase8PromotionTest(unittest.TestCase):
         self.assertIn("2023-07-2-186-011", {row["case_id"] for row in rows})
 
     def test_new_case_provenance_is_official_and_pdf_has_text_layer(self):
+        if not list(RAW.glob("*.pdf")):
+            self.skipTest("raw case PDFs are excluded from the public repository")
         with (RAW / "source_urls.csv").open(encoding="utf-8-sig", newline="") as handle:
             urls = {row["filename"]: row["source_url"] for row in csv.DictReader(handle)}
         from pypdf import PdfReader

@@ -31,6 +31,8 @@ Thumbs.db
 
 # Generated full production corpus and derived embeddings
 data/processed/full_cases/
+data/raw/cases/*.pdf
+data/raw/laws/*.docx
 *.npy
 .coverage
 htmlcov/

@@ -13,6 +13,7 @@ from parse_laws import inspect_file, parse_articles, load_metadata
 from search_laws import search
 
 
+@unittest.skipUnless(list((ROOT / "data/raw/laws").glob("*.docx")), "raw law DOCX files are excluded from the public repository")
 class LawsPipelineTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

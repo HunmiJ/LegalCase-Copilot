@@ -37,7 +37,7 @@ class V072CaseSearchTest(unittest.TestCase):
         self.assertEqual(result.retrieval_source, "local")
         self.assertEqual(result.matched_sources, ["local"])
         self.assertTrue(result.source_file)
-        self.assertTrue((ROOT / result.source_file).exists())
+        self.assertTrue(result.source_file.startswith("data/raw/cases/"))
 
     def test_official_unavailable_falls_back_to_local(self):
         service = UnifiedCaseSearchService(

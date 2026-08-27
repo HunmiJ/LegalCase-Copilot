@@ -15,6 +15,7 @@ CORPUS = ROOT / "data/processed/cases/cases.jsonl"
 INDEX = ROOT / "data/processed/cases/case_embedding_index.json"
 
 
+@unittest.skipUnless(list(RAW.glob("*.pdf")), "raw case PDFs are excluded from the public repository")
 class V074Phase6PromotionTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -65,7 +66,7 @@ class V074Phase6PromotionTest(unittest.TestCase):
         self.assertNotIn("2014-18-1-232-001", {item["case_id"] for item in index})
 
     def test_formal_law_and_rag_products_are_clean(self):
-        protected = ["data/raw/laws", "data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json", "evaluation/retrieval_queries.json", "evaluation/rag_queries.json"]
+        protected = ["data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json", "evaluation/retrieval_queries.json", "evaluation/rag_queries.json"]
         for path in protected:
             self.assertEqual(subprocess.run(["git", "diff", "--quiet", "--", path]).returncode, 0, path)
 

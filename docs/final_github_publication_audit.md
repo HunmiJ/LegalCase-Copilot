@@ -249,3 +249,12 @@ Remaining publication recommendation：在公开 push 前完成 curated fixtures
 - Current `.git` directory：约 9.25 MB（包含 Git metadata/logs；pack object store 约 2.96 MB）
 
 Effective BLOCKER count：0。Remaining SHOULD FIX items are third-party fixture/licensing confirmation, optional engineering-notes curation, and confirmation of the user-owned GitHub remote URL. Do not push until those publication decisions are made.
+
+## Final data and license decision
+
+- The 20 curated court-document PDFs are not public repository artifacts. They were removed from the current tree and all reachable history because provenance URLs do not establish GitHub redistribution rights.
+- The six original law DOCX packages are also not public repository artifacts. Article-level processed records, metadata, indexes, parsing code, and source/provenance documentation remain.
+- `THIRD_PARTY_DATA.md` documents the boundary and user responsibility to obtain external inputs lawfully.
+- Raw-input tests now explicitly skip when excluded PDFs/DOCX are absent; structured records, indexes, retrieval behavior, and safety contracts remain covered.
+- The second history rewrite removed all `data/raw/cases/*.pdf` and `data/raw/laws/*.docx` paths from reachable history. Current raw-file counts are both zero.
+- Remaining licensing decision: verify the provenance and redistribution terms for the retained processed law/case records and benchmark metadata before public push. MIT applies only to original source code.

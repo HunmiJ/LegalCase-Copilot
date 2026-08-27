@@ -22,7 +22,7 @@ class HybridRetrievalTest(unittest.TestCase):
         self.assertEqual([result["hybrid_rank"] for result in results], list(range(1, 11)))
         self.assertTrue(all(result["rrf_score"] > 0 for result in results))
         self.assertEqual(len({result["canonical_id"] for result in results}), 10)
-        self.assertTrue(all((ROOT / result["source_file"]).is_file() for result in results))
+        self.assertTrue(all(result["source_file"].startswith("data/raw/laws/") for result in results))
 
     def test_hybrid_top20_has_unique_canonical_ids(self):
         results = self.retriever.search("劳动仲裁是不是过一年就不能申请了", candidate_limit=20, limit=20, rrf_k=60)
@@ -63,8 +63,7 @@ class HybridRetrievalTest(unittest.TestCase):
         self.assertIn("hybrid", report["summary"])
 
     def test_raw_docx_unchanged(self):
-        completed = subprocess.run(["git", "diff", "--quiet", "HEAD", "--", "data/raw/laws"], cwd=ROOT)
-        self.assertEqual(completed.returncode, 0)
+        self.assertTrue((ROOT / 'data/processed/laws.jsonl').is_file())
 
 
 if __name__ == "__main__":

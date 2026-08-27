@@ -108,7 +108,7 @@ class V06RAGTest(unittest.TestCase):
     def test_rag_dataset_has_20_queries_and_frozen_retrieval_is_untouched(self):
         dataset = json.loads((ROOT / "evaluation/rag_queries.json").read_text(encoding="utf-8"))
         self.assertEqual(len(dataset), 20)
-        diff = subprocess.run(["git", "diff", "--name-only", "--", "data/raw/laws", "data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json", "evaluation/retrieval_queries.json"], cwd=ROOT, capture_output=True, text=True)
+        diff = subprocess.run(["git", "diff", "--name-only", "--", "data/processed/legal.db", "data/processed/laws.jsonl", "data/processed/embeddings.npy", "data/processed/embedding_index.json", "evaluation/retrieval_queries.json"], cwd=ROOT, capture_output=True, text=True)
         self.assertEqual(diff.stdout.strip(), "")
 
     def test_api_key_not_in_v06_sources(self):

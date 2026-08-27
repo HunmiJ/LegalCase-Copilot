@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data/raw/cases"
 
 
+@unittest.skipUnless(list(RAW.glob("*.pdf")), "raw case PDFs are excluded from the public repository")
 class V074Phase10FreezeTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
