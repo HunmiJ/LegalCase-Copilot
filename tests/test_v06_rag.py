@@ -37,6 +37,8 @@ def valid_response(citation="[1]"):
 
 class V06RAGTest(unittest.TestCase):
     def test_default_context_depth_is_top8_after_real_ab_decision(self):
+        if not (ROOT / "data/processed/laws.jsonl").exists():
+            self.skipTest("processed law corpus is external data and is not distributed")
         pipeline = LegalRAGPipeline(MockRAGProvider())
         self.assertEqual(pipeline.context_top_k, 8)
 

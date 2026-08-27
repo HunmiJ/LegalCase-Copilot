@@ -8,13 +8,13 @@ The 6,492-case production corpus, its generated embeddings and indexes, and any 
 
 ## Curated case benchmark
 
-The 19-case curated benchmark is represented in the repository by structured processed records, metadata, source URL/provenance tables, and processing code. The original court-document PDFs are intentionally excluded because the repository does not establish a license permitting GitHub redistribution. The source list in `data/raw/cases/source_urls.csv` is provenance information, not a license grant.
+The 19-case curated benchmark structured records are not distributed. The repository retains only eligibility metadata, source URL/provenance tables, collection planning, processing code, and a clearly labeled synthetic fixture. The source list in `data/raw/cases/source_urls.csv` is provenance information, not a license grant.
 
-Case parser tests that require original PDFs are integration-only and are skipped when the excluded raw inputs are absent. The remaining tests exercise the checked-in structured records, schemas, retrieval behavior, and safety contracts.
+Case parser and corpus tests requiring original PDFs or derived corpora are external-data tests and are skipped when excluded inputs are absent. Contract tests use only the synthetic fixture and never describe it as a real case.
 
 ## Law materials
 
-The original DOCX packaging of six labor-law materials is excluded for the same reason: public availability does not by itself establish a redistribution license. The repository retains article-level processed records, metadata, indexes, database artifacts, parsing code, and provenance documentation needed for the project pipeline. Users who regenerate these records must obtain the source texts from an appropriate official source and comply with its terms.
+The original DOCX packaging and complete article-level derived law text are excluded for the same reason: public availability does not by itself establish a redistribution license. The repository retains law schema, metadata, parsing code, and provenance documentation. Users who regenerate records must obtain source texts from an appropriate official source and comply with its terms.
 
 ## Provenance and responsibility
 

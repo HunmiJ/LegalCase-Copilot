@@ -58,9 +58,9 @@ flowchart TD
 
 ### Labor-law corpus
 
-The law corpus contains 372 article-level records derived from six labor-law and judicial-interpretation source documents. Records retain source and canonical article metadata for deterministic citation lookup.
+The production law corpus contains 372 article-level records derived from six labor-law and judicial-interpretation source documents. Complete structured law records are not included in the public repository because their redistribution provenance is not confirmed.
 
-The original source-document packages are not included. The repository contains the processed article-level records, metadata, indexes, and parsing code; users who regenerate them must obtain the texts from a suitable official source and verify its redistribution terms.
+The original source-document packages are not included. The repository contains law schema, metadata, provenance notes, and parsing code; users who regenerate records must obtain texts from a suitable official source and verify its redistribution terms.
 
 ### Case corpus
 
@@ -141,7 +141,7 @@ LEGALCASE_LLM_MODEL=<your-model-name>
 LEGALCASE_LLM_TIMEOUT=30
 \`\`\`
 
-Never commit \`.env\` or real credentials. The law-only mode uses the tracked law records and small local indexes. Case-augmented production mode additionally requires \`cases.jsonl\`, \`case_embeddings.npy\`, and \`case_embedding_index.json\` under \`data/processed/full_cases/\`, or an equivalent \`CASE_CORPUS_PATH\`. The repository does not download these files automatically; when absent, the Demo keeps law-only mode available and marks production case augmentation unavailable.
+Never commit \`.env\` or real credentials. The law-only mode requires permitted structured law records prepared locally; complete law text and its indexes are not bundled. Case-augmented production mode additionally requires \`cases.jsonl\`, \`case_embeddings.npy\`, and \`case_embedding_index.json\` under \`data/processed/full_cases/\`, or an equivalent \`CASE_CORPUS_PATH\`. The repository does not download these files automatically; when absent, the Demo keeps law-only mode available and marks production case augmentation unavailable.
 
 Start the Web Demo:
 
