@@ -2,8 +2,8 @@
 
 ## 转换概览
 
-- 输入：`D:\Project\legal-rag-system\data\processed\cases.jsonl`
-- 输出：`D:\Project\LegalCase-Copilot\data\processed\full_cases\cases.jsonl`
+- 输入：`<RELATED_PROJECT_ROOT>\data\processed\cases.jsonl`
+- 输出：`<PROJECT_ROOT>\data\processed\full_cases\cases.jsonl`
 - 输入记录数：**6492**
 - 成功转换数量：**6492**
 - 失败数量：**0**

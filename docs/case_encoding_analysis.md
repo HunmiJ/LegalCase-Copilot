@@ -2,7 +2,7 @@
 
 ## 分析范围
 
-- 数据源：`D:\Project\legal-rag-system\data\processed\cases.jsonl`
+- 数据源：`<RELATED_PROJECT_ROOT>\data\processed\cases.jsonl`
 - 读取记录数：**6492**
 - JSON 解析错误：**0**
 - 至少一个目标字段包含 `�` 的记录数：**1**（0.02%）

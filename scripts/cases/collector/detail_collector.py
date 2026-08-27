@@ -19,7 +19,7 @@ from urllib.parse import quote, unquote, urljoin, urlparse
 ROOT = Path(__file__).resolve().parents[3]
 OFFICIAL_DOMAIN = "rmfyalk.court.gov.cn"
 DEFAULT_INPUT = ROOT / "scripts/cases/discovery/discovery_candidates.json"
-DEFAULT_PROFILE = Path(r"D:\temp\rmfyalk-playwright-profile")
+DEFAULT_PROFILE = Path(r"<LOCAL_BROWSER_PROFILE>")
 DEFAULT_OUTPUT = ROOT / "data/raw/cases/smoke_render_case.json"
 DEFAULT_DEBUG_DIR = Path(__file__).with_name("debug")
 DETAIL_NETWORK_DEBUG = DEFAULT_DEBUG_DIR / "detail_network.json"

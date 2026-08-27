@@ -52,7 +52,7 @@ README Finalization 需要补充真实 provider 的环境变量名称、Demo 启
 
 本次扫描未发现真实 API key、Bearer token、Cookie、密码或 `.env` 内容进入待提交文件；`.env` 已被 `.gitignore` 忽略。
 
-但扫描发现历史文档和脚本中存在 `D:\\Project\\...`、`C:\\Users\\Janet\\...` 等本机绝对路径，例如 full-case conversion/source 报告和若干分析脚本。它们不属于本阶段 Demo 功能修改，但公开 GitHub 前应清理、改为相对路径或泛化示例路径。
+但扫描发现历史文档和脚本中存在 `<LOCAL_PROJECT_ROOT>\\...`、`<LOCAL_USER_HOME>\\...` 等本机绝对路径，例如 full-case conversion/source 报告和若干分析脚本。它们不属于本阶段 Demo 功能修改，但公开 GitHub 前应清理、改为相对路径或泛化示例路径。
 
 ### 5. 大文件与生成物
 

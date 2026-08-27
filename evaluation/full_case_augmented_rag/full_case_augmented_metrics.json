@@ -1,6 +1,6 @@
 {
   "before_19_cases": {
-    "corpus_path": "D:\\Project\\LegalCase-Copilot\\data\\processed\\cases",
+    "corpus_path": "<PROJECT_ROOT>\\data\\processed\\cases",
     "corpus_count": 19,
     "query_count": 20,
     "case_label_covered_query_count": 20,
@@ -133,7 +133,7 @@
     ]
   },
   "after_6492_cases": {
-    "corpus_path": "D:\\Project\\LegalCase-Copilot\\data\\processed\\full_cases",
+    "corpus_path": "<PROJECT_ROOT>\\data\\processed\\full_cases",
     "corpus_count": 6492,
     "query_count": 20,
     "case_label_covered_query_count": 0,

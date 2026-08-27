@@ -1,10 +1,10 @@
 {
-  "query_file": "D:\\Project\\LegalCase-Copilot\\evaluation\\case_retrieval_queries.json",
+  "query_file": "<PROJECT_ROOT>\\evaluation\\case_retrieval_queries.json",
   "query_count": 30,
   "top_k": 10,
   "corpora": {
     "benchmark": {
-      "corpus_path": "D:\\Project\\LegalCase-Copilot\\data\\processed\\cases",
+      "corpus_path": "<PROJECT_ROOT>\\data\\processed\\cases",
       "corpus_case_count": 19,
       "query_count": 30,
       "label_covered_query_count": 30,
@@ -2291,7 +2291,7 @@
       ]
     },
     "full_cases": {
-      "corpus_path": "D:\\Project\\LegalCase-Copilot\\data\\processed\\full_cases",
+      "corpus_path": "<PROJECT_ROOT>\\data\\processed\\full_cases",
       "corpus_case_count": 6492,
       "query_count": 30,
       "label_covered_query_count": 0,

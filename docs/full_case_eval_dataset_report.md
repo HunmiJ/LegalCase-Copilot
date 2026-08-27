@@ -2,7 +2,7 @@
 
 ## 数据集概览
 
-- 输入语料：`D:\Project\LegalCase-Copilot\data\processed\full_cases\cases.jsonl`
+- 输入语料：`<PROJECT_ROOT>\data\processed\full_cases\cases.jsonl`
 - full corpus 案例总数：**6492**
 - query 数量：**30**
 - 对应唯一案例数量：**30**

@@ -1,10 +1,10 @@
 {
   "corpus": {
-    "path": "D:\\Project\\LegalCase-Copilot\\data\\processed\\full_cases",
+    "path": "<PROJECT_ROOT>\\data\\processed\\full_cases",
     "case_count": 6492
   },
   "ground_truth": {
-    "path": "D:\\Project\\LegalCase-Copilot\\evaluation\\full_case_retrieval\\full_case_queries.json",
+    "path": "<PROJECT_ROOT>\\evaluation\\full_case_retrieval\\full_case_queries.json",
     "query_count": 30,
     "all_labels_in_corpus": true
   },

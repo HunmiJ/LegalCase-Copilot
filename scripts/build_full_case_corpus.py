@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SOURCE_PATH = Path(r"D:\Project\legal-rag-system\data\processed\cases.jsonl")
+SOURCE_PATH = Path(r"<RELATED_PROJECT_ROOT>\data\processed\cases.jsonl")
 OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "full_cases" / "cases.jsonl"
 REPORT_PATH = PROJECT_ROOT / "docs" / "full_case_conversion_report.md"
 SOURCE_MARKER = "labor_case_dataset_6492"

@@ -6,7 +6,7 @@ not read, print, or export cookies or storage state.
 The profile is kept outside the repository:
 
 ```text
-D:\temp\rmfyalk-playwright-profile\
+<LOCAL_BROWSER_PROFILE>\
 ```
 
 First login manually:

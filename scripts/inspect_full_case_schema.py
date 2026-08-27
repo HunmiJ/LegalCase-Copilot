@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SOURCE_PATH = Path(r"D:\Project\legal-rag-system\data\processed\cases.jsonl")
+SOURCE_PATH = Path(r"<RELATED_PROJECT_ROOT>\data\processed\cases.jsonl")
 REPORT_PATH = PROJECT_ROOT / "docs" / "full_case_schema_analysis.md"
 SAMPLE_SIZE = 100
 RANDOM_SAMPLE_SIZE = 5

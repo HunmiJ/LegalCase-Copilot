@@ -14,8 +14,8 @@
 
 | 项目 | Final evaluation | Streamlit Demo |
 |---|---|---|
-| Python | 历史运行记录未保存 executable；当前可复现的 3.12 环境为 `C:\\Users\\Janet\\.conda\\envs\\face312\\python.exe` / 3.12.13 | `D:\\ruanjian\\python\\python3.10\\python.exe` / 3.10.11 |
-| 工作目录 | `D:\\Project\\LegalCase-Copilot` | `D:\\Project\\LegalCase-Copilot` |
+| Python | 历史运行记录未保存 executable；当前可复现的 3.12 环境为 `<LOCAL_USER_HOME>\\.conda\\envs\\face312\\python.exe` / 3.12.13 | `<PYTHON_ROOT>\\python\\python3.10\\python.exe` / 3.10.11 |
+| 工作目录 | `<PROJECT_ROOT>` | `<PROJECT_ROOT>` |
 | provider | `OpenAICompatibleProvider` | `OpenAICompatibleProvider`（真实模式） |
 | model | `deepseek-v4-flash` | `deepseek-v4-flash` |
 | base URL | 已配置；值未记录 | 已配置；值未记录 |

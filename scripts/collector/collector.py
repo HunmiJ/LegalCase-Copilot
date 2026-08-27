@@ -18,7 +18,7 @@ from playwright.sync_api import sync_playwright
 
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_PROFILE = Path(r"D:\temp\rmfyalk-playwright-profile")
+DEFAULT_PROFILE = Path(r"<LOCAL_BROWSER_PROFILE>")
 DEFAULT_DOWNLOAD_DIR = ROOT / "data/runtime/cases/raw"
 DEFAULT_MANIFEST = ROOT / "data/runtime/cases/case_manifest.json"
 HOME_URL = "https://rmfyalk.court.gov.cn/"

@@ -1,8 +1,12 @@
 from __future__ import annotations
 
+import os
+import tempfile
 import unittest
+from pathlib import Path
+from unittest.mock import patch
 
-from frontend_demo.app import normalize_result, presentation_status, run_query
+from frontend_demo.app import full_case_corpus_available, normalize_result, presentation_status, run_query
 
 
 class FakePipeline:
@@ -16,6 +20,15 @@ class FakePipeline:
 
 
 class DemoIntegrationTest(unittest.TestCase):
+    def test_full_case_availability_requires_external_production_artifacts(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            corpus_dir = Path(temp_dir)
+            with patch.dict(os.environ, {"CASE_CORPUS_PATH": str(corpus_dir)}, clear=False):
+                self.assertFalse(full_case_corpus_available())
+                for filename in ("cases.jsonl", "case_embeddings.npy", "case_embedding_index.json"):
+                    (corpus_dir / filename).touch()
+                self.assertTrue(full_case_corpus_available())
+
     def test_pipeline_can_be_called_and_fields_are_complete(self):
         pipeline = FakePipeline({
             "response": {

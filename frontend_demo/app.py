@@ -5,6 +5,7 @@ from __future__ import annotations
 import os
 import sys
 import time
+from pathlib import Path
 from typing import Any
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +38,16 @@ EXAMPLE_QUESTIONS = (
     "下班后一直在微信处理工作算加班吗？",
     "公司没有支付竞业补偿，我还需要履行竞业限制吗？",
 )
+FULL_CASE_REQUIRED_FILES = ("cases.jsonl", "case_embeddings.npy", "case_embedding_index.json")
+
+
+def full_case_corpus_available() -> bool:
+    """Return whether the external production case artifacts are installed."""
+    configured = os.getenv("CASE_CORPUS_PATH")
+    corpus_dir = Path(configured) if configured else Path(ROOT) / "data" / "processed" / "full_cases"
+    if corpus_dir.suffix.lower() == ".jsonl":
+        corpus_dir = corpus_dir.parent
+    return all((corpus_dir / filename).is_file() for filename in FULL_CASE_REQUIRED_FILES)
 
 
 def _load_local_env() -> None:
@@ -232,10 +243,14 @@ def main() -> None:
     st.title("LegalCase-Copilot")
     st.caption("劳动法律信息检索与类案辅助分析 · LegalTech / AI engineering portfolio")
 
+    case_corpus_available = full_case_corpus_available()
+    mode_options = [MODE_LAW_ONLY]
+    if case_corpus_available:
+        mode_options.append(MODE_LAW_AND_CASES)
     mode = st.radio(
         "分析模式",
-        options=[MODE_LAW_ONLY, MODE_LAW_AND_CASES],
-        index=1,
+        options=mode_options,
+        index=0,
         format_func=lambda value: MODE_LABELS[value],
         horizontal=True,
     )
@@ -243,12 +258,14 @@ def main() -> None:
     provider = create_provider()
     status_probe = {"generation_failed": True}
     status = presentation_status(status_probe, getattr(provider, "name", "mock"), mode)
-    case_count = "6,492 条" if include_cases else "未启用"
+    case_count = "6,492 条" if case_corpus_available and include_cases else "未启用"
     law_count = "372 条"
     with st.container(border=True):
         st.markdown("**当前运行状态**")
         st.write(f"当前模式：{status['mode_label']}　·　法规库：{law_count}　·　案例库：{case_count}")
         st.caption(f"{status['provider_label']}　·　{status['provider_note']}")
+    if not case_corpus_available:
+        st.info("6,492案例生产语料未安装，本地当前仅可使用法规检索。请按文档准备并配置 full corpus 后再启用类案增强。")
 
     if "selected_example" not in st.session_state:
         st.session_state.selected_example = ""

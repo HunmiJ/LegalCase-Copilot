@@ -2,7 +2,7 @@
 
 ## 分析范围
 
-- 数据源：`D:\Project\legal-rag-system\data\processed\cases.jsonl`
+- 数据源：`<RELATED_PROJECT_ROOT>\data\processed\cases.jsonl`
 - 抽取记录数：**100**（前 100 条）
 - 随机样本：**5** 条
 - 随机种子：`20260826`
