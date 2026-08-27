@@ -184,6 +184,10 @@ tests/          # Unit and integration tests
 
 Law records retain source-document metadata. Curated case records retain provenance fields and stable identifiers. The production corpus is sourced from a public labor-case dataset and remains subject to its provenance and licensing terms. Users are responsible for obtaining and using external data lawfully.
 
+## Public Evaluation Data Boundary
+
+The repository publishes evaluation code, project-authored query definitions, aggregate metrics, sanitized per-query metadata, and failure taxonomy. It does not publish third-party statutory or case text, retrieved full context, or raw prompts/responses containing that material. The 6,492-case production corpus and generated embeddings must be prepared locally from a lawful source. The checked-in case fixture is synthetic and is not a real judicial case. See [evaluation data policy](docs/evaluation_data_policy.md) and [third-party data boundary](THIRD_PARTY_DATA.md).
+
 ## Disclaimer
 
 This system is intended for labor-law information retrieval and similar-case analysis. It does not constitute formal legal advice. Specific disputes require complete evidence review and consultation with a qualified legal professional.

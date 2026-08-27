@@ -19,3 +19,7 @@ The original DOCX packaging and complete article-level derived law text are excl
 ## Provenance and responsibility
 
 The project records source URLs where available and distinguishes source provenance from permission to redistribute. Users are responsible for verifying current source terms, copyright, database rights, access restrictions, and any applicable law before obtaining, processing, or publishing external material.
+
+## Evaluation artifact boundary
+
+Public evaluation artifacts retain code, project-authored query definitions, aggregate metrics, sanitized per-query metadata, and failure taxonomy. They do not retain third-party statutory or case text, retrieved full context, or raw prompts/responses containing that material. This sanitization preserves the reported metrics while respecting provenance and redistribution uncertainty; see `docs/evaluation_data_policy.md`.

@@ -52,3 +52,6 @@ README and `THIRD_PARTY_DATA.md` now state that the repository contains source c
 ## Publication conclusion
 
 The main derived-corpus exposure blocker is resolved. A separate licensing blocker remains for retained evaluation JSON containing article text, plus final review of retained metadata and other derivatives. Public push is not yet fully cleared until that evaluation-artifact decision is made under a separate authorization, alongside the existing MIT-only-for-original-code boundary.
+# Current evaluation artifact sanitization
+
+The later public-artifact review removed third-party text payloads from tracked evaluation JSON while retaining query identifiers, labels, citation identifiers, statuses, latency, failure taxonomy, and aggregate metrics. The frozen `evaluation/full_case_augmented_rag/final_generation_metrics.json` was not changed. See `docs/evaluation_data_policy.md` for the publication boundary.
